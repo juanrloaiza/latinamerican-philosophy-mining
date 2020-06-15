@@ -1,4 +1,4 @@
-# Latinamerican Philosophy Mining
+# Latin American Philosophy Mining
 
 Authors: [Juan R. Loaiza](https://www.juanrloaiza.me) (URosario / HU Berlin) and [Miguel González Duque](https://www.miguelgondu.com) (ITU Copenhagen)
 
