@@ -8,4 +8,4 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 
 ## To-Do
 * Folder structure
-
+* Extract view information from main HTML page.
