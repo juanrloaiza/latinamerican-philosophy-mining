@@ -6,6 +6,14 @@ In this repository we are applying text mining to philosophy journals in Latin A
 
 We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/idval/) (Colombia) and articles from 2009 to 2017. We plan on expanding later to include more years and other journals such as [Crítica](http://critica.filosoficas.unam.mx/index.php/critica) (Mexico) and [Análisis Filosófico](https://analisisfilosofico.org/index.php/af) (Argentina).
 
+## Structure
+    .
+    ├── data                # Data files
+    |   ├── raw_html        # Raw HTML files directly as scraped with metadata     
+    |   └── clean_json      # Parsed HTML files and metadata in JSON format
+    ├── utilities           # Helper utilities
+    ├── notebooks           # Notebooks with preprocessing and analyses
+    └── README.md
+
 ## To-Do
-* Folder structure
 * Extract view information from main HTML page.
