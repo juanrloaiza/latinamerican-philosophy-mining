@@ -8,6 +8,7 @@ which we will analyze it. We can import these functions in different scripts.
 
 import os
 import json
+from .Article import Article # We will use the article class we made
 
 # Default path for files: ../data/clean_json/
 
@@ -24,7 +25,8 @@ def loadCorpusList(path):
     corpusList = []
     for file in os.listdir(path):
         with open(f"{path}/{file}", 'r') as fp:
-            corpusList.append(json.load(fp))
+            article = Article(file = fp)
+            corpusList.append(article)
 
     return corpusList
 
@@ -46,3 +48,18 @@ def loadCorpusDict(path):
             corpusDict[article['id']] = article['text']
 
     return corpusDict
+
+def saveCorpus(path, corpus):
+    """
+    This function saves the clean JSON files in whichever state they are. Useful when we go around appending information to each article file.
+
+    Inputs:
+    - Path to corpus (string)
+    - List of dictionaries (list)
+
+    Outputs:
+    - Saves the files, returns nothing.
+    """
+
+    for doc in corpus:
+        doc.saveDict(path)

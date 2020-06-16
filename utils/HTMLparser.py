@@ -30,8 +30,7 @@ for file in files:
         meta = json.loads(f.read())
 
     # We feed the HTML and metadata to the Article class.
-    article = Article(html, meta, isHTML = True)
+    article = Article(html = html, meta = meta)
 
-    # We save a dictionary version of the Article class.
-    with open(f'{path}/{file}.json', 'w') as f:
-        json.dump(article.__dict__, f)
+    # We save the file using the method from the Article class.
+    article.saveDict(path)
