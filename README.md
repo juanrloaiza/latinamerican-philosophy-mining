@@ -13,6 +13,7 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
     |   └── clean_json      # Parsed HTML files and metadata in JSON format
     ├── utils               # Helper utilities
     ├── notebooks           # Notebooks with preprocessing and analyses
+    |   └── wordlists       # Stopwords and protected words lists
     └── README.md
 
 ## To-Do
