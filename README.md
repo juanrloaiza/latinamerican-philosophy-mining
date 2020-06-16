@@ -11,7 +11,7 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
     ├── data                # Data files (omitted from Git repository for the moment)
     |   ├── raw_html        # Raw HTML files directly as scraped with metadata     
     |   └── clean_json      # Parsed HTML files and metadata in JSON format
-    ├── utilities           # Helper utilities
+    ├── utils               # Helper utilities
     ├── notebooks           # Notebooks with preprocessing and analyses
     └── README.md
 
