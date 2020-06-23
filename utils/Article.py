@@ -10,12 +10,13 @@ import re
 import json
 
 class Article:
-
     def __init__(self, file = None, html = None, meta = None):
         if html:
             self.parseHTML(html, meta)
         elif file:
             self.parseJSON(file)
+        else:
+            raise ValueError("One of 'file' or 'html' should be different to None.")
 
     def parseHTML(self, html, meta):
         """
@@ -62,11 +63,11 @@ class Article:
         self.type = meta['type']
         self.text = meta['text']
 
-        try:
+        if 'cleanText' in meta:
             self.cleanText = meta['cleanText']
+        
+        if 'bib' in meta:
             self.bib = meta['bib']
-        except:
-            pass
 
     def saveDict(self, path):
         """
