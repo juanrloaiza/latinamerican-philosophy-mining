@@ -3,4 +3,5 @@ data/*
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
 experimentos/
+notas_reuniones/
 .DS_store
