@@ -50,6 +50,10 @@ class Article:
         """
         Method in case we get a JSON file.
         We load it and then we process it simply.
+
+        TODO: There's a way of just storing all
+        keys from a dict as attributes of the
+        class. Should we go for that?
         """
         meta = json.load(file)
 
@@ -68,6 +72,9 @@ class Article:
         
         if 'bib' in meta:
             self.bib = meta['bib']
+
+        if 'bagOfWords' in meta:
+            self.bagOfWords = meta['bagOfWords']
 
     def saveDict(self, path):
         """
