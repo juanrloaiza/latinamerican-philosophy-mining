@@ -23,3 +23,4 @@ general
 verdadero
 modo
 uso
+idea
