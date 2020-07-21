@@ -20,10 +20,25 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 ## To-Do
 
 * Extract view information from main HTML page.
+* Calibrate the number of topics for the LDA model.
+  * Implement LDA in gensim and use topic coherence measures to calibrate the number of topics.
 
 ## Preliminary figures and visualizations
 
+![Documents by type](img/doc_by_type.png)
+
+*Figure 1. Documents by document type.*
+
+
+![Documents by type](img/doc_by_type-year.png)
+
+*Figure 2. Documents by main type per year.*
+
+
 ![Most mentioned authors in the corpus](img/author_wordcloud.png)
 
-*Figure 1. Word cloud of the most mentioned philosophers in the corpus.*
+*Figure 3. Word cloud of the most mentioned philosophers in the corpus.*
 
+![Most frequent keywords in the corpus](img/keyword_wordcloud.png)
+
+*Figure 4. Word cloud of the most frequent keywords in the corpus according to article metadata.*
