@@ -30,9 +30,9 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 *Figure 1. Documents by document type.*
 
 
-![Documents by type](img/doc_by_year.png)
+![Documents by type](img/doc_by_type-year.png)
 
-*Figure 2. Documents by year.*
+*Figure 2. Documents by main type per year.*
 
 
 ![Most mentioned authors in the corpus](img/author_wordcloud.png)
