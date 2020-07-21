@@ -25,20 +25,47 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 
 ## Preliminary figures and visualizations
 
+#### Figure 1. Documents by document type.
+
 ![Documents by type](img/doc_by_type.png)
 
-*Figure 1. Documents by document type.*
+#### Figure 2. Documents by main type per year.
 
+![Documents by type/year](img/doc_by_type-year.png)
 
-![Documents by type](img/doc_by_type-year.png)
-
-*Figure 2. Documents by main type per year.*
-
+#### Figure 3. Word cloud of the most mentioned philosophers in the corpus.
 
 ![Most mentioned authors in the corpus](img/author_wordcloud.png)
 
-*Figure 3. Word cloud of the most mentioned philosophers in the corpus.*
+#### Figure 4. Word cloud of the most frequent keywords in the corpus according to article metadata.
 
 ![Most frequent keywords in the corpus](img/keyword_wordcloud.png)
 
-*Figure 4. Word cloud of the most frequent keywords in the corpus according to article metadata.*
+#### Figure 5. Word counts by year.
+
+![Word counts by year](img/wordCount_byYear.png)
+
+### Using a provisional model
+
+The following plots are only proofs of concept. We are using a temporary LDA model with 10 topics to find which visualizations would work best. There is still work to fully optmize the LDA model though. We use a model with the following top 10 most salient words.
+
+| Topic 0        | Topic 1       | Topic 2   | Topic 3     | Topic 4   | Topic 5   | Topic 6     | Topic 7   | Topic 8      | Topic 9  |
+|:-------------- |:------------- |:--------- |:----------- |:--------- |:--------- |:----------- |:--------- |:------------ |:-------- |
+| lenguaje       | kant          | religioso | ser         | creencia  | ser       | político    | acción    | alma         | político |
+| interpretación | concienciar   | religión  | cuerpo      | mundo     | mundo     | formar      | moral     | ser          | derecho  |
+| teoría         | ser           | ciudad    | formar      | ser       | hegel     | vida        | ser       | platón       | moral    |
+| experiencia    | concepto      | filosofía | heidegger   | teoría    | filosofía | ser         | accionar  | filosofía    | ser      |
+| wittgenstein   | objetar       | historia  | modo        | propiedad | dios      | filosofía   | agente    | conocimiento | justicia |
+| filosofía      | experiencia   | siglo     | aristóteles | término   | bien      | nietzsche   | personar  | sócrates     | bien     |
+| ser            | arte          | cultura   | ente        | contener  | vida      | foucault    | desear    | hombre       | social   |
+| problema       | husserl       | tradición | naturaleza  | concepto  | razón     | social      | intención | virtud       | sociedad |
+| autor          | trascendental | ciencia   | bien        | físico    | hombre    | crítico     | bien      | bien         | teoría   |
+| filosófico     | modo          | obrar     | existencia  | objeto    | pensar    | pensamiento | libertar  | obrar        | razón    |
+
+### Figure 6. Proportion of articles by topic
+
+![Proportion of articles by topic](img/proportion_by_year.png)
+
+### Figure 7. Word counts by topic.
+
+![Word counts by topic](img/wordCount_byTopic.png)
