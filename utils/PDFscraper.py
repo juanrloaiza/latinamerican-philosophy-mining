@@ -3,10 +3,12 @@
 
 """
 This script downloads articles from Ideas y Valores
-and saves them in raw HTML. It also retrieves their metadata
+and saves them in PDF. It also retrieves their metadata
 and saves them in JSON format.
 
-Each article will be saved in the folder data/raw_html/{articleID}/.
+It uses the HTML scraper as a base.
+
+Each article will be saved in the folder data/rawPDF/{articleID}/.
 """
 
 import requests  # Allows us to make web requests
@@ -22,27 +24,30 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
 }
 
-# Years to scrape (initially 2009 - 2017)
-yearStart = 2009
-yearEnd = 2017
+# We will skip years from 2009-2017, since we get these articles in HTML format.
+yearToSkip = [x for x in range(2009, 2018)]
 
-# We look at the archive and parse it with BeautifulSoup
-urlArchive = 'https://revistas.unal.edu.co/index.php/idval/issue/archive'
-htmlArchive = requests.get(urlArchive).content
-soupArchive = BeautifulSoup(htmlArchive, features = 'lxml')
-
-# We make a list to save all issue links
+# There are 3 pages containing links to the 137 issues of the journal.
+# We loop through these three pages collecting links.
 issueLinks = []
+for x in range(4):
 
-# For each year we save the link each issue's table of contents.
-for year in range(yearStart, yearEnd + 1):
+    # We look at the archive and parse it with BeautifulSoup
+    urlArchive = f'https://revistas.unal.edu.co/index.php/idval/issue/archive?issuesPage={x}#issues'
+    htmlArchive = requests.get(urlArchive).content
+    soupArchive = BeautifulSoup(htmlArchive, features = 'lxml')
+
     # Issue links are in h4 tags
-    # We look at each h4 and if it contains the year we are looking for,
-    # we save it.
+    # We look at each h4 and if it contains a year we can skip, we skip.
     # We append '/showToc' to the URL.
-    issueLinks += [link.a['href']+'/showToc' for link in soupArchive.find_all('h4') if str(year) in link.text]
+    for link in soupArchive.find_all('h4'):
+        for year in yearToSkip:
+            if str(year) not in link.text:
+                issueLinks.append(link.a['href']+'/showToc')
 
-# We visit each issue and download every article in HTML.
+issueLinks = set(issueLinks) # There are a ton of duplicates with the current implementation.
+
+# We visit each issue and download every article in PDF.
 for issueURL in issueLinks:
 
     issueHTML = requests.get(issueURL, headers=headers).content
@@ -55,6 +60,10 @@ for issueURL in issueLinks:
     # We visit each article in each issue.
     for link in articleLinks:
 
+        # We get the PDF
+        articlePDF = requests.get(link['href'].replace('view', 'download')).content
+
+        # We also visit the HTML to get the metadata.
         articleHTML = requests.get(link['href']).content
         soup = BeautifulSoup(articleHTML, features = 'lxml')
 
@@ -79,13 +88,13 @@ for issueURL in issueLinks:
         content = soup.find('div', id = 'content')
 
         # We create a folder for each article.
-        folder = f'../data/raw_html/{articleID}/'
+        folder = f'../data/rawPDF/{articleID}/'
 
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        with open(f"{folder}/{articleID}.html", 'w') as f:
-            f.write(str(content))
+        with open(f"{folder}/{articleID}.pdf", 'w') as f:
+            f.write(articlePDF)
 
         with open(f"{folder}/{articleID}.json", 'w') as f:
             json.dump(metaDict, f)

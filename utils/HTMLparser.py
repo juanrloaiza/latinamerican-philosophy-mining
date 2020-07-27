@@ -16,17 +16,17 @@ from Article import Article # Article class from our utilities
 
 files = os.listdir('../data/raw_html')
 
-path = '../data/clean_json'
+path = '../data/parsedHTML'
 if not os.path.exists(path):
     os.makedirs(path)
 
 for file in files:
     # Open its HTML and parse it.
-    with open(f'../data/raw_html/{file}/{file}.html') as f:
+    with open(f'../data/rawHTML/{file}/{file}.html') as f:
         html = f.read()
 
     # Open the article's metadata
-    with open(f'../data/raw_html/{file}/{file}.json') as f:
+    with open(f'../data/rawHTML/{file}/{file}.json') as f:
         meta = json.loads(f.read())
 
     # We feed the HTML and metadata to the Article class.
