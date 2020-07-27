@@ -10,10 +10,14 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 
     .
     ├── data                # Data files (omitted from Git repository for the moment)
-    |   ├── raw_html        # Raw HTML files directly as scraped with metadata     
-    |   └── clean_json      # Parsed HTML files and metadata in JSON format
-    ├── extras               # Extra notebooks with additional processes or figures.
-    ├── notebooks           # Notebooks with preprocessing and analyses
+    |   ├── corpus          # Parsed JSON files after preprocessing.     
+    |   ├── rawHTML         # Raw HTML files directly as scraped with metadata.
+    |   ├── rawPDF          # Raw PDF files directly as scraped with metadata.
+    |   ├── parsedHTML      # Parsed HTML using Article class (see utils).
+    |   └── parsedPDF       # Parsed PDF files to produce common JSON files.
+    ├── extras              # Extra notebooks with additional processes or figures.
+    ├── notebooks           # Notebooks with preprocessing and analyses.
+    |   ├── models          # LDA Models we have used.
     |   └── wordlists       # Stopwords and protected words lists
     ├── utils               # Helper utilities
     └── README.md
