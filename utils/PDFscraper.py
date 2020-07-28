@@ -48,7 +48,6 @@ for x in range(4):
 
 # There are a ton of duplicates with the current implementation.
 issueLinks = set(issueLinks)
-print(issueLinks)
 
 # We visit each issue and download every article in PDF.
 for issueURL in issueLinks:

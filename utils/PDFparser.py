@@ -156,7 +156,7 @@ def processText(doc):
 
 
 # MAIN FUNCTION
-files = glob.glob('pdf/*/*.json')
+files = glob.glob('../data/rawPDF/*/*.json')
 counter = 0
 for file in files:
     with open(file) as fp:
@@ -203,7 +203,7 @@ for file in files:
         doc['text'] = None
 
     # We save the final version of the document as JSON.
-    with open(f'..data/parsedPDF/{doc_id}.json', 'w') as fp:
+    with open(f'../data/parsedPDF/{doc_id}.json', 'w') as fp:
         json.dump(doc, fp)
 
     print(f'Saved {doc_id}.json')
@@ -214,4 +214,4 @@ for file in files:
 
 # We save collected data for analysis as csv.
 df = pd.DataFrame(data)
-df.to_csv('..data/PDFCorrections.csv')
+df.to_csv('../data/PDFCorrections.csv')
