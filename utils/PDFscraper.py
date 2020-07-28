@@ -25,7 +25,7 @@ headers = {
 }
 
 # We will skip years from 2009-2017, since we get these articles in HTML format.
-yearToSkip = [x for x in range(2009, 2018)]
+yearToSkip = [x for x in range(1950, 2018)]
 
 # There are 3 pages containing links to the 137 issues of the journal.
 # We loop through these three pages collecting links.
@@ -35,24 +35,28 @@ for x in range(4):
     # We look at the archive and parse it with BeautifulSoup
     urlArchive = f'https://revistas.unal.edu.co/index.php/idval/issue/archive?issuesPage={x}#issues'
     htmlArchive = requests.get(urlArchive).content
-    soupArchive = BeautifulSoup(htmlArchive, features = 'lxml')
+    soupArchive = BeautifulSoup(htmlArchive, features='lxml')
 
     # Issue links are in h4 tags
     # We look at each h4 and if it contains a year we can skip, we skip.
     # We append '/showToc' to the URL.
     for link in soupArchive.find_all('h4'):
-        for year in yearToSkip:
-            if str(year) not in link.text:
-                issueLinks.append(link.a['href']+'/showToc')
+        year = int(re.findall('\d\d\d\d', link.text)[0])
+        if year in yearToSkip:
+            continue
+        issueLinks.append(link.a['href']+'/showToc')
 
-issueLinks = set(issueLinks) # There are a ton of duplicates with the current implementation.
+# There are a ton of duplicates with the current implementation.
+issueLinks = set(issueLinks)
+print(issueLinks)
 
 # We visit each issue and download every article in PDF.
 for issueURL in issueLinks:
 
-    issueHTML = requests.get(issueURL, headers=headers).content
-    soup = BeautifulSoup(issueHTML, features = 'lxml')
-    articleLinks = [link for link in soup.find_all('a', href=True) if link.text == 'HTML']
+    issueHTML=requests.get(issueURL, headers=headers).content
+    soup=BeautifulSoup(issueHTML, features='lxml')
+    articleLinks=[link for link in soup.find_all(
+        'a', href=True) if link.text == 'HTML']
 
     # Which issue are we visiting?
     print(soup.title.text)
@@ -61,39 +65,41 @@ for issueURL in issueLinks:
     for link in articleLinks:
 
         # We get the PDF
-        articlePDF = requests.get(link['href'].replace('view', 'download')).content
+        articlePDF=requests.get(
+            link['href'].replace('view', 'download')).content
 
         # We also visit the HTML to get the metadata.
-        articleHTML = requests.get(link['href']).content
-        soup = BeautifulSoup(articleHTML, features = 'lxml')
+        articleHTML=requests.get(link['href']).content
+        soup=BeautifulSoup(articleHTML, features='lxml')
 
         # Which article are we visiting?
         print(f'\t{soup.title.text}')
 
         # We extract the metadata and pass it to a dictionary.
-        meta = soup.find_all('meta', attrs={'name': True})
+        meta=soup.find_all('meta', attrs={'name': True})
 
-        metaDict = {}
+        metaDict={}
         for item in meta:
-            metaDict[item['name']] = item['content']
+            metaDict[item['name']]=item['content']
 
         # We extract the article ID to use it as a filename later.
-        articleID = metaDict['DC.Identifier']
+        articleID=metaDict['DC.Identifier']
 
         # We visit printer friendly versions which are easier to parse.
-        printerURL = re.findall('\'(.*)\'', soup.find(text=re.compile('Imprima')).parent['href'])[0]
+        printerURL=re.findall(
+            '\'(.*)\'', soup.find(text=re.compile('Imprima')).parent['href'])[0]
 
-        printerfriendlyHTML = requests.get(printerURL, headers=headers).content
-        soup = BeautifulSoup(printerfriendlyHTML, features = 'lxml')
-        content = soup.find('div', id = 'content')
+        printerfriendlyHTML=requests.get(printerURL, headers=headers).content
+        soup=BeautifulSoup(printerfriendlyHTML, features='lxml')
+        content=soup.find('div', id='content')
 
         # We create a folder for each article.
-        folder = f'../data/rawPDF/{articleID}/'
+        folder=f'../data/rawPDF/{articleID}/'
 
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        with open(f"{folder}/{articleID}.pdf", 'w') as f:
+        with open(f"{folder}/{articleID}.pdf", 'wb') as f:
             f.write(articlePDF)
 
         with open(f"{folder}/{articleID}.json", 'w') as f:
