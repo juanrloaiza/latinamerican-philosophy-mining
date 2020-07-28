@@ -65,7 +65,7 @@ def processText(doc):
     Function: Takes in a document (dict), corrects it, and exports it.
     This function also calculates some useful data and saves it for later analysis.
 
-    Return: None (Exports directly)
+    Return: correctedText (str)
     """
 
     correctedText = doc['text']
@@ -152,13 +152,8 @@ def processText(doc):
            'time': timeDelta,
             'wordCount': len(re.findall('\w+', correctedText))})
 
-    # We save the correction into the main document and save the document to JSON.
-    doc['text'] = correctedText
+    return correctedText
 
-    with open(f'..data/parsedPDF/{doc_id}.json', 'w') as fp:
-        json.dump(doc, fp)
-
-    print(f'Saved {doc_id}.json')
 
 # MAIN FUNCTION
 files = glob.glob('pdf/*/*.json')
@@ -178,6 +173,11 @@ for file in files:
     doc['date'] = meta['citation_date']
     doc['type'] = meta['DC.Type.articleType']
 
+    # We create some attributes to fit the class into the Article class model.
+    # We initialize them as None though.
+    doc['cleanText'] = None
+    doc['bagOfWords'] = None
+
     if 'keywords' in meta.keys():
         doc['keywords'] = meta['keywords']
 
@@ -196,8 +196,17 @@ for file in files:
 
     # Some text only has whitespace characters. It is length > 0 but no meaningful
     # characters. We eliminate those by checking if the text splits into something.
+    # If it splits, we process it. Otherwise, we save None as the text value.
     if text.split():
-        processText(doc)
+        doc['text'] = processText(doc)
+    else:
+        doc['text'] = None
+
+    # We save the final version of the document as JSON.
+    with open(f'..data/parsedPDF/{doc_id}.json', 'w') as fp:
+        json.dump(doc, fp)
+
+    print(f'Saved {doc_id}.json')
 
     counter += 1
     print(f"{counter} of {len(files)} revised.")

@@ -56,7 +56,7 @@ for issueURL in issueLinks:
     issueHTML=requests.get(issueURL, headers=headers).content
     soup=BeautifulSoup(issueHTML, features='lxml')
     articleLinks=[link for link in soup.find_all(
-        'a', href=True) if link.text == 'HTML']
+        'a', href=True) if link.text == 'PDF']
 
     # Which issue are we visiting?
     print(soup.title.text)
@@ -84,14 +84,6 @@ for issueURL in issueLinks:
 
         # We extract the article ID to use it as a filename later.
         articleID=metaDict['DC.Identifier']
-
-        # We visit printer friendly versions which are easier to parse.
-        printerURL=re.findall(
-            '\'(.*)\'', soup.find(text=re.compile('Imprima')).parent['href'])[0]
-
-        printerfriendlyHTML=requests.get(printerURL, headers=headers).content
-        soup=BeautifulSoup(printerfriendlyHTML, features='lxml')
-        content=soup.find('div', id='content')
 
         # We create a folder for each article.
         folder=f'../data/rawPDF/{articleID}/'
