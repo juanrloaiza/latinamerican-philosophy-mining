@@ -4,7 +4,7 @@ Authors: [Juan R. Loaiza](https://www.juanrloaiza.me) (URosario / HU Berlin) and
 
 In this repository we track progress on a research project in which we apply text mining to philosophy journals in Latin America. Our aim is to provide insights into the history of philosophy in Latin America using a data-driven approach.
 
-We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/idval/) (Colombia) and articles from 2009 to 2017. We plan on expanding later to include more years and other journals such as [Crítica](http://critica.filosoficas.unam.mx/index.php/critica) (Mexico) and [Análisis Filosófico](https://analisisfilosofico.org/index.php/af) (Argentina).
+We started with [Ideas y Valores](https://revistas.unal.edu.co/index.php/idval/) (Colombia) and articles from 2009 to 2017. We are now expanding the corpus from Ideas y Valores to cover all articles since the journal's foundation in 1951. We plan on expanding later to include more years and other journals such as [Crítica](http://critica.filosoficas.unam.mx/index.php/critica) (Mexico) and [Análisis Filosófico](https://analisisfilosofico.org/index.php/af) (Argentina).
 
 ## Structure
 
@@ -30,25 +30,23 @@ We are starting with [Ideas y Valores](https://revistas.unal.edu.co/index.php/id
 
 ## Preliminary figures and visualizations
 
-#### Figure 1. Documents by document type.
-
-![Documents by type](img/doc_by_type.png)
-
-#### Figure 2. Documents by main type per year.
+#### Figure 1. Documents by main type per decade.
 
 ![Documents by type/year](img/doc_by_type-year.png)
 
-#### Figure 3. Word cloud of the most mentioned philosophers in the corpus.
+#### Figure 2. Word cloud of the most mentioned philosophers in the corpus.
 
 ![Most mentioned authors in the corpus](img/author_wordcloud.png)
 
-#### Figure 4. Word cloud of the most frequent keywords in the corpus according to article metadata.
+#### Figure 3. Word cloud of the most frequent keywords in the corpus according to article metadata.
 
 ![Most frequent keywords in the corpus](img/keyword_wordcloud.png)
 
-#### Figure 5. Word counts by year.
+#### Figure 4. Word counts by year.
 
 ![Word counts by year](img/wordCount_byYear.png)
+
+Note: This suggests that word extension has not changed significantly since the journal's foundation in 1951. This contradicts a common intuition that philosophy is moving towards shorter articles.
 
 ### Using a provisional model
 
@@ -66,6 +64,8 @@ The following plots are only proofs of concept. We are using a temporary LDA mod
 | problema       | husserl       | tradición | naturaleza  | concepto  | razón     | social      | intención | virtud       | sociedad |
 | autor          | trascendental | ciencia   | bien        | físico    | hombre    | crítico     | bien      | bien         | teoría   |
 | filosófico     | modo          | obrar     | existencia  | objeto    | pensar    | pensamiento | libertar  | obrar        | razón    |
+
+These plots still use the year range from 2009 to 2017. We will expand on these soon when we implement the LDA model on the whole corpus. 
 
 ### Figure 6. Proportion of articles by topic
 
