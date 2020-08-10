@@ -22,7 +22,7 @@ class Article:
         """
         Method in case we get an html file. To be used when parsing HTML files for the first time.
         """
-        soup = BeautifulSoup(html)
+        soup = BeautifulSoup(html, features = 'lxml')
 
         self.id = meta['DC.Identifier']
         self.title = meta['description']
@@ -32,7 +32,11 @@ class Article:
         self.vol = meta['DC.Source.Volume']
         self.date = meta['citation_date']
         self.type = meta['DC.Type.articleType']
-        self.keywords = meta['keywords']
+
+        try:
+            self.keywords = meta['keywords']
+        except KeyError:
+            pass
 
         # Sorprendentemente, no todos tienen keywords
         # self.keywords = meta['keywords'].split('; ')
@@ -70,13 +74,13 @@ class Article:
 
         if 'cleanText' in meta:
             self.cleanText = meta['cleanText']
-        
+
         if 'bib' in meta:
             self.bib = meta['bib']
 
         if 'bagOfWords' in meta:
             self.bagOfWords = meta['bagOfWords']
-            
+
         if 'keywords' in meta:
             self.keywords = meta['keywords']
 

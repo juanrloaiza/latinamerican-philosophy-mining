@@ -14,7 +14,7 @@ import os
 import json
 from Article import Article # Article class from our utilities
 
-files = os.listdir('../data/raw_html')
+files = os.listdir('../data/rawHTML')
 
 path = '../data/parsedHTML'
 if not os.path.exists(path):

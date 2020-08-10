@@ -203,6 +203,7 @@ for file in files:
         doc['text'] = None
 
     # We save the final version of the document as JSON.
+    doc_id = doc['id']
     with open(f'../data/parsedPDF/{doc_id}.json', 'w') as fp:
         json.dump(doc, fp)
 
