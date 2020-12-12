@@ -5,3 +5,10 @@ notebooks/.ipynb_checkpoints/
 experimentos/
 notas_reuniones/
 .DS_store
+
+# TeX stuff
+*.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
