@@ -12,9 +12,49 @@ corpusPath = '../data/corpus'
 corpusList = loadCorpusList(corpusPath)
 corpusList = [a for a in corpusList if a.lang == "es"]
 
+MODELPATH = "../notebooks/LDA_gensim_90_final.model"
+
+def prepare_bag_of_words(article):
+    """
+    A hot fix on some empty strings.
+    """
+    bow = article.bagOfWords
+    bow = bow.split(" ")
+    return [w for w in bow if len(w) > 1]
+
+def topics_in_article(lda, article):
+    bow = lda.id2word.doc2bow(prepare_bag_of_words(article))
+    return lda.get_document_topics(bow)
+
 ## Articles in topics:
-with open("../data/articles_in_topics.json") as fp:
-    a_in_topics = json.load(fp)
+try:
+    with open("../data/articles_in_topics.json") as fp:
+        a_in_topics = json.load(fp)
+except FileNotFoundError:
+    print("Creating ../data/articles_in_topics.json")
+    # The model
+    from gensim.models.ldamodel import LdaModel
+    lda = LdaModel.load(MODELPATH)
+
+    all_topics_in_article = {
+        a.id: topics_in_article(lda, a) for a in corpusList
+    }
+
+    articles_in_topics = {topic_id: [] for topic_id in range(90)}
+    for art_id, topics_and_probs in all_topics_in_article.items():
+        for topic_id, prob in topics_and_probs:
+            if prob >= 0.01:
+                articles_in_topics[topic_id].append((art_id, float(prob)))
+    
+    # Sorting them by probability
+    sorted_articles_in_topics = {}
+    for topic_id, articles_and_probs in articles_in_topics.items():
+        sorted_articles_in_topics[topic_id] = sorted(articles_and_probs, key=lambda x: x[1], reverse=True)
+
+    with open("../data/articles_in_topics.json", "w") as fp:
+        json.dump(sorted_articles_in_topics, fp)
+    
+    a_in_topics = {str(k): v for k, v in sorted_articles_in_topics.items()}
 
 def get_articles_in_topic(topic_id, min_prob=0.1, n=None):
     """
@@ -63,18 +103,6 @@ def get_keywords_in_topic(topic_id, min_prob=0.1, n=None):
             keywords.append("NO KEYWORDS FOUND")
 
     return keywords
-
-def prepare_bag_of_words(article):
-    """
-    A hot fix on some empty strings.
-    """
-    bow = article.bagOfWords
-    bow = bow.split(" ")
-    return [w for w in bow if len(w) > 1]
-
-def topics_in_article(lda, article):
-    bow = lda.id2word.doc2bow(prepare_bag_of_words(article))
-    return lda.get_document_topics(bow)
 
 def summary(lda, article, probability=None, topics=False):
     # Print the title
@@ -128,5 +156,3 @@ def topic_top_n(lda, topic_id, n=10, verbose=False):
     return [
         (lda.id2word.get(idx), f"{prob:0.3}") for idx, prob in lda.get_topic_terms(topic_id, topn=n)
     ]
-
-
