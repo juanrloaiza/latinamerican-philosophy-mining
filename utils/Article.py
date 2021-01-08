@@ -30,8 +30,11 @@ class Article:
         self.lang = meta['DC.Language']
         self.issue = meta['DC.Source.Issue']
         self.vol = meta['DC.Source.Volume']
-        self.date = meta['citation_date']
         self.type = meta['DC.Type.articleType']
+
+        self.date = meta['citation_date']
+
+        self.year = self.date[:4]
 
         try:
             self.keywords = meta['keywords']
@@ -69,6 +72,10 @@ class Article:
         self.issue = meta['issue']
         self.vol = meta['vol']
         self.date = meta['date']
+
+        self.year = self.date[:4]
+
+        
         self.type = meta['type']
         self.text = meta['text']
 
