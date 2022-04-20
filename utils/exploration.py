@@ -12,7 +12,8 @@ corpusPath = '../data/corpus'
 corpusList = loadCorpusList(corpusPath)
 corpusList = [a for a in corpusList if a.lang == "es"]
 
-MODELPATH = "../notebooks/LDA_gensim_90_final.model"
+#MODELPATH = "../notebooks/LDA_gensim_90_final.model"
+MODELPATH = "../notebooks/models/70_topics/LDA_gensim_70.model"
 
 def prepare_bag_of_words(article):
     """
@@ -27,34 +28,30 @@ def topics_in_article(lda, article):
     return lda.get_document_topics(bow)
 
 ## Articles in topics:
-try:
-    with open("../data/articles_in_topics.json") as fp:
-        a_in_topics = json.load(fp)
-except FileNotFoundError:
-    print("Creating ../data/articles_in_topics.json")
-    # The model
-    from gensim.models.ldamodel import LdaModel
-    lda = LdaModel.load(MODELPATH)
+print("Creating ../data/articles_in_topics.json")
+# The model
+from gensim.models.ldamodel import LdaModel
+lda = LdaModel.load(MODELPATH)
 
-    all_topics_in_article = {
-        a.id: topics_in_article(lda, a) for a in corpusList
-    }
+all_topics_in_article = {
+    a.id: topics_in_article(lda, a) for a in corpusList
+}
 
-    articles_in_topics = {topic_id: [] for topic_id in range(90)}
-    for art_id, topics_and_probs in all_topics_in_article.items():
-        for topic_id, prob in topics_and_probs:
-            if prob >= 0.01:
-                articles_in_topics[topic_id].append((art_id, float(prob)))
+articles_in_topics = {topic_id: [] for topic_id in range(90)}
+for art_id, topics_and_probs in all_topics_in_article.items():
+    for topic_id, prob in topics_and_probs:
+        if prob >= 0.01:
+            articles_in_topics[topic_id].append((art_id, float(prob)))
     
-    # Sorting them by probability
-    sorted_articles_in_topics = {}
-    for topic_id, articles_and_probs in articles_in_topics.items():
-        sorted_articles_in_topics[topic_id] = sorted(articles_and_probs, key=lambda x: x[1], reverse=True)
+# Sorting them by probability
+sorted_articles_in_topics = {}
+for topic_id, articles_and_probs in articles_in_topics.items():
+    sorted_articles_in_topics[topic_id] = sorted(articles_and_probs, key=lambda x: x[1], reverse=True)
 
-    with open("../data/articles_in_topics.json", "w") as fp:
-        json.dump(sorted_articles_in_topics, fp)
+with open("../data/articles_in_topics.json", "w") as fp:
+    json.dump(sorted_articles_in_topics, fp)
     
-    a_in_topics = {str(k): v for k, v in sorted_articles_in_topics.items()}
+a_in_topics = {str(k): v for k, v in sorted_articles_in_topics.items()}
 
 def get_articles_in_topic(topic_id, min_prob=0.1, n=None):
     """
