@@ -1,4 +1,3 @@
-from pickle import DICT
 from datacollection.scraper import Scraper
 from datacollection.articleparser import ArticleReader
 from filemanager import FileManager
@@ -13,8 +12,9 @@ DICTIONARIES = "./dictionaries"
 if not os.path.exists(DATA_FOLDER):
     os.mkdir(DATA_FOLDER)
 
-manager = FileManager()
-registry = Registry(registry_path=REGISTRY_FILE, data_path=DATA_FOLDER, manager=manager)
+registry = Registry(
+    registry_path=REGISTRY_FILE, data_path=DATA_FOLDER, manager=FileManager()
+)
 
 scraper = Scraper(archive_url=ARCHIVE_URL, registry=registry)
 scraper.scrape()

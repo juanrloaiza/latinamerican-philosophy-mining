@@ -1,0 +1,1856 @@
+                                                              https://doi.org/10.15446/ideasyvalores.v70n7Supl.97982
+                                           Leyendo a Wittgenstein desde 
+                                                                              la periferia
+                                                                                                 •
+                                       Reading Wittgenstein from the periphery
+                                                                                                                             Jaime Ramos Arenas*1
+                                                                               Universidad Nacional de Colombia - Bogotá - Colombia
+                                       1    Agradezco mucho a Laura Almandoz y a Cindy Lancheros, ambas de la Universidad 
+                                            Nacional de Colombia,sus comentarios y correcciones al borrador de este escrito.
+                                       *    jramosa@unal.edu.co/ orcid: 0000-0002-8099-0352
+                                            Cómo citar este artículo:
+                                            mla: Ramos, J. “Leyendo a Wittgenstein desde la periferia.” Ideas y Valores 70. Sup. 
+                                            7 (2021): 173-213
+                                            apa: Ramos, J. (2021). Leyendo a Wittgenstein desde la periferia. Ideas y Valores, 70(Sup. 
+                                            7), 173-213.
+                                            chicago: Jaime Ramos Arenas. “Leyendo a Wittgenstein desde la periferia.” Ideas y 
+                                            Valores 70, Sup. 7 (2021): 173-213.
+                                                                                  This work is licensed under a Creative Commons Attribution-
+                                                                                  NonCommercial-NoDerivatives 4.0 International License.
+                                            ideas y valores • vol. lxx • SUPL 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [174]    Jaime Ramos Arenas
+                RESUMEN
+                Mediante un examen crítico de los ensayos publicados en Ideas y Valores acerca de 
+                la filosofía de Ludwig Wittgenstein, el escrito busca establecer qué tan rica es nues-
+                tra asimilación del pensamiento de uno de los grandes filósofos de la historia, si 
+                tal trabajo muestra una evolución a lo largo del devenir de la revista y si el examen 
+                que hago aquí puede darnos algún indicio acerca de nuestro desarrollo filosófico. 
+                Finalmente, se hacen algunas breves consideraciones acerca de lo que significa hacer 
+                filosofía desde la periferia y algunas posibles ventajas que eso tiene, así como señalar 
+                la necesidad de realizar una labor más colectiva.
+                      Palabras clave: L. Wittgenstein, filosofía latinoamericana, Ideas y Valores, 
+                periferia.
+                ABSTRACT
+                The essay critically examines the papers on the philosophy of Ludwig Wittgenstein 
+                published in Ideas y Valores, seeking to explore the richness of our interpretations 
+                of one of the great philosophers of all time. I enquire if these philosophical writings 
+                show an evolution along the journal’s history, and wonder whether this examination 
+                may give us a clue about our philosophical development. I close by making some 
+                brief remarks about what it means to do philosophy at the periphery, some possible 
+                advantages of being at such a location and, finally, I point out the need of underta-
+                king a more collective work.
+                      Keywords: L. Wittgenstein, latin american philosophy, Ideas y Valores, 
+                periphery.
+                departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [175]
+                      Introducción
+                           Ideas y Valores cumple setenta años. Después de un largo camino, 
+                      no exento de vicisitudes, la publicación se ha consolidado internacio-
+                      nalmente como una de las revistas de filosofía más importantes de habla 
+                                                                                              -
+                      hispana. Esta es, por supuesto, una buena razón para felicitar sincera
+                      mente al profesor Jorge Aurelio Díaz, quien como director de la revista 
+                      tiene buena parte del mérito por el éxito alcanzado por la publicación, 
+                      así como felicitar a su equipo editorial y a las sucesivas generaciones de 
+                                                                                              -
+                      estudiantes que, como auxiliares de edición, han trabajado arduamen
+                      te. El aniversario es también justo motivo de orgullo para nosotros, el 
+                      Departamento de Filosofía de la Universidad Nacional de Colombia, 
+                      casa de la publicación.
+                           No soy el mejor conocedor de la revista y aún para aquellos que lo 
+                      son, como el profesor Díaz, es imposible tener una cercana familiaridad 
+                      con todo lo que se ha publicado en la revista, o incluso con una parte 
+                      significativa de ello. Se trata de una gran cantidad de números, 176 has-
+                      ta ahora; muchísimos artículos, reseñas y discusiones; en realidad, es 
+                      difícil pensar en alguien que trabaje profesionalmente en filosofía en 
+                      Colombia que no haya publicado algo, alguna vez en la revista. ¿Qué 
+                      puede alguien como yo escribir a propósito del aniversario de la revista, 
+                      que yendo más allá de las congratulaciones y las anécdotas diga algo 
+                      significativo filosóficamente?
+                           Se ha dicho muchas veces que nuestra comunidad filosófica –y 
+                      académica, en general– no se lee ni discute recíprocamente de manera 
+                      suficiente; que hace falta “masa crítica” acerca de nuestra producción 
+                      intelectual. Como hace muchos años escribí en esta misma revista (1997), 
+                                                                                              -
+                      si un gran filósofo –o filósofa– hubiese surgido en Colombia hace algu
+                      nos años, nadie lo hubiese notado y, por las mismas razones, alguien 
+                      puede haber publicado algo muy mediocre con total impunidad (cf. 
+                      Ramos 1997). Ciertamente, no estoy en capacidad de juzgar, en términos 
+                      generales, qué tan preciado es aquello que se publica en Ideas y Valores, 
+                      aparte de tener una opinión puntual acerca de este o aquel escrito. Soy 
+                                                                                              -
+                      también consciente, como lo somos todos, de que las mediciones pura
+                      mente cuantitativas que realizan los índices que categorizan las revistas 
+                      dicen muy poco sobre la calidad de las publicaciones.
+                           Así pues, he considerado que puedo centrar mi examen sobre un 
+                                                                                              -
+                      tópico específico acerca del cual se haya escrito en la revista, con la es
+                      peranza de que pueda revelarnos algo sobre el trabajo filosófico que 
+                      realizamos quienes publicamos en este medio. He escogido como tópico 
+                      la filosofía de Wittgenstein, en primer lugar, por tratarse de uno de los 
+                      filósofos más célebres del siglo xx, y quizás de la historia de la filosofía 
+                      en general. Es interesante observar en qué medida hemos sido capaces de 
+                      asimilar su pensamiento, y si se puede ver una evolución a ese respecto 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+            [176]          Jaime Ramos Arenas
+                           a lo largo de las sucesivas publicaciones. En segundo lugar, porque es 
+                           alguien sobre cuya obra tengo alguna familiaridad, sin que sea yo un 
+                           especialista, la cual es un requisito indispensable para entrar a discutir 
+                           críticamente lo que otros colegas han escrito al respecto.
+                                  Voy a examinar solamente los ensayos que se centran en la discusión 
+                           de algún aspecto de la obra de Wittgenstein, dejando de lado a aquellos 
+                           que hacen alusión solo de manera tangencial a la obra del austriaco. 
+                           Tampoco entro a examinar específicamente reseñas ni discusiones 
+                                                                                                                                 1 Obviamente 
+                           breves que se han publicado sobre este tema en la revista.
+                           no es posible discutir en detalle cada publicación, eso haría demasiado 
+                           largo este escrito, solo voy a enfocarme en algunos aspectos centrales 
+                           de cada uno. Me doy cuenta de que la estructura que esta manera de 
+                           proceder le da a mi escrito es un tanto inusual, un poco fragmentaria 
+                                                                                                                                                        -
+                           y, quizás, no muy armónica, pero no he encontrado otra forma de ha
+                           cerlo. Se trata de trece mini reseñas críticas y un posterior comentario 
+                           muy general acerca de lo que significa hacer filosofía desde la periferia. 
+                           También soy consciente de que lo que me propongo hacer conlleva un 
+                           riesgo considerable de ser malinterpretado. Espero que nadie piense 
+                           que creo que entiendo mejor que cada uno de ellos o ellas el tópico que 
+                           cada uno discute; de hecho, aprendí bastante leyendo los artículos. Pero 
+                           una discusión filosófica solo puede llevarse a cabo, como su nombre lo 
+                           indica, “discutiendo” lo que otros dicen, claro, de manera respetuosa y, 
+                                                                                             2
+                           hasta donde sea posible, impersonal.  Veo esta tarea como parte de un 
+                                                                                                                                                        -
+                           ejercicio dialéctico; como el inicio de un diálogo, parte del cual com
+                           prende, necesariamente, hacer juicios de valor sobre los argumentos 
+                           del otro, pero no lo concibo, claro, como el trabajo de un jurado o algo 
+                           semejante. Quise hacer el experimento de reunir esos escritos, mirarlos 
+                           en conjunto e intentar ver qué podría su lectura decirme sobre cómo 
+                           nos hemos apropiado del pensamiento de un grande de la historia de 
+                                                                                                                                                        -
+                           la filosofía. Esta es, pues, la manera como yo leo a aquellos que han in
+                           terpretado a Wittgenstein en la revista. Voy a examinar los escritos en 
+                                                                                                                                                        -
+                           orden cronológico, sin intentar “resumirlos” fielmente, lo cual crea al
+                           gunas dificultades para el lector, pero hacer una sinopsis cuidadosa no 
+                           1    He dejado de lado también traducciones de ensayos previamente publicados en otros 
+                                medios, p. e., el ensayo “Racionalidad y juegos del lenguaje” de F. Latraverse, traducido 
+                                por Magdalena Holguín, vol. 37, n.º 78. De lo que se trata es de mirar cómo hemos leído 
+                                nosotros a Wittgenstein, es decir los que nos encontramos en la periferia de la actividad 
+                                filosófica. Volveré brevemente sobre esto al final del escrito.
+                           2    Muchos de los escritos que voy a discutir son de personas que han sido mis profesores, 
+                                colegas y/o estudiantes, pero voy a referirme a todas y todos por su apellido, guardan-
+                                do la debida distancia como se hace en un escrito académico. También voy a usar el 
+                                masculino gramatical en su uso genérico, como ha sido tradicional. 
+                           departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                                              Leyendo a Wittgenstein desde la periferia                            [177]
+                                 es viable en este número y no es el propósito de este escrito. Aquí van, 
+                                 sin más preámbulos, mis comentarios.
+                                 Ensayo de Carlos B. Gutiérrez
+                                        La primera publicación que encontré específicamente sobre 
+                                 Wittgenstein fue “El solipsismo en Wittgenstein: apreciación crítica 
+                                                                                                                                  3
+                                 desde un punto de vista fenomenológico”, de Carlos B. Gutiérrez. Se trata 
+                                 de un largo ensayo que está publicado en dos partes: la primera, que se 
+                                 centra en la exposición del solipsismo en los escritos de Wittgenstein en 
+                                 los Números 21-22 (1964a), y la segunda, en los Números 23-24 (1964b), 
+                                 que se enfoca en el examen del análisis intencional-fenomenológico 
+                                 de Husserl. Esto con el fin de hacer una crítica desde esa perspectiva 
+                                 filosófica a la manera como el austriaco entiende el solipsismo. Este es 
+                                 un trabajo juvenil de Gutiérrez, realizado en 1961, en la New School of 
+                                 Social Research en Nueva York.
+                                        Lo primero que uno encuentra sorprendente en el escrito es que 
+                                 Gutiérrez trata a Wittgenstein como un positivista lógico y un here-
+                                 dero del empirismo, algo que vicia el contraste que busca hacer entre 
+                                 su filosofía y la husserliana. Así, por ejemplo, al señalar los rasgos co-
+                                 munes que supuestamente comparten Wittgenstein y Husserl, afirma:
+                                               La filosofía positivista adelanta un proceso de reducción a ‘percepcio-
+                                        nes’, Y reducción es también el método fundamental de la Fenomenología: 
+                                        la reducción fenomenológica consiste en pasar de la ‘actitud natural’ a una 
+                                        nueva actitud en la que se logra acceso al campo de la conciencia absolu
+                                                                                                                                             -
+                                        ta. Los dos programas de reducción se basan en el paso de las categorías 
+                                                                                                            4
+                                        objetivas a las ‘percepciones’ mismas. (1964a 17)
+                                        Pero no es verdad que en el Tractatus Logico-Philosophicus (tlp) 
+                                 Wittgenstein se proponga llevar a cabo una reducción a percepciones, 
+                                 a algo semejante a los “sense data” de Russell, el análisis es puramente 
+                                 lógico y la existencia de objetos simples es una presuposición del tlp 
+                                 para concebir que el mundo pueda ser representado por un lenguaje 
+                                 3    Durante el proceso de edición de este artículo he recibido la triste noticia del falle-
+                                      cimiento del profesor Carlos B. Gutiérrez, de quien fui su alumno y luego su colega. 
+                                      Mis sinceras condolencias a su esposa, Margarita Cepeda y a su hijo Carlos Daniel. Yo 
+                                      hubiera querido, ciertamente, que él pudiera responder a mis críticas, pero, aunque 
+                                      eso sea ahora imposible, no he cambiado nada de lo que escribí originalmente, aún si 
+                                      parece un tanto severo.
+                                 4    También en la segunda parte del ensayo Gutiérrez describe repetidas veces a Wittgenstein 
+                                      como un empirista: “el positivismo lógico lo limita [el ámbito de nuestro raciocinio] 
+                                      hasta el punto de afirmar que nosotros no podernos hablar acerca de todas las cosas 
+                                      sino que por el contrario nos tenemos que constreñir a sensaciones” (1964b 105). Esto, 
+                                      por supuesto, es algo que Wittgenstein no afirma.
+                                      ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+          [178]       Jaime Ramos Arenas
+                      combinatorio que, en última instancia, se compone de nombres (cf. Ramos 
+                                                                                                                             -
+                      2003). Este malentendido lleva a confundir el sentido de las observa
+                      ciones de Wittgenstein acerca del solipsismo en tlp. Gutiérrez escribe:
+                                   Los límites de mi lenguaje son los límites de mi mundo. Esta conclu-
+                             sión se basa en el dogma positivista de que toda declaración existencial 
+                             significativa es una declaración acerca de sensaciones: todo lo que uno 
+                             afirme debe ser verificable en función de datos sensoriales. (1964a 21)
+                             Pero esa no es la interpretación correcta. Wittgenstein dice que 
+                      la verdad del solipsismo no puede ser dicha, sino solo mostrada, y se 
+                                                                                          5
+                      muestra en el “hecho” de que los límites de mi  mundo tienen que coin-
+                      cidir con aquellos del lenguaje (cf. tlp 5.62). Como señala Holguín, el 
+                      tlp apunta a que, por razones lógicas, toda experiencia se tiene desde 
+                      un punto de vista que no puede ser representado en ella misma (cf. 1997 
+                      57). El tlp busca evitar el objetivismo; el yo no es un objeto de ningún 
+                      tipo, es un límite infranqueable (cf. Sluga). Este tratamiento que hace 
+                                                                                                                             -
+                      Gutiérrez de Wittgenstein como un empirista es aún más problemá
+                      tico si se toma en cuenta que el autor no está considerando solamente 
+                      al Wittgenstein del tlp, sino que salta, de manera indiscriminada, del 
+                      tlp a Investigaciones filosóficas (if), sin reconocer la ruptura que hay 
+                      en la obra de Wittgenstein.
+                             Más aún, las supuestas semejanzas entre Wittgenstein y la fenome-
+                      nología son forzadas. Las reglas de la constitución de la conciencia en la 
+                      fenomenología son equiparadas, equivocadamente, con la aseveración de 
+                                                                                                                             -
+                      Wittgenstein de que “el lenguaje lógico contiene el orden de posibilida
+                      des comunes al mundo y al pensamiento” (1964a 18). Pero Wittgenstein 
+                      no hace un análisis en términos de la constitución de la conciencia; el 
+                      orden de posibilidades sobre el que se habla aquí es enteramente lógico.
+                             Las imprecisiones de Gutiérrez no se limitan al tlp. Él no ve el giro 
+                      que toma la filosofía de Wittgenstein en los Cuadernos azul y marrón 
+                      (bb), ni tampoco en if. De hecho, Gutiérrez cree que Wittgenstein está 
+                                                                                      6 El apretado y confuso re-
+                      defendiendo el solipsismo en esos escritos.
+                      sumen que hace de los bb está marcado por la confusión que expresa al 
+                      5   ¿Cómo sería concebible desde el lenguaje, cuyos linderos coinciden con los del 
+                          pensamiento, un mundo que no sea pensable desde el mismo? El mundo es mi mundo.
+                      6  Wittgenstein comprende que sería inútil intentar refutar el solipsismo, ¿Cómo sería 
+                          posible hacer eso? Lo que hace es elucidarlo, mostrar cómo el filósofo se mete en ese 
+                          callejón sin salida. En bb muestra cómo el solipsismo constituye una manera diferente 
+                          de hablar, como el solipsista traza el mapa de otro modo, por decirlo así. “Él ve un modo 
+                          de dividir el país diferente del que se usa en un mapa cotidiano […] él podría expresar 
+                          esto diciendo “¿No es absurdo hacer de esto un condado, trazar los límites aquí?” Pero lo 
+                          que dice es “El verdadero Devonshire es este” (bb 57, traducción propia). Análogamente 
+                          el solipsista dice “Solo esto es real.” 
+                      departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                                               Leyendo a Wittgenstein desde la periferia                               [179]
+                                  afirmar “al mismo tiempo que conserva los fundamentos de su solip-
+                                  sismo realístico, Wittgenstein decide aceptar la posibilidad de sentir el 
+                                  dolor de otro y de desarrollar relaciones intersubjetivas en el plano del 
+                                  sentido común” (id. 28).
+                                         Creo que las afirmaciones hablan por sí solas. Wittgenstein no avala 
+                                  allí el solipsismo, pero niega la posibilidad de sentir el dolor de otro, no 
+                                  como una imposibilidad empírica, sino gramatical.
+                                         Por otra parte, refiriéndose a las if dice Gutiérrez: “EI solipsismo 
+                                                                                                                                                 -
+                                  fundamental sigue siendo válido. EI ‘yo’ no es algo real ni algo que ten
+                                  ga que ver con la experiencia. Pero existe, está ahí” (1964a 32). Como él 
+                                  cree que Wittgenstein es solipsista, no entiende lo que este filósofo dice 
+                                                                                                                                                 -
+                                  acerca de los juegos del lenguaje, pues supone que la comunicación in
+                                  tersubjetiva debe ser imposible para aquel. Gutiérrez escribe:
+                                                Wittgenstein no llega a ver, sin embargo, que la noción misma de 
+                                         juego lingüístico presupone una pluralidad de sujetos que se comunican. 
+                                         En las Investigaciones Filosóficas, Wittgenstein trata de reconciliar su po-
+                                         sitivismo con los hechos de la vida diaria por medio de la idea del juego 
+                                         lingüístico. Pero no parece darse cuenta de que una pluralidad de sujetos 
+                                         crea los juegos Lingüísticos, y participa en ellos. (1964a 32)
+                                         No creo, en verdad, que las confusiones en estos párrafos requie-
+                                  ran de más comentario.
+                                         ¿Qué puedo decir? No habíamos empezado bien en el camino de 
+                                                                                                     7
+                                  asimilar el pensamiento del gran filósofo.
+                                  Ensayo de Pablo de Greiff
+                                         Según lo que encontré, pasó más de un cuarto de siglo hasta 
+                                  que se publicó otro artículo en Ideas y Valores específicamente sobre 
+                                  Wittgenstein, “Salvando a Wittgenstein de Rorty: un ensayo sobre los usos 
+                                  del acuerdo” (Vol. 39, Núm. 82), de Pablo de Greiff, doctor en filosofía de 
+                                  Northwestern University. El escrito se centra en argumentar que Rorty 
+                                  malinterpreta el papel de los acuerdos en la filosofía de Wittgenstein y 
+                                  lo hace aparecer, equivocadamente, como un pragmatista.
+                                         De Greiff señala cómo Rorty abandona la teoría de la verdad por 
+                                  correspondencia y adopta un pragmatismo según el cual la justificación 
+                                  del conocimiento es una cuestión de práctica social –en realidad Rorty 
+                                  dice solo estar haciendo aquí eco de la posición de Sellars (cf. 1979 186). 
+                                  No es mi intención discutir aquí la interpretación que De Greiff hace de 
+                                  7    En todos los casos estoy solamente reseñando escritos puntuales, no haciendo juicios 
+                                       de valor sobre la totalidad de la obra de un autor. El profesor Carlos B. Gutiérrez se 
+                                       convirtió luego en discípulo personal de H. G. Gadamer, en presidente de la Sociedad 
+                                       Interamericana de Filosofía y en el filósofo colombiano con mayor presencia internacional. 
+                                       ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [180]   Jaime Ramos Arenas
+               Rorty, seguramente un tanto simplificadora, sino comentar de manera 
+               muy sumaria su lectura de Wittgenstein.
+                   De Greiff resume de la siguiente manera la posición de Rorty: “la 
+               práctica social que define la justificación y la verdad es la formación de 
+                                                                                    -
+               acuerdos de hecho, acuerdos que en sí mismos sólo pueden ser justifi
+               cados pragmáticamente” (1990 54).
+                   Según De Greiff, Wittgenstein diría que la formulación de Rorty 
+               no es enteramente errada, pero es incompleta. El problema residiría en 
+               adoptar un reduccionismo epistemológico que toma la utilidad del co-
+               nocimiento como su criterio fundamental. Wittgenstein, en cambio, 
+               enfatiza “la multiplicidad de maneras en las que el lenguaje se relaciona 
+               con la realidad” (ibid.).
+                                                                                    -
+                   De Greiff, entonces, procede a describir brevemente el que carac
+               teriza como “el argumento” de Wittgenstein del significado como uso. 
+               Esta “teoría” de Wittgenstein se opone a la que De Greiff denomina la 
+               “teoría tradicional”, según la cual, “las proposiciones tienen sentido en 
+               la medida en que nombren objetos del mundo” (id. 55). Esta última se 
+               complementa con una teoría de la verdad por correspondencia. Según 
+               De Greiff esa teoría tradicional es incompleta y se cumple en el juego 
+               del lenguaje del constructor y su asistente, descrito en if, en el que el 
+               uno emite palabras como “bloque” y “viga” y el otro se las trae. Por 
+               otra parte, esa teoría tradicional no puede dar cuenta de un juego del 
+                                                                                    -
+               lenguaje en el que un hablante le pide a un oyente “páseme cinco man
+               zanas rojas”, pues esa orden incluye las expresiones “cinco” y “rojas” 
+                                                                                    -
+               que no nombran objetos (cf. 56). Me parece que aquí hay varias confu
+               siones. La primera es hablar de una “teoría tradicional del significado”, 
+               como si todo el teorizar acerca del significado, desde Aristóteles hasta 
+               Frege, y Russell, pasando por Agustín y Saussure, pudieran meterse en 
+               una sola bolsa de esa manera. La segunda es aseverar que tal teoría no 
+               podría explicar una expresión como “páseme cinco manzanas rojas.” 
+               Las teorías tradicionales distinguen entre nombres y predicados, así 
+               como en ontología se distingue entre objetos y propiedades, y también 
+               muchas teorías distinguen entre significado y referencia, como hace 
+               Frege. Tampoco parece correcto sugerir que una teoría denotativa del 
+               significado, que confunde al portador del nombre con su significado, 
+               en palabras de Wittgenstein (cf. bb 18), pueda explicar bien el juego del 
+               lenguaje del constructor y su asistente pero que, en cambio, un juego 
+               del lenguaje como en el que se le da al tendero la orden “páseme cinco 
+               manzanas rojas” se explique mejor por la teoría del significado como 
+               uso. En ambos casos hay que mirar cómo se están usando las expre-
+               siones y para qué. El constructor no está nombrando la viga al decir 
+               “¡viga!”, la está pidiendo.
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [181]
+                           El desacuerdo de De Greiff con la lectura que hace Rorty de 
+                      Wittgenstein es, en buena medida, una insatisfacción con la interpre-
+                      tación que “la mayoría de los comentaristas”, en sus palabras, hacen del 
+                      tratamiento de Wittgenstein sobre el seguimiento de reglas. De Greiff 
+                      seguramente tiene razón en que Wittgenstein no inaugura una nueva 
+                      forma de escepticismo sobre el seguimiento de reglas, lo que no parece 
+                      tener tan claro es que Wittgenstein hace una reducción al absurdo de 
+                      una manera tradicional de entender el seguimiento de reglas, la cual 
+                      funda el correcto seguimiento de la regla en la interpretación correcta 
+                      del sentido de la misma. Wittgenstein (cf. if §201) apunta a que es po-
+                      sible interpretar la regla de tal forma que cualquier curso de acción se 
+                      haga concordar con ella, por lo cual no es posible fundar el seguimiento 
+                      de reglas en algo así como la interpretación correcta. De Greiff mismo 
+                      cita if: “pero, ¿cómo puede una regla mostrarme lo que debo hacer en 
+                                                                                              -
+                      este punto? Cualquier cosa que haga, de acuerdo con esta interpreta
+                      ción, está de acuerdo con la regla” (cit. en §198), pero no ve cómo podría 
+                      surgir de aquí el problema del escepticismo, posición que Wittgenstein 
+                      nunca acoge.
+                                                                                              -
+                           De Greiff adopta una posición idiosincrática respecto al seguimien
+                      to de reglas según Wittgenstein.
+                           Al respecto señala: “dado que el problema que él [Wittgenstein] 
+                      está tratando es entendido incorrectamente por sus comentaristas, 
+                      no debe sorprender que su presunta solución sea mal re-presentada 
+                                                                                              -
+                      también; el papel de la comunidad y especialmente del acuerdo comu
+                      nitario” (1990 59).
+                           De Greiff niega el carácter esencialmente social de las normas y 
+                                                                                              -
+                      afirma que lo que es fundamental en la conducta reglada es la regula
+                      ridad de la acción y no “las prácticas comunitarias” (id. 60). De Greiff 
+                      tiene razón en que el seguimiento de reglas no presupone un acuerdo 
+                      explícito, una especie de pacto o consenso, por parte de los miembros 
+                      de la comunidad al respecto, pero eso lo lleva a creer equivocadamente 
+                      que el seguimiento de reglas pueda ser enteramente individual:
+                                Aun cuando Wittgenstein niega la posibilidad de seguir una regla una 
+                           sola vez, en §199 no niega la posibilidad de que sólo una persona pueda 
+                           seguir una regla. […] las regularidades que Wittgenstein menciona en la 
+                           última frase de §198 no son necesariamente regularidades sociales, sino 
+                           regularidades en la acción. (id. 61)
+                           Es muy curioso que De Greiff diga eso, pues Wittgenstein retóri-
+                      camente se pregunta “¿Es lo que se llama ‘obedecer una regla’ algo que 
+                      pudiera hacer sólo un hombre y hacerlo sólo una vez en su vida?” (if 
+                      §199), y responde en el mismo parágrafo que seguir una regla es una 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [182]   Jaime Ramos Arenas
+               costumbre, un uso, una institución. Eso, claro, no hace alusión a la re-
+               gularidad en las acciones de un solo individuo.
+                    De la misma manera, las señales de caminos a las que alude 
+               Wittgenstein en if §198 son esencialmente sociales. Nada hay en el ob-
+               jeto físico mismo que sirve de señal, que determine su significado; este 
+               viene dado solo por el uso social.
+                    La concordancia que hace posible el seguimiento de reglas no son 
+                                                                                     -
+               acuerdos en el sentido de consensos que resulten del diálogo, son con
+               cordancias en las prácticas, en las maneras de hacer las cosas. Aunque 
+               no puedo explicarlo aquí en más detalle, me parece injustificado el 
+               rechazo de De Greiff al carácter social de las normas en la filosofía de 
+               Wittgenstein (cf. Ramos 2018).
+                    En cualquier caso, este ensayo sobre Wittgenstein representaba 
+               un positivo “salto cualitativo” con respecto a aquel que lo precedía en 
+               la revista.
+               Ensayo de Magdalena Holguín
+                    Nuestra revista fue relativamente prolífica en la publicación de ar-
+               tículos sobre Wittgenstein en la década de los noventa, cinco en total; 
+               aunque con algún retraso, como sucede siempre entre nosotros, la re-
+               cepción del gran filósofo iba tomando fuerza.
+                    En 1992 Magdalena Holguín, quien fuera profesora del Departamento 
+               de Filosofía de la Universidad Nacional de Colombia y directora de 
+                                                                                     -
+               Ideas y Valores, publicó el ensayo “La filosofía como crítica del lengua
+               je” (Vol. 41, Núm. 87-88). El escrito de la profesora Holguín tiene una de 
+               las mejores prosas de los ensayos que reseño, las ideas de Wittgenstein 
+               son presentadas aquí con una redacción diáfana y precisa. Holguín 
+                                                                                     -
+               señala que la concepción de la filosofía que tenía Wittgenstein se man
+               tuvo fundamentalmente igual a lo largo de la evolución de su trabajo. 
+               La filosofía consistiría en “crítica del lenguaje”, entendiendo por esta 
+               la tarea de describir los usos concretos del lenguaje como método para 
+               señalar la aplicabilidad de los conceptos, en lo cual reside el significado 
+               de los mismos (cf. 11). La mala comprensión del lenguaje es la principal 
+                                                                                     -
+               fuente de nuestras confusiones filosóficas y allí reside el interés del fi
+               lósofo en el mismo. El escrito pasa rápidamente por el desarrollo que 
+               hace Wittgenstein en tlp del análisis lógico del lenguaje adelantado por 
+               Russell y, sin desarrollar la idea, menciona la metáfora de Bouveresse 
+               del método del tlp como “topológico”, pues asigna distintos lugares 
+                                                                                     -
+               a las diversas clases de proposiciones. Me parece que Holguín mini
+               miza el paso del pensamiento de Wittgenstein desde el tlp a la obra 
+                                                                                     -
+               que desarrolló a partir de la década de los treinta. No se hace suficien
+               te énfasis sobre las diferencias entre el análisis lógico del lenguaje del 
+               tlp y el análisis gramatical que le siguió. Por otra parte, Holguín hace 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [183]
+                      un buen trabajo en aclarar el sentido filosófico que tiene la actividad 
+                      de clarificación conceptual que Wittgenstein adelanta, defendiéndola 
+                                                                                              -
+                      de las críticas de que incurre en un supuesto reduccionismo lingüísti
+                      co. También es esclarecedora la manera como se explica la distinción 
+                      entre la labor de la filosofía y el trabajo científico, dejando claro que 
+                      Wittgenstein no se propone hacer “una crítica de la ciencia y de sus 
+                      desarrollos tecnológicos, como tampoco la intención, explícita o no, de 
+                      subordinar los intereses teóricos de la ciencia a los de la filosofía” (1992 
+                      12). Se hace alusión a la distinción que hace Wittgenstein entre explicar 
+                      causalmente un fenómeno y dar razón de algo y en conexión con ello 
+                      la distinción entre explicación (causal) y descripción. Tal vez vale la 
+                      pena aclarar que la descripción no es un fin en sí misma, se describen 
+                                                                                              -
+                      diferencias para evitar malas analogías, por ejemplo, para evitar extra
+                      polaciones injustificadas. Además, Holguín, quizás, exagera un tanto lo 
+                                                                                              -
+                      enteramente novedoso que es el método de Wittgenstein, con respec
+                      to a los filósofos que le anteceden. Es verdad que los filósofos cayeron 
+                      muchas veces en el “ansia de generalidad”, en la búsqueda de patrones 
+                      y leyes generales, a la manera del método científico, pero también es 
+                      claro que fue una labor tradicional de la filosofía, por lo menos desde 
+                      Platón, la clarificación conceptual, el trabajo mismo sobre los concep-
+                      tos, aun si en el desarrollo de esa tarea se cayó en muchos casos en un 
+                      esencialismo, por ejemplo, Platón otra vez. En cualquier caso, muchos 
+                      filósofos fueron también antiesencialistas, y ese no puede ser el rasgo 
+                      distintivo de la filosofía wittgensteineana. No puedo entrar aquí a re-
+                      construir una discusión que tuvimos hace muchos años con la profesora 
+                      Holguín, en una mesa redonda en la Universidad Nacional, acerca de 
+                      qué tanta continuidad hubo entre la labor filosófica de Wittgenstein y 
+                                                                                              -
+                      la de la tradición filosófica, y en qué medida Wittgenstein mismo tam
+                      bién da argumentos a favor de ciertas maneras de ver las cosas, y si es 
+                      lícito o no “describir” como puramente descriptiva su labor, a pesar de 
+                      lo que él mismo diga al respecto. Después de todo, dar razones para algo 
+                      es una forma de argumentar, y en ciertos casos una descripción puede 
+                      ser usada como una explicación (cf. Davidson 1963), aun si no tiene el 
+                      carácter conjetural y verificable de las explicaciones causales. Aunque 
+                                                                                              -
+                      ahora soy aún más afín al pensamiento de Wittgenstein que en ese en
+                      tonces y creo que entiendo mejor su proceder (algunos somos un poco 
+                      más lentos que otras) sigo pensando que la distinción entre lo empírico 
+                      y lo conceptual es problemática (cf. Ramos 2020) y que Wittgenstein 
+                      mismo dejó varios cabos sueltos a este respecto.
+                           Por otra parte, vale la pena mencionar la distinción a la que hace 
+                      alusión Holguín acerca del carácter concreto, pero no empírico, de las 
+                      reglas que rigen la aplicación de los conceptos. “No se trata, por supues-
+                      to, de identificar particularidades empíricas de los usos lingüísticos. La 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [184]   Jaime Ramos Arenas
+               exigencia de contextualización se limita a situar los análisis realizados 
+                                                                                    -
+               en lo concreto” (1992 17). A continuación, señala un tanto crípticamen
+               te, que es la confusión entre lo concreto y lo empírico la que lleva a 
+               Tugendhat a describir el método de Wittgenstein como “empírico” y a 
+               Kripke a sostener un supuesto escepticismo acerca del seguimiento de 
+               reglas en la obra del austriaco. No se explica aquí la distinción ni se de-
+               sarrolla la polémica. En su breve, pero iluminador libro Wittgenstein y 
+               el escepticismo (1997), Holguín sugiere una analogía entre la manera en 
+               que Wittgenstein entiende las reglas y la noción de esquema por parte 
+               de Kant. Los esquemas no tienen la especificidad de la imagen, pero 
+               mantienen una referencia a lo sensible, “representando solo aquellos 
+               rasgos generales que posibilitan una aplicación de mayor alcance a lo 
+                                                                                    -
+               empírico” (Holguín 1997 82). A su vez, para Wittgenstein la regla ten
+               dría una conexión interna con la situación fáctica en la cual se aplica. 
+               La analogía también se apoya en el uso que el propio Wittgenstein hace 
+               de las nociones de esquemas y paradigmas en Observaciones sobre los 
+               fundamentos de las matemáticas (ofm). Queda pendiente, sin embargo, 
+               el interrogante de hasta qué punto esa distinción al estilo kantiano esté 
+               disponible para Wittgenstein, a menos que su filosofía adopte, de algún 
+               modo, un punto de vista trascendental. El ensayo de Holguín muestra 
+               una genuina asimilación del pensamiento de Wittgenstein, uno percibe 
+               que se lo ha apropiado a profundidad, a pesar de que el escrito no arries-
+               gue demasiado y no desarrolle los asuntos más controversiales, como su 
+               desacuerdo con Kripke y Tugendhat, lo cual hubiera sido enriquecedor.
+               Ensayo de Jairo Iván Peña
+                   Un año después de aparecer el ensayo reseñado, Jairo Iván Peña, 
+               de la Facultad de Derecho de la Universidad Nacional de Colombia, 
+               publicó “Wittgenstein y el debate sobre la fundamentación de la mate-
+               mática” (Vol. 42, Núm 92-93).
+                   El escrito, relativamente largo, no se centra exclusivamente en el 
+                                                                                    -
+               debate sobre la fundamentación de la matemática, como su título su
+               giere, sino que recoge observaciones de Wittgenstein acerca del carácter 
+               tautológico de la lógica y la matemática, la arbitrariedad de las reglas, 
+               las observaciones de Wittgenstein sobre seguir una regla, los axiomas 
+               de la geometría como reglas sintácticas, la noción de demostración, el 
+                                                                                    -
+               intuicionismo, el teorema de Gödel, y demás. Aunque el autor cierta
+               mente está bien familiarizado con la bibliografía relevante, el ensayo 
+               es un tanto desarticulado, saltando de un asunto a otro sin establecer 
+               los nexos necesarios. Peña dedica un poco más de las cinco páginas 
+               iniciales del ensayo a narrar anécdotas biográficas de Wittgenstein y 
+               a transcribir largas citas de los elogios que Russell y otros hacían del 
+               genio de este. Finalmente, en la sexta página (cf. 137) cita en bloque 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [185]
+                      siete proposiciones del tlp entre 6.1 y 6.22, algunas acerca de que las 
+                      proposiciones de la lógica son tautológicas y no dicen nada acerca del 
+                      mundo. Pero la cita incluye también otras proposiciones que versan 
+                      sobre asuntos conexos pero distinguibles, como que “la matemática es 
+                      un método lógico” (6.1222) y que “la matemática muestra la lógica del 
+                                                                                              -
+                      mundo” en sus ecuaciones (cf. 6.2). Todo esto se comenta de manera ex
+                      cesivamente general a continuación. De hecho, Peña tiene la costumbre 
+                      de citar varias proposiciones en bloque. Ya en la página siguiente (cf. 
+                      138), él cita conjuntamente varios parágrafos de ofm acerca de cómo 
+                      las proposiciones de la matemática juegan el papel de reglas sobre la 
+                      transformación de signos, y no el papel de descripciones. La cita, sin 
+                      embargo, mezcla eso con una observación de Wittgenstein, copiada 
+                      por Waisman, en el sentido de que lo que se coteja con la realidad es 
+                      todo un sistema proposicional, no una proposición por sí sola y una 
+                      afirmación en Philosophical remarks (pr §82), en el mismo sentido, el 
+                      de que las proposiciones forman un sistema. Sin embargo, esas últimas 
+                      dos citas introducen un asunto nuevo y no hay una razón válida para 
+                      pegar todo de esa manera.
+                           En ocasiones el autor parafrasea equivocadamente a Wittgenstein, 
+                      cambiando el sentido de lo que él dice. Así, por ejemplo, Peña afirma: 
+                      “máxime si se tiene en cuenta que lo que ha de ser estimado como 
+                                                                                              -
+                      prueba suficiente de un enunciado pertenece a la lógica, así como tam
+                      bién pertenece a ésta todo lo que describe un juego del lenguaje (C 82, 
+                      546)” (144). Pero en Sobre la certeza (sc), §82, Wittgenstein no dice que 
+                      pertenezca a la lógica todo lo que describe un juego de lenguaje. Dice 
+                      que lo que debe ser considerado como prueba suficiente pertenece a la 
+                      descripción de un juego de lenguaje (el de hacer pruebas, presumible-
+                      mente). Por qué, además, se hace también ahí referencia al parágrafo 
+                      546 de la misma obra, que versa sobre cuando digo que sé el nombre de 
+                      un color, es un misterio para mí.
+                           El ensayo dedica aproximadamente cinco páginas (cf. 137-142) al 
+                                                                                              -
+                      asunto de las reglas y su seguimiento, pero la exposición es entrecor
+                      tada y poco clara. Peña cita conjuntamente cinco apartes de distintas 
+                      páginas de ofm y de Zettel (cf. 139-140), no las comenta en lo absoluto 
+                      y lo que escribe a continuación, a saber, “en una conducta reglada se 
+                      da la polaridad normativa entre lo correcto y lo incorrecto. Una regla 
+                      determina lo que se debe hacer y determina a la vez lo que no se debe 
+                      hacer” (140), no se sigue de nada de lo que ha citado. De hecho, esta es 
+                      una formulación poco feliz de la idea de que solo puede hablarse de 
+                      una conducta reglada allí donde podemos hacer la distinción entre una 
+                      manera correcta y una manera incorrecta de realizarla (cf. Winch 58).
+                           No me parece tampoco acertada la analogía que hace Peña entre 
+                      las consideraciones de Wittgenstein acerca del seguimiento de reglas y 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+           [186]        Jaime Ramos Arenas
+                        las reglas consuetudinarias en la tradición jurídica. “Las alusiones que 
+                        aquí se consignan en tomo a ‘seguir la regla’ se aproximan bastante a la 
+                        caracterización que, desde el punto de vista jurídico, se plantean respecto 
+                                                                                                                                       -
+                        de la costumbre entendida como fuente de Derecho” (140). Eso segura
+                        mente no es correcto. Considerar la costumbre como fuente de derecho 
+                        es entenderla como una clase de norma, norma consuetudinaria, junto 
+                        con aquellas que explícitamente consagre el legislador. Wittgenstein, 
+                        en cambio, considera que las reglas son fundamentalmente usos, cos-
+                        tumbres, prácticas. Son esas prácticas las que permiten hacer sentido 
+                        de los enunciados que buscan formular la regla. Esas formulaciones 
+                        lingüísticas de las reglas no tienen un sentido por sí solas, dependen 
+                        de las prácticas que les dan sentido (cf. Ramos 2018).
+                               Finalmente, después de 15 páginas, Peña señala correctamente que 
+                        Wittgenstein se sustrae el debate tradicional sobre la fundamentación de 
+                        las matemáticas y “según su criterio la matemática necesita tan poco de 
+                        una fundamentación como las proposiciones que tratan de objetos físicos 
+                        o las que tratan de impresiones de los sentidos” (148). Esto es en verdad 
+                                                                                                                                       8
+                        una cita textual de Wittgenstein (ofm 319) y debería ir entre comillas.
+                               En todo caso, la exposición misma de las observaciones de 
+                                                                                                                                       -
+                        Wittgenstein acerca de los fundamentos de las matemáticas es poco ilu
+                        minadora y, en algunos casos, por ejemplo, acerca del teorema de Gödel, 
+                        se hacen citas que no se contextualizan o explican de ningún modo.
+                        Ensayo de Victor Krebs
+                               En 1996 el filósofo Víctor Krebs, de la Pontificia Universidad 
+                        Católica del Perú, publica su ensayo “El naturalismo trascendental del 
+                        último Wittgenstein” (Vol. 45, Núm. 100) A pesar de las objeciones 
+                        que voy a hacerle, el escrito de Krebs tiene el mérito de proponer una 
+                                                                                                                                       -
+                        interpretación original del pensamiento de Wittgenstein. Krebs em
+                        pieza delineando “dos tendencias aparentemente incompatibles” en 
+                        la obra de Wittgenstein, por una parte, su naturalismo y, por otra, su 
+                        trascendentalismo. El naturalismo reside en (1) identificar los fenóme-
+                        nos naturales como sus objetos de estudio, (2) describir su labor como 
+                        la tarea de hacer historia natural y (3) su repudio de la metafísica (cf. 
+                        62). A continuación, Krebs presenta unas citas de if que supuestamente 
+                        contrarían ese naturalismo. A saber, cuando Wittgenstein señala que 
+                        su investigación no se dirige hacia el estudio de los fenómenos sino de 
+                        las “posibilidades de los fenómenos” (if §90) y que: “no hacemos ciencia 
+                        natural; tampoco historia natural –dado que también nos podríamos 
+                        8   Peña obviamente le da crédito a Wittgenstein, lo que sucede es que parece que estuviera 
+                            parafraseando cuando en realidad está citando. Lo mismo hace cuando cita sin comillas 
+                            (144 cit.en. ofm).
+                        departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [187]
+                      inventar una historia natural para nuestras finalidades” (if ii-xii 523). 
+                      Para empezar, se debe aclarar que Wittgenstein no dice que los fenóme-
+                      nos naturales sean su objeto de estudio, lo que dice el parágrafo de if 
+                      que Krebs menciona como soporte de eso es que: “lo que proporciona-
+                      mos son en realidad observaciones sobre la historia natural del hombre; 
+                      pero no curiosidades, sino constataciones de las que nadie ha dudado, y 
+                      que sólo se escapan a nuestra noticia porque están constantemente 
+                                                                                              -
+                      ante nuestros ojos” (§415). Se trata de “observaciones”, seguramente gra
+                      maticales, sobre la historia natural del hombre. Pero, además, se trata 
+                      de la “historia natural” del hombre –que incluye cosas como ordenar, 
+                      preguntar, relatar, charlar, (cf. if 25)–. Esas prácticas son naturales del ser 
+                      humano en cuanto tal, en cuanto ser social, no en cuanto ser meramente 
+                      biológico. En apoyo a la interpretación de la labor filosófica como histo-
+                      ria natural, Krebs también cita: “la filosofía meramente expone todo y 
+                      no explica ni deduce nada. Puesto que todo yace abiertamente, no hay 
+                      nada que explicar. [L]o que acaso esté oculto, no nos interesa” (if §126).
+                           Pero eso que la filosofía expone son nuestros juegos del lenguaje, 
+                      nuestras prácticas regladas y esa tarea es gramatical. Krebs tiene razón 
+                      en que hay una cierta tensión entre el naturalismo de Wittgenstein y 
+                                                                                              -
+                      su concepción de la filosofía como aclaración gramatical. Como seña
+                      la Garver, “on the face of it, natural history seems a completely different 
+                      subject from grammar, and yet Wittgenstein´s remarks imply a kind of 
+                      identity between them” (140). Así pues, la descripción de nuestros juegos 
+                      del lenguaje sirve un propósito gramatical, clarificar los usos de nuestro 
+                      lenguaje y evitar las confusiones que llevan a malentendidos filosóficos. 
+                      Wittgenstein no busca una explicación causal (histórica) de nuestros 
+                      juegos del lenguaje, tales juegos pueden tomarse como algo dado (como 
+                      parte de nuestra historia natural). Pero es precisamente porque la des-
+                      cripción de esos juegos sirve para propósitos de clarificación conceptual 
+                      que ellos pueden ser sustituidos por juegos ficticios. En cualquier caso, 
+                      Krebs tiene razón y hay aquí una cuestión discutible.
+                           La tesis más cuestionable del escrito de Krebs es que Wittgenstein 
+                      sostiene un trascendentalismo robusto. Según dice, se puede encontrar 
+                                                                                              -
+                      en Wittgenstein “la postulación de la necesidad de una síntesis trascen
+                      dental como condición necesaria del lenguaje” (69). Krebs sostiene que 
+                      hay una analogía sustantiva entre la reflectio en Kant y la aprehensión 
+                      precognitiva de las reglas según Wittgenstein:
+                                Henrich explica que detrás de nuestra aplicación consciente de las 
+                           categorías hay una operación implícita que manifiesta lo que Kant llama 
+                           ‘reflectio’. La deducción nos muestra, en efecto, que hay ciertos entendi
+                                                                                              -
+                           mientos implícitos que están activos detrás de la conciencia, sin los cuales 
+                           no podríamos tener experiencias conscientes. (68)
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [188]   Jaime Ramos Arenas
+                   ¿Cómo justifica Krebs afirmar que Wittgenstein también cree que 
+               se presenta una “operación implícita”, una “síntesis de representaciones 
+               fundamentada a priori” (69) cada vez que aprehendemos una expresión 
+               lingüística? Ciertamente no porque Wittgenstein diga algo semejante 
+               en algún escrito.
+                   Krebs está en lo correcto al sostener que puede encontrarse en los 
+               escritos de Wittgenstein algo semejante a una “dimensión pre-cognitiva 
+                                                                                    -
+               [que] subyace a nuestras prácticas lingüísticas” (68). Algo que no es lin
+               güístico y hace posible “inferir, contar, seguir el índice en una dirección 
+               en lugar de la opuesta, etc.” (ibd.). Pero no hay razón para pensar que 
+               se trate de una oculta operación de reflectio.
+                                                                                    -
+                   Las coincidencias en los seres humanos que les permiten ver cier
+               tas cosas como semejantes, que les permiten contar de cierta forma y 
+                                                                                    -
+               comunicarse, no son acuerdos de opinión, sino formas de vida com
+               partidas (cf. if §241). Se trata de ciertas formas de actuar compartidas, 
+               algunas de las cuales quizás provienen meramente de nuestro hecho 
+               de ser humanos, como mirar en cierta dirección que apunta el índice 
+               y otras que provienen de cierta formación, de crecer en cierto medio, 
+                                                                                    -
+               de ser adiestrados de cierta manera. Krebs hace alusión a las “eviden
+               cias imponderables” (71) que se desprenden de nuestra sensibilidad 
+               común. Aparentemente se refiere a lo que dice Wittgenstein cuando 
+               escribe, por ejemplo:
+                        Entre las pruebas imponderables se cuentan las sutilezas de la 
+                   mirada, del gesto, del tono de la voz. Puedo reconocer la mirada au-
+                   téntica del amor, distinguirla de la falsa (y naturalmente puede haber 
+                   aquí una confirmación ‘ponderable’ de mi juicio). Pero puedo ser com-
+                   pletamente incapaz de describir la diferencia. (if ii-xi)
+                   Pero tal saber imponderable bien puede explicarse por un habitus 
+               compartido que, como explica Bourdieu (2007), es un conjunto de dis-
+               posiciones estructuradas por el medio en que crecemos y que a su vez 
+               estructuran nuestras percepciones y nuestros pensamientos.
+                   Así pues, no son ciertas experiencias o intuiciones reflexivas las 
+                                                                                    -
+               que están a la base de nuestras actitudes comunes, sino prácticas com
+               partidas. Como dice Wittgenstein en Sobre la certeza (sc), “Y escribe 
+               con confianza: ‘En el principio era la acción’” (§402). Es curioso que 
+               Krebs no mencione esta obra de Wittgenstein que es fundamental para 
+               el tópico que trata. Allí Wittgenstein señala que actuamos con base en 
+               ciertas certezas que constituyen algo semejante al lecho del río, el canal 
+               sobre el que fluyen las proposiciones empíricas (cf. sc §96), esa “imagen 
+               de mundo [es] el trasfondo que me viene dado y sobre el cual distingo 
+               entre lo verdadero y lo falso” (id. §94).
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [189]
+                      Ensayo de Alejandro Gordillo
+                           En if Wittgenstein afirma que hay un objeto del cual no puede de-
+                      cirse ni que mida un metro de longitud ni que no lo haga, no porque 
+                      el objeto tenga alguna propiedad física especial, sino por el papel pe-
+                      culiar que tiene en el juego del lenguaje de medir (cf. if §50). Se trata, 
+                      como es sabido, del metro patrón que se conservaba en París. Alejandro 
+                      Gordillo, egresado de la Universidad Nacional de Colombia, afirma que, 
+                      Wittgenstein está equivocado en el estatus especial que le da al patrón, 
+                      como intenta argumentar en su ensayo “¿Puede o no decirse del me-
+                      tro patrón que tiene 1 metro?” (Vol. 46, Núm. 105). Está muy bien, por 
+                      supuesto, hacer críticas a Wittgenstein como a cualquier otro filósofo, 
+                      pero debo decir que no entendí la crítica de Gordillo.
+                                ¿Cómo verificaría A si su cinta métrica está bien calibrada, cuando 
+                           tiene a su disposición el metro patrón?, y ¿qué expresiones usaría para 
+                           comunicamos el resultado de esa verificación? Es simple. Basta con que 
+                           mida el calibraje de la cinta con el metro patrón, yuxtaponiéndola a éste, 
+                           […] O, en otras palabras, basta con que mida la longitud del metro patrón 
+                           con la cinta, y nos exprese el resultado de esta medición especificando en 
+                           metros esa longitud; así, cuando A nos diga: “El metro patrón tiene 1,02 
+                           metros según mi cinta”, esta oración, primero, significará que esa cinta 
+                           está mal calibrada. (53-54)
+                           Nótese a la confusión que lleva el decir aquí “o en otras palabras”, 
+                      porque después de ellas pasa a hablar de medir el metro patrón y antes 
+                      estaba hablando de medir la cinta de A con el metro patrón. ¿Pero cuál 
+                      es el resultado de medir supuestamente el metro patrón? Que según mi 
+                                                                                              -
+                      cinta el metro patrón mide 1.02 m, es decir, que mi cinta está mal cali
+                      brada. Pero eso no es sino un simulacro inútil de medir el metro patrón.
+                           Gordillo recae una y otra vez en la confusión: “¿Cómo verifica A 
+                      si su cinta está bien calibrada?” puede responderse tanto: ‘Midiéndola 
+                      con el metro patrón’, como: ‘Midiendo con ella el metro patrón’” (54). 
+                      Pero sencillamente no es verdad que se verifique si la cinta de A está 
+                                                                                              -
+                      bien calibrada “midiendo con ella el metro patrón.” Ahí no se está mi
+                      diendo el metro patrón. No voy a ahondar más en este asunto, pero no 
+                                                                                              -
+                      puedo dejar de preguntarme cómo fue aprobado el ensayo para su pu
+                      blicación en la revista.
+                      Ensayo de Felipe Castañeda
+                           El nuevo milenio llegó con más ricas y especializadas interpretacio-
+                      nes del pensamiento de Wittgenstein. Felipe Castañeda, de la Universidad 
+                      de los Andes en Bogotá, publicó en 2002 “Arbitrariedad y posibilidad 
+                                                                                              -
+                      de alteración de lenguajes en Wittgenstein” (Vol. 51, Núm. 118). El en
+                      sayo explora la posible significación de la afirmación de Wittgenstein 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+          [190]       Jaime Ramos Arenas
+                      de que las reglas gramaticales son arbitrarias y cómo se compagina esto 
+                      con las transformaciones que va presentando el lenguaje. Castañeda se 
+                      centra, aunque no exclusivamente, en los escritos wittgensteineanos 
+                      de la llamada “etapa intermedia”, 1930-1935, que él conoce muy bien. 
+                      Como señala el autor, Wittgenstein considera arbitrarias las reglas de la 
+                      gramática del lenguaje, pues esas reglas constituyen los significados de 
+                      las expresiones en determinados contextos, y no tienen que responder 
+                      por un significado que exista con independencia de ellas (cf. pg §133). 
+                                                                                                                         -
+                      Wittgenstein hace una comparación particularmente ilustrativa, a di
+                      ferencia de las reglas de la culinaria que pueden juzgarse con base en 
+                                                                                                                         -
+                      la calidad de los platillos que se obtengan con ellas, las reglas de la gra
+                      mática, como las de los juegos, no se pueden juzgar a partir de qué tan 
+                      bien cumplan con los fines del lenguaje, pues este no se define a partir 
+                      de una finalidad específica (cf. ibd.)
+                            Al respecto, Castañeda señala: “si el lenguaje no se entiende como 
+                      un medio de comunicación, entonces no se lo puede evaluar en relación 
+                      con el cumplimiento de sus fines” (58).
+                            Yo diría, más bien, que el lenguaje puede usarse como medio de 
+                      comunicación, pero también puede usarse con otros propósitos.
+                            Castañeda examina la semejanza del lenguaje con respecto a los 
+                      juegos, en particular, respecto a la manera como las reglas (constitutivas) 
+                      determinan qué juego específico se está jugando. Wittgenstein quizás 
+                      no es muy específico acerca de la noción de “constitución” y Castañeda 
+                      afirma, seguramente con razón, que puede establecerse una analogía 
+                      con la distinción que hace Searleentre reglas constitutivas y regulativas 
+                                                     9
+                      de un juego (cf. 1969).  Sin embargo, él mismo no deja la noción muy 
+                      clara y dice cosas como que las reglas del juego lo “generan”, como si 
+                      eso fuera sinónimo con constituirlo (cf. Castañeda 59). Pero, claro, las 
+                      reglas mismas no generan un juego, a partir de las puras reglas nunca se 
+                                                                                                                         10
+                      da vida a un juego en la realidad. Las reglas no tienen ese poder causal.
+                      9   Un juego existe con independencia de sus reglas regulativas, uno está manejando un 
+                          vehículo, aun cuando viole las reglas de tránsito. Pero el juego no existe con indepen-
+                          dencia de sus reglas constitutivas.
+                      10  La noción de constitución tiene cierta precisión en lingüística (cf. Fodor, Bever & 
+                          Garrett) y también en el lenguaje jurídico. Una oración está constituida por un sintagma 
+                          nominal y un sintagma verbal que a su vez están constituidos por un nombre, etc. Se 
+                          determinan los constituyentes a través de un análisis de la estructura gramatical de la 
+                          oración. Una palabra, por otra parte, no es un constituyente de una oración, desde el 
+                          punto de vista estructural esa es una categoría irrelevante. La noción de constitución 
+                          no es semejante tampoco a la de todo y parte. Confusiones acerca de la constitución 
+                          de una estructura lleva a errores categoriales, en la terminología de Ryle. Las ligas se 
+                          constituyen a partir de equipos, que tienen como miembros a jugadores, que a su vez 
+                          tienen piernas. Pero ni las ligas ni los equipos tienen piernas. 
+                      departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [191]
+                           Castañeda señala que la arbitrariedad de las reglas del lenguaje, en 
+                      virtud de la cual ellas no tienen que responder por un significado que 
+                      exista independientemente, implica que tampoco tengan ellas que res-
+                      ponder “por ninguna realidad” (id. 64). ¿Qué significa, precisamente, 
+                      decir eso? Castañeda empieza a explicarlo haciendo una analogía con 
+                      los juegos:
+                                Las jugadas no pueden dar razón del juego mismo pensando en aque-
+                           llo que lo hace posible, es decir, en sus reglas. De esta manera, la práctica 
+                           concreta que resultó del seguimiento de las reglas no justifica las reglas. 
+                           Pero como esa práctica se puede entender asimismo como la realidad 
+                           del juego, como aquello en lo que realmente se concretó la totalidad del 
+                           juego, entonces las reglas resultan arbitrarias frente a esa realidad. (64)
+                           Esto resulta un tanto confuso. En primer lugar, esto hace aparecer 
+                                                                                              -
+                      a las reglas como teniendo una existencia independiente de las prác
+                      ticas concretas. Pero las reglas no son meros enunciados, son, como 
+                      mencioné antes, usos, instituciones, prácticas sociales. Las reglas del 
+                      juego no se justifican a partir de las jugadas que efectivamente se hagan 
+                      en los juegos, pero pueden deducirse a partir de las mismas. Es decir, 
+                      efectivamente existe una concordancia entre las reglas del juego y la 
+                      manera como se juega (de lo contrario las reglas serían, como se dice, 
+                      “letra muerta”). Lo dicho en el texto no deja, pues, muy claro el asunto 
+                      de la arbitrariedad frente a la realidad.
+                           Castañeda pasa entonces al caso del lenguaje mismo y señala co-
+                      rrectamente la arbitrariedad de las reglas en el sentido de que ellas no 
+                      pueden justificarse argumentando que de su aplicación se sigan pro-
+                      posiciones que describan al mundo como en verdad es (cf. ibd.). Sin 
+                      embargo, su presentación de la explicación es enrevesada:
+                                Si se quiere justificar la gramática de cierto lenguaje a partir de la 
+                           descripción de mundo que es posible por otro lenguaje, a su vez la de este 
+                           último debe responder a su vez por otra gramática, llevaría a una regre-
+                           sión en la cadena de justificaciones, o a suponer que el asunto está mal 
+                           planteado desde un principio. (Castañeda 67)
+                           No es clara la alusión que se hace a la descripción del mundo que 
+                      puede hacerse por otro lenguaje. Wittgenstein, en un parágrafo que 
+                      el mismo Castañeda cita (68), es en cambio bastante claro al respecto:
+                                Las reglas de la gramática no pueden justificarse mostrando que 
+                           su aplicación haga que una representación concuerde con la realidad. 
+                           Porque esta justificación tendría, ella misma, que describir lo que es re-
+                           presentado. ¿Y si algo puede ser dicho en la justificación y es permitido 
+                           por su gramática—por qué no sería también permitido por la gramática 
+                           que estoy tratando de justificar? (pg §134)
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [192]   Jaime Ramos Arenas
+                    Castañeda señala que, dada la arbitrariedad de las reglas, no pue-
+               den explicarse las transformaciones que sufre el lenguaje diciendo que 
+               se busca hacerlo más “ajustado a la situación social en que está inscrito” 
+               (58). Busca entonces alternativas que expliquen los cambios que presenta 
+               históricamente el lenguaje.
+                                                                                     -
+                    El autor examina la posibilidad de que se vayan generando sublen
+               guajes dentro de un lenguaje, los cuales hagan uso de un subconjunto 
+               de las reglas de este último (cf. id. 71). El sublenguaje puede verse como 
+               compartiendo la misma gramática del lenguaje total, pero haciendo 
+               solo un uso parcial de esta. Esos sublenguajes pueden verse como parte 
+               del lenguaje total o como juegos de lenguaje, ellos mismos completos.
+                    Curiosamente, Castañeda dice, entonces, que una segunda po-
+               sibilidad es que “hay lenguajes que obedecen a reglas explícitas, en el 
+               sentido en que el uso de todas sus expresiones está de antemano estable-
+               cido por una gramática que en principio conocen todos sus hablantes” 
+               (72). Se refiere a lenguajes artificiales como, por ejemplo, los lenguajes 
+               formalizados. No es claro en qué sentido sea esto una alternativa para 
+               explicar las transformaciones del lenguaje, asumo que se refiere a la 
+               manera como paulatinamente se van creando lenguajes artificiales, el 
+               lenguaje de la química, de la lógica de primer orden, etc.
+                    No puedo aquí examinar todas las alternativas que el autor presenta, 
+               pero quiero mostrar un punto más general. Por una parte, Castañeda 
+               afirma que “no se puede plantear que un determinado lenguaje se pue-
+               da alterar a sí mismo en la medida en que no cumpla con su finalidad” 
+               (70) y, por otra parte, sostiene que él “no se pregunta por posibilidades 
+                                                                                     -
+               externas de cambio, es decir, por aquellas que se puedan establecer in
+               dependientemente de las relaciones que se dan entre sistemas de reglas 
+               y jugadas o significados constituidos” (70-71).
+                    Parecería que el autor, sin proponérselo, concibe el lenguaje como 
+               un sistema de reglas cerrado, como algo semejante a los axiomas de un 
+               cálculo lógico, que fundamentan la derivación de los teoremas, y se 
+               pregunta cómo se relaciona este con algo externo al mismo, la realidad, 
+               la cual incluye los usos mismos del lenguaje, las jugadas. Téngase en 
+               cuenta que, aún en un cálculo lógico, la derivación de teoremas cons-
+               tituye jugadas dentro del cálculo. Es decir, el lenguaje no corresponde 
+                                                                                     -
+               solamente a los axiomas, sino a la realización de derivaciones. La con
+               cepción de las reglas lingüísticas como el conjunto de axiomas hace 
+                                                                                     -
+               aparecer al lenguaje como algo pétreo, estático, que tiene una existen
+               cia distinguible de sus usos. Quizás por eso le parece tan problemático 
+               a Castañeda que el lenguaje pueda transformarse convenientemente 
+               con los cambios que va presentando la realidad humana y social. Pero 
+                                                                                     -
+               esto es ajeno a la manera como Wittgenstein concibe los juegos de len
+               guaje. Wittgenstein diluye la línea divisoria entre lo lingüístico y lo 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                                                        Leyendo a Wittgenstein desde la periferia                                      [193]
+                                      no lingüístico. Cuando alguien me dice en el bus “¡permiso!” y yo me 
+                                                                                                                                                                -
+                                      corro, ambas son jugadas dentro de un mismo juego del lenguaje; cuan
+                                      do le pregunto a alguien “¿tiene un cigarrillo?”, y ella saca la cajetilla y 
+                                      me ofrece uno, ambas cosas son jugadas dentro del juego de lenguaje. 
+                                      Los juegos de lenguaje están completamente entretejidos con el resto 
+                                      de la vida humana, y no parece haber ninguna porción de ella, en la 
+                                      cual haya alguna significación, en la que no esté presente un juego del 
+                                      lenguaje u otro. Preguntarnos cómo cambian esos juegos, cómo unos 
+                                      desaparecen y otros se originan, es preguntarnos por la dinámica de 
+                                                                           11
+                                      la vida social misma.
+                                      Ensayo de Sabine Knabenschuh
+                                             Pero pasemos ahora al ensayo “Multiplicidad y conocimiento: alcan-
+                                      ces y trasfondos de un concepto wittgensteineano” (Vol. 52, Núm. 121), 
+                                      que publicó la filósofa Sabine Knabenschuh de la Universidad de Zulia 
+                                      en Venezuela. Este quizás sea el ensayo más erudito y complejo sobre 
+                                      Wittgenstein que ha aparecido en la revista (2003). Lo que es verdad de 
+                                      todos los ensayos que estoy comentando aquí, se hace aún más patente 
+                                      en este caso, no hay manera de hacerle justicia a un ensayo como este 
+                                      en unas breves líneas, pero recuérdese que mi propósito es hacernos 
+                                      una idea sobre la apropiación del pensamiento de Wittgenstein en la 
+                                      revista como un todo, por lo cual mi estrategia es ver las cosas a grandes 
+                                      rasgos, como se presentan vistas desde cierta distancia.
+                                             La autora enfoca su atención en el concepto wittgensteineano de 
+                                                                                                                                                                -
+                                      multiplicidad, rastreando su uso temprano en el tlp, pero que apa
+                                      rece con mayor frecuencia en la etapa de transición de la filosofía de 
+                                      Wittgenstein entre 1929 y 1933. Se trata de un concepto muy difícil de 
+                                      atrapar, pues, como señala la autora, Wittgenstein en ocasiones usa el 
+                                      término en un sentido lato, como sinónimo de “diversidad”, pero en 
+                                      otros en un sentido “técnico”, que él nunca aclara debidamente.
+                                             La autora señala que en el tlp el término se usa en una acepción 
+                                      fundamentalmente lógica y/o matemática. Knabenschuh cita: “en la 
+                                                                                                                                                                -
+                                      proposición debe poder distinguirse justamente tanto como en la situa
+                                      ción de cosas [Sachlage] que representa. Ambas deben poseer la misma 
+                                      multiplicidad lógica (matemática)” (7 cit. en tlp 4.04).
+                                                                                                                                                                -
+                                             Debe haber pues una simetría en la forma lógica de la representa
+                                      ción y lo representado. Knabenschuh acepta que en el tlp los conceptos 
+                                      de multiplicidad y forma lógica se corresponden “plenamente” (cf. 9). 
+                                      Sin embargo, ella se aparta de la que describe como una “concepción 
+                                      11   Tal vez esto sea menos claro en la etapa intermedia de Wittgenstein, en la cual se enfoca 
+                                           Castañeda. Pero, aunque lo menciona, él no explora como cambió su concepción del 
+                                           lenguaje con respecto a su filosofía tardía.
+                                           ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [194]   Jaime Ramos Arenas
+               numérica” de esa simetría, es decir, que en la representación haya tantos 
+               nombres como hay objetos en el estado de cosas. Por alguna razón, la 
+               autora considera que el hecho de que Wittgenstein hable de tantas co-
+               sas “distinguibles” en la proposición como en la realidad señala que la 
+               multiplicidad “ya no puede interpretarse legítimamente como una mera 
+               relación de uno a uno entre elementos numéricamente determinados o 
+               determinables” (ibd.). Tomando en cuenta que lo que toda figura debe 
+               tener en común con la realidad es la forma lógica (no la forma espacial 
+               y demás) y que toda figura es también una figura lógica, (cf. tlp 2.18 y 
+                                                                                     -
+               2.182) no veo una razón para concluir que se está haciendo una simpli
+               ficación injustificada, por ejemplo, por parte de Malcolm (1986), que 
+               ella menciona, al hablar de un isomorfismo. En todo caso, podemos 
+               señalar hacia donde quiere la autora dirigirse.
+                    Knabenschuh, siguiendo a Kremer, señala que “la determinación de 
+                                                                                     -
+               multiplicidades no consiste en un ‘conteo’ de elementos sígnicos diferen
+               ciables” (11), pues Wittgenstein adscribe forma lógica y multiplicidad a 
+               las proposiciones, no a los signos proposicionales. Eso seguramente es 
+               correcto, pues la simetría debe establecerse entre la figura y la realidad, 
+               tomando la primera como una figura lógica y no en virtud de su forma 
+               gramatical. Pero de ahí Kremer deduce una interpretación “holística” 
+               de la forma lógica, que Knabenschuh avala, según la cual “multiplicidad 
+               y forma lógica son rasgos que atañen primariamente, no a las propo-
+               siciones individuales, sino al lenguaje como un todo” (11-12). Téngase 
+               en cuenta, sin embargo, que Wittgenstein expresamente señala en el 
+               Tractatus “a los objetos corresponden en la figura los elementos de la 
+               figura” (tlp 2.13).
+                                                                                     -
+                    A pesar de que Knabenschuh ha reconocido la perfecta correspon
+               dencia entre multiplicidad y forma lógica, sus consideraciones se dirigen 
+               a asimilar esa vaga noción con la de espacio lógico. Así pues, sugiere que 
+               la multiplicidad reside, no fundamentalmente en la proposición, sino 
+               en “el sistema del lenguaje” y que la noción de espacio lógico del tlp es 
+               el puente hacia una noción más madura de multiplicidad en la filosofía 
+               de la etapa intermedia (cf. 12). No encuentro evidencia textual en tlp 
+               para asimilar multiplicidad al espacio lógico, pero el asunto es debatible.
+                    El corazón del ensayo reside en defender que entre 1929 y 1933 
+               Wittgenstein desarrolló una noción de multiplicidad que hace alusión 
+               tanto a nuestras capacidades representacionales y experienciales como 
+               a la estructura del mundo, teniendo pues una particular relevancia 
+               epistemológica:
+                        La multiplicidad en sentido wittgensteineano constituye un criterio de 
+                    pertinencia de espacios lógicos, es decir, un factor de diferenciación episté-
+                    mica y conceptual de lo individual según las dimensiones de los distintos 
+                    ámbitos de incertidumbre a través de los cuales podemos acercarnos al 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [195]
+                           mundo y, a la vez, un indicador para la diferenciación epistemológica entre 
+                           los mismos espacios lógicos. (Knabenschuh 35, énfasis original)
+                           Esa formulación es bastante abstracta y no muy intuitiva, pero viene 
+                      al final del ensayo y uno debería poder hacer sentido, de la misma dado 
+                      lo antes dicho por Knabenschuh. El factor de diferenciación puede co-
+                      nectarse con el punto de elementos “distinguibles” que mencioné antes.
+                           La multiplicidad “proporciona una herramienta conceptual que, 
+                      primero, permite establecer criterios de diferenciación respecto a los 
+                      elementos pertenecientes a un determinado ámbito” (Knabenschuh 31).
+                           Knabenschuh señala que esa diferenciación se vuelve algo más 
+                      que lógica, más que formal, como en el tlp, e involucra los contenidos, 
+                      por lo que tiene una dimensión fundamentalmente epistemológica. 
+                                                                                              -
+                      Aunque habla repetidas veces de “ámbitos de incertidumbre” y posi
+                      bilidad, Knabenschuh es poco clara acerca de a qué se refiere con esto. 
+                      Un ejemplo de Wittgenstein puede ser ilustrativo:
+                                La comparación entre una expedición matemática y una expedición 
+                           polar. Hay una razón para hacer esta comparación y es una muy útil. Como 
+                           sería de extraño que fuera incierto si una expedición geográfica tiene una 
+                           meta, y por tanto si le corresponde alguna ruta en lo absoluto. […] Pero 
+                           así sucede precisamente en una expedición matemática, y entonces es qui
+                                                                                              -
+                           zás una buena idea abandonar la comparación completamente. (pr 190)
+                           Los espacios lógicos, gramaticales, en los cuales se lleva a cabo una 
+                      exploración geográfica y una exploración matemática, son enteramente 
+                      distintos; no puede haber incertidumbre acerca de si hay alguna ruta 
+                      posible a un punto geográfico, pero esa incertidumbre cabe en la explo-
+                      ración matemática. Knabenschuh hace mucho énfasis en la dimensión 
+                      epistemológica de las multiplicidades y, en cambio, pone siempre entre 
+                      comillas (scare quotes) “gramatical”, cuando habla de la gramática de tales 
+                      multiplicidades. Es verdad que en esa etapa de transición Wittgenstein 
+                      no tiene muy clara la distinción entre lo gramatical y lo epistemológico, 
+                      como se ve cuando dice:
+                                La epistemología no solo no le presta atención a la verdad o falsedad 
+                           de las proposiciones genuinas, es incluso un método filosófico para en-
+                           focarse precisamente en esas proposiciones cuyo contenido nos parece 
+                           tan físicamente imposible como sea imaginable [por ejemplo, que alguien 
+                           tiene un dolor en el diente de otro]. De este modo la epistemología resalta 
+                           el hecho de que su dominio incluye todo lo que es posible pensar. (pr 90)
+                           En su filosofía posterior, Wittgenstein distinguirá claramente en-
+                      tre una imposibilidad empírica (tener un dolor en el cuerpo de otro) 
+                      y una imposibilidad gramatical (tener el dolor de otro), y no llama 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [196]   Jaime Ramos Arenas
+               “epistemológico” sino “conceptual” o “gramatical” el dominio de 
+               aquello que puede ser pensado. No entiendo por qué razón, entonces, 
+               Knabenschuh se empeña en resaltar el aspecto epistemológico de las 
+               multiplicidades, por qué no muestra su aspecto gramatical y tiende así 
+               un puente natural entre el periodo intermedio y la filosofía tardía de 
+               Wittgenstein.
+               Ensayos de Santiago Mejía y Raúl Meléndez
+                    Después de un corto interregno de tres años, nos encontramos con 
+               el escrito “Wittgenstein y la creencia religiosa” (Vol. 55, Núm. 132), de 
+               Santiago Mejía, doctorado en filosofía de la Universidad de Chicago. 
+               Este es un ensayo con el que no tengo ningún desacuerdo sustancial, 
+               estoy básicamente de acuerdo con casi todo lo que dice. A mi modo de 
+               ver, el autor interpreta de manera clara las crípticas observaciones de 
+               Wittgenstein sobre la creencia religiosa. Mejía escribe en un estilo nítido 
+               y riguroso, casi quirúrgico, lo cual tiene ventajas, pero también puede 
+               hacer aparecer las cosas como más simples de lo que son.
+                                                                                     -
+                    El escrito de Mejía está dividido en dos partes, en la primera exa
+               mina la diferencia entre las creencias ordinarias y la creencia religiosa, 
+               y en la segunda explica la comprensión de los fenómenos religiosos a 
+                                                                                     -
+               través del “ver-como.” Mejía se enfoca en cuatro diferencias funda
+               mentales entre las creencias ordinarias y las creencias religiosas (cf. 
+               5-17), a saber, que las creencias religiosas no se sustentan en evidencia 
+               como las creencias ordinarias; que se hace un uso distinto de la noción 
+               de verdad en los contextos religiosos y los no religiosos (la verdad re-
+               ligiosa no corresponde a una teoría sobre el mundo y no se aprehende 
+               por el intelecto sino por la fe); diferencias entre los contextos de los dos 
+               tipos de creencias (esto se relaciona estrechamente con lo anterior, las 
+               creencias religiosas no versan sobre eventos particulares, aun aquellas 
+               que parezcan hacerlo como la creencia en el juicio final); y, por último, 
+               las creencias religiosas no son acerca de entidades sustanciales (“Dios” 
+               no es el nombre de un ser). Examinemos brevemente el asunto de que 
+               las creencias religiosas no se sustentan en pruebas o evidencias como 
+               las creencias ordinarias. Mejía revisa cuatro supuestas evidencias que 
+               los católicos aducen a favor de sus creencias, los milagros, la supuesta 
+                                                                                     -
+               evidencia histórica (presumiblemente testimonios, por ejemplo, acer
+               ca de la vida de Cristo, aunque Mejía no menciona ningún ejemplo), 
+                                                                                     -
+               experiencias personales (sueños, experiencias místicas, etc.) y los ar
+               gumentos lógicos (pruebas a priori de la existencia de Dios y demás 
+               que se encuentran en la teología y la filosofía). El autor argumenta de 
+               manera persuasiva que ninguna de ellas es genuinamente una prueba 
+               verificable, en el sentido en que hablamos de pruebas en la ciencia o en 
+               los tribunales de justicia, y que la creencia religiosa no se sustenta en 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [197]
+                      pruebas ni necesita hacerlo. Solo voy a referirme de modo sumario a 
+                      los milagros. Mejía argumenta que los milagros no son evidencia de 
+                      la creencia religiosa, sino que más bien son el producto de un “cierto 
+                      punto de vista religioso” (8). Esto, ciertamente, refleja la opinión de 
+                      Wittgenstein, quien insiste en que lo que ordinariamente llamamos 
+                      milagros, p. e., sangre saliendo de un objeto religioso en Lourdes, etc., 
+                      siempre puede explicarse de más de una manera (cf. lc 138). Pero quiero 
+                      matizar lo que Mejía señala a este respecto:
+                                Es también siempre posible y legítimo explicar cualquier evento 
+                           como un milagro. Bajo ciertas circunstancias incluso un pequeño e in-
+                           significante trozo de papel encontrado en la calle podría ser considerado 
+                           como un milagro […] un milagro no es un hecho empírico. Por un lado, 
+                           porque no hay ningún otro fenómeno que podría ponerlo en entredicho; 
+                           […] Lo característico del milagro, por tanto, no es un fenómeno extraor
+                                                                                              -
+                           dinario en sí mismo, sino más bien la interpretación que se le otorga. (8-9)
+                           Todo esto va en la dirección correcta, pero me parece que la perspec-
+                                                                                              12
+                      tiva de Wittgenstein no se presenta así de una manera muy persuasiva.  
+                      Wittgenstein efectivamente considera que, si se adopta el punto de 
+                      vista científico, de que el mundo está regido por leyes causales, nada 
+                      por extraordinario que suceda podrá ser visto como un milagro. En el 
+                      peor de los casos diremos simplemente que se trata de un fenómeno 
+                      no explicado aún (cf. Wittgenstein 1997). No queda muy claro, por otra 
+                      parte, qué significa exactamente decir que un milagro no sea un “he-
+                      cho empírico” y eso no se aclara afirmando que es aquel que no puede 
+                      ponerse en entredicho por ningún otro fenómeno. En realidad, son las 
+                      proposiciones acerca de fenómenos las que se ponen en entredicho a 
+                                                                                              -
+                      partir de las observaciones de tales otros fenómenos. Decir que el mila
+                      gro no es un hecho empírico lo hace aparecer como no experimentable, 
+                                                     13 ¿Se quiere sugerir que no hay nada en la 
+                      no susceptible de experiencia.
+                                                                                              -
+                      experiencia misma que permita distinguir entre lo milagroso y lo ordi
+                      nario, quizá en un sentido análogo al argumento cartesiano de que no 
+                      es posible distinguir entre sueño y vigilia a partir de ella?
+                                                                                              -
+                           La afirmación de que no hay, según Wittgenstein, nada extraordi
+                      nario acerca del milagro mismo y que lo que es característico de este es
+                      12  El precio de la sistematicidad y claridad de Mejía es que su estilo argumentativo lo lleva, 
+                         quizás, a cortar demasiado rápido el nudo gordiano, parafraseando lo que Russell dice 
+                         acerca de Hobbes. 
+                      13  Quizás pueda decirse que no hay para Wittgenstein una experiencia (sensorial) pero sí 
+                         una vivencia de lo sagrado. Para la distinción en el contexto de la filosofía de la psicología 
+                         (cf. Ramos 2020).
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [198]   Jaime Ramos Arenas
+                                                              14
+                     la interpretación que se le da es correcta,  pero no se presenta de 
+               manera convincente en esta parte del texto y no ayuda mucho el ejemplo 
+               de ver como milagroso el pedacito de papel que uno se encuentra en la 
+                                                                                     -
+               calle. Quizás hubiera sido útil recurrir aquí a ciertos fenómenos coti
+               dianos, pero que pueden llegar a tener para nosotros un valor especial, 
+               como el nacimiento de un ser humano y, en general, la germinación 
+               de un ser vivo (las plantas que florecen, las cosechas en la primavera, 
+               los ciclos de las estaciones, etc.) que pueden ser experimentados como 
+                                                                                     -
+               milagrosos desde un punto de vista religioso. Es decir, Dios no se ma
+               nifiesta normalmente a través de fenómenos extraordinarios, sino que 
+               lo vemos presente en los fenómenos ordinarios de la vida. En todo caso, 
+               para ser justo, Mejía posteriormente trabaja el papel del ver-como en la 
+               apreciación de los fenómenos religiosos.
+                    Voy a interrumpir aquí el orden secuencial y cronológico que he 
+               seguido para comentar los artículos, y hacer ahora un paralelo entre el 
+               escrito de Mejía y el artículo de Raúl Meléndez, profesor de filosofía de 
+               la Universidad Nacional de Colombia, “La creencia religiosa y la forma 
+                                                                                     15 
+               de vida del creyente” (Vol. 65, Sup. 2) que apareció diez años más tarde.
+                                                                                     -
+               Este es un breve ensayo que se encuentra entre los de mejor composi
+               ción de aquellos que reseño.
+                    Ambos artículos se centran en el tratamiento que le da Wittgenstein 
+               a la creencia religiosa,16 pero mientras Mejía presta especial atención a 
+               14  Alguien podría, sin embargo, argumentar contra Wittgenstein que los hechos pro-
+                  totípicos que se describen como milagros en la tradición, como la resurrección de 
+                  Lázaro o la multiplicación de los panes y los peces, por el que Jesucristo da de comer a 
+                  cinco mil hombres con cinco panes y dos peces, sí son, en un sentido evidente, eventos 
+                  extraordinarios. Aunque Wittgenstein argumenta que nuestra fe no depende de creer 
+                  literalmente que tales eventos sucedieron, la manera como veremos que Wittgenstein 
+                  reinterpreta la creencia religiosa no conduce simplemente a una aclaración o descripción 
+                  de la práctica religiosa usual, sino quizás a una prescripción de cómo él considera que 
+                  debería llevarse a cabo. 
+               15  Quizás sea algo más que una coincidencia que estos dos autores colombianos, que 
+                  hicieron una carrera en matemáticas, desembocaran luego en la filosofía, en particu-
+                  lar en la wittgensteineana, y terminaran por último particularmente interesados en 
+                  el fenómeno religioso. ¿Será que, como el joven Russell, buscaban en la matemática 
+                  pura algo que escapara al mundo empírico “un mundo independiente del tiempo, sin 
+                  cambio, sin podredumbre, sin el fuego fatuo del progreso” (Russell 220)?
+               16  Meléndez no hace alusión al artículo de Mejía, siendo que versan básicamente sobre el 
+                  mismo asunto, y eso quizás nos muestra algo sobre la manera como hacemos filosofía 
+                  entre nosotros. Salvo una cita de Peña del texto de De Greiff, y una mención a Holguín, 
+                  los autores aquí reseñados no se citan unos a otros. Todos tenemos nuestros ojos puestos 
+                  en otros textos más centrales, lo cual es un síntoma de lo periférico de nuestro trabajo. 
+                  Para matizar se puede mencionar que Knabenschuch en su escrito hace alusión a varios 
+                  textos sobre Wittgenstein en español. 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [199]
+                      las conferencias del austríaco sobre creencia religiosa (lc), Meléndez 
+                      dedica más espacio a hacer un paralelo entre las observaciones de 
+                      Wittgenstein sobre la religión y sus comentarios acerca de la magia y 
+                      el mito en el marco de su crítica a La rama dorada, de Frazer (ordf).
+                           Con respecto a la naturaleza de la creencia religiosa Mejía escribe:
+                                Espero haber mostrado, por tanto, que las creencias religiosas no son, 
+                           a pesar de la primera impresión que el lenguaje nos pueda dar, “creencias” 
+                           en el sentido ordinario del término, dado que su función está más cerca 
+                           del llanto o el suspiro, que de la conjetura o la afirmación. (17)
+                           Bueno, aunque es cierto que Wittgenstein mismo describe ciertas 
+                      creencias religiosas –como aquella acerca de la predestinación (cf. cv 
+                      30)– como cercanas a un suspiro o un gemido, no me parece que Mejía 
+                                                                                              -
+                      deje muy en claro cómo tal cosa es posible. Parece problemático in
+                      terpretarlas de ese modo. ¿Si una creencia religiosa es semejante a un 
+                      gemido, no tiene entonces ningún contenido cognitivo?
+                           Se puede aclarar la naturaleza expresiva de las creencias religiosas 
+                      apelando, como hace Meléndez, a las observaciones que hace Wittgenstein 
+                                                                                              -
+                      acerca del papel expresivo de ciertas acciones y, en particular, de los ri
+                      tos. Como es bien sabido, James Frazer escribió una muy extensa obra 
+                      antropológica, La rama dorada, en la que interpreta la magia como un 
+                      antecedente de la religión, entendiendo a la primera como fundada en 
+                      una comprensión supersticiosa de la realidad, que supone que esta pue-
+                      de ser manipulada a través de ciertas prácticas y ritos (cf. Frazer 1951, 
+                      iii). Wittgenstein argumenta contra Frazer que las prácticas rituales 
+                      y mágicas no deben, normalmente, entenderse bajo la lógica medios/
+                      fines como instrumentos para alcanzar un fin, sino como expresiones 
+                      de un deseo. Como cuando alguien clava un alfiler en la efigie de otro 
+                      (que expresa su deseo de hacerle daño) o besa la imagen de la amada (cf. 
+                      ordf 147). Meléndez acertadamente hace una analogía con las prácticas 
+                      religiosas (cf. 87), por ejemplo, con ciertos casos en los que invocamos 
+                      a Dios, pero no con el fin de eso produzca un efecto determinado. Así 
+                                                                                              -
+                      también, la creencia de que “todo proviene de Dios” podría interpretar
+                      se, no en el sentido de un postulado de que Dios es la causa primera de 
+                      todas las cosas, sino como expresando la actitud de que Dios constituye 
+                      un final para la búsqueda de explicaciones, que debemos abandonar el 
+                      ansia de explicarlo todo (cf. id. 90). Pero Meléndez también señala una 
+                      posible objeción a esa manera de interpretar las cosas:
+                                Esta forma de ver las creencias religiosas como meras expresiones 
+                           simbólicas de una manera de vivir, o de ciertas actitudes y valoracio-
+                           nes muy importantes que se manifiestan en ella, no deja de ser también 
+                           problemática. Por una parte, se puede objetar que en la manera de ver 
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [200]   Jaime Ramos Arenas
+                   de Wittgenstein se ha despojado a la creencia religiosa de algo que le es 
+                   esencial; a saber, su contenido cognitivo, empírico. (91) 
+                   Me parece que Meléndez ofrece una interesante propuesta para 
+               salir del atolladero.
+                   No se trata de que la creencia religiosa no tenga ningún contenido 
+               cognitivo, que sea algo enteramente semejante al llanto, pues ella se cons-
+               truye con conceptos que tienen un contenido, “juicio final”, etc. Como 
+               dice Meléndez, “la formulación lingüística de la creencia religiosa no es 
+                                                            17 Sin embargo, esa for-
+               un galimatías completamente ininteligible” (91).
+               mulación por sí sola no tiene un contenido, fijo y preciso, su significado 
+               es algo que se fija a través de la práctica. Son las acciones del creyente, 
+                                                                                 -
+               su forma de vivir, las que van fijando el significado de la creencia reli
+               giosa, algo semejante a como las demostraciones de una proposición 
+               matemática fijan su sentido (cf. 92). También Mejía sostiene con razón 
+                                                                                 -
+               que la comprensión religiosa debe ser ante todo una comprensión prác
+               tica, “una comprensión vital, no proposicional, producto de un cierto 
+               modo de vida” (18).
+                   Lamentablemente no puedo examinar aquí en más detalle estos 
+               dos ensayos que muestran una apropiación madura y enriquecedora 
+               del pensamiento de Wittgenstein.
+               Ensayo de Horacio Luján Martínez
+                   Siguiendo el orden cronológico paso a reseñar ahora al artículo de 
+               Horacio Luján Martínez, doctor en filosofía de la Universidad Estadual 
+               de Campinas “Alcance y pertinencia de las lecturas éticas del Tractatus 
+               de Wittgenstein” (Vol. 59, Núm. 142). Después de un breve preámbulo 
+               histórico acerca de cómo surgen las interpretaciones éticas del tlp en 
+               la década de los setenta, Luján hace un corto resumen de cuatro libros 
+                                                                                 -
+               que, según nos dice, aseveran que lo ético o lo místico es “lo más im
+               portante del libro.” Se trata de La Viena de Wittgenstein de Allan Janik 
+               y Stephen Toulmin, Acción y sentido en Wittgenstein de Jorge Vicente 
+               Arregui, Ludwig Wittgenstein. Vida y obra de Wilhelm Baum y Ética 
+               y creencia religiosa en Wittgenstein de Cyril Barrett. Posteriormente, 
+               Luján procede a “evaluar sus virtudes y sus defectos.”
+               17  Vale la pena mencionar el interesante contraste que hace Meléndez entre la creencia 
+                 religiosa y las certezas que hacen parte de nuestra imagen de mundo (cf. sc). Ninguna 
+                 está fundamentada en la experiencia, ni se someten a verificación, sin embargo, a pe-
+                 sar de esa semejanza, Meléndez sostiene que las creencias religiosas son en ocasiones 
+                 contrarias a nuestras creencias empíricas y, por ello, no las considera parte de nuestra 
+                 imagen de mundo. Tiendo a discrepar sobre ese punto, pero en cualquier caso se pue-
+                 de resaltar que ambas tienen una dimensión práctica que trasciende su formulación 
+                 lingüística. 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia      [201]
+                           Luján no hace, sin embargo, críticas puntuales y precisas a los libros 
+                       mencionados. Las críticas son del siguiente tenor:
+                                Encontramos en esta interpretación [de Janik y Toulmin] dos de-
+                           fectos. El primero parece ser compartido por todas las interpretaciones 
+                           éticas, aunque con matices diferentes: la afirmación de que el Tractatus es 
+                           un libro de ética más que un libro de lógica. El segundo es perfectamente 
+                           derivado de este, y aparece en la interpretación de Baum: los problemas 
+                           hermenéuticos derivados de que no existen en el Tractatus muestras cla
+                                                                                               -
+                           ras de esta significación radicalmente ética. (119)
+                           Bueno, Luján seguramente tiene la razón en que es objetable decir 
+                       que el tlp sea, en lo fundamental, un libro de ética, y también en que 
+                       no puede argumentarse eso solamente a partir de elementos externos 
+                       al tlp mismo como la carta a Ludwig von Ficker o el Diario filosófico 
+                                                                                               -
+                       [DF] de Wittgenstein. Si el escrito se limitara a eso, yo no tendría ma
+                       yor objeción. Pero Luján no solo complementa esto con observaciones 
+                       muy objetables, sino que pretende solucionar el asunto de una manera 
+                       muy simple que resulta insatisfactoria.
+                           La supuesta solución de Luján es decir que se deben reconocer 
+                       ambos “componentes” del tlp, el lógico y el ético: “la interpretación 
+                       ética corre el riesgo de sufrir la misma suerte que las interpretaciones 
+                       que privilegiaban el análisis del lenguaje: no ver el libro como un todo 
+                                                                   18
+                       y priorizar uno de los componentes” (119).  Pero esta es, por supuesto, 
+                       una confusión, pues el tlp no tiene un componente lógico y otro ético. 
+                       ¿Cómo se supone que se entienda aquí “componente”? Análogamente, 
+                       Luján habla varias veces de una “complementación” entre la lógica y 
+                       la ética en el tlp (cf. 111; 112; 119; 121), pero deja en el misterio cómo se 
+                       obtiene tal cosa.
+                           Luján cita con aprobación a Otto Weininger (Sexo y Carácter): “La 
+                       lógica y la ética son, pues, en el fondo una y la misma cosa: el deber 
+                       para sí mismo.” Suena poético, pero la verdad, dicho así, no entiendo 
+                       lo que eso quiera decir.
+                                                                                               -
+                           Después de una apretada exposición de la teoría figurativa del len
+                       guaje del tlp, Luján pretende demostrar que hay allí tres acepciones de 
+                       “mostrar”; el tercer nivel sería el de lo místico (cf. 126). Pero esto es algo 
+                       que me parece que no queda mostrado de ningún modo.
+                                                                                               -
+                           Un último comentario, más bien anecdótico, es que Luján no pa
+                       rece entender la noción de hermenéutica. En algún momento escribe: 
+                       “Volveremos más adelante sobre estas consideraciones respecto a los 
+                       riesgos de la adopción de una hermenéutica” (117). En realidad, nunca 
+                       vuelve sobre esto, y ¿cómo podría hacerlo? Como le quedó expresado, 
+                       18  Algo semejante dice con respecto al libro de Arregui (cf. 120).
+                          ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [202]   Jaime Ramos Arenas
+               significa que adoptar una hermenéutica es, en sí mismo, peligroso. 
+               Al final del escrito, sin embargo, hace la siguiente afirmación: “todas 
+               las interpretaciones éticas […] parecen estar atravesadas por un ele-
+               mento paradójico: tomar un texto de Wittgenstein para decir lo que 
+               Wittgenstein no dijo en otro texto. […] Este es, por así llamarlo, el 
+               “estigma hermenéutico” (121). Esta parece una forma enrevesada de 
+               expresar que es tramposo aseverar que Wittgenstein dice en un texto 
+               A lo que en realidad dice en B.
+               Ensayo de Carlos Cardona
+                   En fin, me parece que podemos proseguir nuestro camino hacia 
+                                                                                  -
+               lugares más luminosos y, arribando el año siguiente, 2011, encontra
+               mos el escrito de Carlos Alberto Cardona, profesor de la Universidad 
+               del Rosario en Bogotá, “¿Es Wittgenstein un fundacionalista?” (Vol. 60, 
+                                                                                  -
+               Núm 146). El propósito fundamental del escrito es criticar la interpreta
+               ción que hace Avrum Stroll, según la cual Wittgenstein adopta un tipo 
+               de fundacionalismo epistemológico. Cardona conoce ampliamente la 
+               obra de Wittgenstein y la literatura secundaria, pero haciendo gala de 
+               ese conocimiento da un largo rodeo antes de enfrentar directamente 
+               a Stroll. No estoy seguro de que fueran necesarias las repetidas alusio-
+               nes a los Urphänomen de Goethe, a las observaciones de Kierkegaard al 
+               sacrificio que se le pide a Abraham, a la reorientación de la metafísica 
+               considerada por Collingwood, a las especulaciones de los antiguos sobre 
+               qué sostiene a la tierra, y a la supuesta deconstrucción de la pregunta por 
+               parte de Anaximandro y demás, todo lo cual le da al escrito un tono un 
+               tanto recargado. Incluso me parece innecesario llegar a concluir, a partir 
+               de las observaciones de Cavell (1995) acerca de la presencia de diversas 
+               voces en if, que “por ello todas las obras correspondientes al llamado 
+                                                                                  -
+               segundo período podrían llevar el nombre genérico de Confesiones fi
+               losóficas” (76). Esa es una generalización, poco wittgensteiniana, que 
+                                                                                  -
+               quizás solo tiene un valor retórico. Pero vayamos al corazón del asun
+               to. La estrategia de Cardona en su argumento contra Stroll es sugerir 
+               que la distinción que han hecho algunos influyentes intérpretes entre 
+               una interpretación sustancial y una interpretación austera del tlp de 
+               Wittgenstein también puede aplicarse a sc. Él sostiene que también 
+               en esa obra tardía cabe hacer la distinción entre decir y mostrar que 
+               Wittgenstein menciona en tlp y que Stroll cae, equivocadamente, en 
+               una interpretación sustancialista.
+                   Cardona cita a Anscombe (cf. 1971 78), una representante de la así 
+               llamada lectura sustancialista del tlp, que sostiene que para el joven 
+               Wittgenstein hay cosas importantes que no pueden ser dichas, pero 
+               pueden ser mostradas, p. e. la dimensión de lo ético y lo místico y el 
+               propio Wittgenstein señala al final de tlp que lo místico es aquello 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [203]
+                      inexpresable que se muestra a sí mismo (cf. 6.522). La lectura auste-
+                      ra sugiere que los sinsentidos, aquellos que no dicen nada,19 tampoco 
+                                                                                              -
+                      muestran la existencia de un algo. La discusión entre las llamadas inter
+                      pretaciones sustancialista y austera del tlp es compleja (cf. Nordmann 
+                      2005; Crary & Rupert 2000) y ni este es el lugar ni yo soy la persona 
+                      para entrar en detalles sobre el asunto, pero lo que aquí necesitamos es 
+                      presentar brevemente esa distinción que es central para la discusión, 
+                      aquella entre decir y mostrar.
+                           Wittgenstein señala en el tlp que las proposiciones pueden repre-
+                      sentar la totalidad de la realidad, pero no pueden a su vez representar 
+                      aquello que tienen en común con ella para poder representarla, esto es, 
+                                                                                              -
+                      la forma lógica (cf. 4.12). Pero esa forma lógica se refleja en las proposi
+                      ciones (cf. 4.121), la proposición, si es verdadera, muestra cómo son las 
+                      cosas y dice que son así (cf. 4.022). A partir de la estructura lógica de dos 
+                      proposiciones puede verse que la una contradice a la otra, o que una se 
+                      sigue lógicamente de otra (cf. 4.1211). Téngase en cuenta que esta forma 
+                      de hacer la distinción depende de la adopción de la teoría figurativa del 
+                      lenguaje, que depende de la noción de forma lógica.
+                           No voy a entra aquí tampoco en la cuestión de si Wittgenstein 
+                      adopta o no algún tipo de fundacionalismo en sc, aunque, como el pro-
+                      pio Cardona acepta (cf. 93), Wittgenstein claramente usa un lenguaje 
+                                                                                              -
+                      fundacionalista en esa obra. Lo que se debe considerar es qué tan per
+                      suasiva es la argumentación de Cardona contra Stroll, y mi conclusión 
+                      es que no mucho.
+                           Como Cardona señala, Stroll argumenta que la distinción entre 
+                      decir y mostrar no cabe en sc:
+                                Primero, Stroll cree que la distinción tractariana está conectada con 
+                           las ideas de un lenguaje ideal y con una restricción del lenguaje signifi-
+                           cativo al lenguaje de la ciencia. Esta motivación ya no está presente en 
+                           la obra posterior. Segundo, los límites del lenguaje están claramente de-
+                           marcados en el tlp, en tanto que en las if y sc no hay límites claros. (86)
+                           Cardona responde que Wittgenstein no estaba interesado en la 
+                      construcción de un lenguaje ideal, lo cual seguramente es correcto, 
+                                                                                              -
+                      también responde que Wittgenstein no restringe el “lenguaje significa
+                      tivo al lenguaje de la ciencia [y que] no todos los ejemplos de cosas que 
+                                                                                              -
+                      se pueden mostrar sin que se puedan expresar corresponden a inten
+                      tos de sobrepasar los límites del lenguaje” (id. 93), y con eso considera 
+                      que quedan salvadas las objeciones de Stroll. Sin embargo, me parece 
+                      claro que la distinción entre decir y mostrar como la hace Wittgenstein 
+                      19  Salvo las contradicciones y tautologías que no dicen nada, pero no son sinsentidos, 
+                         pues, como dice Wittgenstein, son parte del simbolismo (cf. tlp 4.4611).
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [204]   Jaime Ramos Arenas
+               en tlp depende de la adopción de la teoría figurativa del lenguaje. Así, 
+               dice entre otras cosas que “[l]a figura, sin embargo, no puede figurar su 
+               forma de figuración; la muestra” (2.172). “La figura tiene en común con 
+                                                                                  -
+               lo figurado la forma lógica de figuración” (tlp 2.2; 2.161). Por otra par
+               te, es verdad que la observación de Stroll de que el tlp restringe el uso 
+                                                                                  -
+               del lenguaje al lenguaje de la ciencia no es una formulación afortuna
+               da, pero es verdad, en todo caso, que allí se conciben las proposiciones 
+               como figuras de los hechos (cf. 2.1). De lo que no es un hecho posible no 
+               puede hacerse figuras en el lenguaje.
+                   Es bien conocido que, a partir de la década de los treinta, Wittgenstein 
+               centra su atención en la gramática del lenguaje, que puede verse como 
+               una ampliación del análisis lógico y que cubre aspectos y diferencias que 
+               este último no contempla (cf. Garver). Por otra parte, como Hacker (1981), 
+               entre otros ha argumentado el corazón mismo de la teoría figurativa, el 
+               isomorfismo de forma lógica entre lenguaje y mundo, se abandona en 
+                                                                                  -
+               la filosofía posterior. No veo pues que Cardona presente un argumen
+               to claro a favor de aplicar la distinción entre una lectura austera y otra 
+                                                                                  -
+               sustancial para interpretar sc, sobre la base de seguir usando la distin
+               ción decir/mostrar. Quizás sea posible, en alguna medida, ampliar las 
+               consideraciones que hace Cora Diamond (cf. 1991), acerca de que fue 
+               una preocupación a lo largo de la vida de Wittgenstein mostrar que la 
+               necesidad yace en el uso de las palabras y evitar imaginar la necesidad 
+               como una especie de hecho (cf. 195). Pero cómo hacer algo semejante 
+               acerca de las certezas de las que habla Wittgenstein en sc es algo que 
+               no me quedó claro en el escrito que reseño.
+               Ensayo de Pedro Diego Karczmarczyk
+                   Y llegamos, finalmente, al último escrito por comentar, “Materialismo, 
+               ideología y juegos de lenguaje” (Vol. 61, Núm. 150), de Pedro Diego 
+                                                                                  -
+               Karczmarczyk, profesor de la Universidad Nacional de la Plata. El au
+               tor sostiene que es posible acercar el pensamiento de Wittgenstein al 
+               de L. Althusser y mostrar que convergen en una filosofía materialista 
+               del discurso. El autor expone sumariamente cómo Althusser hace una 
+               crítica novedosa de la ideología, reconceptualizando la teoría tradicio-
+               nal que se centraba en un análisis de las causas de la distorsión de las 
+               representaciones ideológicas (por ejemplo, la teoría de la alienación del 
+               joven Marx). Althusser –dice el autor– se enfoca, más bien, en cómo 
+               distorsiones que tienen lugar por fuera del discurso se reflejan en las 
+               representaciones ideológicas, es decir, la tesis de Althusser es que “la 
+               ideología es una representación fiel de una realidad ‘distorsionada’” 
+               (129). Karczmarczyk busca conectar el carácter de esa representación 
+               necesariamente imaginaria que se hacen los individuos de sus relacio-
+               nes sociales respecto a sus condiciones de existencia con una lectura 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [205]
+                      “no oficial” de Wittgenstein que él encuentra en sus observaciones so-
+                      bre la ceguera del significado y el ver aspectos. Yo no conozco la obra 
+                      de Althusser y no voy a decir nada de la interpretación que del mismo 
+                                            20
+                      hace Karczmarczyk.  Mis comentarios se centran en la interpretación 
+                      que hace el autor del breve prefacio que escribió Rhees a los bb y cómo 
+                      pretende vincular eso con observaciones de if acerca del conductismo:
+                                Wittgenstein tuvo que preguntarse si, de alguna manera, la persis-
+                           tente necesidad de presentar el mismo tipo de argumentos [terapéuticos], 
+                           la infatigable capacidad del ‘interior sin exterior’ para rearmarse como 
+                           sujeto de discurso, no era parte de la naturaleza del asunto. Esa parece 
+                           ser la inquietud que en las Investigaciones lo lleva a preguntarse ‘‘¿No eres 
+                           después de todo un conductista enmascarado? ¿No dices realmente, en 
+                           el fondo, que todo es ficción excepto la conducta humana?’ −Si hablo de 
+                           una ficción, se trata de una ficción gramatical’ (Wittgenstein 1999 §307), 
+                           y que, según relata Rush Rhees en el Prefacio de Los cuadernos azul y 
+                           marrón, constituyo la inquietud que movió los desarrollos teóricos que 
+                           tuvieron lugar entre la redacción de estas dos obras y las Investigaciones. 
+                           (Karczmarczyk 134-135)
+                           Esto es bastante enredado, el autor parece decir que esa preocupa-
+                      ción expresada en if, por la voz de la tentación –como la describirían 
+                      algunos–, acerca de si Wittgenstein no era en realidad un conductista 
+                      enmascarado es lo que, según Rhees, movió “los desarrollos teóricos” 
+                                                                                              -
+                      entre los bb y if. Pero yo no encuentro que Rhees diga eso en ningu
+                      na parte del prefacio. Lo que Rhees dice, por una parte, es que en los 
+                      Cuadernos azul y marrón “Wittgenstein no había visto claramente el 
+                                                                                              -
+                      asunto acerca de cuáles son los requerimientos del lenguaje o de la in
+                                                          21
+                      teligibilidad del lenguaje” (bb xiv);  que Wittgenstein no tenía claro en 
+                      bb la relación entre lógica y lenguaje (como sí le tiene en if); que sigue 
+                      en bb hablando ocasionalmente del lenguaje como un cálculo (cf. ibd.); 
+                      que no entiende la diferencia entre juegos del lenguaje y una notación. Es 
+                                                                                              -
+                      esa falta de claridad en bb acerca del lenguaje y el contemplar la posibili
+                      dad de que pensar sea operar con signos lo que lleva a Rhees a decir que 
+                      eso hace aparecer el pensar como una operación puramente mecánica 
+                      (cf. xv). Es en el contexto de bb que surge la pregunta de cómo saber 
+                      si alguien que sea ciego para los significados (meaning blind), como lo 
+                      sería una máquina, puede o no usar bien los signos en la interacción 
+                      20 Eso no significa que yo no simpatice con la búsqueda de hacer conexiones entre 
+                         Wittgenstein y la tradición marxista. De hecho, en un ensayo que publicaré en esta 
+                         misma revista sostengo que puede establecerse una conexión sustancial entre las obras 
+                         de Marx y Wittgenstein. 
+                      21  Cito la edición en inglés pues no tengo a la mano la edición en español de bb que usa 
+                         Karczmarczyk.
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [206]   Jaime Ramos Arenas
+               social. Pero Rhees inmediatamente aclara que hay algo equivocado en 
+               la pregunta misma, que eso muestra que “todavía hay algo poco claro 
+               en nuestra noción de ‘el uso del lenguaje’” (bb xvi). Karczmarczyk sigue 
+               a Kripke (1982), quien presenta el interrogante formulado por Rhees, 
+               acerca de la ceguera del significado, como si fuera una preocupación 
+               del Wittgenstein tardío en general. Pero Karczmarczyk lleva esto más 
+               lejos y habla de otro Wittgenstein “no oficial” al que le preocuparía la 
+               pregunta. Me parece que la ficción gramatical a la que se refiere if §307 
+               reside precisamente en seguir creyendo que hay en nuestras mentes un 
+               proceso oculto, subyacente, que da vida al pensamiento, y que ese pro-
+               ceso no se presenta en las máquinas o en los zombis, por lo cual serían 
+               ciegos al significado. Karczmarczyk cree que esa voz de la tentación, que 
+               habla de lo interior, no está completamente equivocada o, por lo menos, 
+               que su equivocación es necesaria para que el lenguaje pueda operar:
+                       Entonar la voz de la tentación, ser presa de las ilusiones que la misma 
+                   exhibe, más allá de su inadecuación como visión teórica, expresa uno de 
+                   los requisitos constitutivos que hacen que alguien sea un hablante, […] 
+                   si la voz de la tentación fuera reemplazada por la voz de la corrección, 
+                   el lenguaje se vendría abajo. […] La voz de la tentación, aunque ‘equivo-
+                   cada’ desde el punto de vista teórico, no está entonces necesariamente 
+                   errada desde el punto de vista semántico. ‘Usar una palabra sin justifi-
+                   cación (Rechtfertigung) no quiere decir usarla injustamente (Unrecht)’ 
+                   (Wittgenstein 1999 §289). (Karczmarczy 136)
+                   Para empezar, if §289 está aquí sacada fuera de contexto. Wittgenstein 
+               está replicando a su imaginario interlocutor que afirma “cuando digo 
+               ‘tengo dolor’ tengo justificación frente a mí mismo para aseverarlo.” 
+                                                                                  -
+               Wittgenstein niega que allí haya justificación para decir eso, pero tam
+               poco se necesita para ese uso del lenguaje. Que no tenga justificación no 
+               quiere decir que no tenga derecho a emitir tal expresión, pues de hecho 
+               no es un reporte verdadero o falso. Así pues, me parece que queda muy 
+               debilitada la supuesta conexión que Karczmarczyk quiere establecer 
+               entre la necesidad de la ilusión, de lo imaginario en Althusser y algo 
+               inherentemente interno, cualitativo en la vida mental, que defiende la 
+               voz de la tentación en la obra de Wittgenstein y que se supone que es 
+               teóricamente falso, pero vitalmente requerido. No encuentro evidencia 
+               de que Wittgenstein sostenga tal cosa.
+               Acerca de la dificultad de sacar conclusiones generales
+                   Bueno, creo que, en lo fundamental, ya he hecho hasta aquí la tarea, 
+               pero me resta algo importante, sacar algún tipo de conclusión general 
+               a partir de estos exámenes individuales.
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                   Leyendo a Wittgenstein desde la periferia     [207]
+                           Se podría pensar que es conveniente adoptar una perspectiva histó-
+                      rica, evolutiva. Intentar observar si la revista ha pasado por unas etapas 
+                                    22
+                      de desarrollo.  Observar si la estructura de los ensayos va cambiando 
+                      gradualmente, si los ensayos de una época reflejan un grado de madurez 
+                      del desarrollo de la revista, que pasó, supuestamente, de un periodo de 
+                      infancia, tentativa e insegura, de una revista en la que abundaban las 
+                      traducciones de textos extranjeros que muestran la subordinación a un 
+                                                                                              -
+                      pensamiento foráneo, de ensayos principalmente expositivos, que pu
+                      dieron haber tenido arbitrajes deficientes, los cuales a su vez reflejaban 
+                      la inexistencia de pares en capacidad…, (pasó, digo) a un periodo de 
+                      transición (alrededor de las décadas de los ochenta y noventa). Este se 
+                      caracterizaría por ensayos mejor estructurados, más argumentativos, a 
+                                                                                              -
+                      menudo más extensos, fundados en la lectura de una bibliografía mu
+                      cho más rica, la revista empieza a tener mayor difusión internacional 
+                      publicando una mayor proporción de artículos originales extranjeros, 
+                      etc. Finalmente, se habría llegado a un periodo de madurez, entrado ya 
+                      el nuevo milenio… Pero para hacer todo eso sería muy largo y difícil, 
+                      y requeriría de un conocimiento de la publicación que no tengo. Por 
+                      otra parte, no solo es dudoso que el desarrollo del pensamiento en la 
+                      revista aguante una metáfora biológica y pueda asemejarse a las etapas 
+                      de crecimiento de un ser vivo, sino que es dudoso que los ensayos de 
+                                                                                              -
+                      una etapa posterior sean, en general, y aun admitiendo excepciones, fi
+                      losóficamente más ricos que los de una etapa anterior, que la presencia 
+                      de bibliografías más extensas al final de los escritos refleje, en términos 
+                      generales y matizando con excepciones, un conocimiento más amplio 
+                      del tema tratado y una mayor comprensión del problema discutido. 
+                      Anecdóticamente, puede señalarse que, en mi concepto, dos de los 
+                      mejores escritos reseñados, los de Holguín y Meléndez, son los más 
+                      cortos y tiene cada uno apenas seis entradas bibliográficas de soporte 
+                      (que Holguín de ‘manera anticuada’ pone en notas de pie de página, en 
+                      lugar de hacer una bibliografía al final del escrito, e incluso, ¡horror!, 
+                      menciona autores para los cuales no presenta un respaldo bibliográfico. 
+                                                                                              -
+                      Alguien podría concluir que todavía no había “aprendido” cómo escri
+                      bir un artículo académico ‘sólido’, como hacemos ahora, siguiendo los 
+                      parámetros internacionales).
+                           Quizás lo mejor sea seguir el consejo de Wittgenstein, resistir el ansia 
+                      de generalidad que aqueja constantemente a los filósofos, evitar tratar 
+                      de simular el procedimiento científico de buscar patrones generales y/o 
+                      22  Se tiende a asociar esta imagen evolutiva con una idea de progreso. Con instituciones, 
+                         en este caso la revista, que se van haciendo más ricas y complejas y, en algún sentido, 
+                         mejores.
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [208]   Jaime Ramos Arenas
+               categorías bajo las cuales subsumir los casos individuales, y más bien 
+               prestar atención al caso particular.
+                   Es muy problemático pretender hacer algún tipo de medición de 
+               escritos filosóficos en términos absolutos de bueno y malo. Hacer tal 
+                                                                                  -
+               cosa sería quizás aún más inconsecuente tratándose de comentar en
+               sayos que versan sobre el pensamiento de Wittgenstein, aquel que dijo 
+               que en filosofía gana la carrera aquel que llega de último, que señaló la 
+               dimensión ética de la actividad filosófica al decir que la filosofía es un 
+               trabajo que uno hace sobre sí mismo. Wittgenstein combatió la idea de 
+               progreso en la cultura y en la filosofía, y sostuvo que “el nimbus” de la 
+               filosofía se ha perdido, pues ahora tenemos un método para hacer esa 
+               tarea y podemos hablar de filósofos hábiles (cf. Wittgenstein 2016 67). 
+               Pero eso no significa, claro está, que todo valga lo mismo, que uno no 
+               pueda hacer discriminaciones y juicios. Lo que significa, me parece, es 
+               que no hay un algoritmo universal con el cual hacer esas apreciaciones; 
+               que no existe un conjunto de criterios precisos con los cuales medir el 
+               trabajo en filosofía (y seguramente en muchos otros campos, a menos 
+               que se trate de técnicas muy reguladas). Se debe examinar cada caso, 
+               cada escrito, y dar razones para fundar un juicio.
+               Sobre hacer filosofía desde la periferia
+                   Para cerrar quisiera aclarar a qué me refiero con leer a Wittgenstein 
+               desde la periferia.
+                   Podemos concebir que la actividad filosófica se realiza en un espacio 
+                                                                                  -
+               imaginario en cuyo centro se encuentran las instituciones (universida
+               des, revistas, centros de investigación) y los actores más prestigiosos y 
+               reconocidos que ejercen una mayor influencia sobre los demás actores 
+               e instituciones que participan en la actividad. Uno se encuentra en un 
+               sitio más periférico de ese espacio, cuanto más lejos se encuentre del 
+               centro. Se pueden establecer relaciones entre ese espacio imaginario y 
+               el espacio geográfico, pero ellas no son precisas, es decir, no se puede 
+                                                                                  -
+               decir que el centro filosófico corresponda precisamente con tales luga
+               res de la geografía. En cualquier caso, todos sabemos que algunas zonas 
+               geográficas son particularmente centrales, las dos costas, este y oeste, 
+               de los Estados Unidos, así como algunas regiones de Europa occidental, 
+               en particular el Reino Unido y algunas ciudades como París y demás. 
+                                                                     23
+               Eso no es, me parece, nada novedoso ni controvertible.  También pa-
+               rece ser obvio que existe una conexión estrecha entre la localización 
+               en ese espacio filosófico y factores económicos, culturales, políticos y 
+               23  Puede haber, pero es muy infrecuente, instituciones lejanas geográficamente de los 
+                 centros en las que se hace valioso trabajo filosófico, allí puede residir y trabajar uno(a) 
+                 o varios grandes filósofos. 
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                    Leyendo a Wittgenstein desde la periferia     [209]
+                      lingüísticos. La filosofía del centro se hace principalmente en inglés, en 
+                                                                                              -
+                      países ricos con una gran tradición cultural e influyentes políticamen
+                         24
+                      te.  Uno no está en la periferia por la mera razón, en nuestro caso, de 
+                      ser latinoamericano y/o vivir en Latinoamérica, pero eso hace mucho 
+                      más probable tener el carácter de periférico, entre otras cosas, porque 
+                      escribir en español (o en portugués) muy seguramente lo situará en la 
+                      periferia. Aunque algunos de los autores aquí comentados trabajan en 
+                                                                                              -
+                      la actualidad en importantes universidades norteamericanas, esos ar
+                      tículos suyos que discuto son periféricos, simplemente porque no son 
+                                                                     25
+                      centrales en la discusión sobre Wittgenstein.  Pero no es una indigni-
+                      dad estar en la periferia (como si fuera algo vergonzoso que es mejor no 
+                      mencionar), es el producto de un complejo entramado de condiciones 
+                      económicas y sociales que se remiten muy atrás en el tiempo, y sobre 
+                      lo cual se debe más bien reflexionar que invisibilizar, aunque este no 
+                                                   26
+                      sea el momento de hacerlo.  Solo me permito una observación final.
+                           Por supuesto, es mejor estar en el centro que en la periferia (es me-
+                      jor ser rico que pobre decía Pambelé), pero hay al menos una ventaja de 
+                      vivir extramuros. Uno puede ver las cosas desde una distancia que le 
+                      da una perspectiva enriquecedora. Vistas las cosas “desde fuera”, uno 
+                      aprecia de modo más nítido los que podríamos llamar los vicios de la 
+                      vida académica. La excesiva proliferación de revistas académicas, cuyos 
+                                                                                              -
+                      artículos nadie lee, el sinsentido de los enormes congresos internaciona
+                      les en los que muy pocos escuchan a otros, la presión que todo el mundo 
+                      siente por ser investigador y no simplemente un docente. Hace ya un 
+                                                                                              -
+                      par de décadas un joven filósofo norteamericano me decía que él par
+                      ticipaba en al menos un congreso filosófico cada semana (óigase bien, 
+                      cada semana). Todo indica que lo ha hecho muy bien, pues ha tenido 
+                      una carrera meteórica. No sé si será muy anticuado seguir creyendo con 
+                      Nietzsche que en filosofía es necesario rumiar, decantar largamente las 
+                                                                                              -
+                      ideas, que, en el ámbito del pensamiento, como dijo Wittgenstein, tam
+                      bién hay un tiempo para sembrar y un tiempo para cosechar. Quizás 
+                      parte de nuestro ‘problema’ es que seguimos sembrando manualmente.
+                           Como se desprende de lo que dije antes, mi concepto acerca de los 
+                      ensayos leídos no es siempre positivo. Precisamente por eso considero 
+                      24  No solo basta ser rico. El ingreso per cápita puede ser más bajo en Francia que en 
+                         Suecia, pero la influencia cultural de la primera es muy superior. También el tamaño 
+                         de la comunidad académica cuenta.
+                      25  No son ampliamente citados y discutidos, de manera que se consideren como parte de 
+                         la bibliografía estándar. Eso puede cambiar, por supuesto. Algo que es marginal en un 
+                         momento puede dejar de serlo después.
+                      26  En realidad, como me señala mi colega Laura Almandoz, todo esto es más controvertible 
+                         de lo que parece, pues adopta acríticamente la perspectiva del centro dominante, pero 
+                         no puedo aquí examinar esa cuestión.
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [210]   Jaime Ramos Arenas
+               que es necesario que nos discutamos unos a otros con mayor empeño, 
+                                                                                    -
+               que pulamos colectivamente nuestros trabajos y afinemos nuestros ar
+               gumentos. Supongo que es natural preferir ser muy selectivo y dedicar 
+               uno su tiempo a leer a los grandes autores, o por lo menos a los más 
+               célebres comentaristas, en lugar de a un colega que uno siente que no 
+               tiene mucho que enseñarle. Pero si no hacemos un trabajo más colectivo 
+               será muy difícil enriquecer nuestra producción filosófica.
+                                                                                    -
+                   Quizás algún día, que seguro yo no veré, la filosofía latinoameri
+               cana tenga un boom como el que tuvo nuestra literatura. Habremos, 
+                                                                                    -
+               entonces, asimilado, como propia propia la gran filosofía europea y nor
+               teamericana, y el fruto que salga de allí lucirá como algo nuevo, fresco, 
+               diferente de todo lo que lo antecedió. Pero, claro, lo que aparece en la 
+               superficie como un repentino esplendor es algo que viene gestándose 
+               largamente en el subsuelo. El primer paso es comprender la tradición 
+               más profundamente, de una manera mucho más perfilada y enrique-
+               cedora. Tenemos aún un prolongado camino por recorrer. Setenta años 
+               son poco para todo lo que hay que andar. Así que agarre su mochila mi 
+               querida Ideas que el viaje es largo. Por ahí, por el camino, nos tomamos 
+               una cerveza y celebramos su cumpleaños.
+               Bibliografía
+               Anscombe, G. E. M. An Introduction to Wittgenstein’s Tractatus. South Bend, Indiana: St.
+               Augustine´s Press, 1971.
+               Bourdieu, P. El sentido práctico. Trad. Ariel Dilon. Argentina: Siglo Veintiuno Editores, 2007.
+               Cardona, C. A. “¿Es Wittgenstein un fundacionalista?” Ideas Valores 60.146 (2011): 73-95. 
+                   [https://revistas.unal.edu.co/index.php/idval/article/view/36748]
+               Castañeda, F. “Arbitrariedad y posibilidad de alteración de lenguajes en Wittgenstein.” Ideas 
+                   y Valores 51.118 (2002): 57-78. [https://revistas.unal.edu.co/index.php/idval/article/
+                   view/16342]
+               Cavell, S. “Notes and Afterthoughts on the Opening of Wittgenstein’s Investigations” 
+                   (1995). Reproducido en The Cambridge Companion to Wittgenstein. Eds. Hans Sluga 
+                   y David Stern. Cambridge: Cambridge University Press, 1996.
+               Crary, A. & Rupert R., ed. The New Wittgenstein. Londres: Routledge, 2000.
+               Davidson, D. “Actions, Reasons, and Causes.” (1963) reproducido en Essays on Actions 
+                   and Events. Oxford: Oxford University Press, 1980. 3-19.
+               De Greiff, P “Salvando a Wittgenstein de Rorty: un ensayo sobre los usos del acuer-
+                   do.” Ideas y Valores 39.82 (1990): 51-64. [https://revistas.unal.edu.co/index.php/
+                   idval/article/view/21786]
+               Diamond, C. The Realistic Spirit. Cambridge, ma: mit Press, 1991.
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                  Leyendo a Wittgenstein desde la periferia     [211]
+                      Fodor, J., Bever T. G. & Garrett M. F. The Psychology of Language an Introduction to 
+                          Psycholinguistics and Generative Grammar. New York: McGraw-Hill, 1974.
+                      Frazer, J. La rama dorada: ciencia y religión. México: Fondo de Cultura Económica, 1951.
+                      Garver, N. “Philosophy as Grammar.” The Cambridge Companion to Wittgenstein. Eds. 
+                          Hans Sluga y David Stern. Cambridge: Cambridge University Press, 1996. 139-170.
+                      Gordillo, A. “¿Puede o no decirse del Metro Patrón que tiene 1 metro?” Ideas y Valores, 
+                          46.5 (1997): 51-61. [https://revistas.unal.edu.co/index.php/idval/article/view/21857]
+                      Gutiérrez, C. “El solipsismo en Wittgenstein apreciación crítica desde un punto de vista 
+                          fenomenológico.” Ideas y Valores 6.21/22 (1964a): 15-35. [https://revistas.unal.edu.
+                          co/index.php/idval/article/view/29034]
+                      Gutiérrez, C. “El solipsismo en Wittgenstein: Apreciación crítica desde un punto de vista 
+                          fenomenológico.” Ideas y Valores 6.23/24 (1964b): 103-20. [https://revistas.unal.edu.
+                          co/index.php/idval/article/view/29607]
+                      Hacker, P. M. “The rise and Fall of the Picture Theory.” Perspectives on the Philosophy of 
+                          Wittgenstein. Ed. IrvingBlock. Cambridge, ma: mit Press, 1981.
+                      Holguín, M. “La filosofía como crítica del lenguaje.” Ideas y Valores 41.87/88 (1992): 7-18. 
+                          [https://revistas.unal.edu.co/index.php/idval/article/view/18439]
+                      Holguín, M. Wittgenstein y el escepticismo. Santiago de Cali: Universidad del Valle, 1997.
+                      Karczmarczyk, P. D. “Materialismo, ideología y juegos de lenguaje.” Ideas y Valores 61. 
+                          150 (2012): 127-43. [https://revistas.unal.edu.co/index.php/idval/article/view/22927]
+                      Knabenschuh de Porta, S. “Multiplicidad y conocimiento: alcances y trasfondo de un 
+                          concepto wittgensteineano.” Ideas y Valores 52.121 (2003): 3-39. [https://revistas.
+                          unal.edu.co/index.php/idval/article/view/14470]
+                      Krebs, V. “El naturalismo trascendental del último Wittgenstein.” Ideas y Valores 45.100 
+                          (1996): 61-75. [https://revistas.unal.edu.co/index.php/idval/article/view/21813]
+                      Kripke, S. Wittgenstein on Rules and Private Language. Cambridge Massachusetts: 
+                          Harvard University Press, 1982.
+                      Luján Martínez, H. “Alcance y Pertinencia de las Lecturas Éticas del Tractatus de 
+                          Wittgenstein.” Ideas y Valores 59.142 (2010): 111-30. [https://revistas.unal.edu.co/
+                          index.php/idval/article/view/36601]
+                      Malcolm, N. (1986) Nothing is Hidden. Oxford: Basil Blackwell, 1986.
+                      Mejía, S. “Wittgenstein y la creencia religiosa.”  Ideas y Valores 55.132(2006): 3-29. [https://
+                          revistas.unal.edu.co/index.php/idval/article/view/1110]
+                      Meléndez, R. “La creencia religiosa y la forma de vida del creyente.” Ideas y Valores 65. 
+                          Sup. 2 (2016): 81-93. [https://revistas.unal.edu.co/index.php/idval/article/view/55162]
+                      Nordmann, A. Wittgenstein’s Tractatus An Introduction. Cambridge: Cambridge University 
+                          Press, 2005.
+                      Peña, J. I. “Wittgenstein y el debate sobre la fundamentación de las matemáticas.” Ideas 
+                          y Valores 92/93 (1993): 33-56. [https://revistas.unal.edu.co/index.php/idval/article/
+                          view/29210]
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213
+       [212]   Jaime Ramos Arenas
+               Ramos, J. “El ejercicio de la filosofía.” Ideas y Valores 46.104 (1997): 79-85.
+               Ramos, J. “Wittgenstein: la teoría de la representación en el Tractatus lógico-philosophicus.” 
+                   Lecciones de filosofía. Ed. Luis Eduardo Hoyos. Bogotá: Universidad Externado de 
+                   Colombia; Universidad Nacional de Colombia, 2003. 353-376.
+               Ramos, J. “La normatividad y la vida social.” Ontología social: una disciplina de frontera. 
+                   Eds. Jaime Ramos y Carlos Ramírez. Bogotá: Universidad Nacional de Colombia; 
+                   Universidad Javeriana de Cali, 2018. 97-125.
+               Ramos, J. “Confusiones gramaticales acerca de lo mental.” El pensamiento de L. Wittgenstein: 
+                   una presentación. Ed. Juan José Botero. Bogotá: Editorial Aula de Humanidades, 
+                   Universidad Nacional de Colombia, 2020. 221-243.
+               Rorty, R. Philosophy and The Mirror of Nature. Princeton: Princeton University Press, 1979.
+               Russell, B. La evolución de mi pensamiento filosófico. Trad. Juan Domingo. Madrid: 
+                   Alianza editorial, 1976.
+               Searle, J. (1969): Speech Acts: An Essay in the Philosophy of language. Cambridge: Cambridge 
+                   University Press, uk.
+               Sluga H. “Whose House is That? Wittgenstein on the Self.” The Cambridge Companion 
+                   to Wittgenstein. Ed. Hans Sluga y David Stern. Cambridge: Cambridge University 
+                   Press, 1996. 320-353.
+               Winch, P. The idea of a Social Science and Its Relation to Philosophy. Londres: Routledge, 1990.
+               Wittgenstein, L. [bb] The Blue and Brown Books. New York, Harper & Row Publishers, 1960.
+               Wittgenstein, L. [df] Diario Filosófico (1914-1916). Trad. de Jacobo Muñoz e Isidoro Reguera. 
+                   Barcelona: Planeta Agostini, 1986.
+               Wittgenstein, L. [pg] Philosophical Grammar. Ed. Rush Rhees. Trad. Anthony Kenny. 
+                   Berkeley: University of California Press, 1974.
+               Wittgenstein, L. [ofm] Observaciones sobre los fundamentos de la matemática. Trad. 
+                   Isidoro Reguera Madrid: Alianza Editorial, 1978.
+               Wittgenstein, L. [cv] Culture and Value. Eds. Georg von Wright y Heikki Nyman. Trad. 
+                   Peter Winch. Chicago: The University of Chicago Press, 1980.
+               Wittgenstein, L. [tlp] Tractatus Logico-Philosophicus. Trad. Charles K. Ogden. London: 
+                   Routledge & Kegan Paul, 1985.
+               Wittgenstein, L. [if] Investigaciones filosóficas. Trads. Alfonso García y Ulises Moulines. 
+                   Barcelona: Crítica, 1988.
+               Wittgenstein, L. [lc] Lecciones y conversaciones sobre estética, psicología y creencia reli-
+                   giosa. Trad. Isidoro Reguera. Barcelona: Ediciones Paidós Ibérica, 1992.
+               Wittgenstein, L. “Conferencia de ética” Ocasiones filosóficas 1912-1951. Eds. James Klagge 
+                   y Alfred Nordsmann. Trad. Angel García. Madrid: Cátedra Teorema, 1997.
+               Wittgenstein, L.[sc] Sobre la certeza. Trads. Josep Lluís Prades y Vicent Raga. Barcelona: 
+                   Gedisa, 1988.
+               departamento de filosofía  facultad de ciencias humanas  universidad nacional de colombia
+                                                   Leyendo a Wittgenstein desde la periferia      [213]
+                      Wittgenstein, L. Wittgenstein´s Lectures, Cambridge 1930-1933: From the Notes of G. E. 
+                           Moore. Eds. David Stern, Brian Rogers, y Gabriel Citron. Cambridge: Cambridge 
+                           University press, 2016.
+                      Wittgenstein, L. [ordf]. “Observaciones sobre La rama dorada de Frazer.” Ocasiones 
+                           filosóficas: 1912-1951. Eds. James C. Klagge y Alfred Nordmann. Trad. Ángel García. 
+                           Madrid: Cátedra, 1997.
+                      Wittgenstein, L. [pr]. Philosophical Remarks. Ed. Rush Rhees. Traductores Raymond 
+                           Hargreaves y Roger White. Oxford: Basil Blackwell, 1975.
+                         ideas y valores • vol. lxx • supl 7 • 2021 • issn 0120-0062 (impreso) 2011-3668 (en línea) • bogotá, colombia • pp. 173–213

@@ -1,9 +1,8 @@
 data/*
 *.pyc
 .ipynb_checkpoints/
-notebooks/.ipynb_checkpoints/
-experimentos/
-notas_reuniones/
+*/.ipynb_checkpoints/
+notebooks/old_files/
 .DS_store
 
 # TeX stuff

@@ -39,6 +39,7 @@ class Registry:
             json.dump(self.database, file, indent=True)
 
     def load_registry(self):
+        print(self.registry_path)
         with open(self.registry_path) as file:
             return json.load(file)
 
@@ -76,6 +77,7 @@ class Registry:
         for key, value in new_info.items():
             self.database[id][key] = value
 
+        self.manager.save(self.database[id], self.database[id]["filepath"])
         self.save_registry()
 
     def get_article_raw_file(self, id: str):
@@ -89,6 +91,13 @@ class Registry:
 
     def get_article_id_list(self):
         return self.database.keys()
+
+    def load_article_files(self):
+        articles = []
+        for info in self.database.values():
+            articles.append(info)
+        print(len(articles))
+        return [self.manager.load(article["filepath"]) for article in articles]
 
     def check_article_parsed(self, id: str):
         return self.database[id]["parsed"]

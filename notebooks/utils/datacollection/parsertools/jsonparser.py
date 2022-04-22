@@ -11,6 +11,7 @@ class JSONParser:
 
         new_metadata = {
             "id": raw_metadata["DC.Identifier"],
+            "title": raw_metadata["citation_title"],
             "lang": raw_metadata["citation_language"],
             "author": raw_metadata["citation_author"],
             "date": raw_metadata["citation_date"],
