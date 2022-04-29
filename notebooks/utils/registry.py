@@ -2,7 +2,7 @@ import json
 import os
 from enum import Enum
 
-from filemanager import FileManager
+from utils.filemanager import FileManager
 
 
 class Format(Enum):
@@ -39,12 +39,11 @@ class Registry:
             json.dump(self.database, file, indent=True)
 
     def load_registry(self):
-        print(self.registry_path)
         with open(self.registry_path) as file:
             return json.load(file)
 
     def add_article(
-        self, id: int, format: Format, raw_content: bytes, raw_metadata: dict
+        self, id: int, format: Format, raw_content: bytes, raw_metadata: dict, url: str
     ):
         """Registers and saves a downloaded article."""
 
@@ -58,6 +57,7 @@ class Registry:
             "raw_metadata": f"{folder}/{id}.json",
             "raw_filepath": raw_filepath,
             "format": format.value,
+            "url": url,
             "parsed": False,
         }
 
@@ -93,17 +93,20 @@ class Registry:
         return self.database.keys()
 
     def load_article_files(self):
-        articles = []
+        paths = []
         for info in self.database.values():
-            articles.append(info)
-        print(len(articles))
-        return [self.manager.load(article["filepath"]) for article in articles]
+            if "filepath" in info.keys():
+                paths.append(info["filepath"])
+        return [self.manager.load(path) for path in paths]
 
     def check_article_parsed(self, id: str):
         return self.database[id]["parsed"]
 
-    def check_article_downloaded(self, id: str):
-        return id in self.database.keys()
+    def check_article_downloaded(self, url: str):
+        for info in self.database.values():
+            if info["url"] in url:
+                return True
+        return False
 
     def save_parsed_article(self, id, article):
         """Registers and saves the article once it's parsed."""
@@ -117,3 +120,35 @@ class Registry:
 
         self.save_registry()
 
+    def load_folder(self):
+        for id in os.listdir("../data/raw"):
+            raw_folder = os.path.abspath(f"../data/raw/{id}")
+            file1, file2 = os.listdir(raw_folder)
+            if "json" in file1:
+                raw_metadata = f"{raw_folder}/{file1}"
+                raw_filepath = f"{raw_folder}/{file2}"
+            else:
+                raw_filepath = f"{raw_folder}/{file1}"
+                raw_metadata = f"{raw_folder}/{file2}"
+            if "pdf" in raw_filepath:
+                format = "pdf"
+            else:
+                format = "html"
+            with open(raw_metadata) as file:
+                info = json.load(file)
+            url = info["DC.Identifier.URI"]
+
+            article_dict = {
+                "id": id,
+                "raw_folder": f"{raw_folder}",
+                "raw_metadata": f"{raw_folder}/{id}.json",
+                "raw_filepath": raw_filepath,
+                "format": format,
+                "url": url,
+                "parsed": False,
+            }
+
+            # Register the file into database.
+            self.database[id] = article_dict
+            self.save_registry()
+            print(f"Added {id} from folder.")
