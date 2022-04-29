@@ -3,6 +3,9 @@ data/*
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 notebooks/old_files/
+notebooks/gensim_models/
+notebooks/utils/article*
+notebook/utils/temp.txt
 .DS_store
 
 # TeX stuff
@@ -11,3 +14,4 @@ notebooks/old_files/
 *.fdb_latexmk
 *.fls
 *.log
+notebooks/utils/article_registry.json
