@@ -28,4 +28,9 @@ class JSONParser:
         except KeyError:
             new_metadata["issue"] = "Undefined"
 
+        try:
+            new_metadata["abstract"] = raw_metadata["DC.Description"]
+        except KeyError:
+            new_metadata["abstract"] = None
+
         return new_metadata

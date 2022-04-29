@@ -7,13 +7,15 @@ and saves them in JSON format.
 
 Each article will be saved in the folder data/raw_html/{article_id}/.
 """
+from multiprocessing import Pool
 
-from datacollection.scrapertools.downloaders import (
+from utils.download.scrapertools.downloaders import (
     HTMLDownloader,
     PDFDownloader,
     soupify,
 )
-from registry import Registry
+from time import sleep 
+from utils.registry import Registry
 
 
 # Headers for requests
@@ -40,8 +42,8 @@ class Scraper:
             issue_toc_links += self.scrape_archive_page(archive_page_url)
 
         # We visit each issue and download every article.
-        for issue_toc in issue_toc_links[:1]:
-            self.scrape_issue(issue_toc)
+        with Pool(5) as pool:
+            pool.map(self.scrape_issue, issue_toc_links)
 
     def get_next_archive_page(self, current_url):
         """Recursive function to get all archive pages."""
@@ -77,4 +79,12 @@ class Scraper:
                 print("Didn't find a suitable link. Skipping")
                 continue
 
-            downloader.download(link_tag["href"])
+            link = link_tag["href"]
+
+            # Check the registry and see if we have the file. If so, skip it.
+            if self.registry.check_article_downloaded(link):
+                print("We've got this article already. Skipping.")
+                continue
+
+            downloader.download(link)
+            sleep(5)

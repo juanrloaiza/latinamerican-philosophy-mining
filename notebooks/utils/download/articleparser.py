@@ -1,10 +1,10 @@
-from datacollection.parsertools.pdfparser import PDFParser
-from datacollection.parsertools.htmlparser import HTMLParser
-from datacollection.parsertools.jsonparser import JSONParser
-from registry import Registry, Format
+from utils.download.parsertools.pdfparser import PDFParser
+from utils.download.parsertools.htmlparser import HTMLParser
+from utils.download.parsertools.jsonparser import JSONParser
+from utils.registry import Registry, Format
 
 
-class ArticleReader:
+class ArticleParser:
     def __init__(self, registry: Registry, dictionary_path: str) -> None:
         self.registry = registry
         self.dictionary_path = dictionary_path

@@ -1,7 +1,7 @@
 from spellchecker import SpellChecker
 from nltk.tokenize import WordPunctTokenizer
 import re
-from datacollection.parsertools.dictionary import (
+from utils.download.parsertools.dictionary import (
     Dictionary,
     PhilosophyDictionary,
     RAEDictionary,
@@ -26,7 +26,7 @@ class WordCorrector:
 
         print(f"Unknown words: {len(unknown_words_start)}")
 
-        with Pool() as p:
+        with Pool(5) as p:
             corrected_pairs = p.map(self.correct_word, unknown_words_start)
 
         correction_dict = {}
@@ -50,6 +50,8 @@ class WordCorrector:
         )
 
     def correct_word(self, word):
+        if len(word) > 20:
+            return word, word
 
         for dictionary in self.dictionaries:
             correction = dictionary.correction(word)

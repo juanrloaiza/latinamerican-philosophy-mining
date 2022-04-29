@@ -1,4 +1,4 @@
-from datacollection.parsertools.dictionary import PhilosophyDictionary
+from utils.download.parsertools.dictionary import PhilosophyDictionary
 
 
 class HTMLParser:

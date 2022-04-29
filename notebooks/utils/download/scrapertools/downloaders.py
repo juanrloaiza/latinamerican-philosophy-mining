@@ -3,8 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 from abc import abstractmethod
-from registry import Registry, Format
-from time import sleep  # To wait between requests
+from utils.registry import Registry, Format
 
 """UTILITY FUNCTIONS"""
 
@@ -66,11 +65,6 @@ class HTMLDownloader(Downloader):
         print(f"Title: {raw_metadata['DC.Title']}")
         print("Type: HTML")
 
-        # Check the registry and see if we have the file. If so, skip it.
-        if self.registry.check_article_downloaded(id):
-            print("We've got this article already. Skipping.")
-            return
-
         article_html_data = article_soup.find("div", class_="textoCompleto").text
 
         self.registry.add_article(
@@ -78,10 +72,8 @@ class HTMLDownloader(Downloader):
             raw_content=article_html_data,
             raw_metadata=raw_metadata,
             format=Format.HTML,
+            url=article_url
         )
-
-        sleep(2)
-
 
 class PDFDownloader(Downloader):
     """Downloads PDF files."""
@@ -110,11 +102,6 @@ class PDFDownloader(Downloader):
         print(f"Title: {raw_metadata['DC.Title']}")
         print("Type: PDF")
 
-        # Check the registry and see if we have the file. If so, skip it.
-        if self.registry.check_article_downloaded(article_id):
-            print("We've got this article already. Skipping.")
-            return
-
         # Get the download link, or skip if not found.
         download_tag = pdf_soup.find("a", class_="download")
 
@@ -132,6 +119,5 @@ class PDFDownloader(Downloader):
             raw_content=pdf,
             raw_metadata=raw_metadata,
             format=Format.PDF,
+            url=article_url
         )
-
-        sleep(2)

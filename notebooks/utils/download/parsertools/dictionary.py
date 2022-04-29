@@ -41,7 +41,8 @@ class PhilosophyDictionary(Dictionary):
         Takes in text and adds frequencies to the current dictionary in memory.
         Then it saves the frequencies to file.
         """
-        self.spell.word_frequency.load_text(text)
+        words = text.split()
+        self.spell.word_frequency.load_words([w for w in words if w.isalpha() and len(w) > 3])
         self.spell.word_frequency.remove_by_threshold(3)
         self.spell.export(self.path, gzipped=False)
 
