@@ -84,13 +84,13 @@ class Model:
         """Gets the article title from the Corpus."""
         return self.corpus_obj.get_article_ref(article_id)
 
-    def export_summary(self):
+    def export_summary(self, filename):
         """Saves a summary file in PDF format for later usage."""
         summary = ""
         for topic in self.topics:
             summary += topic.summary() + "\n\\newpage"
         doc = pandoc.read(summary)
-        pandoc.write(doc, file="summary.pdf", format="pdf")
+        pandoc.write(doc, file=filename, format="pdf")
 
     def get_coherence(self):
         """Computes the coherence of the model."""
