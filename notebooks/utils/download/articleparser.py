@@ -36,8 +36,7 @@ class ArticleParser:
             )
 
     def parse_article(self, article_id, articleparser):
-        # Check if we already parsed this article.
-        if self.registry.check_article_parsed(article_id):
+        if self.registry.is_article_parsed(article_id):
             print("Already parsed.")
             return
 
@@ -47,7 +46,6 @@ class ArticleParser:
         print(f"Parsing: {article_file}")
 
         article_metadata = JSONParser().parse(raw_metadata)
-
         article_text, corrector_results = articleparser.parse(article_file)
 
         article_metadata["text"] = article_text

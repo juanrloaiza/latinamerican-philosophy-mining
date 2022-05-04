@@ -72,8 +72,9 @@ class HTMLDownloader(Downloader):
             raw_content=article_html_data,
             raw_metadata=raw_metadata,
             format=Format.HTML,
-            url=article_url
+            url=article_url,
         )
+
 
 class PDFDownloader(Downloader):
     """Downloads PDF files."""
@@ -95,29 +96,23 @@ class PDFDownloader(Downloader):
         article_link = pdf_soup.find("a", class_="return")["href"]
         article_soup = soupify(article_link)
 
-        # Extract metadata
         article_id, raw_metadata = extract_metadata(article_soup)
 
-        # Which article are we visiting?
         print(f"Title: {raw_metadata['DC.Title']}")
         print("Type: PDF")
 
-        # Get the download link, or skip if not found.
         download_tag = pdf_soup.find("a", class_="download")
 
         if not download_tag:
             print("Couldn't get where to download the pdf file from!")
             return
 
-        pdf_download_link = download_tag["href"]
-
-        # Get the PDF file and save it to file.
-        pdf = requests.get(pdf_download_link).content
+        pdf = requests.get(download_tag["href"]).content
 
         self.registry.add_article(
             id=article_id,
             raw_content=pdf,
             raw_metadata=raw_metadata,
             format=Format.PDF,
-            url=article_url
+            url=article_url,
         )

@@ -99,7 +99,7 @@ class Registry:
                 paths.append(info["filepath"])
         return [self.manager.load(path) for path in paths]
 
-    def check_article_parsed(self, id: str):
+    def is_article_parsed(self, id: str):
         return self.database[id]["parsed"]
 
     def check_article_downloaded(self, url: str):
