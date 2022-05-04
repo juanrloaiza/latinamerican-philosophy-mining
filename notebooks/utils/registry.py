@@ -18,6 +18,11 @@ class Registry:
         self, registry_path: str, data_path: str, manager: FileManager,
     ):
         """
+        The Registry object will manage a JSON file that keeps track of the documents
+        we've downloaded, parsed, and where they are stored. It interfaces with a 
+        FileManager object to save the files to disk, and it is the source of information
+        for the Corpus object to load the JSON files via the Registry.
+
         TODO: Change the paths to a dictionary we can read from JSON.
         """
         self.registry_path = registry_path
