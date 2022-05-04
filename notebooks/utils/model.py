@@ -18,7 +18,7 @@ class Model:
         self.texts = [article.get_bow_list() for article in self.articles]
         self.id2word = corpora.Dictionary(self.texts)
 
-    def prepare(self, seed=None):
+    def train(self, seed=None):
         """Trains the model for the first time."""
         corpus_bows = [self.id2word.doc2bow(text) for text in self.texts]
 
@@ -120,7 +120,7 @@ class Model:
     def get_stats(self):
         """Returns statistics regarding the model. Useful for analysis when calibrating."""
         start_train = time.time()
-        self.prepare()
+        self.train()
         end_train = time.time()
 
         start_coherence = time.time()
