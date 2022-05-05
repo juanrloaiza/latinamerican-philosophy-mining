@@ -83,7 +83,6 @@ class Registry:
             self.database[id][key] = value
 
         self.manager.save(self.database[id], self.database[id]["filepath"])
-        self.save_registry()
 
     def get_article_raw_file(self, id: str):
         return self.database[id]["raw_filepath"]
@@ -100,7 +99,7 @@ class Registry:
     def load_article_files(self):
         paths = []
         for info in self.database.values():
-            if "filepath" in info.keys():
+            if "filepath" in info:
                 paths.append(info["filepath"])
         return [self.manager.load(path) for path in paths]
 
@@ -125,7 +124,7 @@ class Registry:
 
         self.save_registry()
 
-    def load_folder(self):
+    def load_raw_folder(self):
         for id in os.listdir("../data/raw"):
             raw_folder = os.path.abspath(f"../data/raw/{id}")
             file1, file2 = os.listdir(raw_folder)
@@ -135,25 +134,35 @@ class Registry:
             else:
                 raw_filepath = f"{raw_folder}/{file1}"
                 raw_metadata = f"{raw_folder}/{file2}"
+
             if "pdf" in raw_filepath:
                 format = "pdf"
             else:
                 format = "html"
-            with open(raw_metadata) as file:
-                info = json.load(file)
+
+            info = self.manager.load(raw_metadata)
             url = info["DC.Identifier.URI"]
+            parsed = False
+            filepath = None
+
+            if os.path.exists(f"../data/corpus/{id}.json"):
+                parsed = True
+                filepath = os.path.abspath(f"../data/corpus/{id}.json")
 
             article_dict = {
                 "id": id,
                 "raw_folder": f"{raw_folder}",
                 "raw_metadata": f"{raw_folder}/{id}.json",
                 "raw_filepath": raw_filepath,
+                "filepath": filepath,
                 "format": format,
                 "url": url,
-                "parsed": False,
+                "parsed": parsed,
             }
 
             # Register the file into database.
             self.database[id] = article_dict
-            self.save_registry()
-            print(f"Added {id} from folder.")
+            print(f"Loaded {id} from raw folder.")
+
+        self.save_registry()
+

@@ -17,7 +17,7 @@ registry = Registry(
 )
 
 # Loads the current files from the data folder.
-# registry.load_folder()
+# registry.load_raw_folder()
 
 # Downloads the articles.
 # scraper = Scraper(archive_url=ARCHIVE_URL, registry=registry)

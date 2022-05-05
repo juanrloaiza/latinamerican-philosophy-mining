@@ -38,32 +38,28 @@ class Corpus:
         articles = self.registry.load_article_files()
         docs = []
         for info in articles:
-            article = Article(info["id"])
-            for key, value in info.items():
-                setattr(article, key, value)
-            docs.append(article)
+            if info["lang"] == "es" and info["type"] == "ART\u00cdCULOS":
+                article = Article(info["id"])
+                for key, value in info.items():
+                    setattr(article, key, value)
+                docs.append(article)
         return docs
 
-    def get_documents_list(self, lang="es", type="ART\u00cdCULOS") -> list:
+    def get_documents_list(self) -> list:
         results = [doc for doc in self.documents if doc.text]
-        if lang:
-            results = [doc for doc in results if doc.lang == lang]
-        if type:
-            results = [doc for doc in results if doc.type == type]
-
         print(f"Loading corpus. Num. of articles: {len(results)}")
         return results
+
+    def save_documents(self):
+        """Saves the article's dictionary through the registry after some edit."""
+        for article in self.documents:
+            self.registry.update_article(article.id, article.__dict__)
 
     def get_article_ref(self, id) -> str:
         """Returns a string with the reference of an article."""
         for article in self.documents:
             if article.id == id:
                 return f"{article.author} ({article.date}). {article.title}"
-
-    def save_documents(self):
-        """Saves the article's dictionary through the registry after some edit."""
-        for article in self.documents:
-            self.registry.update_article(article.id, article.__dict__)
 
     def get_article_by_id(self, id: str) -> Article:
         """Returns an Article object given an ID."""
