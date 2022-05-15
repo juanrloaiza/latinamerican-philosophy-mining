@@ -125,8 +125,8 @@ class Registry:
         self.save_registry()
 
     def load_raw_folder(self):
-        for id in os.listdir("../data/raw"):
-            raw_folder = os.path.abspath(f"../data/raw/{id}")
+        for id in os.listdir(f"{self.data_path}/raw"):
+            raw_folder = os.path.abspath(f"{self.data_path}/raw/{id}")
             file1, file2 = os.listdir(raw_folder)
             if "json" in file1:
                 raw_metadata = f"{raw_folder}/{file1}"
@@ -145,9 +145,9 @@ class Registry:
             parsed = False
             filepath = None
 
-            if os.path.exists(f"../data/corpus/{id}.json"):
+            if os.path.exists(f"{self.data_path}/corpus/{id}.json"):
                 parsed = True
-                filepath = os.path.abspath(f"../data/corpus/{id}.json")
+                filepath = os.path.abspath(f"{self.data_path}/corpus/{id}.json")
 
             article_dict = {
                 "id": id,
