@@ -69,9 +69,8 @@ class Model:
         }
 
         for art_id, topics_and_probs in topics_in_articles.items():
-            if topics_and_probs:
-                for topic_id, prob in topics_and_probs:
-                    topics_dict[topic_id].append((art_id, float(prob)))
+            for topic_id, prob in topics_and_probs:
+                topics_dict[topic_id].append((art_id, float(prob)))
 
         for topic_id, article_list in topics_dict.items():
             new_topic = Topic(
@@ -97,7 +96,7 @@ class Model:
         """Computes the coherence of the model."""
         coherence_model = CoherenceModel(
             model=self.lda,
-            bows=self.bows.values(),
+            texts=self.bows.values(),
             dictionary=self.id2word,
             coherence="c_v",
         )
@@ -113,7 +112,7 @@ class Model:
         return [
             article
             for article in self.articles
-            if not self.get_topics_in_article(article)
+            if not self.get_topics_in_article(self.bows[article.id])
         ]
 
     def get_stats(self):
@@ -128,7 +127,7 @@ class Model:
         c = self.get_coherence()
         end_coherence = time.time()
 
-        arts_per_topic = [len(topic.articles) for topic in self.topics]
+        arts_per_topic = [len(topic) for topic in self.topics]
 
         return {
             "coherence": c,
@@ -136,7 +135,9 @@ class Model:
             "time_lda": end_train - start_train,
             "time_coherence": end_coherence - start_coherence,
             "orphans": len(self.get_orphans()),
-            "avg_num_per_topic": np.mean(arts_per_topic),
-            "std_num_per_topic": np.std(arts_per_topic),
+            "avg_arts_per_topic": np.mean(arts_per_topic),
+            "std_arts_per_topic": np.std(arts_per_topic),
+            "min_arts_in_topic": np.min(arts_per_topic),
+            "max_arts_in_topic": np.max(arts_per_topic),
         }
 

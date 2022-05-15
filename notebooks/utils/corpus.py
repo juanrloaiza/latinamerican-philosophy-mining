@@ -30,15 +30,15 @@ class Corpus:
         )
         self.documents = self.load_documents_from_registry()
 
-    def load_documents_from_registry(self) -> list:
+    def load_documents_from_registry(self, only_articles: bool = True) -> list:
         """
         Returns a list of id, info pair. Info is a dictionary with the JSON data
         contained in each article's JSON file in data/corpus.
         """
         articles = self.registry.load_article_files()
         docs = []
-        for info in articles:
-            if info["lang"] == "es" and info["type"] == "ART\u00cdCULOS":
+        for info in [info for info in articles if info["lang"] == "es"]:
+            if not only_articles or info["type"] == "ART\u00cdCULOS":
                 article = Article(info["id"])
                 for key, value in info.items():
                     setattr(article, key, value)

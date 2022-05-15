@@ -12,6 +12,10 @@ class Topic:
         """Represents itself by topic id and the number of articles it has."""
         return f"Topic: {self.id}, Articles: {len(self.articles)}"
 
+    def __len__(self) -> int:
+        """Represents the topic length by the number of articles it has."""
+        return len(self.articles)
+
     def get_top_articles(self, n=5):
         """Returns the top n articles IDs in the topic."""
         return self.articles[:n]

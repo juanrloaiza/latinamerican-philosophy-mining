@@ -1,640 +1,676 @@
-           TELEOLOGIA DE LA HAZON Y FILOSOFIA
-                        Estudio     de un inedito        hursseliano      de 1911
-                            DANIEL HERRERA RESTREPO                      O.F.M.
-        Los estudiosos del pensamiento husserliano saben muy bien de la ten-
-     dencia en el Padre de la Fenomenologia hacia un conocimiento absoluto.
-     La teoria de la intencionalidad           -lineada      ya en sus "Investigaciones           logi-
-     cas"-     y la teoria de la reduccion -presentada                   por primera vez en la
-     "Idea de la Fenomenologio'ts-s-             permitian     a Husserl- el darse como ideal
-     Ia busqueda de un tal conocimiento absolute. En efecto, dichas teorias
-     representaban       la posibilidad     de un contacto entre la conciencia y la ob-
-     jetividad    en el seno de la inmanencia pura. Algo mas, admitiendo que
-     toda trascendencia         podia ser reducida         a "fenomeno puro", el dominio
-     universal    de la filosofia se hacia, una posibilidad                para la .reflexion       de
-     Husserl : porque del dominio de las idealidades logicas y matematicas
-     -analizadas      en las "Investigaciones         16gicas"-     podia pasar al dominio del
-     ser en su totalidad.
-        Bajo estas condiciones los discipulos de nuestro filosofo bien podian
-     esperar una nueva definicion y concepcion de la filosofia. lIntento                          esto
-     Husser! al publicar su famoso articulo intitulado "La filosofia                     como cien-
-     cia estricta"?2.     No 10 creemos. Aunque dicho articulo signifique un ver-
-     dadero "manifiesto"          filosOfico, seria inutil el querer encontrar               alli una
-     definicion    precisa    y exacta de la filosofia. La filosofia significa, senci-
-     llamente, "ciencia estricta",         pero ninguno de estos dos conceptos es ex-
-     plicitamente     analizado.     La filosofia, es afirmado,           responde "a los idea-
-     les mas nobles de la cultura humana'it.               Es cierto que del analisis husser-
-     liano se desprende que la filosofia debe ser un "conocimiento absolute'S,
-     es decir, valido en todo tiempo y para todos los hombres. Precisamente
-     desde este punto de vista Husser! realiza su critica al naturalismo                          bajo
-    todas sus formas (positivismo, empirismo, psicologismo),                        al historicismo
-        Cfr. Die Idee    der  Phiinomenologie.    Gesammelte Werke, T. II. Bajo este titulo los
-        "Archivos de Husserl"      (Lovaina)   puhlicaron  las cinco primeras conferencias pronun-
-        ciadas por Husserl como introduccidn        a un curso sohre los "objetos materiales"        en
-        1907.       .
-    2 Philosophie    au strenge    Wissenschaft,  en Logos, I, 1911. pp. 289-341. Nosotros eitare-
-        mos este articulo bajo la sigla Ph. W.
-    3 Ibid., p, 293.
-    4   Ibid., p. 290.
-                                        DANIEL HERRERA RESTREPO
-             30
-             y a las filosofias de la Weltanschauung. Pero, viendolo bien, "La [doso-
-             fid como ciencia estricta"     se reduce a una critica de tales "posiciones"
-             y el fundamento para dicha critica no es otro que la constatacion de que
-             tales "posiciones" se oponen, por principio, a la idea de un conocimien-
-             to absoluto,  EI naturalismo, a pesar de su pretencion de ser la {mica fi-
-             losofia cientifica, en cuanto naturaliza la conciencia y las ideas, 10 cual
-             implica necesariamente la relatividad de la verdad. EI historicismo y las
-             filosofias de la Weltanschauung, en cuanto desde el punto de partida afir-
-             man la relatividad de sus teorias y por 10 mismo de la filosofia.
-                Husserl no prueba "rigurosamente"         la posihilidad de un conocimien-
-             to ahsoluto, e igualmente, no nos dice cual seria -in          concreto-    la es-"
-             tructura  formal y el contenido material propio de la filosofia. Fuera de
-             la critica -y    a partir de dicha critica-     de las "posiciones" menciona-
-             das, nosotros solo encontramos algunas indicaciones generales sobre una
-             fiIosofia que pretende llegar a ser ciencia estricta.                    -
-                "La jilosojia   como ciencia estricta"    se nos presenta como un "ideal"
-             por realizar;   ella es la expresion de una nueva Weltanschauung, de una
-             nueva "ideologia" que difiere de las otras solo en su anhelo de afirmar-
-             se como valida absolutamente para todos y para siempre. Pero este ideal
-             dehia, posteriormente,     ser sometido a prueba al recihir un contenido
-             concreto. Es por esto por 10 que Husserl mal podia en el momento de es-
-             cribir  su "manifiesto"    dar una justificacion total del ideal pretendido.
-             No hemos de exigir del filosofo el no presuponer nada. En el punto de
-             partida de toda filosofia hay siempre una interrogacion que supone, al
-             menos, un objeto hacia el cual ella se orienta. Podriamos decir, inclusive,
-             que el origen de toda filosofia es un presupuesto que se funda de ordina-
-             rio en una intuicion anticipada y que dificilmente se puede tematizar. Es,
-    ;        precisamente, esta intuicion la que pone en marcha el pensamiento filoso-
-             fico. EI progreso de este constituye, por su parte, tanto una justificacion
-             como una profundizacion del punto de partida. Esta "situacion" tiene va-
-             lor, igualmente, para HusserI. Para e1 la filosofia es 10 correlativo a la
-             aspiracion de la humanidad hacia un conocimiento ahsoluto. Husserl se
-             da como ideal suyo el responder a dicha exigencia mediante la "volun-
-             tad plenamente consciente de forjar de nuevo y radicalmente la filosofia
-             en el sentido de una ciencia "estricta'f. Esta voluntad va a dirigir y de-
-             terminar la evolucion del pensamiento husserliano. Y esta evolucion va
-             Ii esclarecer, a justificar  y, finalmente, a dar un contenido concreto al
-             ideal propuesto.
-                EI caracter "ideologico"     de la pOSICIOnhusserliana salta a la vista
-             cuando consideramos su motivacion,        La filosofia, como correlativa a los
-             intereses mas nobles de la humanidad, debe, segiin HusserI, realizarse
-             en el sentido de una ciencia estricta. EI motivo esta en el hecho de vivir
-             en una epoca cuya nota caracteristica es el rigor manifestado en las.cien-
-             cias .v l Pero como se puede justificar la tesis que afirma que los intereses
-             5  tue; p. 292.
-             6 Ibid.; p. 293.
-                           TELEOLOGIA DE LA RAZON Y FILOSOFIA                                    31
-    mas nobles del hombre corresponden                a los valores cientificos?        lAcaso    el
-    mismo Husser! no nos dice que estos valores son los mas elevados solo
-    "desde ciertos puntos de vista"?7             lNo leemos, ademas, en el mismo ar-
-    ticulo que "la ciencia no es mas que un valor entre otros valores de dere-
-    cho igual"? .8 Si esto es asi, tendriamos           que decir que la opcion de Husser!
-    no esta fundada en una posibilidad              de realizacion     ni mucho menos en la
-    validez del ideal perseguido,         Pero no olvidemos 10 que hemos dicho: toda
-    fiIosofia en su etapa de formacion            y programacion        es una ideologia.      Este
-    caracter   solo va desapareciendo          a medida que el pensamiento              fiIosOfico
-    se va justificando       progresivamente.       Husserl    proyecto     en el horizonte      de
-    su vida el ideal de un saber teorico y analitico                 plenamente      justificado.
-    Toda su vida fue un esfuerzo unico e incomparable                       p~r realizar     dicho
-    ideal. El contenido,     el objeto del ideal variara        al compas de su realizacion:
-    el ideal en cuanto tal sera siempre el mismo. La definicion                   de la fiIosofia
-    "como ciencia estricta"        dependera     de la revelacion del objeto propio. Solo
-    a medida que esta revelacion se efecnie, la filosofia podra definirse                      a si
-    mismay      definir   su ohjeto.    Solo el ideal es, pues, inmutable:           realizar   una
-    fiIosofia  como ciencia estricta,
-       Una de las etapas mas interesantes            en la realizacion     de dicho ideal pero
-    al mismo tiempo una de las mas desconocidas                    es la que nosotros       quere-
-    mosanalizar,       tomando       como base' un inedito           de Husserl      fechado     en
-          9
-    1911.
-       A comienzos de este afio Husserl publico su articulo la "Filosojia como
-   ciencia estricta".      Es de suponer que Husserl, mas de una vez, repenso el
-   pensamiento       expuesto en dicho articulo,          ya fuera para justificarsu           eIec-
-   cion, 0 ya, para medir su alcance. Esto nos explicaria,                 por que Husserl en
-   el semestre de verano de 1911, es decir, en el semestre que siguio a la
-   publicacion      de dicho articulo,        volvio a tratar      por extenso el problema
-   acerca    del sentido      de la fiIosofia.      En efecto, como introduccion              a un
-   curso    sobre    los problemas       fundamentales       de la etica, Husserl         presento
-   en aquel semestre una serie de consideraciones                    sobre las disciplinas       fi-
-   losoficas    y sobre la idea de- la fiIosofia.         Creemos que estas consideracio-
-   nes tienen una gran- importancia.            Por esto queremos darlas a conocer ya
-   que hasta      ahora    han permanecido          ineditas.    El mismo Husserl cuando
-   anos mas tarde las volvio a leer, las estimo como "consideraciones                           lIe-
-   nas de valor"       (Wertvolle     Betrachtungen)      10. Y 10 son, en efecto, por di-
-   versas    razones.    ElIas vienen a confirmar           eI caracter     "ideologico"     de la
-   nocion presentada        en "La filosofia       como ciencia rigurosa".           Es en estas
-   paginas    que la fiIosofia      recibe    un contenido      concreto    en cuanto conoci-
-   miento absoluto        y en cuanto cien~ia que responde a los "intereses                    mas
-   7 Ibid.,  p. 332.
-   8 Ibid.,  p. 338.
-   9 EI "inedito fue intitulado    por el mismo BusserI de la siguiente manera:          "Idee   der
-      "philosophischen    Disziplinen",   Idee  der   Philosophio".   Vorgetragen    als Einleitnng
-      in die Grundprobleme der Ethik. Sommer 1911, Giittingen". EI texto original esta reo
-      dactado en taquigrafia y se encuentra en los "Archivos de BusserI". Citaremos la trans-
-      cripci6n hecha, y no publicada a~,     en los archivos y que lleva la sigla F 1 14.
-   10 efr. Ibid., p. 40.
-                                                              DANIEL HERRERA RESTREPO
-                      32
-                      elevados de la humanidad'Tt.                        Finalmente los analisis que aqui encontra-
-                      mos nos ayudan, de manera especial, a comprender la evolucion posterior
-                      del pensamiento husserliano
-                          Al querer investigar el lugar que ocupa la etica dentro de un pensa-
-                       miento filosofico, Husser! se hace la eterna pregunta:                                      (,"que es la filoso-
-                       fia ?". La respuesta no es inmediata. En un analisis del movimiento teleo-
-                       logieo de la razon, Husser! se esfuerza en situar -segun                                            el valor teori-
-                       co-      cada una de las etapas de esta teleologia. En el punto de partida
-                       admite, como hipotesis de trabajo, una idea de la filosofia muy semejan-
-                       te a aquella presentada en "La /iloso/ia                             como ciencia rigurosa".                   La filo-
-                       sofia es, nos dice, la ciencia que responde a los intereses mas elevados del
-                       conocimiento, 0, la ciencia que, plenamente consciente, es movida .por la
-                       idea de un conocimiento perfecto y absolutot-. Y Husser! afiade que se
-                       trata    de una idea que debe ser "desarrollada,                                determinada           y esclarecida
-                       cientificamente";             como tambien, que es necesario el investigar cuales son
-                       las disciplinas formales y los principios correspondientes                                        que, como nor-
-                       mas absolutas, deben ser aplicados a los conocimientos singulares, para
-                                                                                                                                    3
-                       que estos puedan ser considerados igualmente como filosOficosI .
-                           Husser! se propone, pues, esclarecer tanto el sentido como el objeto de
-                       la filosofia.        Para llegar alli, situa cada uno de los conocimientos singu-
-                       lares en el lugar respectivo al interior del movimiento teleologico de la
-                       razonI4. EI telos, el fin de este movimiento no es sino la filosofia defini-
-                       da por Husser! como la ciencia de la construcci6n a priori de la idea del
-                       mejor       de los mundos posibles y de las ideas correlativas:                                       una persona,
-                       una vida y una realidad, como las mas perjectas entre todas las pensables.
-                           Considerado esto atentamente, nos encontramos delante de un neoleib-
-                       nizianismo.          Como ha llegado Husserl a dar a la filosofia, como objeto
-                       propio, la estructuracion                  a priori del mejor de los mundos posibles?
-                           En este movimiento del pensamiento husserliano,                                         podrian        distinguir-
-                       se varias etapas. Primeramente,                          Husserl analiza la tendencia                        que todo
-                       conocimiento tiene de llegar a ser absoluto y perfecto, 10 cual exige una
-                       reflexion        sobre los actos cognoscitivos. En esta etapa, nos encontramos
-                       todavia en la dimension de "La [ilosojia como ciencia rigurosa".                                                   En la
-                       etapa siguiente, Husser! coloca su punto de partida en la adaptacion                                                    de
-                       II  Cfr. ius; p. 16.
-                       12 Ibid., 1. e.: "Wir kdnnen es zuniiehst mit foigendem Ansatz versuehen:                               Philosophie ist
-                            die Wissensehaft, welche die hdchsten Erkenntnisinteressen                       vertritt,   oder die, nnd zwar
-                           voll bewusst, von der Idee der vollkommenen Erkenntnis,                              der absoluten Erkenntnis
-                           bewegt wird".
-                       13 lbid., I, c.r      "Ihr   liegt es also ob diese zuniichst ungeklarte                 und verworrene Idee, der
-                           sich aile Erkenntnis         einordnet oder nnterordnet,             der aber keine voUkommenen genjigt,
-                           wissenschal'tlieh ausaugestalten,           zu bestimmen, zu kliiren, die zu ihr gehor;gen Prinzi.
-                           pien und prinzipiellen           Disziplinen      zu entwiekeln nnd von ihnen ais idealen Norwen
-                           methodiseh Anwendnng zu maehen auf aUe besonderen Erkenntnisse.                                    Die besonderen
-                           Erkenntnisse       soUen dadureh zu philosophisehen umgepriigt werden".
-                       14 Ibid., 1. e.: "Sie soUen Einordnung erfahren in :inen syslematisehen Gang der Erkennt.                                      /
-                           nis zum Ideal der absoluten, in jeder Hinsieht allervoUkommenslen Erkenntnis".                                      Cfr.
-                           p. 17.
-                             TELEOLOGIA DE LA RAZON Y FILOSOFIA                                     33
-     la naturaleza     a las exigencias       de universalidad       y unidad del conocimien-
-     to, tal como esa exigencia se habia revelado en la primera etapa. EI pun-
-     to culminante      de esta segunda etapa es la concepcion                a priori    del mejor
-     de los mundos posibles y de la filosofia                  como ciencia que explicita             y
-    fundamenta       dicha concepcion.        Se podria,      finalmente,    considerar      una ter-
-    cera etapa que, partiendo          de una reflexion sobre el mejor de los mundos,
-    llega a la concepcion        de la idea de Dios como el Ser Absoluto y a la con-
-    cepcion de la filosofia como "la ciencia de la idea pura de la divinidad".
-    Asi tendriamos         una definicion       de la filosofia,      semejante      a una de las
-    definiciones     de la metafisica        formulada      por Aristoteleste.
-       Estudiemos       ahora,   mas detalladamente,          este movimiento        teleologico    de
-    la razon,
-       Nuestras     primeras      relaciones    cognoscitivas      con la realidad,        estan   de-
-    terminadas      por la necesidad        de satisfacer     a las exigencias      inmediatas      de
-    la vida.    EI conocimiento,        es conocimiento         de objetos     individuales      y de
-    leyes aisladasl«:       Poco a poco, sin embargo,              no es dado liberarnos            de
-    estas necesidades,       10 cual permite purificar         nuestro    interes   teoretico,   para
-    no ser determinado         sino por el valor intrinseco         del mismo conocimientot".
-    En todo interes teoretico           purificado,     se anuncia una tendencia            hacia    el
-    conocimiento       absolutot''.   Eso se comprueba           en la exigencia       de clarifica-
-    cion,   de fundamentacion          y de justificacion         que presenta      dicho     interes,
-    como tambien se puede verificar en la insatisfaccion                   en que nos dejan los
-    conocimientos       aislados    de los hechos y de las leyes. EI interes teoretico
-    exige unidad y universaJidad             en nuestros     conocimientos.       Es esta exigen-
-    cia la que nos hace pasar de conocimentos                   particulares    a otros cada vez
-    mas universales:       de los hechos a las leyes,de             las leyes a las teorias,        de
-    las teorias    limitadas    a otras mas vastas y que abracen las precedentestv.
-    Este es un movimiento           sin limites, hacia la universalidad            y hacia la uni-
-    dad de una sola teoria, de la cual se podrian                    deducir     sistematicamente
-    15 Cfr. AristoteIes:  Meta/isica, E (IV) 1, 1026a. -      32; K (XI),    7, 1064b, 6.14.
-    16 Cfr. F I 14., p, 19.
-    17 Ibid., p. 20.: "Das Erkenntnisinteresse      befreit  sich aber immer von den znfiilligen
-       Lebenshediirfnissen, nod es erwachst immer        ein reines "theoretlsches"   Erkenntnisinte-
-       resse, das rein von den in der Erkenntnis selbst liegenden Werten bestimmt ist".
-    18 Ibid., p. 17.: "Die Tendenz auf vollkommene Erkenntnis )iegt            in allem rein theore-
-       tisehen Erstreben",
-   19 Ibid.,  p. 18: "Immerfort    fiihlt es sieh fortgetrieben:  a) In Sinne moglischter Verdeut-
-       liehung, Kliirung, mdgltchst vollkommener Begriindnng. b) Immerfort fiiblt es sieh .mit
-       der vereinzelten   Tatsache, mit dem vereinzelten      Gesetz unbefriedigt;    es kann daran
-       nieht haften bleiben. Es fiihlt sieh gedriingt, von dem Besonderen emporzusteigen zum
-       Allgemeineren, von der Tatsaehe zum Gesetz, von der niederen Allgemeinheit zu der hd-
-       heren. Damit nieht znfrieden muss es alle mdglichen theoretisehen banen, die Theorien
-       zn nmfassenden Theorien verbiden und so immer weiter... Einheit der theoretisehen
-      Erkenntnis greift immer weiter von Gebiet zu Gebiet,ohne         Grenze" .• Ibid. p. 20 "Dieses
-      reine   Erkenninisinteresse...  geht dem Sein der erfahrenen        Naturgegenstiindliehkeiten
-      naeh, ihren inneren und iiusseren Eigensehaften, ihreu Seinsverfleehtnngen, ihren kausa.
-      len Abhiingigkeiten; das Interesse wird nieht nur gefesselt von den Einzelheiten und wird
-      von Einzelheiten     in  der  Seinsverfleehtung   zu anderen     Einzelheiten   fortgefiihrt. Es
-      driingt sieh das Regelmiissige, das Allgemeine auf, dessen Erkenntnis         als hoherer Wert
-      da steht; es weekt demgemiiss ein hoheres, auf grossere Allgemeinbeit geriehtetes theo.
-      retisehes  Interesse;  von den Allgemeinheiten      niederer  Stufe wird es fortgetrieben     zu
-      denen hoherer Stufe, nnd so geht es weiter".
-                                                        DANIEL HERRERA RESTREPO
-                      34
-                      todas las leyes que corresponden a un dominio determinado de objetos;
-                      leyes que, a su vez, comprenderian y explicarian toda realidad que pueda
-                      presentarse bajo las mismas condiciones que. aquellas que hacen ya parte
-                      de sus dominiost". Esta division de objetos en domini os determinados,
-                      en cuanto estan regidos por leyes determinadas, da origen a la constitu-
-                      cion de las diversas ciencias positivas, Sin embargo, el movimiento teleo-
-                      logico de la razon, no se agota conla                      formacion de todas esas diversas
-                      ciencias. En efecto, los objetos de un dominio determinado guardan re-
-                      laciones con los objetos de otros dominies, 10 que implica, por consi-
-                      guiente, relaciones especiales entre las diversas ciencias. Dichas relacio-
-                      nes deben ser igualmente sistematizadas. La busqueda de unidad entre
-                      las diversas ciencias se convierte, de este modo, en una exigencia de la
-                              21
-                      razon •
-                          Al lado de este problema de la unificacion de las diversas ciencias y
-                      teorias,     se encuentran         otros problemas que conducen aiin mas lejos el
-                      movimiento teleologico de la razon, Husser! cita, entre otros, el de la
-                      verdad. Nosotros 10 hemos experimentado mas de una vez: todo juicio
-                      fundado en la experiencia 0 en conexion con un pensamiento general e
-                      indirecto, se revela frecuentemente como no respondiendo a la realidad-t.
-                      El es, por principio, reformable. Por otra parte, la duda sobre los enun-
-                       ciados "verdaderos"            de la ciencia llega a ser siempre posible, como tam-
-                      bien 10 es la interrogacion               sobre la posibilidad           delconocimiento,            sobre
-                                                                                                                              23
-                       sus diversas formas y, en fin, sobre el valor de los metodos adoptados •
-                       Todo esto explica por que nosotros somos impulsados a dirigir nuestra
-                       mirada, no ya sobre las cosas sino mas bien, sobre nuestro propio pen·
-                       samiento en cuanto tiende hacia las cosas, Estas consideraciones dan na-
-                       cimiento a nuevas ciencias, por ejemplo, a la logica formal. La Iogica,
-                       20 "Ueberall    arbeitet  sich das Ideal dnreb;        aller wirkliehen    und mogliehen Erkenntnls,
-                          die in den begriffliehen Rahmen des Gebietes fiillt, dureh Beziehung auf oberste 'I'heo-
-                          rie systematisehe Einheit zn geben. Also der Idee naeh gehort zn jeder Natnrwis"",ns.
-                          chaft eine Einheit       der   erkliirenden   Theorie,    eine   Grnndgesetzlichkeit,     aUB der die
-                          einheitlicbe   Theorie    in Bystematiseher Deduktion         aIle zum Gebiet gehorigen GeBetze
-                          als Konsequenz arbeitet, mineIs deren dann jedes hestimmte Sein als unter den gegebe.
-                          nen Umstiinden notwendiges begriffen und so erkliirt werden kann". Ibid., p. 21.
-                       21 Ibid., pp. 21.22: "Natlirliehe      Erkenntnis kommt von versehiedenen Ansgangspunkten zu
-                          verschiedenen     Wissensehaftlichen Gebieten und Wissensehaften". -                P. 22: "Der Ein·
-                          heitstrieb   der in ihnen einzeln waItet, befriedigt sieh nur besehriinkt in ihrer                relati.
-                          ven Einheit.     Denn vollig isolliert      est niehts in aller Erkenntnis,         und systematische
-                          Beziehungen. gehen von den Erkenntnisgegenstiindlichkeiten                 des einen Gebietes auch
-                          iiher zn denen des anderen. Der Mensch, dem natiirlichen theoretischen Trieb sich hin·
-                          gehen. wird so gelegentlich liher die besondere Wissenschaft hinausgewiesen zn' Pro.
-                          blemen, die verschiedene Wissenschaften' miteinander               in Beziehung setzen in gegens·
-                          tiindlicher   Hinsicht zn Problemen. die zwischen Gegenstiindlichen Domiinen Beziehnn.
-                          gen herstellen".
-                       22 Cfr. Ibid., pp. 22·23.
-                       23 Ibid., p. 23: "In der Entwicklnng der Erkenntnis zur wis.enschaftlicher                Erkenntnis nnd
-                          in der Entwicklnng von niederen zu hoheren Stden wissenschaftlicher Strenge wird der
-                          Mensch geswungen, ofters und immer hiinfiger den Blick von den Sachen anf die Ge.
-                          danken liher die Sachen zn lenken;              genauer:    auf den Gang de.. Erkennens seIbst.
-                          de. Anschauen. und Denkens selbst und anf das Gedankliche Selbst deB Denkens, anf
-                          die Methodik des Verfahrens nnd de.gleichen auf die allgemeinen Formen der Gedan.
-                          ken aIs Vermeintheiten,        die UrteHe als die vermeinten Wahrheiten              auf die vermein·
-                          ten Fragliehkeiten,     Wahrseheinlichkeiten      usw.". Cfr. pp. 28·29.           •
-                                    TELEOLOGIA DE LA RAZON Y FlLOSOFlA                                                           35
-     elaborada          en la "reine Allgemeinheit",                         trata     de buscar las normas del
-     juicio verdadero,               las formas del silogismo, etc.24•
-         La tendencia de la razon ha~ia un conocimiento perfecto y absoluto se
-     realiza, pues, de manera teleologica. Esta teleologia, partiendo de la ex-
-     periencia eoncreta, singular y practica, se despliega al conocimiento sis-
-     tematico y teoretico de las ciencias positivas para llegar, finalmente, a
-     una ciencia del conocimiento en cuanto tal. Para Husserl, este movimien-
-     to teleologico del conocimiento esta dirigido por un impulso filosofico
-     que se ignora: 10 que quiere decir, que el se realiza sin que el sabio ten-
-     ga necesariamente conciencia del ideal hacia el eual tiende el conocimien-
-     to, del valor de este y de su realizacion concreta. En una palabra, la ver-
-     dad absoluta no siempre es puesta por el sabio como el telos final de su ac-
-                           25
-     cion teoretica •
-         Cuando esta tendencia hacia el conocimiento absoluto se convierte en
-     un ideal conscientemente buscado y, por consiguiente, en un fin normativo
-     de la activida teoretica, tenemos entonces la filosofia, la que se define co-
-     mo la ciencia que tiene por objeto el ideal de un conocimiento sistema-
-     tico que abarca el todo, -de                         manera teorica y positiva-,                        el ideal de un
-     conocimiento perfectisimo                      y plenamente fundad026•
-         Con esta definicion de la filosofia Husser! concluye la primera etapa
-     de sus analisis, La definicion esta formulada en terminos epistemologi-
-     cos, sin que la filosofia sea por esto exclusivamente epistemologica,                                                      La
-     ciencia traduce un saber que implica en sus fundamentos una necesidad
-     cuya fuente no es otra cosa que las ideas y las leyes puras. Ahora bien,
-     la filosofia,         que es la ciencia pura e ideal, esta llamada a dar las nor-
-     mas puras, ideales y absolutas para el pensamientot".                                          Ademas, toda bus-
-     queda de unidad teorica y absoluta para el conocimiento, pertenece a la
-     filosofia,      como tambien, pertenece a ella toda investigacion que ofrezca
-     conocimientos que permitan, de una u otra manera, realizar los ideales
-     de la razon. Tales son, por ejemplo, las investigaciones que tienen un
-     valor para todos los ordenes de objetos y que sirven de base a la divi-
-     24 cr-, tus.. pp. 24.25.
-    25 Ibid.     pp, 29·30: "In        all  solcben    Fortschreiten       der   Erkenntnis      waltet    eben    in  Form      der
-         sie beherrschenden         Teleologie      ein   philosophiscber       Zug, aber sozusagen          umbewusst,       nicht
-         ale  Idee    denkmassig       gefasst,   nicbt    als   Erkenntnisideal        gewertet     und    nieht    als  oberstes
-         Ziel   des   Erkennlniawillens          gesetet    und    iu   realiaierende       Betatigung       iibergefiihrt   ;  mit
-         einem    Worte:     nicht    in Form      der   Philo sophie".      P. 80: "Jede       der   histor isch   erwachsenen
-         Wissenacbaflen        ist eine   Etappe     auf   dem Weg zur absoluten              Erkenntnis".
-    26 Ibid.,     p,  30:   "Pbilosopbie       ist  die   Wissenscbaft,       in  der    die  im Wesen aller          Erkenntnia
-         griindende      Tendenz      auf   absolute,     auf   denkbar      voflkommenste         Erkennlnis      zum bewussl
-         Ieirende    Ziel   geworden      ist,  Das aber heisstcc        Pbilosopbie       iSI thematisoh      auf das "Ideal"
-         systematiscber,       (tbeoreliaeb      wie    sacblich)     allumspannender          Erkennlnis,       und    dabei    na·
-         liirlich   vollbegriindeler,       allervollkommenster".
-    27 Ibid., pp. 80.81:        "Wissensebaft       geht auf Wissen;         Wissen     isl  Erkennlnis      aus dem Grunde;
-        Erkenntnia       aus   dem Grunde          iSI Erkennlnia        des erkennenden          aIs   nOlwendig      Seienden:
-         Notwendigkeit        aber   bat   ibre   Quellen      in  rein en Ideen      und    reinen     Geselzen.     Die rein en
-        Wissenscbaften,         die   idealen     Wissenscbaflen         sind    die   absolul     Norm.gebenden          fiir  aile
-        Erkenntnisse        und    sie  sind   es,  weil    alles  Sein    unter    Ideen    sleht,   und    aofero    es das tut
-        in   der   verschieden       prinzipiell      moglicben       Richtungen       Prinzipien      seiner    Notwendigkeit
-        nud    Gesetzliehketis       hat".
-                                                      DANIEL HERRERA           RESTREPO
-                  36
-                                                                                                  28
-                  sion de las realidades en regiones determinadas,                           etc.    • En fin, todas las
-                  ciencias positivas pueden convertirse en conocimientos Iilosoficos,                                    en la
-                  medida en que se subordinan                      a las normas absolutas de las ciencias
-                  ideales-".
-                      Como idea, la fiIosofia es un titulo para toda ciencia absoluta. Tal es
-                  otra de las definiciones dadas por Husserl, en el .manuscrito que estudia-
-                        30
-                  mos • Ya en "La filosofia                  como ciencia estricta",            se podia leer que "la
-                  ciencia es un titulo para los valores absolutos intemporales'Pt.                                   Pero en
-                  esta primera etapa, 10 mismo que en el articulo citado, el concepto de la
-                  filosofia     permanece siempre indeterminado.                       Todo conocimiento absolu-
-                  to, nos dice Husserl, puede ser considerado como filosofico. Quiere decir
-                  con eso, que todo conocimiento absoluto constituye el objeto propio de
-                  la filosofia?       Por que distinguir entonces diferentes saberes?
-                      A decir verdad, una determinacion mas concreta del objeto propio 'de
-                  la filosofia no nos es dada por Husserl sino en la segunda etapa de sus
-                  analisis.    En efecto, la teleologia de la razon va, aun, mas lejos. Una vez
-                  enumeradas Ias diferentes disciplinas que podrian considerarse                                    como fi-
-                  losoficas, Husserl afiade: "finalmente                    y en el sentido mas elevado" son
-                  filosoficas:      "die konstruktiven            teleologischen         Disziplinen",        es decir, las
-                  ciencias que conciben a priori el mas perfecto de todos los mundos, como
-                  tambien las ideas y normas que se Ie relacionan-t.
-                     Es, partiendo          de la exigencia de universalidad                   y de unidad, siempre
-                  mas acentuada, y, de la adaptacion de la naturaleza a esta exigencia de
-                  la razon como Husserl llega a una nueva concepcion de la fiIosofia, en
-                  cuanto ciencia del mejor de los mundos posibles.
-                     Hemos visto como la razon, a partir de la experiencia concreta, hace
-                  surgir     la estructura        de universalidades            y de regiones de objetos, cada
-                  vez mas vastos. Hemos visto, igualmente, como esos objetos, estan some-
-                  tidos y se explican a partir de ciertas unidades teoricas que, a su vez, se
-                 28 Clr. Ibid., pp. 30.33, 51·52.Husserl cita entre otras: la ontologia analitica 0 formal, las
-                     ontologias regionales, la doctrina de las categorias, etc. Pp, 81·82: "Philosophische
-                     Disziplinen im pragnanten Sinn sind anf der einen Seite diejenigen Wissenschaften, die
-                     aus wesentlichen        Griinden     dazu bernfen       sind,   allen   anderen     Wissenschai'ten     die
-                     methodischen      Prinzipien,     die   rein   methodischen      Normen, liir ihren         Fortgang     zu
-                     volIkommener Erkenntnis zu bieten; sie sind die Wissenschaften, die iiberhaupt aIle
-                     Ietzten Prinzipien jeder Wegleitung zu absoluter Erkenntnis in sich bergen. Wir konnten
-                     sie auch charakterisiereu       als die Diszipinen, welche die Idee der Absoluten Erkenntnis
-                     und die ihr korrelative Idee mdglicher Cegenstandllchkeit iiberhaupt alIseitig entfalten.
-                     Und wir nennen auf der anderen Seite "philosophischen Disziplinen" diejenigen, welche
-                     in   Ansehung der historisch erwacbsenen Wissenschalten sozusagen auf der anderen
-                     Seite des Weges zu absoluter Erkenntnis stehen, namlich diejenigen Disziplinen auf
-                     Grund der rein philosophischen Disziplinen erwachsen".
-                 29 Ibid.,   p. 51: "Es ist leicht zu sehen, dass aIle besondere Wissenschaft im strengen Sinn
-                     ist, sich der Idee der absoluten Erkenntnis einordnet und unter dem Gesichtspunkt
-                     dieser Einordnung       aIs philosophisch zu bezeichnen ist. So jede besondere Naturwis-
-                     senschaft". Cfr. p. 81.
-                 30 Ibid.,   p. 80: "Philo sophie aIs Idee, letzte Philo sophie ware nichts anderes als Absolute
-                     Wissenschaft iiberhaupt".
-                 31 Ph. W., p. 333.
-                 32 Clr. F. I. 14., p. 33.
-                                                      TELEOLOGIA                      DE LA RAZON Y FILOSOFIA                                                                                    37
-       subordinana                           unidades mas vastas. Esto prueba                                                               que la naturaleza                                esta
-       constituida                    de tal manera,                            que permite a la razon darse ideales intelec-
-       tuales cada vez mas elevados. Los objetos se unifican bajo las leyes, las
-       leyes bajo las teorias                                      y las teorias,                        parece,              se subordinan                           finalmente                    a
-       una iinica teoria                              capaz de abarcar                                todas las ieyes de la naturaleza.                                                       Por
-       consiguiente,                       ni la teleologia                          de la razon, ni la adaptacion de la natura-
-       leza, se agotan en la formaci on de las ciencias positivas,                                                                                                de las ontolo-
-                                                                                                                                                                  33
-       gias regionales,                          de la ontologia formal 0 de la logica formal •
-             En efecto, a partir                                   de la idea de naturaleza                                             y suponiendo                          un cierto
-       grado de perfeccion                                    en las diversas                          ontologias                    (formal              y regionales),                          se
-       puede concebir a priori                                           y someter a un examen los diferentes                                                                   "mundos
-       posibles",                  dirigiendo                    entonces                nuestro                interes             hacia            aquel            que presente
-                                                                                                                                                                                     34
-       el maximum de perfeccion                                                   frente            a las aspiraciones                                 de la razon • En
-       otras palabras,                          la teleologia                     de la razon tiene su punto culminante                                                                  en la
-       concepcion                    de la filosofia                         como ciencia de la idea a priori del mas per-
-       fecto de los mundos posiblessi.
-             La validez del conocimiento                                                    no esta en ser el unico correlativo                                                                del
-      ideal de la razon, Es necesario,                                                       afiadir             una constitucion                             determinada                       de
-      la realidad                     conocida.                   Para           Husserl,                la perfeccion                        de una vida racional
-      implica algo mas: un mundo que responda a las mas elevadas intencio-
-      nes del conocimientose.                                        Por consiguiente;                                si la teleologia                        de la razon lle-
-      ga hasta la concepcion                                        a priori               del mej or de los mundos, eso constituye,
-      entonces,                 el correlativo                        ultimo del ideal de la misma razon y la perfec-
-      cion de la vida teoretica.
-      33 Ibid.,           pp.      34·35:        La naturaleza                  es "eine            merkwiirdig                theoretische              Tugendhaftigkeit.                      Sie
-             ist    so beschaffen,                   dass       die      sie     erforschende                 Erkenntnis               hohe         intellektuelle                Ideale          zu
-             realisieren            vermag.            Sie      ist    klassifizierbar                 in     umfassenden                 und       theoretisehen                 Interessen
-            befriedigenden                   Systemen            einheitlicher               Klassification;                 sie steht         nicht        nur      iiherhaunt            unter
-            Gesetzen            und Gesetzen,                  die sich Theorien                     einordnen,              sondern           aile     theoretischen                Erkennt-
-            nisse,          so      scheint            es,      ordnen             sich        in       die        Einheit            eines          Erkenntnissystems,                        aile
-            Theorien             scheinen            sich      einzuordnen                 ciner        Einheit           der      Theorie           mit       einer        einhe'tlichen
-            allumspannenden                         Naturgesetzlichkeit.                         Also          die       faktische             NalUr           entspricht,               sei      es
-            vollkommen,                  sei    es leicht           angenahrt              einem          Erkenntnisideal;                     sie     ist    gerade          so,     dass       sie
-            hohen          oder       gar       hdchst         gespannten               theoretischen                Interessen              Geniige           zu tun vermag".
-      34 Ibid.,          pp, 36·37: "In                  den Ontologien                   sind       die     zum Wesen,                 sei es (des)               Seins       im al'lerall-
-            gemeinsten               Sinn,        sei     es    des      Seins        im Sinne              der      kardinalen               Seinsregionen,                  z,   B. Natur
-            und        Geist        gehorfgen             Wesensgesetze                   und       Theor-ien             entwickelt.              Angen ommen,                   diese        On.
-            tologien           seien       schon         zu einer            entsprechende                  Ausbildung                gelangt,          dann         kdnnte          mau auf
-            Grund          derselhen            in systematischer                   Konstruktion                 die in ihren               Cesetzrnassigke.ten                      beschlos-
-            senen        hesonderen               Selnsmdg           liehkeiten,            moglichen              Welten           a priori          erforschen           ......    Entonces
-            podriamos              huscar           " ...   welche           hesonderen                Gestaltungen                  der       physischen               oder        psycholo.
-            gischen          Natur,         die     apriori         innerhalh            einer        formal         allgemeinen                Idee      von Natur               iiherhaupt
-            konstruierhar                 sind,       diejenigen              waren,          die      von dem Standpunkt                             der       Erkenntniswertung
-            hochste          Vollkommenheit                      heanspruchen                  konnten".
-     35 Cfr. Ibid., p. 33.
-     36 Ibid., p. II:                  "Und         Vernunft             ist   auch bezogen                  auf einen            Inhalt.         Zum hochsten                  Erkenntni·
-            sideal       gehort        nicht       nur      Giiltigkeit            der Erkenntnis,                   sondern           auch eine gewisse Konstitution
-            des      Erkannten.               Ein      Erkenntnislehen                     ist     nur       vollkommen,                  wenn         es in Beziehung                      steht
-            auf      eine       "Welt",            die      hochsten             Erkenntnisintentionen                           in     agemessener                 Weise          entgegen·
-            kommt. .. " P.                   35:       "In       dieser         Betrachtung                handelt           es     sinch         nicht        urn      Erwagung               der
-           Erkenntnis,                sofern         sie     iiherhaupt             Wahrheit              ist,     und        urn      Wert         der      Wahrheit              oder        der
-           richtiger            Erkenntnis                als     solcher,           sondern            urn       Erwagung               der       verschiedenen                  und        sehr
-           ahgestuften               Werte,          die       richtige          Erkenntnis                ideal        genommen                hahen          kann         je    nach         der
-           theoretischen                 Natur          der      Erkannten               aIs     Bolchen".
-                                                       DANIEL HERRERA RESTREPO
-                   38
-                       Lo que acabamos de ver, desde el punto de vista de la razon teorica,
-                   puede decirse, igualmente, desde el punto de vista de la razon practica y
-                   de la razon evaluadora. Las ciencias eideticas, a partir del mundo de la
-                   experiencia, nos dan la esencia de dicho mundo, esencia que viene a de-
-                   finir   "un mundo posible". Este mundo posible, analizado desde el punto
-                   de vista de la razon practica y de la razon evaluadora, nos permite, igual-
-                   mente, concebir· a priori,                diferentes       "mundos posibles". Entre ellos se
-                   podria escoger, entonces, aquel que se presenta como el campo de los
-                   valores axiomatic os y practices mas elevadost".                            De esta manera, las di-
-                   versas teleologias que corresponden a las diversas funciones esenciales
-                   de la razon, (conocer, querer, valorizar)                        se realizan en la concepcion a
-                   priori    del mejor de todos los mundos posibles y de sus ideas correlati-
-                   vas. Pero, si tenemos en cuenta que estas funciones se compenetran y se
-                   implican mutuamente para constituir una sola y misma razon, podria-
-                   mos decir 10 mismo de las teleologias y hablar de un solo ideal, de una
-                   sola teleologia's'. EI "telos" correspondiente, sera, la constitucion a prio-
-                   ri de la idea del mas perfecto de los mundos posibles y, correlativamente,
-                   de la personalidad             mas perfecta. Esta personalidad,                     como tal, exige a
-                   priori    una vida y una realidad perfectisimas, una realidad que sirva de
-                   campo al conocimiento, a la valorizacion y a los actos voluntarios, por
-                   ende, mas perfectost". Para Husserl la elaboracion de un tal mundo y de
-                   una tal personalidad, constituye y define, "finalmente, en el sentido mas
-                   elevado", la filosofia-".
-                       Esta concepcion husserliana de la filosofia, esta lejos de concordar
-                   con aquella expuesta en: "La jilosojia como ciencia estricta", Y digamos,
-                   de una vez, que esta concepcion no la encontraremos en los escritos hus-
-                   serlianos posteriores a 1911. Husserl, es cierto, continuara                                  hablando de
-    ,              "mundos posibles" e inclusive del "mejor de todos los mundos", pero
-                   solamente, en este inedito, el define la filosofia, "en el sentido mas ele-
-                   vado", como la ciencia a priori del mejor de todos los mundos. En nin-
-                   gun otro escrito el objeto propio de la filosofia queda reducido, como
-                   aqui, a un neoleibnizianismo.                   Posteriormente,           Husserl buscara la recu-
-                   peracion total, en la reflexion, del mundo de la experiencia vivida, del
-                   mundo real, de la Lebenswelt.                   Sin embargo, la reduccion del mundo no
-                   significara,      de ninguna manera, la perdida del mundo, puesto que este
-                   es recuperado en su ser absoluto. La creencia en el mundo, la tesis de la
-                   actitud natural, es colocada "entre parentesis", puesta "fuera de circuito",
-                  pero solamente, con el fin de recuperarla en su sentido pleno. Que no
-                  37 Cfr. tus.. pp, 37·40.
-                  38 Cfr. Ibid •• pp. 6·7, n.
-                  39 lbid., p~. 39.40: "AIle diese B.estrebungen kulminieren               offenbar in der Explication, bzw.
-                      systemallschen Angestaltung emer obersten Idee oder eines Paares von Ideen, niimlieh
-                      der Idee einer apriori volIkommensten unter den miigliehen "Welten" und der mit ihr
-                      korrelativen      Verhiiltnis    stehenden     Idee    einer    volIkommensten        Personalitiit,    eines
-                      volIkommenstens Lebens, daseben             als solehes apriori    die Bezogenheit fordert auf einen
-                      denkbar     voIlkommensten        Lebensinhalt     und damit auf eine .denkbar vollkommenste
-                      Wirkliehkeit     als   Feld volIkommenster Erkenntnis,            volIkommenster       Schiinheitswertung
-                      und volIkommenster Willensbetiitignng".
-                  40 Cfr. 'Ibid.,   p. 33.
-                                   TELEOLOGIA DE LA HAZON Y FILOSOFIA                                                      39
-     podamos liberamos                 de tal creencia,           poco importa.            Lo importante            es que
-     nosotros       podamos sobrepasar                 nuestra      "ingenuidad"            natural      al tomar con-
-     ciencia del verdadero                significado        de la subjetividad              que, de manera ano-
-     nima, constituye             el universo.
-         Teniendo en cuenta el conjunto del pensamiento husserliano,                                          nos vemos
-     obligados         a decir que, la recuperacion                      total    del mundo en la subjetivi-
-     dad trascendental,             implica el saber absoluto.                  Todo el esfuerzo de Husserl
-     tendia      hacia      la   racionalizaeion            total    de la experiencia.               Para      conseguir
-     esto,    Husserl,        describe       eideticamente           el mundo,          analiza      la "esencia          pu-
-     ra" del mundo y la presenta en terminos de posibilidad.                                        Sin embargo, se
-     trata    del mundo como tal, del mundo de la experiencia vivida y no de la
-     construccion          a priori       del mejor de todos los mundosst.
-         Que el hombre pueda darse como ideal la realizacion                                         de una ciencia,
-     en el sentido absoluto                 y universal,         que esta ciencia,             deba ser concebida
-     como medio de llegar a la perfeccion                            de la propia persona humana,                        aiin
-     mas, que la ciencia sea concebida como "idea limite", en el sentido kan-
-     tiano,     es decir, como principio                  regulador,        como un telos hacia el cual se
-     orienta      la teleologia         de la razon en un progreso                       indefinido,        todas estas,
-     son ideas que Husserl sostendra                         hasta      el final de sus dias, y sobre las
-     cuales se ve el influjo              del inedito que estudiamos,                    Hay, sin embargo, una
-     diferencia        entre dichas ideas y las expresadas                         en el inedito : en el pensa-
-     miento posterior             se trata       del mundoy              del hombre,           como ideas limites
-     del mundo y del hombre reales; en el inedito, se trata de una concepcion
-     de la filosofia como ciencia del mejor de los mundos entre todos los con-
-     cebibles,
-         El mismo Husserl,                se dio cuenta de esta diferencia.                        'Releyendo,         aDOS
-     mas tarde su manuscrito                     -segun         su costumbre-               anoto los puntos de·
-     biles    de sus consideraciones.                  Lo primero,           nos dice, es la referencia                   ex-
-     clusiva a la idea de una "conciencia                         mas perfecta",           sin tener en cuenta el
-     ego personal,          en cuanto es capaz de darse un ideal de perfeccion y capaz
-     de realizar       ese ideal, en un progreso                   indefinido.        Husserl indica, en segui-
- -   da, la ausencia de un analisis sohre "la racionalidad"                                    de un ideal de per-
-    feccion que, en si, corresponderia                         a la idea de Dios; y finalmente,                         sub-
-    raya el caracter            formal de sus consideracionesw.
-        Hemos hablado de una tercera etapa en el analisis husserliano                                                 y he-
-    mos llamado la atencion                      sobre      su caracter         problematico,            es decir,       que
-    para      Husserl,       se trata       de problemas            que deben ser estudiados                     y no de
-    41 En un otro inedito           qne    se encuentra      en los "Arehivos         de Husser l"      se puede      leer  10
-        siguiente:     "Es gibt unendlich viel mbgliche Welten                 als ansehauliehe       Abwandlungen der
-        jeweilig     uns   geltenden.     Aber     diese   ist  notwendig,      ins   unendliehe      fiir  nus    und   jede
-        erdenkliehe      Subjektivitiit    "Erseheinung"       und die mdglichen         Welten    erdaehte    Abwandlun-
-        gen    dieser   Erseheinung.      Letztlieh    aber    zeigt  sich,   dass   nur   eine   einzige,    die   Iaktisehe
-        Welt     denkbar     its  als   Welt    der Wahrheit.       .. "  E III 4, p.        63. Cfr, Erjobrung           w,d
-         Urteil, Prag.      1939, p. 50: "Das        ganze    Ineinauder      von Bewusstseinsleistungen           aufsukla-
-        ren,   das ZUr Konstitution         einer   mdglichen      Welt    fiibrt  iner  mogllchen      Welt:    das heisst,
-        es handelt     sieh ja urn die Wesensform           von Welt iiberhaupt.        .. ist die umfassende       Aufgabe
-        der   Konstitutive      Phiinomenologie".
-    42 Cfr.    F I 14, pp. 40-41.
-                                                          DANIEL HERRERA RESTREPO
-                    40
-                    tesis demostradas-t.              El nos dice, en efecto, que a partir de la idea del
-                    mejor de los mundos y de la idea de la personalidad mas perfecta, nos
-                    podriamos interrogar sobre la idea de Dios, considerado como el Ser mas
-                    perfecto. Aquel que constituye el mundo mas perfectow, En este caso, la
-                    filosofia habria que definirla: "como 10 correlativo a la idea de Dios...
-                    como la ciencia del ser absoluto, como ciencia de la idea de Dios y como
-                    ciencia del Ser que existe de manera absoluta"45.
-                        Husserl coloca, finalmente, una serie de cuestiones sobre la manera
-                    de comprender la idea de Dios, pero dichas cuestiones quedan sin res-
-                              46
-                    puesta •
-                        Entre los problemas mas dificiles en el estudio del pensamiento hus-
-                    serliano, tenemos el de las relaciones entre la fenomenologia y la metafi-
-                    sica, eli el sentido tradicional, como tambien, el problema de la posicion
-                    de Husserl delante del problema de Dios, como Ser Supremo. Segun las
-                    obras publicadas por el mismo Husserl, Dios debe ser comprendido co-
-                    mo "idea limite"47. Por otra parte, en los ineditos, las cuestiones que con-
-                    ciernen a Dios, son resueltas en el sentido de "posibilidad ultima", es de-
-                    cir, que Dios es considerado como la "idea absoluta del ser", Como tal,
-                    esta idea es colocada en un horizonte infinito, como el polo hacia el cual
-                    todo se orienta, en un movimiento indefinido. Sabemos, en fin, que a
-                    partir     de las exigencias intrinsecas a la misma fenomenologia, segun las
-                    cuales toda certeza queda restringida al fenomeno puro, toda ciencia filo-
-                    sofica de Dios es impensable. En efecto, Dios, por definicion, "no apare-
-                    ce" como fenomenov',
-                        A pesar de todo esto, hay testimonios sobre la "intencion metafisica"
-                     de Husserlw. Quizas, se podria encontrar ya en 1911, es decir, en el ine-
-                     43 Cfr. tue.. pp. 42-43.
-                     44 Ibid., p. 42: "Und von hier aus wiirde es sich dann fragen, oh und wieweit sich all das
-                         nicht   zusammenschliesst zur Idee des allervollkommensten                        Sein, also zur Idee der
-                         Couheit,    sofern sich etwa herausstellen            solite,  dass Seiu nicht denkbar ist ausser der
-                         Korrelation von Sein und Bewusstsein... ". P. 43: "Gou als Idee, als Idee allervollkom.
-                         mensten Seins; aIs Idee des allervollkommenslen Lebens, in dem sich die allervollkom-
-                         menste "Welt" konstituiert,           das aus sich die allervollkommensle Geisteswelt in Bezug
-                         auf eine vollkommenste Natur schopferiseh entwickelt",
-                     45 Ibid.,   p. 43: "Die Philo sophie als Idee, als Korrelat des Gouesidee, als absolute Wissens-
-                         ehaft, namlich als Wissenschaft von dem absoluten Sein, als Wissenschaft von der reinen
-                         Idee der Gouheit und als Wissenschaft vom ahsolut existierende Sein... ".
-                     46 Cfr. [bid;; pp. 43-45.
-                     47 Cfr. Ideen       zu einer       reinen    Phiinome!wlogie        und phiinomenologischen             Philosophie.
-                         Gesammelte Werke, t. Ill, p. 191.
-                     48 Cfr. Ibid., pp. 121.122.
-                     49 A. Diemer ha llamado la alencion sobre esle aspeclo d~1 pensamiento Husserliano. Cfr.
-                         su articulo:     "Idee    der Philosophie       als strenge Wissenschaft",          en Zeitschrift      filr  phil.
-                         Forschung, 13 (1959), pp. 274 ss. Recordar igualmenle que en el Coloquio sobre Husserl
-                         tenido en Royaumont en 1957, el R.P. Van Breda, director de los "Archivos de HusserI"
-                         defendio la tesis siguiente:          " "Pour HusserI, la prohlemalique                de la reduclion        n'est
-                         autre chose que sa decouverte de la dimension metaphysique". En la discusion que si·
-                       . guio a la conferencia del R.P. Van Breda, Roman Ingarden, discipulo y confidente de.
-                         las preocupaciones intelectuales            de HusserI, se expreso de la siguienle manera:                     "Je
-                         suis d'accord avec Ie repporteur           pour dire que les derniers motifs de HusserI dans ses
-                         considerations     sur la conscience transcendentale             elaienl    de nature metaphysique           (pro·
-                        bleme de Dieu)".         Cfr. Ilusserl, Cahiers de Royaumont, Paris, 1959,pp. 315y ss. y 330.
-                              TELEOLOGIA DE LA RAZON Y FILOSOFIA                                                41
-   dito que hemos estudiado, un movimiento del pensamiento husserliano,
-   hacia el Dios de la metafisica tradicional.                        En este caso, seria necesario
-   analizar, mas detalladamente, la manera como Husser! llega a la idea de
-                                                                                         50
-   Dios como punto culminante de la teleologia de la razon • Notemos, por
-   ultimo, que el mismo Husser! considera como muy significativo el hecho
-   de que el desarrollo de la idea del conocimiento mas perfecto, conduzca
-   a la idea teologica de la divinidad-l.                   EI conocimiento de Dios parece ser,
-   en verdad, el termino natural de la teleologia de la razon,
-                                                             DANIEL HERRERA RESTREPO, O.F.M.
-  50 Diemer cita un texto de Husserl de 1932 cuyas ideas bien podriamos relacionar con las
-      que hemos encontrado en el inedito estudiado:                 "Die hochstgelegenen aller Fragen ...
-      sind abr die metaphysischen:           sie betreflen     Geburt und Tod, letztes Sein des "Ich"
-      und als Menschheit verobjektiviertes            "Wir",    die Teleologie; die letztlich zurlickjiihrt
-      in die transzendentale       Subjektivitiit,   und ihre transzendentale         Historizitiit   und natiir-
-      Iich als Oberstes:      das Sein Gottes als des Prinzips diesel' Teleologie und del' Sinn
-      dieses Seins gegeniiber dem Sein des ersten Absoluten, dem Sein meines transaenden-
-      taleu Ich und del' sich mil' erschhessenden            transzendentalen     Allsubjektivitiit   -del'   wah.
-      ren Stiitte gottlfehen "Wirkens";          zu dem die Konstitution         del' Welt als "unserer" ge-
-      hort-   von Gott her gesprochen die stiindige Weltschopfung in uns, in unseremen trans-
-      zendentalen,    letzten   wahren Sein", Cfr. Articulo citado pp. 248·249.
-  51 F I 14, p, 46: "Was uns in diesel' Betrachtung                als sehr merk wiirdig auffiillt, ist del'
-      Umstand, dass die Entfaltung           del' Idee allervollkommensten          Erkenntnis    uns zur Idee
-      des vollkommensten        Bewussteseins und del' vollkommeusten Welt uud zum thealogis-
-      chen Ideal del' Gottheit fUhrt".
+            EL ETERNO RETORNO DE LO MISMO' 
+                                          RAMÓN PÉREZ MANTILLA 
+                                        DEPARTAMENTO DE FILOSOFÍA 
+                                    UNIVERSIDAD NACIONAL DE COLOMBIA 
+           Resumen: 
+           Uno de los conceptos más complejos y enigmáticos del pensamiento de Nietzsche es el 
+           del "eterno retomo". Diversas interpretaciones se han dado para tratar de precisar su sig-
+           nificado y papel dentro de su obra. Es propósito de este texto, no resolver, sino revelar la 
+           naturaleza contradictoria de tan problemática noción, recurriendo para ello al análisis de 
+           dos de sus interpretaciones (la cosmológica y la antopológico-moral). En una segunda 
+           parte se aborda el problema del eterno retomo de lo mismo en su relación con el nihilis-
+           mo. 
+           Palabras clave: Nietzsche; eterno retomo; tiempo; nihiUsmo; devenir. , 
+           Abstract: 
+           The "etemal recurrence" is perhaps one of the most enigmatic concepts of Nietzsche's 
+           thought. Its complexity has encouraged several attempts to fix its meaning and purpose in 
+           his work. Instead of trying to solve or dissolve the contradictions involved in Nietzsche's 
+           "etemal recurrence", this essay analyzes two altemative interpretations of it: the 
+           cosmological approach and the anthropological approach. In a second part, the etemal 
+           recurrence is dealt with in connection with Nietzsche's thoughts on Nihilism. 
+           Key words: Nietzsche; etemal recurrence; time; nihilism; becoming. 
+                     I. Un concepto problemático 
+          Hasta no hace mucho tiempo, el eterno retomo era considerado dentro de 
+       la crítica de la filosofía de Nietzsche, como un cuerpo extraño, especie de 
+       excrecencia senil que no encajaba en el conjunto de su obra. Hoy, en cambio, la 
+       mayoría de los intérpretes, por no decir todos, coinciden en asignarle un puesto 
+       de excepcional importancia: el más aho, dentro de su pensamiento, a una altura 
+       comparable a la teoría de las ideas de Platón, en la antigüedad. Es la opinión de 
+       Heidegger, por ejemplo, para quien el eterno retomo constituye el fiíndamento 
+       de la filosofía de Nietzsche, que sin él sería "como un árbol privado de sus 
+       ' El texto del presente artículo corresponde a dos conferencias dictadas en el marco del curso de 
+       extensión "Nietzsche 100 años", ofrecido en el primer semestre de 2000 por el Departamento de 
+       Filosofía de la Universidad Nacional de Colombia con motivo del primer centenario de la muerte de 
+       Nietzsche. (Nota del editor: El ciclo de conferencias del cual constó el mencionado curso de exten-
+       sión ñie dedicado al profesor Ramón Pérez Mantilla en reconocimiento de su larga y valiosa labor 
+       como docente del Departamento de Filosofía de la Universidad Nacional y, en especial, en recono-
+       cimiento de su trabajo como estudioso de la obra de Nietzsche.) 
+       IDEAS Y VALORES No. 114 DICIEMBRE DE 2000 BOGOTÁ, COLOMBL\ 
+                                   RAMÓN PÉREZ MANTILLA 
+              Se trata sin embargo, como veremos, del pensamiento más difícil de 
+          Nietzsche, quien lo llamaba "abismal",' aludiendo así a su carácter insondable y 
+          enigmático, del que son testimonio sus innumerables y encontradas interpreta-
+          ciones. 
+              No es mi propósito descifrarlo, sino llevar hasta sus últimas consecuencias 
+          su condición problemática y contradictoria. Menos que nunca la filosofía tiene 
+          hoy por misión contar cuentos o ser edificante. Como se lee en un viejo ensayo 
+          de Thomas Mann," desde los tiempos de Sócrates el auténtico placer de los 
+          filósofos reside en inducir a la gente al error y no a la verdad, como se cree 
+          ingenuamente. 
+              1. La ambigüedad de su significado y su contradicción 
+              Determinar el concepto del eterno retomo de lo mismo de Nietzsche parece 
+          ser, a todas luces, una tarea condenada de antemano al fracaso. En primer 
+          lugar, se opone a ello la ambigüedad de la doctrina, la cual adopta en su presen-
+          tación dos versiones distintas: una cosmológica y otra antropológica y moral, 
+          como usualmente se las denomina.^ 
+              La versión cosmológica encuentra expresión principalmente en los frag-
+          mentos postumos de 1881, época en la que Nietzsche concibe la doctrina. Éste 
+          escribe en uno de ellos: 
+               El mundo de las fuerzas no sufre menoscabo: pues si así fuera se ha-
+               bría vuelto débil y habría sucumbido en el transcurso del tiempo infi-
+               nito. El mundo de las fuerzas no acepta detención alguna: pues, de 
+               otra manera habría llegado a ésta y el reloj de la existencia estaría 
+               detenido [...]. Sea cual sea el estado que este mundo pueda alcanzar, lo 
+               tiene que haber alcanzado ya, y no sólo una vez sino innumerables 
+               veces. Así, este instante: ya estuvo presente una y muchas veces y 
+               retomará igualmente con todas las fuerzas repartidas exactamente como 
+               ahora: e igualmente ocurre con el instante que engendró a éste y con 
+               aquel que es hijo del presente. ¡Hombre! Tu vida entera es volteada una 
+          ^ HEIDEGGER 1961, I, 257-8. (Para las referencias bibliográficas y las abreviaturas de las obras de 
+          Nietzsche véase la Bibliografi'a impresa al final de este volumen.) 
+          ' Las obras de Nietzsche se citan según las ediciones indicadas en la Bibliografía impresa hacia el final 
+          de este volumen y con las abreviaciones allí mismo señaladas. KSA 6, 268; EH, "Por qué soy tan 
+          sabio", §3, 25 y KSA 6, 345; EH, "Así habló Zaratustra", §6, 103. KSA 4, 270-1; AZ III, "El 
+          convaleciente", 297-8. 
+          " MANN 1961. 
+          ' Recientemente, en el mundo de lengua inglesa, y probablemente debido al influjo de la filosofía 
+          analítica, se habla de una versión empírica o descriptiva y de otra normativa o imperativa. Algunos 
+          usan para esta última también el calificativo de existencial. 
+                                                                  IDEAS Y VALORES 
+                   EL ETERNO RETORNO DE LO MISMO 
+         y otra vez como un reloj de arena y una y otra vez se consumirá -un 
+         gran minuto de tiempo de por medio hasta cuando todas las condicio-
+         nes de las que has surgido vuelvan a juntarse en el ciclo del mundo. Y 
+         entonces encontrarás nuevamente cada dolor y cada placer y cada amigo 
+         y cada enemigo y cada esperanza y cada horror y cada hierba y cada 
+         resplandor del sol, la entera concatenación de todas las cosas. Este 
+         anillo en el que eres un grano, brilla siempre de nuevo. Y en cada anillo 
+         de la existencia humana hay siempre una hora en la que aparece el 
+         pensamiento más poderoso, primero a uno, luego a muchos, luego a 
+         todos, el pensamiento del etemo retomo de todas las cosas-: cada vez 
+         es ésta para la humanidad la hora del mediodía (KSA 9, 498, 11 [148]; 
+         FP, 166; NA, 151). 
+        Son muchos los textos en los que Nietzsche trata de expresar esta idea de 
+       manera similar, como por ejemplo en este otro fragmento: 
+         La magnitud de la fuerza universal está determinada, no es nada "infi-
+         nito": ¡cuidémonos de semejantes extralimitaciones del concepto! En 
+         consecuencia, el número de las situaciones, cambios, combinaciones 
+         y desarrollos de esta fuerza es, sin duda, inmensamente grande y a la 
+         vez prácticamente "inconmensurable", pero en todo caso determina-
+         do y no infinito. Pero el tiempo, en el que el universo ejerce su fuerza, 
+         es ciertamente infinito, es decir, la fuerza es eternamente igual y eter-
+         namente activa: -hasta este instante ha transcurrido ya una eternidad, 
+         todos los desarrollos posibles tienen que haber existido ya. Por lo tan-
+         to, el desarrollo presente tiene que ser una repetición y así también el 
+         que lo engendró y el que surge de él, y así seguidamente hacia adelante 
+         y hacia atrás. Todo ha existido innumerables veces en la medida en 
+         que la situación total de todas las fuerzas retoma siempre (KSA 9, 
+         523, 11 [202]; FP, 171; NA, 153). 
+        Nietzsche pretende en los fragmentos cosmológicos (tanto en los citados 
+       como en todos los de este mismo orden) dotar a la doctrina de una base cientí-
+      fica, presentándola como la enunciación de una estmctura propia del universo. 
+      La argumentación de Nietzsche es, más o menos, la de que, siendo el tiempo 
+       del mundo infinito y las fuerzas que en él se agitan finitas, al no haber alcanza-
+      do el mundo su fin, hay que deducir que todo lo que sucede es sólo una repeti-
+       ción de lo que ya ha sucedido, y volverá a suceder etemamente y de manera 
+      igual.* Pero tal vez la mejor muestra de esta versión cosmológica se halla en 
+      ' Hay que tener en cuenta que la misma versión cosmológica se halla afectada por graves contradic-
+      ciones o inconsistencias que han ocupado y continúan ocupando la atención de los intérpretes, por lo 
+      menos desde los tiempos de Simmel. En nuestros días los principales adalides de la cntica son, entre 
+       otros, Danto y Magnus. Sobre esto es de gran utilidad el artículo de M.C. STERLINO (1977). En "La 
+      doctrina de los ciclos" (BORGES 1961), Borges recoge un eco de esta problemática. 
+      No. 114 DICIEMBRE DE 2000 
+                        RAMÓN PÉREZ MANTILLA 
+       este fragmento de una concisión admirable: "El principio de la conservación de 
+       la energía exige el etemo retomo" (KSA 12, 205, 5 [54]; FP, 189; NA, 165). 
+         No cabe duda de que la doctrina así expuesta ofrece un rostro terrible y 
+       espantoso que aterrorizaba al mismo Nietzsche, en cuanto no sería otra cosa 
+       que la consagración de "la existencia, tal y como es, sin sentido ni meta, pero 
+       retomando inevitablemente, sin un final hacia la nada: 'el etemo retomo'. Esta 
+       es la forma más extrema del nihilismo: ¡la nada (la 'ausencia de sentido') eter-
+       namente!" (KSA 12, 213, 5[71]; FP, 34; NA, 280). 
+         Por otra parte, un buen ejemplo de la versión antropológica y moral de la 
+       doctrina es el que se echa de ver en el aforismo 341 de La ciencia jovial, en el 
+       que Nietzsche hizo pública por primera vez la doctrina del etemo retomo, y 
+       que dada su importancia me voy a permitir citar por entero. 
+          La mayor gravedad. Qué te sucedería si un día o una noche se intro-
+          dujera furtivamente un demonio en tu más solitaria soledad y te dijera: 
+          "Esta vida, así como la vives ahora y la has vivido, tendrás que vivirla 
+          una vez más e innumerables veces más; y nada nuevo habrá allí sino 
+          que cada dolor y cada placer y cada pensamiento y suspiro y todo lo 
+          indeciblemente pequeño y grande de tu vida tendrá que regresar a ti, y 
+          todo en la misma serie y sucesión -e igualmente esta araña y este claro 
+          de luna entre los árboles, e igualmente este instante y yo mismo. El 
+          etemo reloj de arena de la existencia será dado vuelta una y otra vez-
+          ¡y tú con él, polvillo del polvo!" 
+          ¿No te arrojarías al suelo y rechinarías los dientes y maldecirías al 
+          demonio que así te habla? ¿O has tenido la vivencia alguna vez de un 
+          instante prodigioso en el que le responderías: "Eres un Dios y nunca 
+          escuché nada más divino"? Si aquel pensamiento llegara a tener poder 
+          sobre ti, así como eres, te transformaría y tal vez te tritoraría; frente a 
+          todo y en cada caso la pregunta: "¿Quieres esto una vez más e innume-
+          rables veces más?" ¡recaería sobre tu acción como la mayor gravedad! 
+          ¿O cómo tendrías que llegar a ser bueno contigo mismo y con la vida, 
+          como para no anhelar nada más sino esta última y eterna confirmación 
+          y sello? (KSA 3, 570; CJ IV, §341, 200). 
+         Lo decisivo aquí es el carácter hipotético e interrogativo que distingue a 
+       este texto en su conjunto. Gracias a él, la doctrina adquiere el sentido de una 
+       propuesta hecha al hombre y no de un destino ineluctable. Es como si la eterna 
+       repetición de todas las cosas sirviera de criterio moral para la acción, convir-
+       tiéndose en una especie de imperativo ético, similar al célebre imperativo cate-
+       górico de Kant:^ obra de manera de poder querer que tu acción se repita etema-
+       ' La asimilación al imperativo kantiano ha sido considerada por muchos autores como inaceptable, 
+       lo mismo que en general, la idea de que el etemo retomo pueda encerrar en sí la noción de un deber 
+                                             IDEAS Y VALORES 
+                          EL ETERNO RETORNO DE LO MISMO 
+         mente. Lo confirma Nietzsche en un fragmento de 1881: "Si incorporas el pen-
+         samiento de los pensamientos, éste te transformará. Si ante todo lo que quieras 
+         hacer, te haces la pregunta: '¿es esto de tal manera que quisiera hacerlo incon-
+         tables veces más?', tendrás sobre ti el más pesado de los pesos" (KSA 9, 498, 
+         11 [143]; FP, 165; NA, 150). 
+            Estamos pues ante dos versiones tan opuestas, que a veces piensa uno si no 
+         se tratará más bien de dos doctrinas diferentes. Es evidente, por ejemplo, que el 
+         tiempo del etemo retomo no puede ser entendido de la misma manera en la 
+         versión cosmológica que en la versión antropológica y moral. En esta última, 
+         en efecto, el etemo retomo no es el etemo presente de un girar sin sentido, en el 
+         que el futuro ya ha sido y el pasado será de nuevo, sino la posibilidad de decidir 
+         en cada instante lo que va a suceder en el futuro, por toda una eternidad.^ Y, a 
+         pesar de ello, sin que se sepa cómo, al menos racionalmente, la una se convierte 
+         en la otra. En el texto citado de La ciencia jovial, es muy patente este extraño 
+         fenómeno de metamorfosis gracias al cual la doctrina que surge de la boca del 
+         demonio, de por sí motivo de mortal abatimiento, se convierte en fuente de 
+         divina exaltación. 
+            Se diría, como escribe Borges, que Nietzsche "buscó la idea más horrible 
+         del universo y la propuso a la delectación de los hombres".^ La ambigüedad 
+         llega al máximo, o sea, a la contradicción, en este fragmento en el que los dos 
+         sentidos se dan simultáneamente: "Mi doctrina reza: la tarea es vivir de tal 
+         manera que tengas que desear vivir de nuevo -¡en todo caso lo harás!" (KSA 
+         9, 505, 11 [63]; FP 169; NA, 152). 
+            La última parte del fragmento parece hacer imposible la primera, ya que la 
+         aserción de que la vida recame etemamente no parece armonizarse con la ex-
+         hortación que se nos hace a vivir como si la vida recurriera etemamente. El 
+         determinismo (versión cosmológica) de la última parte, le quita todo el piso al 
+         imperativo que se formula en la primera (versión antropológica y moral). ¿Cómo 
+         una ley natural puede convertirse en objeto de elección?'" 
+            Las cosas no se presentan mejor si escogemos para el análisis otro de los 
+         grandes textos en los que Nietzsche expone la doctrina, a saber, el correspon-
+         diente a la tercera parte de Así habló Zaratustra, titulado "De la visión y del 
+         enigma". 
+         moral de cualquier índole que sea. Cf: GRANIER 1966, 567 y 579n; VATTIMO 1979, 172 y 209; 
+         HEIDEGGER 1961, I, 273, 275, 351, 356 y 406; STAMBAUGH 1959, 192 y 197; MAGNUS 1979, 362-77, 
+         esp. 374; y DELEUZE 1968, 15. 
+         « LOWITH 1956, 75, 90 y 91; HEIDEGGER 1961, I, 293, 296 y 311. 
+         '' BORGES 1961a, 85. 
+         '" MAGNUS 1979, 364, y 1973, 604-16, esp. 608 y 613. Entre los autores que tienden a disminuir la 
+         oposición entre las dos partes del fragmento se encuentran: Günter ABEL (1984, 193) y MÜLLER-
+         LAUTER (1961, 185). También Sterling en el artículo ya citado. 
+         No. 114 DICIEMBRE DE 2000 
+                        RAMÓN PÉREZ MANTILLA 
+         La necesidad de librarse de la voracidad del tiempo infinito juega aquí un 
+       papel preponderante, y el etemo retomo parece destinado a solucionar el pro-
+       blema al ofrecer una nueva concepción del tiempo que, liberándonos del peso 
+       del pasado, nos ponga en condiciones de "querer hacia atrás", como se dice en 
+       el discurso "De la Redención", perteneciente a la segunda parte de esa misma 
+       obra. Pues bien, cuando Zaratustra, en réplica al espíritu de la pesadez, repre-
+       sentado en la figura del enano, enuncia esa su nueva concepción del tiempo, 
+       nos encontramos con que, mediante una manera profunda de pensar la eterni-
+       dad del pasado y del futuro, Zaratustra logra romper la concepción usual del 
+       tiempo como sucesión irrevocable de momentos ordenados en serie. 
+         Pero si nos fijamos bien, lo hecho por Zaratustra nos pone en disposición, 
+       es cierto, de querer hacia atrás, mas nos impide al nüsmo tiempo querer hacia 
+       adelante. En efecto, si el pasado es de verdad etemo, entonces no es posible 
+       pensar el tiempo como una cadena infinita de acontecimientos siempre nuevos, 
+       sino que todo lo que puede en absoluto suceder tiene que haber sucedido ya y 
+       nada puede estar todavía por venir, ser mero futuro. Y lo mismo habría que 
+       decir de la etemidad del futuro, ya que también ella es perfecta. En estas condi-
+       ciones todo lo que transcurre en el tiempo tiene que haber transcurrido ya y 
+       volver a transcurrir una vez más en el futuro, en un movimiento de etema e 
+       idéntica repetición." 
+         El futuro parece quedar sometido al pasado en esta visión en la que resue-
+       na otra vez la voz del demonio que, en La ciencia jovial, exponía con acentos 
+       terribles la doctrina. No en vano Zaratustra, en el texto que estamos comentan-
+       do, se aterroriza al oír sus propias palabras, al punto que inmediatamente des-
+       pués la doctrina cobra la figura de una negra serpiente que amenaza con as-
+       fixiar al joven pastor que se debate por tierra (KSA 4, 201; AZ III, "De la 
+       visión y del enigma", 227). Si todo lo que es ha sido ya innumerables veces y 
+       va a repetirse tal cual es por toda una etemidad, ¿no resulta inútil todo esfuerzo 
+       del hombre, y no se produce de nuevo la falta absoluta de sentido propia de la 
+       versión cosmológica? 
+         La necesidad de vencer este aspecto horroroso de la doctrina hace que 
+       Zaratustra ordene al pastor morderle la cabeza a la serpiente que la simboliza y 
+       escupirla lejos de sí. Al hacerlo, el pastor se transforma adquiriendo el aspecto 
+       de "[...] un transfigurado iluminado que reía. ¡Nunca antes en la tierra había 
+       reído hombre alguno como él rió!" (KSA 4, 202; AZ III, "De la visión y del 
+       enigma", 228). 
+         La simiütud con lo que sucedía en el parágrafo 341 de La ciencia jovial es 
+       manifiesta. No sólo lo que es irúcialmente motivo de aflicción para el hombre 
+       se convierte en riente alegría, sino que, aquí lo mismo que allá, resulta práctica-
+        He seguido aquí en lo esencial a Eugen FINK (1984, 104 y 105). 
+                                             IDEAS Y VALORES 
+                   EL ETERNO RETORNO DE LO MISMO 
+      mente incomprensible -al menos racionalmente- cómo esta extraña metamor-
+      fosis pueda producirse. 
+        Un problema de no fácil solución es además el de saber cuál es la doctrina 
+      que profesa este pastor ya Uberado del monstmo que lo ahogaba. Es decir, si el 
+      mordisco tiene el efecto de transformar por completo la doctrina, privándola 
+      de su carácter negativo, o si simplemente el pastor se limita a aceptar, asumién-
+      dola (amorfatí [amor al destino]), la misma doctrina que antes le era tan terri-
+      ble.'^ 
+        2. La autodestrucción de la idea del eterno retorno como repetición de lo 
+      mismo 
+        Pero hay más: la meditación sobre el tiempo llevada a cabo por Zaratustra 
+      en "De la visión y del enigma" es una de las páginas de más difícil interpreta-
+      ción, y sorprende la ligereza con la que la mayoría de los autores se deslizan 
+      por entre sus líneas, esquivándola." Hay en ella, en efecto, una identificación 
+      tan absoluta y radical del pasado y del futuro, de todos los tiempos del tiempo, 
+      que en estricto rigor carece de sentido establecer cualquier diferenciación entre e-
+      llos: entre un comienzo y un fin, lo anterior y lo posterior, el pasado, el presente 
+      y el futuro. En un cierto sentido podría decirse que la doctrina estalla al desapa-
+      recer la noción tradicional del tiempo. 
+        Porque ¿cómo pensar entonces la repetición de lo mismo, si esa idea supo-
+      ne la existencia de un punto fijo inicial que volvería a repetirse después, y el 
+      movimiento del etemo retomo no tiene un origen ni un fin, precisamente por-
+      que, como lo hemos visto, es etemo? 
+        Todo "es etemo, no devenido", escribe Nietzsche (KSA 9, 502, 11 [157]; 
+      FP, 168; NA, 151). O también: "El mundo persiste; no es nada que devenga, 
+      nada que pase. O más bien: deviene, perece, pero no ha comenzado nunca a 
+      devenir y no ha dejado nunca de perecer -se conserva en ambos casos... Vive 
+      de sí mismo: sus excrementos son su alimento..." (KSA 13, 374, 14 [188]; FP, 
+       193; NA, 172).'" Fink lo ha visto muy bien: "No es que a partir de este momen-
+      to nuestra vida y el decurso de todas las cosas vayan a repetirse durante una 
+      etemidad futura. Nuestra vida presente es ya una vida repetida, y no existe una 
+      vida primera que no sea repetición, que, por así decirlo, se encuentre en la base 
+      de todas las repeticiones, como su original. El carácter de repetibilidad no se 
+      '^ Tal vez quienes más se ocupan de este problema sean VATTIMO (1979, 199, 203ss) y HEIDEGGER 
+      (1961,1, 297, 309, 439, 455ss). 
+      " De nuevo son Heidegger y Vattimo las excepciones, como se puede ver en las páginas citadas en la 
+      nota anterior. Para el caso de Heidegger, consultar también los lugares indicados en la nota 8. Juan 
+      Luis VERMAL (1987) hnda en este punto con la inconsciencia; cf. 136 y 137, de esa obra. 
+      " Ver en el mismo sentido el fragmento 38 [12]: KSA 11, 610; FP, 138; NA, 159. 
+      No. 114 DICIEMBRE DE 2000 
+                           RAMÓN PÉREZ MANTILLA 
+       forma en el curso del tiempo por repeticiones de un proceso primigenio; es, 
+       antes bien, la esencia oculta y encubierta del curso mismo del tiempo. O dicho 
+       de otra manera: la repetición no surge en el tiempo sino que es el tiempo".'^ 
+          Cuestión ésta en estrecha relación con el hecho de que Nietzsche, o mejor, 
+       Zaratustra, rechaza en dos ocasiones la posibiUdad de que la doctrina sea en-
+       tendida como si fuera una doctrina de los ciclos, igual a la de Pitágoras y los 
+       estoicos en la antigüedad, como parece creerlo Borges,'^ o a las de las filoso-
+       fías de la India y, peor aún, a las mitologías tradicionales de los pueblos primi-
+       tivos, como lo pretende Eliade." La primera, cuando en "De la visión y del 
+       enigma", al responder el enano que "toda verdad es curva y el tiempo núsmo es 
+       un círculo" (KSA 4, 200; AZ III, "De la visión y del enigma", 226), Zaratustra 
+       le reprocha haber tomado las cosas demasiado a la ligera. La segunda, cuando 
+       en "El convaleciente", al pregonar los animales, con palabras muy parecidas a 
+       las del enano, que: "Todo va, todo vuelve; etemamente meda la meda del ser. 
+       Todo muere, todo vuelve a florecer[...]. Curvo es el sendero de la etemidad", 
+       Zaratustra los acusa de haber convertido la doctrina en "una canción de 
+       organiUo"(KSA 4, 270; AZ III, "El convaleciente", 297). 
+          Hay además muchos fragmentos de los así llamados cosmológicos, que se 
+       niegan a concebir el ciclo del etemo retomo en el sentido de esa versión 
+       animalesca, como si se tratara de "[...] los ciclos que devienen y pasan, como 
+       los astros o el flujo y el reflujo, el día y la noche, las estaciones." (KSA 9, 502, 
+       11 [157]; FP, 168; NA, 151). En el mismo orden de ideas estaría el fragmento 
+       11 [133] (KSA 9, 561). 
+          3. Una doctrina esotérica con un carácter práctico predominante 
+          Las inmensas dificultades que los anteriores anáUsis, así lo esperamos, han 
+       puesto en evidencia, y que se resumen en la índole de una doctrina con dos 
+       significados inconciliables, que termina por negarse a sí misma, podrían llevar-
+       nos a suscribir la opinión de algunos de sus más osados intérpretes,'^ para quie-
+       nes la doctrina está ausente o escondida a todo lo largo de la obra de Nietzsche, 
+       sin que éste la haya nunca realmente expuesto. 
+          Lo cierto es que las "exposiciones" llevadas a cabo por Nietzsche son, por 
+       decir lo menos, curiosas, dando la impresión, como lo notó Heidegger, más de 
+       un encubrimiento que de una exposición. 
+       '^ FINK 1984, 117, 119 y 126. 
+       " BORGES, 1961 y 1961a, 75-97. 
+       " ELIADE 1972, 129 y 134. 
+       " Es sobre todo la escuela francesa la que ha sostenido con más ahínco esta tesis. Cf. DELEUZE 1967, 
+       276 y 283; PAUTRAT 1971, 333ss; 352, 356 y 358, y PAUTRAT 1973 (volumen primero de los 
+       coloquios sobre Nietzsche de Cerisy-la-Salle), 15, 18, 19 y 34. 
+       10 IDEAS Y VALORES 
+                          EL ETERNO RETORNO DE LO MISMO 
+            Llama la atención, en efecto, desde cuando la idea cae literalmente sobre 
+         Nietzsche en el lago de Silvaplana, la atmósfera nocturna y misteriosa que 
+         envuelve a la mayoría de sus presentaciones, más propia de una oscura profe-
+         cía que de una formulación conceptual de orden filosófico." 
+            De ahí a la tesis de que la doctrina no es más que lo que ella puede signifi-
+         car para los hombres, ya que lo que enseña no es una verdad de orden teórico, 
+         sino un postulado de carácter práctico, no hay sino un paso. Más que una doc-
+         trina, el etemo retomo sería, de acuerdo con este modo de ver, un experimento 
+         destinado a seleccionar a los hombres capaces de vencerla o resistirla.^" Un 
+         fragmento, entre otros, daría pie para esta interpretación: "Examinemos cómo 
+         ha obrado hasta ahora el pensamiento de que algo se repite (por ejemplo, el 
+         año, o las enfermedades periódicas, despertar y dormir, etc). Si bien la repetición 
+         circular es tan sólo una probabilidad o una posibiUdad, también el pensamiento 
+         de una posibilidad, no sólo las sensaciones o ciertas expectativas, nos puede 
+         sacudir y üransformar. ¡Cómo ha obrado la.posibilidad de la condenación eter-
+         na!" (KSA 9, 253, 11 [203]; FP, 172; NA, 163). 
+            La tesis del carácter práctico de la doctrina del etemo retomo está muy 
+         emparentada con la llamada versión antropológica y moral, pero no puede con-
+         fundirse con ella, no sólo porque predomina el aspecto práctico, en un sentido 
+         existencial, sobre el aspecto puramente moral, sino también porque la dificul-
+         tad de la versión antropológico-moral residía en que ella surgía sin rünguna 
+         mediación de la versión opuesta, cuya verdad en ningún momento se negaba. 
+         Ahora en cambio no hay verdad en sí de la doctrina, sino que ella depende del 
+         hombre que la vive y que la asume precisamente en cuanto se ha hecho digno 
+         de ella, de pensarla de una manera correcta, es decir, afirmativa. 
+            Es en cierto modo un intento de superar la contradicción entre las dos ver-
+         siones, en cuanto ahora, en estricto rigor, no puede hablarse de versión alguna. 
+         La verdad de la doctrina adquiere así un tinte pragmático, que expUcaría por 
+         ejemplo el episodio del pastor en "De la visión y del enigma". 
+            En este orden de ideas escribe Nietzsche en Ecce homo, refiriéndose a 
+         Zaratustra: "aquel que posee la visión más dura, más temible de la realidad, 
+         aquel que ha pensado 'el pensamiento más abismal', no encuentra en sí, a pesar 
+         de todo, ninguna objeción contra el existir y ni siquiera contra el etemo retomo 
+         de éste -antes bien, una razón más para ser él mismo el sí etemo dicho a todas 
+         las cosas, 'el inmenso e ilimitado decir sí y amén.'" (KSA 6, 345; EH, "Así 
+         " La coincidencia de la mayoría de los autores sobre este punto es muy grande. Cf HEIDEGGER 1961, 
+         I, 265, 324, 429; FINK 1984, 108; VATTIMO 1979, 190; y los autores franceses citados en la nota 
+         anterior. 
+         2» Respecto al carácter práctico de la doctrina, cf HEIDEGGER 1961,1, 284, 309, 310, 332, 356, 381, 
+         392, 403, y 431, VATTIMO 1979, 178, 246 y 274, ABEL 1984, 309, MÍJLLER-LAUTER .1961, 138 y 142. 
+         No. 114 DICIEMBRE DE 2000 11 
+                       RAMÓN PÉREZ MANTILLA 
+      Habló Zaratustra", §6, 103). Algo parecido se encuentra en "Las tres transfor-
+      maciones" con que se inicia el Zaratustra, en el paso del camello al león y al 
+      niño: "Inocencia es el niño, y olvido, un nuevo comienzo, un juego, una meda 
+      que se mueve por sí misma, un primer movimiento, un santo decir sf' (KSA 4, 
+      31; AZ I, "Las tres transformaciones", 51).^' 
+        Tal vez habn'a que pensar que la oposición entre cosmos y voluntad, nece-
+      sidad y libertad, no es tan grande como hemos pretendido hasta ahora. Muy 
+      probablemente ella corresponde a una vieja concepción del sujeto como espec-
+      tador separado del mundo, que Nietzsche combate en muchas de sus obras. El 
+      sujeto, transformado, "descentrado" por el pensamiento del etemo retomo que 
+      lo sacude y lo saca de sus órbitas, ya no puede menos que amar el etemo 
+      retomo del mundo, cuyo significado a su vez ha sido transformado, convirtién-
+      dose, mediante lo que un autor italiano llama la "alquimia de los extremos",^^ de 
+      expresión suma del nihilismo, en "la más alta fórmula de afirmación a que se 
+      puede llegar en absoluto" (KSA 6, 335; EH, "Así habló Zaratiisti-a", §1, 93).^^ 
+        La versión práctica de la doctrina encuentra por último su más profunda 
+      justificación en el hecho de que, en una filosofía como la de Nietzsche, no es 
+      posible hacer una afirmación verdadera sobre el mundo. En efecto, el mundo 
+      verdadero, en el Crepúsculo de los ídolos, ha quedado reducido a fábula 
+      (KSA 6, 80; Crl, 51). Además, en una teoría perspectivista de la verdad y del 
+      conocimiento, como lo es la de Nietzsche, donde "no hay hechos sino solamen-
+      te interpretaciones" (KSA 12, 315, 7[60]), el etemo retomo no es más que una 
+      interpretación sin ningún título de verdad. 
+        Es posible que haya sido un error nuestro pretender una versión unívoca y 
+      no contradictoria del etemo retomo, en una filosofía donde el mundo es caos y 
+      donde el mismo principio de contradicción es al máximo un imperativo sobre lo 
+      que debe ser tenido por verdadero por nosotros, pero no un criterio de verdad 
+      (KSA 12. 389-91, 9[97]; NA, 210). 
+          II. El eterno retorno de lo mismo -nihilismo y devenir-
+        Las dificultades a que nos hemos visto enfrentados tal vez puedan com-
+      2' En el mismo sentido: KSA 6, 295; EH, "Por qué soy tan inteligente", §9, 52. KSA 9, 643, 15[20]; 
+      KSA 9, 664, 16[22]; KGW VÜI 3, 288; KSA 3, 521; CJ IV, §276, 159. KSA 6, 152; Crl, "Incursiones 
+      de un intempestivo", §49, 127. 
+      ^2 MASINI 1967. 
+      ^' En parte estos desarrollos coinciden con la tendencia visible en la interpretación actual de Nietzsche, 
+      de superar la contradicción tal vez insoluble entre la versión cosmológica y la antropológica y moral 
+      del etemo retomo, introduciendo, como en el caso de Müller-Lauter, gracias al concepto heideggeriano 
+      de "ser-en-el-mundo", otras modalidades de oposición. Pero aparte de que no se ve bien hasta dónde 
+      detrás de esas nuevas modalidades no sigue viva la antigua, el mismo autor tiene que confesar que eUas 
+      no sirven para superar las inconciliables contradicciones propias de la doctrina del etemo retomo. Cf 
+      MÍJLLER-LAUTER 1961, 180, 185, 186 y 188. 
+      12 IDEAS Y VALORES 
+                    EL ETERNO RETORNO DE LO MISMO 
+       prenderse mejor si planteamos las cosas de manera diferente, es decir, buscan-
+       do cuáles eran los problemas que Nietzsche quería resolver con su doctrina del 
+       etemo retomo. 
+         En este sentido nos es de gran utilidad la idea de Lowith,^'' según la cual la 
+       filosofía de Nietzsche es un sistema de pensamiento que se inicia con la muerte 
+       de Dios, sigue con el nihilismo que ésta provoca y termina con la doctrina del 
+       etemo retomo como superación del nihilismo. 
+         Si suponemos además que el etemo retomo está en relación con una con-
+       cepción determinada del tiempo, el nihiUsmo tiene que guardar entonces con 
+       éste una relación que aún no sabemos cuál es. Por otra parte, si el etemo retomo 
+       es para Nietzsche la forma más extrema del nihiUsmo, ¿cómo entender la supe-
+       ración de éste por el etemo retomo? Para responder estos interrogantes es nece-
+       sario determinar ante todo lo que Nietzsche entiende por el concepto de nihiUs-
+       mo. 
+         /. El nihilismo en Nietzsche 
+         Nietzsche da de él una definición muy precisa al escribir: "Nihilismo: falta 
+       la finalidad; falta la respuesta al '¿para qué?' ¿Qué sigrüfica el nihilismo? -que 
+       los valores supremos se desvalorizan" (KSA 12, 350,9 [35]; FP, 45; NA, 285). 
+       Más adelante, en el mismo fragmento, Nietzsche agrega que ello equivale a 
+       decir que "no hay verdad; que no hay ninguna constitución absoluta de las 
+       cosas, ninguna 'cosa en sí'". (KSA 12, 351; FP, 46; NA, 286). Se podría traer a 
+       colación, para ilustrar todavía más la idea de Nietzsche, el pasaje del Crepúscu-
+       lo de los ídolos titulado "Cómo el 'mundo verdadero' acabó convirtiéndose en 
+       una fábula" (KSA 6, 80; Crl, 51), en el que Nietzsche hace una especie de 
+       resumen de toda la historia de la filosofía occidental, al describir el proceso 
+       mediante el cual el mundo verdadero de Platón se va progresivamente desvane-
+       ciendo a través del cristianismo y de Kant, hasta Uegar al mundo de los fenó-
+       menos propio del positivismo. Pero lo importante es, como se sabe, que tam-
+       poco este mundo termina teniendo para Nietzsche ninguna realidad: "Hemos 
+       eliminado el mundo verdadero: ¿qué mundo ha quedado? ¿Acaso el aparen-
+       te?... ¡No! \al eliminar el mundo verdadero hemos eliminado también el 
+       aparentel" (KSA 6, 81; Crl, 52). Es decir, que ha desaparecido toda posibili-
+       dad de distinguir entre mundo verdadero y falso, y nos hallamos en pleno nihilis-
+       mo, en el sentido precisado por Nietzsche al comienzo de este pártafo. 
+         Los valores supremos que en esta definición del nihilismo pierden su valor 
+       son también los que aquí entran en crisis al desvanecerse el mundo verdadero 
+       de Platón, el cual comprende indudablemente la verdad, los valores morales, el 
+       Dios de la reUgión cristiana y el reino del arte en el sentido tradicional de "beUa 
+       " Lowrra 1968, 272. Cf. también: HEIDEGGER 1961, I, 432-443. 
+       No. 114 DICIEMBRE DE 2000 13 
+                      RAMÓN PÉREZ MANTILLA 
+      apariencia", o sea, la verdad, el bien y la belleza como objetos de la filosofía 
+      tradicional. No en vano Heidegger pensaba que el nihiUsmo, como crisis de los 
+      valores supremos, se podía resumir en la breve frase "Dios ha muerto", la cual, 
+      a su tumo, abarca la muerte de todos los valores trascendentes propios de la 
+      metafísica platónica, es decir, de la filosofía, de la religión y de la moral.^' 
+        La cuestión es saber si Nietzsche veía en el nihilismo así definido un fenó-
+      meno por completo negativo y, sobre todo, si esa manera de considerar el nihi-
+      lismo capta realmente su esencia. 
+        Es fácil pensar que ello no es así, si se tiene en cuenta que para Nietzsche 
+      el nihilismo como crisis de los valores era algo ambiguo, índice de fuerza o de 
+      debiUdad según fuera éste activo o pasivo (KSA 12, 350, 9 [35]; FP, 45; NA, 
+      285), llegando incluso a afirmar que el nihilismo como negación de todo mun-
+      do verdadero, de todo lo que es, podría ser "una forma divina de pensar" (KSA 
+      12, 354, 9 [41]; FP, 47). 
+        Pero además Nietzsche distingue entre un nihilismo incompleto y un nihi-
+      lismo consumado o perfecto, capaz -a diferencia del primero- de superar el 
+      nihilismo considerado como crisis de valores, declarándose como "el primer 
+      nihilista perfecto de Europa".^^ 
+        Estas denominaciones no se compadecen, pues, con la definición de 
+      Nietzsche citada al comienzo. La clarificación de todo esto se halla en un texto 
+      de una importancia inmensa para nuestros propósitos. Se trata de un aforismo 
+      al que Heidegger ha sometido a un minucioso análisis.^' El fragmento lleva por 
+      título "Crítica del nihiUsmo" y en él Nietzsche presenta tres causas esenciales -
+      íntimamente ligadas entre sí- del nihilismo. 
+        La primera -escribe Nietzsche- consiste en haberle buscado un sentido a 
+      todo acontecer: al comprobarse que ese sentido no existe, que con el devenir no 
+      se alcanza nada, rú hay un fin que lo oriente; el desengaño sobre esa supuesta 
+      finalidad del devenir produce el nihilismo. 
+        Lo mismo pasaría con la segunda causa. Las anheladas unidad y totalidad 
+      del universo y del acontecer, que daban al hombre valor al hacerlo sentir inte-
+      grado al curso del mundo, también se revelan inexistentes. 
+        El nihilismo -agrega Nietzsche- "tiene todavía una tercera y última forma. 
+      Dadas estas dos intelecciones de que no existe nada que se haya de alcanzar y 
+      de que no hay una gran unidad que reine detrás de todo devenir [...], ya no hay 
+      más escapatoria que condenar todo este mundo como engaño e inventar un 
+      mundo que quede más aUá de este, como mundo verdadero". Es la típica con-
+      " HEIDEOGER 1995, 193, 196, 197; 1961, n, 33ss. 
+      2^ Ver para este problema los fragmentos 10 [42] (KSA 12, 476; FP, 58; NA, 288) y 11 [411] (KSA 
+      13, 185-90; FP, 69). 
+      " HEIDEGGER 1961, n, 63ss. 
+      14 IDEAS Y VALORES 
+                        EL ETERNO RETORNO DE LO MISMO 
+        frontación y distinción de la metafísica entre mundo verdadero y aparente, mundo 
+        del ser y del devenir. 
+           Pero como también esta escapatoria termina por revelarse sólo como el 
+        producto de simples necesidades psicológicas, probablemente de seguridad, surge 
+        entonces la última forma del nihilismo: "la incredulidad con respecto a un 
+        mundo metafísico -que se prohibe la creencia en un mundo verdadero". 
+           Al llegar a esta posición -sigue diciendo Nietzsche- la única reaUdad que 
+        queda es la del devenir, haciéndose imposible cualquier huida hacia trasmundos 
+        o falsas divinidades -sólo que no se soporta este mundo, cuya existencia ya no 
+        se puede negar- en cuanto carece de valor. Lo que ha ocurrido en el fondo es -
+        según Nietzsche- que no es lícito interpretar el carácter total de la existencia ni 
+        con el concepto de "propósito", ni con el concepto de "unidad", ni con el con-
+        cepto de "verdad". El "carácter de la existencia no es 'verdadero', es falso..." 
+        En resumen, las categorías de "finalidad", "unidad" y "ser" caen, y el mundo 
+        aparece sin valor. 
+           Y concluye Nietzsche: "la creencia en las categorías de la razón es la 
+        causa del nihiUsmo -hemos medido el valor del mundo atendiendo a categorías 
+        que se refieren a un mundo puramente fingido" y que no tienen ningún valor 
+        en sí, como no sea el de ser "resultado de determinadas perspectivas de utilidad 
+        para el mantenimiento y la potenciación de formaciones humanas de domirúo: 
+        tan sólo que falsamente proyectadas en la esencia de las cosas" (KSA 13, 46-
+        8, 11[99]; FP, 62-4; NA, 289-91).^* 
+           Es, como se ve, un texto de un alcance extraordinario. 
+           Queda claro que el nihilismo, definido como pérdida de valor y sentido del 
+        mundo a causa de la desvalorización de los valores supremos, es apenas una 
+        consecuencia y un resultado de un nihilismo más fundamental que consiste en 
+        haber arrojado sobre la realidad el velo de esos valores, dando así origen a la 
+        metafísica como dualismo entre mundo verdadero y mundo aparente. 
+           La simiUtud con el famoso pasaje del Crepúsculo de los ídolos, arriba men-
+        cionado, en donde el mundo verdadero -y con él su cortelato: el aparente-, 
+        termina por quedar convertido en fábula, es palmaria.^' Se entiende además 
+        ahora la ambigüedad del nihilismo considerado como crisis de los valores, el 
+        cual debe llevarse hasta su perfección, o sea, hasta la transmutación de todos 
+        los valores, si se lo quiere de verdad superar. El nihilismo incompleto es preci-
+        samente, en cambio, como se dice en el fragmento 10[42] (KSA 12, 476; FP, 
+        ^* En estecha relación con este final del fragmento 11[99], está el 14 [153] (KSA 13, 234; FP, 117; 
+        NA, 212). 
+        ^ Se da también aquí una correlación evidente con un fragmento de 1887 denominado "El nihiUsmo 
+        europeo", en el que la moral aparece como un estimulante del nihilismo, ya que la moral, en cuanto 
+        veracidad, se vuelve contta la moral misma, poniendo al descubierto su mentira (KSA 12, 211, 5[71]; 
+        FP, 32; NA, 278). 
+        No. 114 DICIEMBRE DE 2000 15 
+                       RAMÓN PÉREZ MANTILLA 
+      58-9; NA, 288), un intento de escapar al nihiUsmo sin trasmutar los valores 
+      supremos que le dan origen; constituye, como se lee en el fragmento 9 [43] 
+      (KSA 12, 355; FP, 47; NA, 286), una simple substitución de esos valores, que 
+      son trascendentes, por valores inmanentes al curso de la historia -como la 
+      razón o el progreso- dejando intacto el viejo principio nihiUsta de valoración. 
+         Podríamos concluir diciendo que Nietzsche demuestra que sólo queda el 
+      devenir, el cual, desprovisto de todo valor, coincide con el etemo retomo, en 
+      cuanto etemo girar sin finalidad en la nada, o sea, con el nihilismo extremo. Sin 
+      embargo, esta conclusión sen'a apresurada: más bien, el etemo retomo, en tanto 
+      que afimiación del devenir absoluto, libre de finalidades y metas que se han 
+      revelado falsas, es la superación del nihilismo. 
+         2. El espíritu de venganza y el nihilismo 
+         Las reflexiones anteriores han puesto de presente el lazo existente entre el 
+      nihilismo y el problema del tiempo alrededor del cual gira el etemo retomo. No 
+      sólo el nihilismo surge, según el fragmento que acabamos de comentar, del 
+      intento de darle al devenir una orientación y una unidad que no tiene, sino que 
+      en un determinado momento del proceso surge, con la metafísica, la negación 
+      del devenir, la oposición entre el ser verdadero como algo etemo e inmutable y 
+      el ser aparente sujeto al tiempo y al devenir. Para la metafísica el ser es presen-
+      cia permanente; el no-ser, por el contrario, lo que cambia incesantemente. Es la 
+      contraposición entre la etemidad y el tiempo, destinada a su tumo a revelarse 
+      falsa, dejándonos sumidos en un puro devenir sin sentido ni valor. 
+         El parentesco de esta situación con el discurso "De la redención", centrado 
+      sobre el problema del tiempo, en Así habló Zaratustra (KSA 4, 177-82; AZ II, 
+      202-7), es impresionante. Es el espíritu de venganza, el resentimiento impotente 
+      frente al curso irreversible e implacable del tiempo, el que lleva a condenar 
+      metafísicamente la existencia y el devenir, buscando refugio en una realidad 
+      etema frente a la cual el tiempo aparece como algo caduco, destinado a pasar 
+      y morir, sin ninguna realidad ni consistencia. La existencia en el tiempo, como lo 
+      sentenciaba Anaximandro en los orígenes de la filosofía griega, era una culpa 
+      que debía pagarse con la muerte y el regreso a la unidad primigenia, restable-
+      ciendo así el orden violado del cosmos.^" 
+         Por eso, el etemo retomo como superación del nihilismo metafísico tiene 
+      que consistir en la instauración de una nueva relación entre el ser y el devenir. 
+      La redención no es, en efecto, redención del tiempo, sino de la venganza contra 
+      el tiempo. 
+         Lo que Nietzsche quiere es que el hombre establezca una nueva relación 
+      ^ Sobre el espíritu de venganza como origen del nihilismo, en cuanto resentimiento y culpa, y como 
+      fundamento de la metafísica, además de GM, ver KSA 13, 422-26, 15 [30]; VP §764, 294. 
+      16 IDEAS Y VALORES 
+                       EL ETERNO RETORNO DE LO MISMO 
+        con el pasado, una relación que lo libere del azar irremediable del tiempo voraz 
+        y destmctor, sin escapar por ello a ultramundos inmóviles ni renegar del tiempo. 
+        Es precisamente lo que se propone el etemo retomo: que el tiempo sea etemo, 
+        no que la etemidad aniquile al tiempo o lo reduzca a ser mero pasar, algo cuyo 
+        ser consiste en no-ser. No era otro el problema que, desde la Segunda intem-
+        pestiva, había atormentado a Nietzsche, y al que en ese entonces designó con 
+        el nombre de "enfermedad histórica". 
+          En este libro juvenil, ambiguo y problemático, el remedio para la "enferme-
+        dad histórica" había sido una mezcla de historia y negación de la historia, me-
+        diante el recurso a las potencias etemizantes del arte y de la religión. Ahora, en 
+        "De la redención" y el fragmento sobre "La crítica del nihilismo", ese remedio 
+        es la enfermedad misma. Nietzsche sufría todavía en aquella brillante conside-
+        ración intempestiva de la metafísica de artista que había inspirado su primer 
+        libro. El nacimiento de la tragedia, envuelto aún en los vapores de una mítica 
+        consolación.^' 
+          3. El eterno retorno como superación del nihilismo 
+          La diferencia entre el Nietzsche juvenil y el Nietzsche posterior, respecto al 
+        problema del devenir, puede verse en el célebre fragmento 7 [54], escrito entre 
+        1886 y 1887, que dice: 
+           Imprimir al devenir el carácter del ser -esta es la máxima voluntad de 
+           poder. 
+           Doble falseamiento, proveniente de los sentidos y del espíritu, a fin de 
+           obtener un mundo de lo ente, de lo que perdura, de lo que mantiene 
+           igual su valor, etc. 
+           Que todo retoma, esta es la máxima aproximación de un mundo del 
+           devenir al mundo del ser: cumbre de la contemplación (KSA 12, 312; 
+           FP, 189; NA, 165). 
+          Aunque el fragmento no sea totalmente transparente, no me parece que se 
+        cometa ningún exceso de interpretación si se piensa que Nietzsche habla aquí 
+        de un ser del devenir, en íntima relación con la doctrina del etemo retomo. 
+        Mientras en la metafísica el ser y el devenir se hallaban en oposición excluyén-
+        dose, o al máximo se daba un devenir del ser, aquí Nietzsche disuelve la oposi-
+        ción y logra su unión, no a partir del ser, sino a partir del devenir. Por primera 
+        vez, creo, en la historia de la filosofía, el devenir tiene ser, no para desembocar 
+        ^' No debe olvidarse sin embargo que para Vattimo, por ejemplo. El nacimiento de la tragedia es 
+        susceptible de ser interpretado en consonancia con el Nietzsche posterior. Cf VATTIMO 1979, 27ss. 
+        Por lo demás, es ya un acierto de Nietzsche en la Segunda intempestiva (CI II) la aguda crítica a que 
+        somete al historicismo del siglo XIX y a su idea providencial de progreso, la cual luego aparecerá 
+        como nihiUsmo incompleto. 
+        No. 114 DICIEMBRE DE 2000 17 
+                   RAMÓN PÉREZ MANTILLA 
+     en algo dejando de ser devenir, como en Hegel, sino para no dejar de ser en 
+     cuanto devenir. El ser del devenir es precisamente su etemo retomar. 
+       Heidegger, si bien acepta que en este fragmento se da la unión entre deve-
+     nir (voluntad de poder) y ser (etemo retomo), concluye, no obstante, que por 
+     eso mismo Nietzsche continúa prisionero de la concepción del ser como pre-
+     sencia constante propia de la metafísica y llega inclusive a decir que, debido a 
+     ello, Nietzsche no supera la venganza contra el tiempo. 
+       Sobre esta interpretación, sobresaliente como todo lo de Heidegger, habría 
+     que decir que ella parece olvidar que en Nietzsche, al lado de la "verdad" como 
+     poder de estabiUzación y falsificación del devenir, existe el arte como configu-
+     ración del devenir mismo. Lo primero puede ser necesario desde un punto de 
+     vista práctico de utilidad y conservación, pero no desde un punto de vista supe-
+     rior de acrecentamiento y elevación de la vida. Además, la interpretación 
+     heideggeriana parece creer que lo que retoma en el etemo retomo es lo mismo, 
+     tomando así partido por la identidad y por el ser.^^ 
+       Con la absoluta afirmación del devenir, logra Nietzsche golpear al nihilis-
+     mo en su centro (el odio contra la vida y la existencia), estableciendo paradóji-
+     camente una etemidad temporal, opuesta a la etemidad intemporal de la meta-
+     física, que le permite afirmar de manera total el mundo, tal como se desprende 
+     de estos fragmentos: 
+        ¡Imprimamos la imagen de la etemidad sobre nuestra vida! Este pen-
+        samiento contiene más que todas las religiones que desprecian esta 
+        vida como fugaz y que enseñaron a mirar en busca de otra vida distin-
+        ta indeterminada (KSA 9, 513, 11 [159]; FP, 168; NA, 152). 
+        Aquel emperador [Nietzsche se refiere sin duda a Marco Aurelio] pen-
+        saba constantemente en la fugacidad de todas las cosas para no darles 
+        mucha importancia y permanecer tranquilo entre ellas. Sobre mí la 
+        fugacidad obra de manera completamente diferente. Me parece que 
+        todas las cosas poseen demasiado valor como para que puedan ser 
+        juzgadas como algo fugaz. Me esfuerzo por encontrar una etemidad 
+        para todo. ¡Cómo arrojar al mar los vinos y los ungüentos más precio-
+        sos? Mi consuelo es que todo lo que fue es etemo -el mar los arrojará 
+        de nuevo hacia afuera (KSA 13, 43, 11 [94]). 
+     '^ La interpretación de Heidegger sobre este problema se encuentra en HEIDEGGER 1961,1, 15, 27, 28, 
+      30, 251, 348, 407, 465, 467, 549-50 y 656, y en II, 11, 288ss y 339. Véase también: HEIDEGGER 1967, 
+      109, 115, 117, 120ss; y HEIDEGGER 1971, 40ss y 76. Heidegger termina llevando al máximo su 
+     interpretación, al comparar al etemo retomo con la esencia de la máquina motriz y, en general, con 
+     la esencia de la técnica modema. Se ha señalado una extraña afinidad en esto de Heidegger con Walter 
+     Benjamín. 
+      Ig IDEAS Y VALORES 
+                       EL ETERNO RETORNO DE LO MISMO 
+           Sobre el hecho de que no se trata de una etemidad inmóvil e inmutable, 
+        testimoiúan estos otros fragmentos: "Contra el valor de lo que permanece eter-
+        namente igual a sí mismo (v. La ingenuidad de Spinoza e igualmente de Des-
+        cartes), el valor de lo más breve y pasajero, el seductor brillo dorado en el 
+        vienti-e de la serpiente vita [vida] -" (KSA 12, 348, 9 [26]). 
+           "Os enseño la redención del río etemo. El río vuelve siempre de nuevo 
+        sobre sí mismo, y siempre de nuevo entraréis en el mismo río, como los mis-
+        mos". (KSA 10, 205, 5 [1]). Este último fragmento compendia admirablemen-
+        te bien lo que hemos llamado el ser del devenir. 
+        No. 114 DICIEMBRE DE 2000 19 

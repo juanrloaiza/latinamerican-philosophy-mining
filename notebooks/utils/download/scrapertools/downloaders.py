@@ -105,14 +105,16 @@ class PDFDownloader(Downloader):
 
         if not download_tag:
             print("Couldn't get where to download the pdf file from!")
-            return
-
-        pdf = requests.get(download_tag["href"]).content
+            pdf = None
+            format = None
+        else:
+            pdf = requests.get(download_tag["href"]).content
+            format = Format.PDF
 
         self.registry.add_article(
             id=article_id,
             raw_content=pdf,
             raw_metadata=raw_metadata,
-            format=Format.PDF,
+            format=format,
             url=article_url,
         )
