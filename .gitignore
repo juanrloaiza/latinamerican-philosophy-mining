@@ -14,4 +14,3 @@ notebook/utils/temp.txt
 *.fdb_latexmk
 *.fls
 *.log
-notebooks/utils/article_registry.json
