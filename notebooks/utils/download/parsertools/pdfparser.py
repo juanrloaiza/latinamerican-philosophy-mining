@@ -44,13 +44,3 @@ class PDFParser:
 
         with ghostscript.Ghostscript(*args) as g:
             ghostscript.cleanup()
-
-
-"""
-        reader = PdfFileReader(file)
-
-        full_text = ""
-        for page_num in range(reader.numPages):
-            full_text += reader.pages[page_num].extractText() + "\n\n"
-            
-            """

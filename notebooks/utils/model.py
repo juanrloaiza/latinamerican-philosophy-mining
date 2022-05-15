@@ -19,7 +19,7 @@ class Model:
         self.id2word = corpora.Dictionary(self.bows.values())
 
     def train(self, seed=None, workers=5):
-        """Trains the model for the first time."""
+        """Trains the model."""
         corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
 
         print("Bags of words collected. Starting training...")
@@ -35,7 +35,10 @@ class Model:
         self.create_topics()
 
     def load(self):
-        """Loads a model from a .model file."""
+        """Loads a model from a .model file.
+        
+        TODO: Right now we load one model per num. of topics. Maybe we can load from a path instead?
+        """
         self.lda = LdaMulticore.load(
             f"gensim_models/gensim_{self.num_topics}/yLDA_gensim_{self.num_topics}.model"
         )
@@ -80,11 +83,11 @@ class Model:
             )
             self.topics.append(new_topic)
 
-    def get_article_title(self, article_id):
-        """Gets the article title from the Corpus."""
+    def get_article_ref(self, article_id):
+        """Gets the article reference from the Corpus."""
         return self.corpus_obj.get_article_ref(article_id)
 
-    def export_summary(self, filename):
+    def export_summary(self, filename: str):
         """Saves a summary file in PDF format for later usage."""
         summary = ""
         for topic in self.topics:

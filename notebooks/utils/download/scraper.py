@@ -1,12 +1,5 @@
 # coding: utf-8
 
-"""
-This script downloads articles from Ideas y Valores
-and saves them in raw HTML. It also retrieves their metadata
-and saves them in JSON format.
-
-Each article will be saved in the folder data/raw_html/{article_id}/.
-"""
 from multiprocessing import Pool
 
 from utils.download.scrapertools.downloaders import (
@@ -14,7 +7,7 @@ from utils.download.scrapertools.downloaders import (
     PDFDownloader,
     soupify,
 )
-from time import sleep 
+from time import sleep
 from utils.registry import Registry
 
 
