@@ -1,12 +1,14 @@
 # Latin American Philosophy Mining
 
-Authors: [Juan R. Loaiza](https://www.juanrloaiza.me) (URosario / HU Berlin) and [Miguel González Duque](https://www.miguelgondu.com) (ITU Copenhagen)
+Authors: [Juan R. Loaiza](https://juanrloaiza.github.io/academic) (URosario) and [Miguel González Duque](https://www.miguelgondu.com) (ITU Copenhagen)
 
 In this repository we track progress on a research project in which we apply text mining to philosophy journals in Latin America. Our aim is to provide insights into the history of philosophy in Latin America using a data-driven approach.
 
 We started with [Ideas y Valores](https://revistas.unal.edu.co/index.php/idval/) (Colombia) and articles from 2009 to 2017. We are now expanding the corpus from Ideas y Valores to cover all articles since the journal's foundation in 1951. We plan on expanding later to include more years and other journals such as [Crítica](http://critica.filosoficas.unam.mx/index.php/critica) (Mexico) and [Análisis Filosófico](https://analisisfilosofico.org/index.php/af) (Argentina).
 
 ## Structure
+
+TODO: This structure is now outdated. 
 
     .
     ├── data                # Data files (omitted from Git repository for the moment)
@@ -53,7 +55,7 @@ Note: This suggests that word extension has not changed significantly since the 
 The following plots are only proofs of concept. We are using a temporary LDA model with 10 topics to find which visualizations would work best. There is still work to fully optmize the LDA model though. We use a model with the following top 10 most salient words.
 
 | Topic 0        | Topic 1       | Topic 2   | Topic 3     | Topic 4   | Topic 5   | Topic 6     | Topic 7   | Topic 8      | Topic 9  |
-|:-------------- |:------------- |:--------- |:----------- |:--------- |:--------- |:----------- |:--------- |:------------ |:-------- |
+| :------------- | :------------ | :-------- | :---------- | :-------- | :-------- | :---------- | :-------- | :----------- | :------- |
 | lenguaje       | kant          | religioso | ser         | creencia  | ser       | político    | acción    | alma         | político |
 | interpretación | concienciar   | religión  | cuerpo      | mundo     | mundo     | formar      | moral     | ser          | derecho  |
 | teoría         | ser           | ciudad    | formar      | ser       | hegel     | vida        | ser       | platón       | moral    |
