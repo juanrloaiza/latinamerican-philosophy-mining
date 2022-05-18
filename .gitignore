@@ -7,6 +7,7 @@ notebooks/gensim_models/
 notebooks/utils/article*
 notebook/utils/temp.txt
 .DS_store
+.vscode
 
 # TeX stuff
 *.synctex.gz
