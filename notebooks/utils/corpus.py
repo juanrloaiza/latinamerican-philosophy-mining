@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from utils.registry import Registry
 from utils.filemanager import FileManager
@@ -32,8 +33,7 @@ class Corpus:
 
     def load_documents_from_registry(self, only_articles: bool = True) -> list:
         """
-        Returns a list of id, info pair. Info is a dictionary with the JSON data
-        contained in each article's JSON file in data/corpus.
+        Returns a list of articles.
         """
         articles = self.registry.load_article_files()
         docs = []
@@ -71,3 +71,10 @@ class Corpus:
         """Represents the length of the corpus as the number of documents it has."""
         return len(self.documents)
 
+    def get_time_slices(self):
+        slices = defaultdict(int)
+        for article in self.documents:
+            year = int(article.date[:4])
+            slices[year] += 1
+
+        return [count for year, count in sorted(slices.items())]
