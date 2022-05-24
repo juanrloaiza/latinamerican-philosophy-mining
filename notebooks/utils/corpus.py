@@ -45,7 +45,7 @@ class Corpus:
                 for key, value in info.items():
                     setattr(article, key, value)
                 docs.append(article)
-        
+
         docs = sorted(docs, key=lambda article: int(article.date[:4]))
         return docs
 
@@ -76,21 +76,25 @@ class Corpus:
         return len(self.documents)
 
     def get_time_slices(self, time_window: int = 5):
-        # TODO: modify
-        slices = defaultdict(int)
+        """
+        Returns time slices for LDA Sequential model.
+
+        Time slices are a list of how many articles a given time window has. This is
+        a requirement of LDASeqModel.
+        """
         all_years = [int(article.date[:4]) for article in self.documents]
         bins = (all_years[-1] - 1950) // time_window + 1
 
-        count_by_year = {
-            year: all_years.count(year) for year in all_years
-        }
+        count_by_year = {year: all_years.count(year) for year in all_years}
 
         current_year = 1950
         next_year = current_year + time_window
-        
+
         counts = []
         for _ in range(bins):
-            count = sum([v for k, v in count_by_year.items() if current_year <= k < next_year])
+            count = sum(
+                [v for k, v in count_by_year.items() if current_year <= k < next_year]
+            )
             counts.append(count)
 
             print(f"{current_year} - {next_year - 1}: {count}")
@@ -98,6 +102,7 @@ class Corpus:
 
         return counts
 
+
 if __name__ == "__main__":
-    corpus = Corpus(registry_path = 'notebooks/utils/article_registry.json')
+    corpus = Corpus(registry_path="notebooks/utils/article_registry.json")
     corpus.get_time_slices(time_window=50)
