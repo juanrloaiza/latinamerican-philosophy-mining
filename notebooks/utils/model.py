@@ -1,12 +1,13 @@
+import os
+import pandoc
+import time
+import numpy as np
 from gensim.models.ldamulticore import LdaMulticore
+from gensim.models.ldaseqmodel import LdaSeqModel
 from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 from utils.topic import Topic
 from utils.corpus import Corpus
-import pandoc
-import os
-import time
-import numpy as np
 
 
 class Model:
@@ -23,20 +24,31 @@ class Model:
         corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
 
         print("Bags of words collected. Starting training...")
-        self.lda = LdaMulticore(
+
+        """ self.lda = LdaMulticore(
             corpus_bows,
             num_topics=self.num_topics,
             id2word=self.id2word,
             passes=15,
             random_state=seed,
             workers=workers,
+        ) """
+
+        self.lda = LdaSeqModel(
+            corpus=corpus_bows,
+            time_slice=self.corpus_obj.get_time_slices(),
+            num_topics=self.num_topics,
+            id2word=self.id2word,
+            passes=15,
+            random_state=seed,
         )
+
         print("Model trained! Creating Topic objects...")
         self.create_topics()
 
     def load(self):
         """Loads a model from a .model file.
-        
+
         TODO: Right now we load one model per num. of topics. Maybe we can load from a path instead?
         """
         self.lda = LdaMulticore.load(
@@ -60,7 +72,10 @@ class Model:
     def get_topics_in_article(self, bow, min_prob=0.01):
         """Returns all the topic id, probability tuples given an Article object."""
         bow_matrix = self.id2word.doc2bow(bow)
-        return self.lda.get_document_topics(bow_matrix, minimum_probability=min_prob,)
+        return self.lda.get_document_topics(
+            bow_matrix,
+            minimum_probability=min_prob,
+        )
 
     def create_topics(self):
         """Creates Topic objects for each topic in the model. This allows us to
@@ -143,4 +158,3 @@ class Model:
             "min_arts_in_topic": np.min(arts_per_topic),
             "max_arts_in_topic": np.max(arts_per_topic),
         }
-
