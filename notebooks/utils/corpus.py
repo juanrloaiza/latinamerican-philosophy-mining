@@ -4,6 +4,8 @@ from utils.registry import Registry
 from utils.filemanager import FileManager
 import os
 
+import numpy as np
+
 DATA_FOLDER = os.path.abspath("../../data")
 
 
@@ -43,6 +45,8 @@ class Corpus:
                 for key, value in info.items():
                     setattr(article, key, value)
                 docs.append(article)
+        
+        docs = sorted(docs, key=lambda article: int(article.date[:4]))
         return docs
 
     def get_documents_list(self) -> list:
@@ -71,10 +75,29 @@ class Corpus:
         """Represents the length of the corpus as the number of documents it has."""
         return len(self.documents)
 
-    def get_time_slices(self):
+    def get_time_slices(self, time_window: int = 5):
+        # TODO: modify
         slices = defaultdict(int)
-        for article in self.documents:
-            year = int(article.date[:4])
-            slices[year] += 1
+        all_years = [int(article.date[:4]) for article in self.documents]
+        bins = (all_years[-1] - 1950) // time_window + 1
 
-        return [count for year, count in sorted(slices.items())]
+        count_by_year = {
+            year: all_years.count(year) for year in all_years
+        }
+
+        current_year = 1950
+        next_year = current_year + time_window
+        
+        counts = []
+        for _ in range(bins):
+            count = sum([v for k, v in count_by_year.items() if current_year <= k < next_year])
+            counts.append(count)
+
+            print(f"{current_year} - {next_year - 1}: {count}")
+            current_year, next_year = next_year, next_year + time_window
+
+        return counts
+
+if __name__ == "__main__":
+    corpus = Corpus(registry_path = 'notebooks/utils/article_registry.json')
+    corpus.get_time_slices(time_window=50)

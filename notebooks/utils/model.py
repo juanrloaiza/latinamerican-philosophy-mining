@@ -19,7 +19,7 @@ class Model:
         self.bows = {article.id: article.get_bow_list() for article in self.articles}
         self.id2word = corpora.Dictionary(self.bows.values())
 
-    def train(self, seed=None, workers=5):
+    def train(self, seed=None, workers=5, time_window: int = 5):
         """Trains the model."""
         corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
 
@@ -36,7 +36,7 @@ class Model:
 
         self.lda = LdaSeqModel(
             corpus=corpus_bows,
-            time_slice=self.corpus_obj.get_time_slices(),
+            time_slice=self.corpus_obj.get_time_slices(time_window=time_window),
             num_topics=self.num_topics,
             id2word=self.id2word,
             passes=15,
