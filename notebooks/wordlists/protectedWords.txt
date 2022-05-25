@@ -19,6 +19,7 @@ buenos
 final
 existen
 valor
+trabajo
 conocer
 modo
 verdadera

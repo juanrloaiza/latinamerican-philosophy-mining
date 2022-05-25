@@ -64,6 +64,7 @@ con
 mucho
 fui
 posible
+queque
 teriam
 tiene
 trabajamos
@@ -192,6 +193,7 @@ lado
 habidas
 meu
 fueron
+dede
 última
 nadie
 which
@@ -473,6 +475,7 @@ habríamos
 fuisteis
 how
 saber
+sinembargo
 usted
 aquel
 ella
@@ -543,6 +546,7 @@ han
 intentamos
 intentar
 most
+porejemplo
 hemos
 eso
 serán
@@ -595,6 +599,7 @@ aquellos
 contigo
 houveria
 0
+ideas
 cada
 las
 tengan
@@ -805,6 +810,7 @@ dos
 very
 habremos
 puedo
+lala
 weren't
 algunos
 mis
@@ -962,6 +968,7 @@ tengáis
 num
 v
 pelas
+valores
 ést
 dicho
 estada
