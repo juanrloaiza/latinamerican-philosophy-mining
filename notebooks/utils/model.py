@@ -8,6 +8,7 @@ from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 from utils.topic import Topic
 from utils.corpus import Corpus
+from utils.dtmmodel import DtmModel
 
 
 class Model:
@@ -25,25 +26,39 @@ class Model:
 
         print("Bags of words collected. Starting training...")
 
-        """ self.lda = LdaMulticore(
+        self.lda = LdaMulticore(
             corpus_bows,
             num_topics=self.num_topics,
             id2word=self.id2word,
             passes=15,
             random_state=seed,
             workers=workers,
-        ) """
+        )
 
-        self.lda = LdaSeqModel(
+        print("Base model trained. Training sequential model....")
+
+        """
+        self.ldaseq = LdaSeqModel(
             corpus=corpus_bows,
             time_slice=self.corpus_obj.get_time_slices(time_window=time_window),
             num_topics=self.num_topics,
             id2word=self.id2word,
             passes=15,
+            initialize="ldamodel",
+            lda_model=self.lda,
             random_state=seed,
+        )"""
+
+        self.ldaseq = DtmModel(
+            dtm_path="utils/dtm-linux64",
+            corpus=corpus_bows,
+            time_slices=self.corpus_obj.get_time_slices(time_window=time_window),
+            num_topics=self.num_topics,
+            id2word=self.id2word,
+            rng_seed=0,
         )
 
-        print("Model trained! Creating Topic objects...")
+        print("Sequential model trained! Creating Topic objects...")
         self.create_topics()
 
     def load(self):
@@ -158,3 +173,9 @@ class Model:
             "min_arts_in_topic": np.min(arts_per_topic),
             "max_arts_in_topic": np.max(arts_per_topic),
         }
+
+
+if __name__ == "__main__":
+    corpus = Corpus(registry_path="../utils/article_registry.json")
+    n_topics = 10
+    base_model = Model(corpus, n_topics)
