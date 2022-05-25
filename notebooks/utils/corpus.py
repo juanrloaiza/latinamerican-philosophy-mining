@@ -1,10 +1,8 @@
-from collections import defaultdict
 from dataclasses import dataclass
 from utils.registry import Registry
 from utils.filemanager import FileManager
 import os
 
-import numpy as np
 
 DATA_FOLDER = os.path.abspath("../../data")
 
