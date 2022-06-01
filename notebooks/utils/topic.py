@@ -24,7 +24,7 @@ class Topic:
         """Returns the n top article titles in the topic based on probability."""
         results = []
         for article_id, prob in self.articles:
-            results.append(self.model.get_article_ref(article_id))
+            results.append([self.model.get_article_ref(article_id), prob])
         return results[:n]
 
     def get_top_words(self, n=10, verbose=False):
