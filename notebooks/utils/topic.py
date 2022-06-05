@@ -27,19 +27,25 @@ class Topic:
             results.append([self.model.get_article_ref(article_id), prob])
         return results[:n]
 
-    def get_top_words(self, n=10, verbose=False):
+    def get_top_words(self, n: int = 10, mass: int = None):
         """
-        Returns a list with the top {n} words in a topic given a certain lda model.
+        Returns a list with the top {n} words in a topic given a certain LDA model.
 
-        If verbose, it will also print the topic using gensim's LDA pretty printer.
+        If we pass a mass value, we return as many words until we hit the probability mass value.
         """
-
-        if verbose:
-            print(self.model.lda.print_topic(self.id, topn=n))
+        if mass:
+            results = []
+            checked_mass = 0
+            for word, prob in self.model.lda.show_topic(self.id, topn=10000):
+                results.append((word, round(prob, 3)))
+                checked_mass += prob
+                if checked_mass >= mass:
+                    break
+            return results
 
         return [
-            (self.model.id2word.get(idx), f"{prob:.3f}")
-            for idx, prob in self.model.lda.get_topic_terms(self.id, topn=n)
+            (word, round(prob, 3))
+            for word, prob in self.model.lda.show_topic(self.id, topn=n)
         ]
 
     def summary(self):
