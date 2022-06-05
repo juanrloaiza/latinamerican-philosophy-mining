@@ -20,7 +20,13 @@ class Model:
         self.bows = {article.id: article.get_bow_list() for article in self.articles}
         self.id2word = corpora.Dictionary(self.bows.values())
 
-    def train(self, seed=None, workers=5, time_window: int = 5):
+        # Gensim can filter the dictionary to remove rare tokens. This helps reduce the computation.
+        self.id2word.filter_extremes(no_below=5, no_above=0.99)
+
+        self.lda = None
+        self.ldaseq = None
+
+    def train(self, seed=None, workers=5, dtm=True, time_window: int = 5):
         """Trains the model."""
         corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
 
@@ -33,9 +39,21 @@ class Model:
             passes=15,
             random_state=seed,
             workers=workers,
+            eval_every=None,
         )
 
-        print("Base model trained. Training sequential model....")
+        print("Static model trained!")
+
+        if dtm:
+            self.ldaseq = DtmModel(
+                dtm_path="utils/dtm-linux64",
+                corpus=corpus_bows,
+                time_slices=self.corpus_obj.get_time_slices(time_window=time_window),
+                num_topics=self.num_topics,
+                id2word=self.id2word,
+                rng_seed=seed,
+            )
+            print("Sequential model trained!")
 
         """
         self.ldaseq = LdaSeqModel(
@@ -49,25 +67,22 @@ class Model:
             random_state=seed,
         )"""
 
-        self.ldaseq = DtmModel(
-            dtm_path="utils/dtm-linux64",
-            corpus=corpus_bows,
-            time_slices=self.corpus_obj.get_time_slices(time_window=time_window),
-            num_topics=self.num_topics,
-            id2word=self.id2word,
-            rng_seed=0,
-        )
-
-        print("Sequential model trained! Creating Topic objects...")
+        print("Creating Topic objects...")
         self.create_topics()
 
     def load(self):
         """Loads a model from a .model file.
 
         TODO: Right now we load one model per num. of topics. Maybe we can load from a path instead?
+
+        TODO: Loading sequential model.
         """
         self.lda = LdaMulticore.load(
-            f"gensim_models/gensim_{self.num_topics}/yLDA_gensim_{self.num_topics}.model"
+            f"gensim_models/gensim_{self.num_topics}/LDA_gensim_{self.num_topics}.model"
+        )
+
+        self.ldaseq = DtmModel.load(
+            f"gensim_models/gensim_{self.num_topics}/LDA_gensim_{self.num_topics}.dmodel"
         )
         self.id2word = self.lda.id2word
         self.create_topics()
@@ -75,12 +90,17 @@ class Model:
     def save(self):
         """Saves the model to a .model file, including the dictionary."""
         folder = f"gensim_models/gensim_{self.num_topics}"
-        path = f"{folder}/yLDA_gensim_{self.num_topics}"
+        path = f"{folder}/LDA_gensim_{self.num_topics}"
 
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        self.lda.save(f"{path}.model")
+        if isinstance(self.lda, LdaMulticore):
+            self.lda.save(f"{path}.model")
+
+        if isinstance(self.ldaseq, DtmModel):
+            self.ldaseq.save(f"{path}.dmodel")
+
         self.id2word.save(f"{path}.txt")
         print(f"Saved to: {path}")
 
@@ -112,6 +132,24 @@ class Model:
                 model=self,
             )
             self.topics.append(new_topic)
+
+    def print_topics(self, probability_mass=None):
+        for id, topic in self.lda.show_topics(
+            num_words=1000, log=False, num_topics=-1, formatted=False
+        ):
+            print(f"Topic #{id}")
+            print("----------")
+            if probability_mass:
+                printed_mass = 0
+                for word, prob in topic:
+                    print(f"{word}: {prob:.5f}")
+                    printed_mass += prob
+                    if printed_mass > probability_mass:
+                        break
+            else:
+                for word, prob in topic:
+                    print(f"{word}: {prob:.5f}")
+            print("\n")
 
     def get_article_ref(self, article_id):
         """Gets the article reference from the Corpus."""
@@ -148,34 +186,57 @@ class Model:
             if not self.get_topics_in_article(self.bows[article.id])
         ]
 
+    def get_difference_matrix(self, num_words=20):
+        """Returns the difference matrix for the model using Jaccard distance (1 - Jaccard similarity)."""
+        return self.lda.diff(self.lda, num_words=num_words, distance="jaccard")[0]
+
+    def get_topic_masses(self, mass=0.5):
+        """Returns the mean amount of words that accounts for each topic's probability mass."""
+        return [len(topic.get_top_words(mass=mass)) for topic in self.topics]
+
     def get_stats(self):
         """Returns statistics regarding the model. Useful for analysis when calibrating."""
+
+        # Train the model and time it.
         print("Timing training...")
         start_train = time.time()
-        self.train()
+        self.train(dtm=False)
         end_train = time.time()
 
+        # Get the model C_V coherence
         print("Getting model coherence...")
         start_coherence = time.time()
-        c = self.get_coherence()
+        coherence = self.get_coherence()
         end_coherence = time.time()
 
+        # Get how many articles it has in each topic for a mean and how many empty topics there are.
         arts_per_topic = [len(topic) for topic in self.topics]
+        empty_topics = len([n for n in arts_per_topic if n == 0])
+
+        # Get metrics for the difference matrix of the model.
+        diff_norm_score = np.linalg.norm(self.get_difference_matrix()) / self.num_topics
+        diff_eig_score = (
+            np.linalg.eig(self.get_difference_matrix())[0][0] / self.num_topics
+        )
 
         return {
-            "coherence": c,
+            "coherence": coherence,
             "log_perplexity": self.get_log_perplexity(),
             "time_lda": end_train - start_train,
             "time_coherence": end_coherence - start_coherence,
             "orphans": len(self.get_orphans()),
+            "empty_topics": empty_topics,
             "avg_arts_per_topic": np.mean(arts_per_topic),
             "std_arts_per_topic": np.std(arts_per_topic),
             "min_arts_in_topic": np.min(arts_per_topic),
             "max_arts_in_topic": np.max(arts_per_topic),
+            "diff_norm_score": diff_norm_score,
+            "diff_eig_score": diff_eig_score,
+            "topic_mass_length": np.mean(self.get_topic_masses()),
         }
 
 
 if __name__ == "__main__":
     corpus = Corpus(registry_path="../utils/article_registry.json")
-    n_topics = 10
-    base_model = Model(corpus, n_topics)
+    N_TOPICS = 10
+    base_model = Model(corpus, N_TOPICS)
