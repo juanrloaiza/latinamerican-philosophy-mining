@@ -1,3 +1,7 @@
+import json
+import os
+from pathlib import Path
+from collections import defaultdict
 from spellchecker import SpellChecker
 from nltk.tokenize import WordPunctTokenizer
 import re
@@ -18,6 +22,30 @@ class WordCorrector:
             SpellChecker(language="de"),
         ]
 
+        dictionaries_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+        self.corrections_path = dictionaries_path / "corrections.json"
+        self.correction_counts_path = dictionaries_path / "correction_counts.json"
+        if self.corrections_path.exists():
+            with open(self.corrections_path) as fp:
+                self.corrections = json.load(fp)
+        else:
+            self.corrections = {}
+        
+        if self.correction_counts_path.exists():
+            with open(self.correction_counts_path) as fp:
+                self.correction_counts = json.load(fp)
+        else:
+            self.correction_counts = defaultdict(int)
+
+        
+    def correct_token(self, token: str):
+        if token in self.corrections:
+            self.correction_counts[token] += 1
+            return self.corrections[token]
+        else:
+            return token
+
+
     def correct_text(self, text: str):
 
         tokenized_text = WordPunctTokenizer().tokenize(text)
@@ -27,19 +55,19 @@ class WordCorrector:
         print(f"Unknown words: {len(unknown_words_start)}")
 
         with Pool(5) as p:
-            corrected_pairs = p.map(self.correct_word, unknown_words_start)
+            corrected_pairs = p.map(self.find_correction, unknown_words_start)
 
-        correction_dict = {}
         for word, correction in corrected_pairs:
-            correction_dict[word] = correction
+            self.corrections[word] = correction
 
         tokenized_text = [
-            correction_dict[w] if w in correction_dict.keys() else w
-            for w in tokenized_text
+            self.correct_token(w) for w in tokenized_text
         ]
 
         unknown_words_end = self.unknown_words(tokenized_text)
         print(f"Corrected. Final unknown words: {len(unknown_words_end)}")
+
+        self.save_corrections()
 
         return (
             " ".join(tokenized_text),
@@ -49,9 +77,12 @@ class WordCorrector:
             },
         )
 
-    def correct_word(self, word):
+    def find_correction(self, word):
         if len(word) > 20:
             return word, word
+
+        if word in self.corrections:
+            return self.corrections[word]
 
         for dictionary in self.dictionaries:
             correction = dictionary.correction(word)
@@ -61,6 +92,17 @@ class WordCorrector:
 
         print(f"{word}:{correction}")
         return word, correction
+
+    def save_corrections(self):
+        """
+        Saves the dict of {word: its correction}
+        under utils/dictionaries.
+        """
+        with open(self.corrections_path) as fp:
+            json.dump(self.corrections, fp)
+        
+        with open(self.correction_counts_path) as fp:
+            json.dump(self.correction_counts, fp)
 
     def check_word(self, word):
         for dictionary in self.dictionaries:
@@ -87,3 +129,8 @@ class WordCorrector:
 
     def get_words_by_len(self, dictionary: SpellChecker):
         return sorted(list(dictionary.word_frequency.words()), key=len, reverse=True)
+
+if __name__ == "__main__":
+    dictionaries_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+    print(dictionaries_path.exists())
+    print(dictionaries_path)
