@@ -22,29 +22,29 @@ class WordCorrector:
             SpellChecker(language="de"),
         ]
 
-        dictionaries_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+        dictionaries_path = (
+            Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+        )
         self.corrections_path = dictionaries_path / "corrections.json"
         self.correction_counts_path = dictionaries_path / "correction_counts.json"
         if self.corrections_path.exists():
             with open(self.corrections_path) as fp:
-                self.corrections = json.load(fp)
+                self.corrections = defaultdict(int, json.load(fp))
         else:
             self.corrections = {}
-        
+
         if self.correction_counts_path.exists():
             with open(self.correction_counts_path) as fp:
-                self.correction_counts = json.load(fp)
+                self.correction_counts = defaultdict(int, json.load(fp))
         else:
             self.correction_counts = defaultdict(int)
 
-        
     def correct_token(self, token: str):
         if token in self.corrections:
             self.correction_counts[token] += 1
             return self.corrections[token]
         else:
             return token
-
 
     def correct_text(self, text: str):
 
@@ -60,9 +60,7 @@ class WordCorrector:
         for word, correction in corrected_pairs:
             self.corrections[word] = correction
 
-        tokenized_text = [
-            self.correct_token(w) for w in tokenized_text
-        ]
+        tokenized_text = [self.correct_token(w) for w in tokenized_text]
 
         unknown_words_end = self.unknown_words(tokenized_text)
         print(f"Corrected. Final unknown words: {len(unknown_words_end)}")
@@ -82,13 +80,13 @@ class WordCorrector:
             return word, word
 
         if word in self.corrections:
-            return self.corrections[word]
+            correction = self.corrections[word]
+        else:
+            for dictionary in self.dictionaries:
+                correction = dictionary.correction(word)
 
-        for dictionary in self.dictionaries:
-            correction = dictionary.correction(word)
-
-            if correction != word:
-                break
+                if correction != word:
+                    break
 
         print(f"{word}:{correction}")
         return word, correction
@@ -98,10 +96,11 @@ class WordCorrector:
         Saves the dict of {word: its correction}
         under utils/dictionaries.
         """
-        with open(self.corrections_path) as fp:
+
+        with open(self.corrections_path, "w") as fp:
             json.dump(self.corrections, fp)
-        
-        with open(self.correction_counts_path) as fp:
+
+        with open(self.correction_counts_path, "w") as fp:
             json.dump(self.correction_counts, fp)
 
     def check_word(self, word):
@@ -129,6 +128,7 @@ class WordCorrector:
 
     def get_words_by_len(self, dictionary: SpellChecker):
         return sorted(list(dictionary.word_frequency.words()), key=len, reverse=True)
+
 
 if __name__ == "__main__":
     dictionaries_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
