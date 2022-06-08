@@ -9,6 +9,9 @@ notebook/utils/temp.txt
 .DS_store
 .vscode
 utils/dtm*
+notebooks/dynamic_model
+notebooks/results
+notebooks/utils/dtm-linux64
 
 # TeX stuff
 *.synctex.gz
