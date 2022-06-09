@@ -14,10 +14,10 @@ from multiprocessing import Pool
 
 
 class WordCorrector:
-    def __init__(self, dictionary_path: str) -> None:
+    def __init__(self) -> None:
         self.dictionaries = [
-            self.get_spellchecker(RAEDictionary(dictionary_path)),
-            self.get_spellchecker(PhilosophyDictionary(dictionary_path)),
+            self.get_spellchecker(RAEDictionary()),
+            self.get_spellchecker(PhilosophyDictionary()),
             SpellChecker(language="en"),
             SpellChecker(language="de"),
         ]
@@ -131,6 +131,4 @@ class WordCorrector:
 
 
 if __name__ == "__main__":
-    dictionaries_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
-    print(dictionaries_path.exists())
-    print(dictionaries_path)
+    corrector = WordCorrector()

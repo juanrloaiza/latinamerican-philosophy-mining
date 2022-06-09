@@ -1,12 +1,11 @@
-import ghostscript
-from utils.download.parsertools.wordcorrector import WordCorrector
 from multiprocessing import Process
 import os
+import ghostscript
+from utils.download.parsertools.wordcorrector import WordCorrector
 
 
 class PDFParser:
-    def __init__(self, dictionary_path: str, registry) -> None:
-        self.dictionary_path = dictionary_path
+    def __init__(self, registry) -> None:
         self.registry = registry
 
     def parse(self, file):
@@ -36,7 +35,7 @@ class PDFParser:
             # We delete the files to avoid having extra pages in the folder for the next file.
             os.remove(f"{temp_folder}/{path}")
 
-        corrector = WordCorrector(dictionary_path=self.dictionary_path)
+        corrector = WordCorrector()
         new_text, corrector_results = corrector.correct_text(full_text)
 
         return new_text, corrector_results

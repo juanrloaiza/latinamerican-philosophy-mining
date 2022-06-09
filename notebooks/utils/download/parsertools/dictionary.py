@@ -4,14 +4,14 @@ from pathlib import Path
 from spellchecker import SpellChecker
 
 
-base_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+dictionaries_folder = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
 
 
 class Dictionary(ABC):
     """Defines abstract dictionary functionality."""
 
     def __init__(self, filename) -> None:
-        self.path = Path(base_path / filename)
+        self.path = dictionaries_folder / filename
         self.spell = SpellChecker(language=None)
 
         if not self.path.exists():
@@ -35,7 +35,7 @@ class Dictionary(ABC):
 class PhilosophyDictionary(Dictionary):
     """Dictionary based on the HTML files from Ideas y Valores."""
 
-    def __init__(self, filename):
+    def __init__(self, filename="philosophy_dictionary.json"):
         Dictionary.__init__(self, filename)
 
     def create_dictionary(self) -> None:
@@ -59,14 +59,14 @@ class PhilosophyDictionary(Dictionary):
 class RAEDictionary(Dictionary):
     """Dictionary based on the corpus by the Real Academia Española (RAE)."""
 
-    def __init__(self, filename):
+    def __init__(self, filename="rae_processed.json"):
         Dictionary.__init__(self, filename)
 
     def create_dictionary(self) -> None:
         """Creates a RAE JSON dictionary from the text file downloaded from the RAE."""
         # TODO: Download the file in the code. Involves unzipping the file.
 
-        raw_filepath = base_path / "rae_original.TXT"
+        raw_filepath = dictionaries_folder / "rae_original.TXT"
 
         print("Creating RAE Dictionary.")
         with open(raw_filepath, encoding="iso8859-15") as file:
@@ -85,8 +85,8 @@ class RAEDictionary(Dictionary):
 
 
 if __name__ == "__main__":
-    phil_dictionary = PhilosophyDictionary(filename="philosophy_dictionary.json")
-    rae_dictionary = RAEDictionary(filename="rae_processed.json")
+    phil_dictionary = PhilosophyDictionary()
+    rae_dictionary = RAEDictionary()
 
     print(phil_dictionary.spell.correction("analitico"))
     print(rae_dictionary.spell.correction("analitico"))
