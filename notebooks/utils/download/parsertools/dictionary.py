@@ -1,39 +1,45 @@
 from abc import ABC, abstractmethod
 import json
-import os
+from pathlib import Path
 from spellchecker import SpellChecker
 
 
+base_path = Path(__file__).parent.parent.parent.resolve() / "dictionaries"
+
+
 class Dictionary(ABC):
-    def __init__(self, base_path) -> None:
-        """
-        Implements abstract dictionary functionality.
-        """
+    """Defines abstract dictionary functionality."""
 
-    @abstractmethod
-    def create_dictionary(self, path):
-        """Creates the dictionary in a path."""
-
-    def load_dictionary(self):
-        self.spell.word_frequency.load_dictionary(self.path)
-
-    def get_dictionary_path(self) -> str:
-        """Returns the path to the RAE JSON dictionary."""
-        return self.path
-
-
-class PhilosophyDictionary(Dictionary):
-    def __init__(self, base_path) -> None:
-        self.path = f"{base_path}/philosophy_dictionary.json"
+    def __init__(self, filename) -> None:
+        self.path = Path(base_path / filename)
         self.spell = SpellChecker(language=None)
 
-        if not os.path.exists(self.path):
+        if not self.path.exists():
             self.create_dictionary()
 
         self.load_dictionary()
 
+    @abstractmethod
     def create_dictionary(self) -> None:
-        with open(self.path, "w") as file:
+        """Creates the dictionary file."""
+
+    def load_dictionary(self) -> None:
+        """Loads the dictionary from file"""
+        self.spell.word_frequency.load_dictionary(str(self.path))
+
+    def get_dictionary_path(self) -> str:
+        """Returns the path to the JSON dictionary file."""
+        return str(self.path)
+
+
+class PhilosophyDictionary(Dictionary):
+    """Dictionary based on the HTML files from Ideas y Valores."""
+
+    def __init__(self, filename):
+        Dictionary.__init__(self, filename)
+
+    def create_dictionary(self) -> None:
+        with open(self.path, "w", encoding="utf-8") as file:
             json.dump({}, file)
 
     def take_text(self, text) -> None:
@@ -41,30 +47,29 @@ class PhilosophyDictionary(Dictionary):
         Takes in text and adds frequencies to the current dictionary in memory.
         Then it saves the frequencies to file.
         """
+
         words = text.split()
-        self.spell.word_frequency.load_words([w for w in words if w.isalpha() and len(w) > 3])
+        self.spell.word_frequency.load_words(
+            [w for w in words if w.isalpha() and len(w) > 3]
+        )
         self.spell.word_frequency.remove_by_threshold(3)
         self.spell.export(self.path, gzipped=False)
 
 
 class RAEDictionary(Dictionary):
-    def __init__(self, base_path) -> None:
-        raw_file = f"{base_path}/rae_original.TXT"
-        self.path = f"{base_path}/rae_processed.json"
-        self.spell = SpellChecker(language=None)
+    """Dictionary based on the corpus by the Real Academia Española (RAE)."""
 
-        # Check if RAE dictionary exists, otherwise create it.
-        if not os.path.exists(self.path):
-            self.create_dictionary(raw_file)
+    def __init__(self, filename):
+        Dictionary.__init__(self, filename)
 
-        self.load_dictionary()
-
-    def create_dictionary(self, raw_file) -> None:
+    def create_dictionary(self) -> None:
         """Creates a RAE JSON dictionary from the text file downloaded from the RAE."""
         # TODO: Download the file in the code. Involves unzipping the file.
 
+        raw_filepath = base_path / "rae_original.TXT"
+
         print("Creating RAE Dictionary.")
-        with open(raw_file, encoding="iso8859-15") as file:
+        with open(raw_filepath, encoding="iso8859-15") as file:
             raw_rae_dict = file.read()
 
         rae_dict = {}
@@ -73,9 +78,15 @@ class RAEDictionary(Dictionary):
                 number, word, frequency, rel_frequency = line.split("\t")
                 frequency = int(frequency.replace(",", ""))
                 rae_dict[word.strip()] = frequency
-                    
 
         self.spell.word_frequency.load_json(rae_dict)
         self.spell.word_frequency.remove_by_threshold(5)
         self.spell.export(self.path, gzipped=False)
 
+
+if __name__ == "__main__":
+    phil_dictionary = PhilosophyDictionary(filename="philosophy_dictionary.json")
+    rae_dictionary = RAEDictionary(filename="rae_processed.json")
+
+    print(phil_dictionary.spell.correction("analitico"))
+    print(rae_dictionary.spell.correction("analitico"))
