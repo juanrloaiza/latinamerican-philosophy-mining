@@ -1,10 +1,10 @@
 from dataclasses import dataclass
+from pathlib import Path
 from utils.registry import Registry
 from utils.filemanager import FileManager
-import os
 
 
-DATA_FOLDER = os.path.abspath("../../data")
+DATA_FOLDER = Path(__file__).parent.parent.parent.resolve() / "data"
 
 
 @dataclass
@@ -21,11 +21,16 @@ class Article:
         except AttributeError:
             return []
 
+    def get_ref(self) -> str:
+        """Returns the article's reference."""
+        return f"{self.author} ({self.date}). {self.title}"
+
 
 class Corpus:
     def __init__(self, registry_path: str) -> None:
         """Implements a Corpus class to manage the articles in the corpus."""
-        registry_path = os.path.abspath(registry_path)
+        registry_path = Path(registry_path).resolve()
+
         self.registry = Registry(
             registry_path=registry_path, data_path=DATA_FOLDER, manager=FileManager()
         )
@@ -48,6 +53,7 @@ class Corpus:
         return docs
 
     def get_documents_list(self) -> list:
+        """Gets a list of documents that have a text ready for preprocessing."""
         results = [doc for doc in self.documents if doc.text]
         print(f"Loading corpus. Num. of articles: {len(results)}")
         return results
@@ -102,5 +108,9 @@ class Corpus:
 
 
 if __name__ == "__main__":
+    print("Data folder:", DATA_FOLDER)
+
     corpus = Corpus(registry_path="notebooks/utils/article_registry.json")
+
+    print("Testing time slices:")
     corpus.get_time_slices(time_window=50)
