@@ -1,5 +1,5 @@
 from multiprocessing import Process
-import os
+from pathlib import Path
 import ghostscript
 from utils.download.parsertools.wordcorrector import WordCorrector
 
@@ -10,7 +10,8 @@ class PDFParser:
 
     def parse(self, file):
 
-        temp_folder = "utils/temp"
+        temp_folder = Path(__file__).parent.resolve() / "temp"
+        temp_folder.mkdir(exist_ok=True)
 
         p = Process(
             target=self.read,
@@ -28,12 +29,13 @@ class PDFParser:
             return None, {"error": True}
 
         full_text = ""
-        for path in os.listdir(temp_folder):
-            with open(f"{temp_folder}/{path}") as file:
+
+        for path in temp_folder.iterdir():
+            with open(path) as file:
                 full_text += " " + file.read()
 
             # We delete the files to avoid having extra pages in the folder for the next file.
-            os.remove(f"{temp_folder}/{path}")
+            path.unlink()
 
         corrector = WordCorrector()
         new_text, corrector_results = corrector.correct_text(full_text)
@@ -65,3 +67,8 @@ class PDFParser:
 
         with ghostscript.Ghostscript(*args) as g:
             ghostscript.cleanup()
+
+
+if __name__ == "__main__":
+    parser = PDFParser(None)
+    parser.parse("dummy.pdf")

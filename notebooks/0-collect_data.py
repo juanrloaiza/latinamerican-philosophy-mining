@@ -2,18 +2,16 @@ from utils.download.scraper import Scraper
 from utils.download.articleparser import ArticleParser
 from utils.filemanager import FileManager
 from utils.registry import Registry
-import os
+from pathlib import Path
 
 ARCHIVE_URL = "https://revistas.unal.edu.co/index.php/idval/issue/archive"
-DATA_FOLDER = os.path.abspath("../data")
-REGISTRY_FILE = "utils/article_registry.json"
-DICTIONARIES = "utils/dictionaries"
+data_folder = Path(__file__).parent.parent.resolve() / "data"
+registry_file = Path(__file__).parent.resolve() / "utils" / "article_registry.json"
 
-if not os.path.exists(DATA_FOLDER):
-    os.mkdir(DATA_FOLDER)
+data_folder.mkdir(exist_ok=True)
 
 registry = Registry(
-    registry_path=REGISTRY_FILE, data_path=DATA_FOLDER, manager=FileManager()
+    registry_path=registry_file, data_path=data_folder, manager=FileManager()
 )
 
 # Loads the current files from the data folder.
@@ -25,5 +23,5 @@ registry = Registry(
 # print("Downloaded all articles! Now let's get parsing...")
 
 # Parses the downloaded articles.
-parser = ArticleParser(registry=registry, dictionary_path=DICTIONARIES)
+parser = ArticleParser(registry=registry)
 parser.parse()

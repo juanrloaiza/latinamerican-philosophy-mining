@@ -60,9 +60,9 @@ class Registry:
 
         article_dict = {
             "id": id,
-            "raw_folder": f"{folder}",
-            "raw_metadata": f"{folder}/{id}.json",
-            "raw_filepath": raw_filepath,
+            "raw_folder": str(folder),
+            "raw_metadata": str(folder / f"{id}.json"),
+            "raw_filepath": str(raw_filepath),
             "format": format.value,
             "url": url,
             "parsed": False,
@@ -129,7 +129,7 @@ class Registry:
         self.manager.save(article, filepath)
 
         self.database[id]["parsed"] = True
-        self.database[id]["filepath"] = filepath
+        self.database[id]["filepath"] = str(filepath)
 
         self.save_registry()
 
@@ -180,10 +180,10 @@ class Registry:
 if __name__ == "__main__":
 
     DATA_FOLDER = Path(__file__).parent.parent.parent.resolve() / "data"
-    REGISTRY_FILE = Path(__file__).parent.resolve() / "dummy_registry.json"
+    registry_file = Path(__file__).parent.resolve() / "dummy_registry.json"
 
     registry = registry = Registry(
-        registry_path=REGISTRY_FILE, data_path=DATA_FOLDER, manager=FileManager()
+        registry_path=registry_file, data_path=DATA_FOLDER, manager=FileManager()
     )
 
-    registry.load_raw_folder()
+    registry_file.unlink()
