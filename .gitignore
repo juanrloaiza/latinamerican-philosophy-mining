@@ -5,11 +5,12 @@ data/*
 notebooks/old_files/
 notebooks/gensim_models/
 notebooks/utils/article*
-notebook/utils/temp.txt
+notebooks/utils/download/parsertools/temp/
+notebooks/utils/dictionaries/experiment/
 .DS_store
 .vscode
 utils/dtm*
-notebooks/dynamic_model
+notebooks/dtm_files
 notebooks/results
 notebooks/utils/dtm-linux64
 
