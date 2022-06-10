@@ -1,23 +1,17 @@
 import json
-import os
 from pathlib import Path
 from collections import defaultdict
+from multiprocessing import Pool
 from spellchecker import SpellChecker
 from nltk.tokenize import WordPunctTokenizer
-import re
-from utils.download.parsertools.dictionary import (
-    Dictionary,
-    PhilosophyDictionary,
-    RAEDictionary,
-)
-from multiprocessing import Pool
+from utils.download.parsertools.dictionary import PhilosophyDictionary, RAEDictionary
 
 
 class WordCorrector:
     def __init__(self) -> None:
         self.dictionaries = [
-            self.get_spellchecker(RAEDictionary()),
-            self.get_spellchecker(PhilosophyDictionary()),
+            SpellChecker(local_dictionary=RAEDictionary().get_dictionary_path()),
+            SpellChecker(local_dictionary=PhilosophyDictionary().get_dictionary_path()),
             SpellChecker(language="en"),
             SpellChecker(language="de"),
         ]
@@ -39,14 +33,18 @@ class WordCorrector:
         else:
             self.correction_counts = defaultdict(int)
 
-    def correct_token(self, token: str):
+    def correct_token(self, token: str) -> str:
+        """Takes a token and returns its replacement."""
         if token in self.corrections:
             self.correction_counts[token] += 1
             return self.corrections[token]
         else:
             return token
 
-    def correct_text(self, text: str):
+    def correct_text(self, text: str) -> tuple[str, dict]:
+        """Takes a whole text and returns a corrected version, along with a dictionary
+        with how many words did we not recognize at first vs. how many words are recognized
+        after correcting the text."""
 
         tokenized_text = WordPunctTokenizer().tokenize(text)
 
@@ -75,7 +73,10 @@ class WordCorrector:
             },
         )
 
-    def find_correction(self, word):
+    def find_correction(self, word: str) -> tuple[str, str]:
+        """Finds the correction for a word in the dictionaries and returns it with its correction.
+        If there is no different word for a correction, return the same word back."""
+
         if len(word) > 20:
             return word, word
 
@@ -91,43 +92,31 @@ class WordCorrector:
         print(f"{word}:{correction}")
         return word, correction
 
-    def save_corrections(self):
+    def save_corrections(self) -> None:
         """
         Saves the dict of {word: its correction}
         under utils/dictionaries.
         """
 
         with open(self.corrections_path, "w") as fp:
-            json.dump(self.corrections, fp)
+            json.dump(self.corrections, fp, indent=True)
 
         with open(self.correction_counts_path, "w") as fp:
-            json.dump(self.correction_counts, fp)
+            json.dump(self.correction_counts, fp, indent=True)
 
-    def check_word(self, word):
+    def check_word(self, word) -> bool:
+        """Checks if we know a word among all dictionaries available."""
         for dictionary in self.dictionaries:
             if word in dictionary:
                 return True
 
         return False
 
-    def unknown_words(self, words: list):
+    def unknown_words(self, words: list) -> set:
+        """Returns a set of unknown words (alphanumeric strings) from a list among all dictionaries."""
         return set(
             [word for word in words if not self.check_word(word) and word.isalpha()]
         )
-
-    def get_spellchecker(self, dictionary: Dictionary) -> SpellChecker:
-        return SpellChecker(local_dictionary=dictionary.get_dictionary_path())
-
-    def process_long_token(self, string: str):
-        for dictionary in self.dictionaries:
-            known_words = self.get_words_by_len(dictionary)
-
-            for word in [w for w in known_words if len(w) > 5]:
-                if word in string:
-                    return [t for t in re.split(f"({word})", string) if t]
-
-    def get_words_by_len(self, dictionary: SpellChecker):
-        return sorted(list(dictionary.word_frequency.words()), key=len, reverse=True)
 
 
 if __name__ == "__main__":
