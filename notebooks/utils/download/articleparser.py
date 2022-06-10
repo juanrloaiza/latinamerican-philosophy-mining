@@ -5,9 +5,8 @@ from utils.registry import Registry, Format
 
 
 class ArticleParser:
-    def __init__(self, registry: Registry, dictionary_path: str) -> None:
+    def __init__(self, registry: Registry) -> None:
         self.registry = registry
-        self.dictionary_path = dictionary_path
 
     def parse(self):
         article_id_list = self.registry.get_article_id_list()
@@ -19,9 +18,7 @@ class ArticleParser:
         ]
 
         for article in html_articles:
-            self.parse_article(
-                article, HTMLParser(dictionary_path=self.dictionary_path)
-            )
+            self.parse_article(article, HTMLParser())
 
         pdf_articles = [
             article_id
@@ -32,7 +29,7 @@ class ArticleParser:
         for article in pdf_articles:
             self.parse_article(
                 article,
-                PDFParser(dictionary_path=self.dictionary_path, registry=self.registry),
+                PDFParser(registry=self.registry),
             )
 
     def parse_article(self, article_id, articleparser):
