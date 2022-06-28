@@ -80,7 +80,7 @@ class RAEDictionary(Dictionary):
                 rae_dict[word.strip()] = frequency
 
         self.spell.word_frequency.load_json(rae_dict)
-        self.spell.word_frequency.remove_by_threshold(5)
+        self.spell.word_frequency.remove_by_threshold(100)
         self.spell.export(self.path, gzipped=False)
 
 
