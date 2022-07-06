@@ -13,6 +13,7 @@ utils/dtm*
 notebooks/dtm_files
 notebooks/results
 notebooks/utils/dtm-linux64
+notebooks/models/
 
 # TeX stuff
 *.synctex.gz
