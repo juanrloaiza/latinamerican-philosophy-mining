@@ -1,206 +1,195 @@
-import os
-import pandoc
 import time
+import subprocess
+from pathlib import Path
 import numpy as np
-from gensim.models.ldamulticore import LdaMulticore
-from gensim.models.ldaseqmodel import LdaSeqModel
+from tqdm import tqdm
 from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 from utils.topic import Topic
 from utils.corpus import Corpus
-from utils.dtmmodel import DtmModel
+
+models_path = Path(__file__).parent.parent.resolve() / "models"
+models_path.mkdir(exist_ok=True)
 
 
 class Model:
-    def __init__(self, corpus: Corpus, num_topics: int):
-        self.corpus_obj = corpus
+    def __init__(
+        self, corpus: Corpus, num_topics: int, time_window: int = 10, seed: int = None
+    ) -> None:
+        # Generate a model id and seed
+        if seed:
+            self.seed = seed
+        else:
+            self.seed = np.random.randint(1, 99999)
+
+        self.path = models_path / f"{num_topics}_{self.seed}"
+
+        # Load the corpus and get corpus properties.
+        self.corpus = corpus
+        self.num_docs = len(corpus)
         self.num_topics = num_topics
-        self.topics = []  # Topic objects
-        self.articles = self.corpus_obj.get_documents_list()
-        self.bows = {article.id: article.get_bow_list() for article in self.articles}
-        self.id2word = corpora.Dictionary(self.bows.values())
+
+        # Get number of docs per time slice and total number of slices for a given time window.
+        self.slices = corpus.get_time_slices(time_window)
+        self.num_slices = len(self.slices)
+
+        # Build a dictionary
+        self.id2word = corpora.Dictionary(
+            [doc.get_bow_list() for doc in corpus.documents]
+        )
 
         # Gensim can filter the dictionary to remove rare tokens. This helps reduce the computation.
         self.id2word.filter_extremes(no_below=5, no_above=0.99)
 
-        self.lda = None
-        self.ldaseq = None
+        # Initialize topic list
+        self.topics = []
 
-    def train(self, seed=None, workers=5, dtm=True, time_window: int = 5):
-        """Trains the model."""
-        corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
+    def prepare_corpus(self) -> None:
+        """Prepares two files that the model needs for training:
 
-        print("Bags of words collected. Starting training...")
+        - corpus-mult.dat   A "len {word:count}" representation of each document in the corpus.
+            Example: 293 1:20 2:50 3:0 4:912...
 
-        self.lda = LdaMulticore(
-            corpus_bows,
-            num_topics=self.num_topics,
-            id2word=self.id2word,
-            passes=15,
-            random_state=seed,
-            workers=workers,
-            eval_every=None,
-        )
+        - corpus-seq.dat    A list of time slices and number of documents per time slice
+                            (sum = total docs in corpus)
+            Example: 291 252 305...
+        """
 
-        print("Static model trained!")
-
-        if dtm:
-            self.ldaseq = DtmModel(
-                dtm_path="utils/dtm-linux64",
-                corpus=corpus_bows,
-                time_slices=self.corpus_obj.get_time_slices(time_window=time_window),
-                num_topics=self.num_topics,
-                id2word=self.id2word,
-                rng_seed=seed,
+        # Get {word: count} representation of each document
+        output_str = ""
+        for doc in self.corpus.documents:
+            doc_bow = doc.get_bow_list()
+            word_counts = [
+                f"{idx}:{count}" for idx, count in self.id2word.doc2bow(doc_bow)
+            ]
+            output_str += (
+                f"{len(self.id2word.doc2bow(doc_bow))} " + " ".join(word_counts) + " \n"
             )
-            print("Sequential model trained!")
 
-        """
-        self.ldaseq = LdaSeqModel(
-            corpus=corpus_bows,
-            time_slice=self.corpus_obj.get_time_slices(time_window=time_window),
-            num_topics=self.num_topics,
-            id2word=self.id2word,
-            passes=15,
-            initialize="ldamodel",
-            lda_model=self.lda,
-            random_state=seed,
-        )"""
+        with open(models_path / "corpus-mult.dat", "w") as file:
+            file.write(output_str)
 
-        print("Creating Topic objects...")
-        self.create_topics()
+        # Get number of documents per time slice
+        with open(models_path / "corpus-seq.dat", "w") as file:
+            file.write(f"{self.num_slices}\n" + "\n".join(map(str, self.slices)))
 
-    def load(self):
-        """Loads a model from a .model file.
+    def train(self) -> None:
+        """Trains the model.
 
-        TODO: Right now we load one model per num. of topics. Maybe we can load from a path instead?
+        Runs Blei-lab's binary and produces outputs in file."""
 
-        TODO: Loading sequential model.
-        """
-        self.lda = LdaMulticore.load(
-            f"gensim_models/gensim_{self.num_topics}/LDA_gensim_{self.num_topics}.model"
-        )
+        self.path.mkdir(exist_ok=True)
 
-        self.ldaseq = DtmModel.load(
-            f"gensim_models/gensim_{self.num_topics}/LDA_gensim_{self.num_topics}.dmodel"
-        )
-        self.id2word = self.lda.id2word
-        self.create_topics()
-
-    def save(self):
-        """Saves the model to a .model file, including the dictionary."""
-        folder = f"gensim_models/gensim_{self.num_topics}"
-        path = f"{folder}/LDA_gensim_{self.num_topics}"
-
-        if not os.path.exists(folder):
-            os.makedirs(folder)
-
-        if isinstance(self.lda, LdaMulticore):
-            self.lda.save(f"{path}.model")
-
-        if isinstance(self.ldaseq, DtmModel):
-            self.ldaseq.save(f"{path}.dmodel")
-
-        self.id2word.save(f"{path}.txt")
-        print(f"Saved to: {path}")
-
-    def get_topics_in_article(self, bow, min_prob=0.01):
-        """Returns all the topic id, probability tuples given an Article object."""
-        bow_matrix = self.id2word.doc2bow(bow)
-        return self.lda.get_document_topics(
-            bow_matrix,
-            minimum_probability=min_prob,
-        )
-
-    def create_topics(self):
-        """Creates Topic objects for each topic in the model. This allows us to
-        interface with the topics directly through methods defined in the Topic class."""
-        topics_dict = {topic_id: [] for topic_id in range(self.num_topics)}
-
-        topics_in_articles = {
-            id: self.get_topics_in_article(text) for id, text in self.bows.items()
+        kwargs = {
+            "model": "dtm",
+            "ntopics": self.num_topics,
+            "mode": "fit",
+            "rng_seed": self.seed,
+            "initialize_lda": "true",
+            "corpus_prefix": str(models_path / "corpus"),
+            "outname": str(self.path),
+            "top_chain_var": 0.005,
+            "alpha": 0.01,
+            "lda_sequence_min_iter": 6,
+            "lda_sequence_max_iter": 20,
+            "lda_max_em_iter": 10,
         }
 
-        for art_id, topics_and_probs in topics_in_articles.items():
-            for topic_id, prob in topics_and_probs:
-                topics_dict[topic_id].append((art_id, float(prob)))
-
-        for topic_id, article_list in topics_dict.items():
-            new_topic = Topic(
-                topic_id,
-                sorted(article_list, key=lambda x: x[1], reverse=True),
-                model=self,
-            )
-            self.topics.append(new_topic)
-
-    def print_topics(self, probability_mass=None):
-        for id, topic in self.lda.show_topics(
-            num_words=1000, log=False, num_topics=-1, formatted=False
-        ):
-            print(f"Topic #{id}")
-            print("----------")
-            if probability_mass:
-                printed_mass = 0
-                for word, prob in topic:
-                    print(f"{word}: {prob:.5f}")
-                    printed_mass += prob
-                    if printed_mass > probability_mass:
-                        break
-            else:
-                for word, prob in topic:
-                    print(f"{word}: {prob:.5f}")
-            print("\n")
-
-    def get_article_ref(self, article_id):
-        """Gets the article reference from the Corpus."""
-        return self.corpus_obj.get_article_ref(article_id)
-
-    def export_summary(self, filename: str):
-        """Saves a summary file in PDF format for later usage."""
-        summary = ""
-        for topic in self.topics:
-            summary += topic.summary() + "\n\\newpage"
-        doc = pandoc.read(summary)
-        pandoc.write(doc, file=filename, format="pdf")
-
-    def get_coherence(self):
-        """Computes the coherence of the model."""
-        coherence_model = CoherenceModel(
-            model=self.lda,
-            texts=self.bows.values(),
-            dictionary=self.id2word,
-            coherence="c_v",
+        training_process = subprocess.run(
+            ["dtm_files/dtm-linux64"] + [f"--{kw}={val}" for kw, val in kwargs.items()],
+            check=True,
         )
-        return coherence_model.get_coherence()
 
-    def get_log_perplexity(self):
-        """Returns the log perplexity of the model."""
-        corpus_bows = [self.id2word.doc2bow(text) for text in self.bows.values()]
-        return self.lda.log_perplexity(corpus_bows)
+        print("Model trained! Loading topics...")
+        self.load_topics()
 
-    def get_orphans(self):
-        """Returns a list of articles without a topic."""
-        return [
-            article
-            for article in self.articles
-            if not self.get_topics_in_article(self.bows[article.id])
+    def load_topics(self) -> None:
+        """Creates Topic objects for each topic in the model. This allows us to
+        interface with the topics directly through methods defined in the Topic class."""
+        self.topics = [
+            Topic(topic_num, self.num_slices, self.id2word, model_path=self.path)
+            for topic_num in tqdm(range(self.num_topics))
         ]
+        self.classify_documents()
 
-    def get_difference_matrix(self, num_words=20):
-        """Returns the difference matrix for the model using Jaccard distance (1 - Jaccard similarity)."""
-        return self.lda.diff(self.lda, num_words=num_words, distance="jaccard")[0]
+    def classify_documents(self) -> None:
+        """Classifies documents into the topics in the model."""
+        gamma = np.loadtxt(self.path / "lda-seq" / "gam.dat").reshape(self.num_docs, -1)
+        gamma = gamma / gamma.sum(axis=1, keepdims=True)
 
-    def get_topic_masses(self, mass=0.5):
-        """Returns the mean amount of words that accounts for each topic's probability mass."""
-        return [len(topic.get_top_words(mass=mass)) for topic in self.topics]
+        normalized_gamma = gamma / gamma.sum(axis=0)
 
-    def get_stats(self):
+        # Classify using likelihood sorting
+
+        for topic in self.topics:
+            topic.docs = []
+            indices = gamma[:, topic.topic_id].argsort()[::-1]
+
+            checked_mass = 0
+            for idx in indices:
+                topic.docs.append(self.corpus.documents[idx])
+                checked_mass += normalized_gamma[idx, topic.topic_id]
+
+                if checked_mass > 0.5:
+                    break
+
+    def get_coherence(self) -> list:
+        """Computes the coherence of the model per topic."""
+        # TODO: Check if we built the Topic objects already before this loop.
+
+        top_words_per_slice = {
+            time_slice: [
+                topic.top_word_evolution_table(20)[time_slice].to_list()
+                for topic in self.topics
+            ]
+            for time_slice in range(self.num_slices)
+        }
+
+        texts = [doc.get_bow_list() for doc in self.corpus.documents]
+
+        coherences_per_slice = {}
+        for time_slice, top_words in top_words_per_slice.items():
+            coherence_model = CoherenceModel(
+                topics=top_words,
+                texts=texts,
+                dictionary=self.id2word,
+                coherence="c_v",
+            )
+
+            coherences_per_slice[time_slice] = coherence_model.get_coherence_per_topic()
+
+        return coherences_per_slice
+
+    def get_orphans(self) -> set:
+        """Returns a list of articles without a topic."""
+        assigned_docs = set()
+        orphans = set()
+        for doc in self.corpus.documents:
+            for topic in self.topics:
+                if doc.id in [doc.id for doc in topic.docs]:
+                    assigned_docs.add(doc.id)
+                    break
+
+            if doc.id not in assigned_docs:
+                orphans.add(doc.id)
+
+        return orphans
+
+    def get_doc_masses(self, mass: int = 0.5) -> list:
+        """Returns the amount of documents that account for `mass` probability mass for all topics."""
+        return [topic.get_doc_mass(mass) for topic in self.topics]
+
+    def get_word_masses(self, mass: int = 0.5) -> float:
+        """Returns the amount of words that account for `mass` probability mass of a topic."""
+        return [topic.get_word_mass(mass) for topic in self.topics]
+
+    def get_stats(self) -> dict:
         """Returns statistics regarding the model. Useful for analysis when calibrating."""
 
         # Train the model and time it.
         print("Timing training...")
         start_train = time.time()
-        self.train(dtm=False)
+        self.train()
         end_train = time.time()
 
         # Get the model C_V coherence
@@ -210,33 +199,28 @@ class Model:
         end_coherence = time.time()
 
         # Get how many articles it has in each topic for a mean and how many empty topics there are.
-        arts_per_topic = [len(topic) for topic in self.topics]
+        arts_per_topic = [len(topic.docs) for topic in self.topics]
         empty_topics = len([n for n in arts_per_topic if n == 0])
-
-        # Get metrics for the difference matrix of the model.
-        diff_norm_score = np.linalg.norm(self.get_difference_matrix()) / self.num_topics
-        diff_eig_score = (
-            np.linalg.eig(self.get_difference_matrix())[0][0] / self.num_topics
-        )
 
         return {
             "coherence": coherence,
-            "log_perplexity": self.get_log_perplexity(),
             "time_lda": end_train - start_train,
             "time_coherence": end_coherence - start_coherence,
             "orphans": len(self.get_orphans()),
             "empty_topics": empty_topics,
             "avg_arts_per_topic": np.mean(arts_per_topic),
             "std_arts_per_topic": np.std(arts_per_topic),
-            "min_arts_in_topic": np.min(arts_per_topic),
-            "max_arts_in_topic": np.max(arts_per_topic),
-            "diff_norm_score": diff_norm_score,
-            "diff_eig_score": diff_eig_score,
-            "topic_mass_length": np.mean(self.get_topic_masses()),
+            "min_arts_in_topic": int(np.min(arts_per_topic)),
+            "max_arts_in_topic": int(np.max(arts_per_topic)),
+            "avg_doc_mass": np.mean(self.get_doc_masses()),
+            "avg_word_mass": np.mean(self.get_word_masses()),
         }
+
+    def export_summary(self, filename: str):
+        """TODO: Saves a summary file in PDF format for later usage."""
+        pass
 
 
 if __name__ == "__main__":
-    corpus = Corpus(registry_path="../utils/article_registry.json")
     N_TOPICS = 10
-    base_model = Model(corpus, N_TOPICS)
+    base_model = Model(Corpus(registry_path="../utils/article_registry.json"), N_TOPICS)
