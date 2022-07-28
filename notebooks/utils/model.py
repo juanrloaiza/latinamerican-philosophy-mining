@@ -1,8 +1,8 @@
+import multiprocessing
 import time
 import subprocess
 from pathlib import Path
 import numpy as np
-from tqdm import tqdm
 from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 from utils.topic import Topic
@@ -98,6 +98,7 @@ class Model:
         training_process = subprocess.run(
             ["dtm_files/dtm-linux64"] + [f"--{kw}={val}" for kw, val in kwargs.items()],
             check=True,
+            capture_output=True,
         )
 
         print("Model trained! Loading topics...")
@@ -106,11 +107,15 @@ class Model:
     def load_topics(self) -> None:
         """Creates Topic objects for each topic in the model. This allows us to
         interface with the topics directly through methods defined in the Topic class."""
-        self.topics = [
-            Topic(topic_num, self.num_slices, self.id2word, model_path=self.path)
-            for topic_num in tqdm(range(self.num_topics))
-        ]
+
+        pool = multiprocessing.Pool(5)
+        self.topics = pool.map(self.create_topic, range(self.num_topics))
+
         self.classify_documents()
+
+    def create_topic(self, topic_num: int) -> Topic:
+        "Creates a Topic object from a topic number."
+        return Topic(topic_num, self.num_slices, self.id2word, model_path=self.path)
 
     def classify_documents(self) -> None:
         """Classifies documents into the topics in the model."""
@@ -127,8 +132,9 @@ class Model:
 
             checked_mass = 0
             for idx in indices:
-                topic.docs.append(self.corpus.documents[idx])
-                checked_mass += normalized_gamma[idx, topic.topic_id]
+                doc_likelihood = normalized_gamma[idx, topic.topic_id]
+                topic.docs.append((self.corpus.documents[idx], doc_likelihood))
+                checked_mass += doc_likelihood
 
                 if checked_mass > 0.5:
                     break
@@ -166,7 +172,7 @@ class Model:
         orphans = set()
         for doc in self.corpus.documents:
             for topic in self.topics:
-                if doc.id in [doc.id for doc in topic.docs]:
+                if doc.id in [doc.id for doc, likelihood in topic.docs]:
                     assigned_docs.add(doc.id)
                     break
 
@@ -200,14 +206,22 @@ class Model:
 
         # Get how many articles it has in each topic for a mean and how many empty topics there are.
         arts_per_topic = [len(topic.docs) for topic in self.topics]
-        empty_topics = len([n for n in arts_per_topic if n == 0])
+
+        # TODO: Document criteria for empty topics
+        empty_topics = []
+        epsilon = 0.05  # Arbitrary constant
+        for topic in self.topics:
+            topic_likelihoods = [likelihood for doc, likelihood in topic.docs]
+            if max(topic_likelihoods) < ((1 / self.num_docs) + epsilon):
+                empty_topics.append(topic)
 
         return {
+            "seed": self.seed,
             "coherence": coherence,
             "time_lda": end_train - start_train,
             "time_coherence": end_coherence - start_coherence,
             "orphans": len(self.get_orphans()),
-            "empty_topics": empty_topics,
+            "empty_topics": len(empty_topics),
             "avg_arts_per_topic": np.mean(arts_per_topic),
             "std_arts_per_topic": np.std(arts_per_topic),
             "min_arts_in_topic": int(np.min(arts_per_topic)),

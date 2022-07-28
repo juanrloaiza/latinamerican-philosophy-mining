@@ -1,8 +1,8 @@
+from pathlib import Path
 from utils.download.scraper import Scraper
 from utils.download.articleparser import ArticleParser
 from utils.filemanager import FileManager
 from utils.registry import Registry
-from pathlib import Path
 
 ARCHIVE_URL = "https://revistas.unal.edu.co/index.php/idval/issue/archive"
 data_folder = Path(__file__).parent.parent.resolve() / "data"
