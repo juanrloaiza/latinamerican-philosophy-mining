@@ -2,14 +2,21 @@ import multiprocessing
 import time
 import subprocess
 from pathlib import Path
+import platform
+
 import numpy as np
+
 from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
+
 from utils.topic import Topic
 from utils.corpus import Corpus
 
+
 models_path = Path(__file__).parent.parent.resolve() / "models"
 models_path.mkdir(exist_ok=True)
+
+NOTEBOOKS_DIR = Path(__file__).parent.parent.resolve()
 
 
 class Model:
@@ -44,7 +51,7 @@ class Model:
         # Initialize topic list
         self.topics = []
 
-    def prepare_corpus(self) -> None:
+    def prepare_corpus(self, force: bool = False) -> None:
         """Prepares two files that the model needs for training:
 
         - corpus-mult.dat   A "len {word:count}" representation of each document in the corpus.
@@ -54,6 +61,12 @@ class Model:
                             (sum = total docs in corpus)
             Example: 291 252 305...
         """
+        if (
+            (models_path / "corpus-mult.dat").exists()
+            and (models_path / "corpus-seq.dat").exists()
+            and not force
+        ):
+            return
 
         # Get {word: count} representation of each document
         output_str = ""
@@ -95,8 +108,22 @@ class Model:
             "lda_max_em_iter": 10,
         }
 
+        if platform.system() == "Darwin":
+            print("Running on MacOSX. Using binary dtm-darwin64.")
+            binary_name = "dtm-darwin64"
+        else:
+            print("Defaulting to Linux. Using binary dtm-linux64.")
+            binary_name = "dtm-linux64"
+
+        print(
+            f"Command to run: "
+            f"{NOTEBOOKS_DIR}/dtm_files/{binary_name} "
+            + " ".join([f"--{kw}={val}" for kw, val in kwargs.items()])
+        )
+
         training_process = subprocess.run(
-            ["dtm_files/dtm-linux64"] + [f"--{kw}={val}" for kw, val in kwargs.items()],
+            [f"{NOTEBOOKS_DIR}/dtm_files/{binary_name}"]
+            + [f"--{kw}={val}" for kw, val in kwargs.items()],
             check=True,
             capture_output=True,
         )
