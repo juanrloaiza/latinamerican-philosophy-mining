@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -7,7 +9,7 @@ class Topic:
     """An interface for topics in a given model."""
 
     def __init__(
-        self, topic_id: int, num_slices: int, id2word: dict[int, str], model_path: Path
+        self, topic_id: int, num_slices: int, id2word: dict[int, str], model_path: Path, time_slice_years: List[Tuple[int]] = None
     ) -> None:
         self.topic_id = topic_id
         self.num_slices = num_slices
@@ -16,6 +18,7 @@ class Topic:
         # Initialize data attributes
         self.word_table = None
         self.full_data = None
+        self.time_slice_years = time_slice_years
         self.docs = []
 
         # Load the word distributions from file
@@ -37,12 +40,17 @@ class Topic:
 
         mean_probabilities = mean_probabilities[::-1]
 
+        # Counting all words that account for 0.5 of probablity mass.
         target_idx = min((mean_probabilities.cumsum() >= 0.5).argmax(), 2000) + 1
+        self.half_mass_index = target_idx
+        
+        # Having at least 10 words in the description.
+        target_idx = max(10, target_idx)
 
         topic_words = [id2word[idx] for idx in sorted_idxs[:target_idx]]
 
         self.word_table = pd.DataFrame(
-            self.word_probabilities[sorted_idxs[:target_idx]], index=topic_words
+            self.word_probabilities[sorted_idxs[:target_idx]], index=topic_words, columns=time_slice_years
         )
 
         self.length = len(self.word_table)
@@ -70,4 +78,4 @@ class Topic:
                 self.word_table[time_slice].sort_values(ascending=False)[:n].index
             )
 
-        return pd.DataFrame(data).T
+        return pd.DataFrame(data, index=self.time_slice_years).T
