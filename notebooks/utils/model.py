@@ -142,7 +142,7 @@ class Model:
 
     def create_topic(self, topic_num: int) -> Topic:
         "Creates a Topic object from a topic number."
-        return Topic(topic_num, self.num_slices, self.id2word, model_path=self.path)
+        return Topic(topic_num, self.num_slices, self.id2word, model_path=self.path, time_slice_years=self.corpus.time_slice_years)
 
     def classify_documents(self) -> None:
         """Classifies documents into the topics in the model."""

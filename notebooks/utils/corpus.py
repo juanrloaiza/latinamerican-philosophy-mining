@@ -91,6 +91,8 @@ class Corpus:
 
         count_by_year = {year: all_years.count(year) for year in all_years}
 
+        self.time_slice_years = []
+
         current_year = 1950
         next_year = current_year + time_window
 
@@ -102,7 +104,10 @@ class Corpus:
             counts.append(count)
 
             print(f"{current_year} - {next_year - 1}: {count}")
+            self.time_slice_years.append((current_year, next_year))
             current_year, next_year = next_year, next_year + time_window
+
+        print(self.time_slice_years)
 
         return counts
 
