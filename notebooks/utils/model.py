@@ -267,11 +267,51 @@ class Model:
             "avg_word_mass": np.mean(self.get_word_masses()),
         }
 
-    def export_summary(self, filename: str):
-        """TODO: Saves a summary file in PDF format for later usage."""
-        pass
+    def summarize(
+        self, path_to_save: Path = None, omit_trash_topics: bool = True
+    ) -> str:
+        """
+        Returns a summary of all topics in the model.
+        It loops through the topics and gets a summary of each
+        one of them with the topic.summarize() method.
+
+        If a filename is provided, the summary is written
+        on it as a markdown file.
+        """
+        non_trash_topic_summaries = [
+            topic.summarize() for topic in model.topics if not topic.is_trash
+        ]
+        trash_topic_summaries = [
+            topic.summarize() for topic in model.topics if topic.is_trash
+        ]
+
+        summary = (
+            f"""
+Number of trash topics: {len(trash_topic_summaries)}
+            """
+            + "\n"
+        )
+        summary += "\n".join(non_trash_topic_summaries)
+
+        if not omit_trash_topics:
+            summary += "\n".join(trash_topic_summaries)
+
+        if path_to_save is not None:
+            with open(path_to_save, "w") as fp:
+                fp.write(summary)
+
+        return summary
 
 
 if __name__ == "__main__":
-    N_TOPICS = 10
-    base_model = Model(Corpus(registry_path="../utils/article_registry.json"), N_TOPICS)
+    # N_TOPICS = 10
+    # base_model = Model(Corpus(registry_path="../utils/article_registry.json"), N_TOPICS)
+    corpus = Corpus(registry_path=NOTEBOOKS_DIR / "utils" / "article_registry.json")
+
+    n_topics = 90
+    seed = 36775
+
+    model = Model(corpus, n_topics, seed=seed)
+    model.load_topics()
+
+    model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)

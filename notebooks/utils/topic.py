@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+from utils.word_cleanup import clean_word
+
 
 class Topic:
     """An interface for topics in a given model."""
@@ -53,7 +55,7 @@ class Topic:
         # Having at least 10 words in the description.
         target_idx = max(10, target_idx)
 
-        topic_words = [id2word[idx] for idx in sorted_idxs[:target_idx]]
+        topic_words = [clean_word(id2word[idx]) for idx in sorted_idxs[:target_idx]]
 
         self.word_table = pd.DataFrame(
             self.word_probabilities[sorted_idxs[:target_idx]],
@@ -90,3 +92,45 @@ class Topic:
             )
 
         return pd.DataFrame(data, index=self.time_slice_years).T
+
+    def summarize(self) -> str:
+        """
+        Writes a summary of the topic. It writes
+        the word and doc mass (0.5), writes the top 10 words,
+        references, the word evolution per timeslice and lists
+        the words that account for half of the probability mass
+        (with a cap at 20). This is all formatted in Markdown.
+        """
+        references = "\n* ".join([doc.get_ref() for doc, _ in self.docs[:10]])
+        top_words = "\n* ".join(self.top_words())
+
+        return f"""
+# Topic {self.topic_id}
+
+* Words for 0.5 probability mass: {self.half_mass_index}
+* Docs for 0.5 "likelihood mass": {len(self.docs)}
+
+<div style='display: flex; justify-content: space-around'>
+<div style='display: block'>
+## Top 10 words in topic
+
+* {top_words}
+</div>
+
+<div style='display: block'>
+## Top 10 references
+
+* {references}
+</div>
+</div>
+
+## Word evolution
+
+{self.top_word_evolution_table().to_markdown(index=False)}
+
+## Words in half of probability mass
+
+{self.word_table.mean(axis=1).round(5)[:20].to_markdown()}
+
+</div>
+        """
