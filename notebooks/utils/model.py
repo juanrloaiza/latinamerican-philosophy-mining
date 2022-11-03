@@ -142,7 +142,13 @@ class Model:
 
     def create_topic(self, topic_num: int) -> Topic:
         "Creates a Topic object from a topic number."
-        return Topic(topic_num, self.num_slices, self.id2word, model_path=self.path, time_slice_years=self.corpus.time_slice_years)
+        return Topic(
+            topic_num,
+            self.num_slices,
+            self.id2word,
+            model_path=self.path,
+            time_slice_years=self.corpus.time_slice_years,
+        )
 
     def classify_documents(self) -> None:
         """Classifies documents into the topics in the model."""
@@ -165,6 +171,10 @@ class Model:
 
                 if checked_mass > 0.5:
                     break
+
+            # Mark the topic as garbage if we have more than 200 documents.
+            if len(topic.docs) > 200:
+                topic.is_trash = True
 
     def get_coherence(self) -> list:
         """Computes the coherence of the model per topic."""

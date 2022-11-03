@@ -9,7 +9,12 @@ class Topic:
     """An interface for topics in a given model."""
 
     def __init__(
-        self, topic_id: int, num_slices: int, id2word: dict[int, str], model_path: Path, time_slice_years: List[Tuple[int]] = None
+        self,
+        topic_id: int,
+        num_slices: int,
+        id2word: dict[int, str],
+        model_path: Path,
+        time_slice_years: List[Tuple[int]] = None,
     ) -> None:
         self.topic_id = topic_id
         self.num_slices = num_slices
@@ -20,6 +25,7 @@ class Topic:
         self.full_data = None
         self.time_slice_years = time_slice_years
         self.docs = []
+        self.is_trash = False
 
         # Load the word distributions from file
         # TODO: Improve loading paths and file naming.
@@ -43,17 +49,22 @@ class Topic:
         # Counting all words that account for 0.5 of probablity mass.
         target_idx = min((mean_probabilities.cumsum() >= 0.5).argmax(), 2000) + 1
         self.half_mass_index = target_idx
-        
+
         # Having at least 10 words in the description.
         target_idx = max(10, target_idx)
 
         topic_words = [id2word[idx] for idx in sorted_idxs[:target_idx]]
 
         self.word_table = pd.DataFrame(
-            self.word_probabilities[sorted_idxs[:target_idx]], index=topic_words, columns=time_slice_years
+            self.word_probabilities[sorted_idxs[:target_idx]],
+            index=topic_words,
+            columns=time_slice_years,
         )
 
         self.length = len(self.word_table)
+
+        if self.length > 2000 or self.word_probabilities[0].mean() > 0.75:
+            self.is_trash = True
 
     def top_words(self, n=10) -> np.ndarray:
         """Returns the top n words for the whole topic (averaged across time slices)."""
