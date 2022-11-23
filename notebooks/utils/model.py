@@ -279,10 +279,10 @@ class Model:
         on it as a markdown file.
         """
         non_trash_topic_summaries = [
-            topic.summarize() for topic in model.topics if not topic.is_trash
+            topic.summarize() for topic in self.topics if not topic.is_trash
         ]
         trash_topic_summaries = [
-            topic.summarize() for topic in model.topics if topic.is_trash
+            topic.summarize() for topic in self.topics if topic.is_trash
         ]
 
         summary = (
