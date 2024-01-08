@@ -4,7 +4,6 @@ data/*
 */.ipynb_checkpoints/
 notebooks/old_files/
 notebooks/gensim_models/
-notebooks/utils/article*
 notebooks/utils/download/parsertools/temp/
 notebooks/utils/dictionaries/experiment/
 .DS_store
