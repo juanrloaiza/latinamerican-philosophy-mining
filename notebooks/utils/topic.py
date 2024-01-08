@@ -30,7 +30,7 @@ class Topic:
         self.is_trash = False
 
         # Load the word distributions from file
-        # TODO: Improve loading paths and file naming.
+        # The following is a matrix of shape [num_words, num_slices]
         self.word_probabilities = np.loadtxt(
             self.model_path
             / "lda-seq"
@@ -40,6 +40,8 @@ class Topic:
         # Distributions are in log prob form. Convert to [0, 1] probs.
         self.word_probabilities = np.exp(self.word_probabilities)
 
+        # The indices of the words with the most probability mass
+        # across the home num_slices slices.
         sorted_idxs = self.word_probabilities.mean(axis=1).argsort()[::-1]
 
         mean_probabilities = self.word_probabilities.mean(axis=1)

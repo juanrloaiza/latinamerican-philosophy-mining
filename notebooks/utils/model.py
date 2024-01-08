@@ -121,22 +121,30 @@ class Model:
             + " ".join([f"--{kw}={val}" for kw, val in kwargs.items()])
         )
 
-        training_process = subprocess.run(
-            [f"{NOTEBOOKS_DIR}/dtm_files/{binary_name}"]
-            + [f"--{kw}={val}" for kw, val in kwargs.items()],
-            check=True,
-            capture_output=True,
-        )
+        try:
+            training_process = subprocess.run(
+                [f"{NOTEBOOKS_DIR}/dtm_files/{binary_name}"]
+                + [f"--{kw}={val}" for kw, val in kwargs.items()],
+                check=True,
+                capture_output=True,
+            )
+        except subprocess.CalledProcessError as e:
+            print(e.stderr.decode("utf-8"))
+            raise e
 
         print("Model trained! Loading topics...")
         self.load_topics()
 
-    def load_topics(self) -> None:
+    def load_topics(self, num_workers: int = 5) -> None:
         """Creates Topic objects for each topic in the model. This allows us to
-        interface with the topics directly through methods defined in the Topic class."""
+        interface with the topics directly through methods defined in the Topic class.
+        """
 
-        pool = multiprocessing.Pool(5)
-        self.topics = pool.map(self.create_topic, range(self.num_topics))
+        if num_workers > 1:
+            pool = multiprocessing.Pool(num_workers)
+            self.topics = pool.map(self.create_topic, range(self.num_topics))
+        else:
+            self.topics = [self.create_topic(i) for i in range(self.num_topics)]
 
         self.classify_documents()
 
@@ -312,6 +320,6 @@ if __name__ == "__main__":
     seed = 36775
 
     model = Model(corpus, n_topics, seed=seed)
-    model.load_topics()
+    model.load_topics(num_workers=1)
 
     model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)
