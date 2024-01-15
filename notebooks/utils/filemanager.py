@@ -1,5 +1,8 @@
+from pathlib import Path
 import os
 import json
+
+ROOT_DIR = Path(__file__).parent.parent.parent.resolve()
 
 
 class FileManager:
@@ -7,6 +10,8 @@ class FileManager:
         pass
 
     def load(self, path):
+        """Loads the json file, assuming that the path starts at the base folder."""
+        path = ROOT_DIR / path
         with open(path) as file:
             return json.load(file)
 
@@ -41,4 +46,3 @@ class FileManager:
         elif format == "json":
             with open(f"{raw_folder}/{id}.json", "w", encoding="utf-8") as f:
                 json.dump(raw_content, f, indent=True)
-
