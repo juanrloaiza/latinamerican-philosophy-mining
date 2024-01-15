@@ -3,6 +3,7 @@ import time
 import subprocess
 from pathlib import Path
 import platform
+import json
 
 import numpy as np
 
@@ -21,7 +22,12 @@ NOTEBOOKS_DIR = Path(__file__).parent.parent.resolve()
 
 class Model:
     def __init__(
-        self, corpus: Corpus, num_topics: int, time_window: int = 10, seed: int = None
+        self,
+        corpus: Corpus,
+        num_topics: int,
+        time_window: int = 10,
+        seed: int = None,
+        custom_output_path: Path = None,
     ) -> None:
         # Generate a model id and seed
         if seed:
@@ -29,7 +35,10 @@ class Model:
         else:
             self.seed = np.random.randint(1, 99999)
 
-        self.path = models_path / f"{num_topics}_{self.seed}"
+        if custom_output_path:
+            self.path = custom_output_path
+        else:
+            self.path = models_path / f"{num_topics}_{self.seed}"
 
         # Load the corpus and get corpus properties.
         self.corpus = corpus
@@ -146,7 +155,11 @@ class Model:
         else:
             self.topics = [self.create_topic(i) for i in range(self.num_topics)]
 
+        # Reads the results from the DTM binary.
         self.classify_documents()
+
+        # Attaches the tags to the topics.
+        self.tag_topics()
 
     def create_topic(self, topic_num: int) -> Topic:
         "Creates a Topic object from a topic number."
@@ -183,6 +196,26 @@ class Model:
             # Mark the topic as garbage if we have more than 200 documents.
             if len(topic.docs) > 200:
                 topic.is_trash = True
+
+    def tag_topics(self) -> None:
+        """Reads the json file with tags, and attaches them
+        to the topics."""
+        path_to_json_file = (
+            NOTEBOOKS_DIR / "results" / f"topic_tags_{self.num_topics}_{self.seed}.json"
+        )
+
+        if not path_to_json_file.exists():
+            return
+
+        with open(path_to_json_file) as fp:
+            tags_ = json.load(fp)
+
+        for topic_id, tags in tags_.items():
+            if len(tags) == 0:
+                continue
+
+            topic_id = int(topic_id)
+            self.topics[topic_id].tags = tags
 
     def get_coherence(self) -> list:
         """Computes the coherence of the model per topic."""
@@ -320,6 +353,6 @@ if __name__ == "__main__":
     seed = 36775
 
     model = Model(corpus, n_topics, seed=seed)
-    model.load_topics(num_workers=1)
+    model.load_topics(num_workers=5)
 
     model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)

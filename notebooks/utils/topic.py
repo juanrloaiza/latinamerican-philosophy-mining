@@ -70,6 +70,9 @@ class Topic:
         if self.length > 2000 or self.word_probabilities[0].mean() > 0.75:
             self.is_trash = True
 
+        # This will become a list with certain tags, hand-labeled by JRL.
+        self.tags = None
+
     def top_words(self, n=10) -> np.ndarray:
         """Returns the top n words for the whole topic (averaged across time slices)."""
         return self.word_table[:n].index.values
