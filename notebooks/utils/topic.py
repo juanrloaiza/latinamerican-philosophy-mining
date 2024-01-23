@@ -1,10 +1,12 @@
-from typing import List, Tuple
+from typing import List, Tuple, Dict
+from collections import defaultdict
 
 import pandas as pd
 import numpy as np
 from pathlib import Path
 
 from utils.word_cleanup import clean_word
+from utils.corpus import Article
 
 
 class Topic:
@@ -26,7 +28,7 @@ class Topic:
         self.word_table = None
         self.full_data = None
         self.time_slice_years = time_slice_years
-        self.docs = []
+        self.docs: List[Tuple[Article, float]] = []
         self.is_trash = False
 
         # Load the word distributions from file
@@ -70,8 +72,13 @@ class Topic:
         if self.length > 2000 or self.word_probabilities[0].mean() > 0.75:
             self.is_trash = True
 
+        if self.half_mass_index <= 1:
+            self.is_trash = True
+
         # This will become a list with certain tags, hand-labeled by JRL.
-        self.tags = None
+        self.tags: List[str] = None
+        self.main_area: str = None
+        self.areas: List[str] = None
 
     def top_words(self, n=10) -> np.ndarray:
         """Returns the top n words for the whole topic (averaged across time slices)."""
@@ -97,6 +104,15 @@ class Topic:
             )
 
         return pd.DataFrame(data, index=self.time_slice_years).T
+
+    def count_documents_per_year(self) -> Dict[int, int]:
+        """Returns a dictionary with the number of documents per year."""
+        counts = defaultdict(int)
+        for doc, _ in self.docs:
+            year = doc.get_year()
+            counts[year] += 1
+
+        return counts
 
     def summarize(self) -> str:
         """

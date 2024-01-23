@@ -25,6 +25,9 @@ class Article:
         """Returns the article's reference."""
         return f"{self.author} ({self.date}). {self.title}"
 
+    def get_year(self) -> int:
+        return int(self.date.split("/")[0])
+
 
 class Corpus:
     def __init__(self, registry_path: str) -> None:
@@ -43,7 +46,9 @@ class Corpus:
         articles = self.registry.load_article_files()
         docs = []
         for info in [info for info in articles if info["lang"] == "es"]:
-            if (not only_articles or info["type"] == "ART\u00cdCULOS") and info["text"] != "":
+            if (not only_articles or info["type"] == "ART\u00cdCULOS") and info[
+                "text"
+            ] != "":
                 article = Article(info["id"])
                 for key, value in info.items():
                     setattr(article, key, value)

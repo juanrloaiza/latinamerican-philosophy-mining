@@ -216,6 +216,8 @@ class Model:
 
             topic_id = int(topic_id)
             self.topics[topic_id].tags = tags
+            self.topics[topic_id].main_area = tags[0]
+            self.topics[topic_id].areas = tags[1:]
 
     def get_coherence(self) -> list:
         """Computes the coherence of the model per topic."""
