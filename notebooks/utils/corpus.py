@@ -107,8 +107,6 @@ class Corpus:
             self.time_slice_years.append((current_year, next_year))
             current_year, next_year = next_year, next_year + time_window
 
-        print(self.time_slice_years)
-
         return counts
 
 
