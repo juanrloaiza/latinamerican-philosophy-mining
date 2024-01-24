@@ -6,7 +6,8 @@ from utils.registry import Registry
 
 ARCHIVE_URL = "https://revistas.unal.edu.co/index.php/idval/issue/archive"
 data_folder = Path(__file__).parent.parent.resolve() / "data"
-registry_file = Path(__file__).parent.resolve() / "utils" / "article_registry.json"
+registry_file = Path(__file__).parent.resolve() / \
+    "utils" / "article_registry.json"
 
 data_folder.mkdir(exist_ok=True)
 
