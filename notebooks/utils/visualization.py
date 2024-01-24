@@ -8,6 +8,7 @@ from collections import defaultdict
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import wordcloud as wc
 
 from utils.topic import Topic
 from utils.corpus import Article
@@ -40,8 +41,33 @@ class Visualizer:
         counts = topic.count_documents_per_year()
         ax.bar(counts.keys(), counts.values())
 
-    def plot_wordcloud_per_main_area(self, main_area: str):
-        raise NotImplementedError()
+    def plot_wordcloud_per_main_area(self, main_area: str, ax: plt.Axes = None) -> None:
+        """Generates a word cloud given a main area string."""
+
+        if ax is None:
+            _, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
+
+        main_area_articles = []
+        checked_article_ids = set()
+        for topic in self.model.topics:
+            if topic.is_trash:
+                continue
+
+            if topic.main_area.lower() != main_area.lower():
+                continue
+
+            for article, _ in topic.docs:
+                if article.id in checked_article_ids:
+                    continue
+                main_area_articles.append(article)
+                checked_article_ids.add(article.id)
+
+        text = ' '.join(article.get_bag_of_words()
+                        for article in main_area_articles)
+
+        wordcloud = wc.WordCloud().generate_from_text(text)
+
+        ax.imshow(wordcloud)
 
     def plot_stream_graph(self, ax: plt.Axes = None):
         data = []
@@ -69,7 +95,8 @@ if __name__ == "__main__":
 
     NOTEBOOKS_DIR = Path(__file__).parent.parent.resolve()
 
-    corpus = Corpus(registry_path=NOTEBOOKS_DIR / "utils" / "article_registry.json")
+    corpus = Corpus(registry_path=NOTEBOOKS_DIR /
+                    "utils" / "article_registry.json")
 
     n_topics = 90
     seed = 36775
@@ -80,6 +107,7 @@ if __name__ == "__main__":
     viz = Visualizer(model)
     _, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))
 
-    viz.plot_number_of_documents_per_year(model.topics[0], ax=ax1)
-    # viz.plot_wordcloud_per_main_area("Value theory", ax=ax2)
-    viz.plot_stream_graph(ax=ax3)
+    # viz.plot_number_of_documents_per_year(model.topics[0], ax=ax1)
+    w1 = viz.plot_wordcloud_per_main_area("Value theory", ax=ax1)
+    plt.show()
+    # viz.plot_stream_graph(ax=ax3)
