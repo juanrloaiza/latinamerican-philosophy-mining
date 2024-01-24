@@ -28,6 +28,9 @@ class Article:
     def get_year(self) -> int:
         return int(self.date.split("/")[0])
 
+    def get_bag_of_words(self) -> str:
+        return self.bag_of_words
+
 
 class Corpus:
     def __init__(self, registry_path: str) -> None:
@@ -104,7 +107,8 @@ class Corpus:
         counts = []
         for _ in range(bins):
             count = sum(
-                [v for k, v in count_by_year.items() if current_year <= k < next_year]
+                [v for k, v in count_by_year.items() if current_year <=
+                 k < next_year]
             )
             counts.append(count)
 
