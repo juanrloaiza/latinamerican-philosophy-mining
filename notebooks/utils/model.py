@@ -4,6 +4,7 @@ import subprocess
 from pathlib import Path
 import platform
 import json
+import pickle
 
 import numpy as np
 
@@ -85,8 +86,7 @@ class Model:
                 f"{idx}:{count}" for idx, count in self.id2word.doc2bow(doc_bow)
             ]
             output_str += (
-                f"{len(self.id2word.doc2bow(doc_bow))} " +
-                " ".join(word_counts) + " \n"
+                f"{len(self.id2word.doc2bow(doc_bow))} " + " ".join(word_counts) + " \n"
             )
 
         with open(models_path / "corpus-mult.dat", "w") as file:
@@ -94,8 +94,7 @@ class Model:
 
         # Get number of documents per time slice
         with open(models_path / "corpus-seq.dat", "w") as file:
-            file.write(f"{self.num_slices}\n" +
-                       "\n".join(map(str, self.slices)))
+            file.write(f"{self.num_slices}\n" + "\n".join(map(str, self.slices)))
 
     def train(self) -> None:
         """Trains the model.
@@ -153,12 +152,26 @@ class Model:
 
         # This process is taking a whole minute.
         # TODO: Check for ways to optimize it besides multithreading.
-        if num_workers > 1:
-            pool = multiprocessing.Pool(num_workers)
-            self.topics = pool.map(self.create_topic, range(self.num_topics))
+        CACHE_FOR_TOPICS = NOTEBOOKS_DIR.parent.resolve() / "data" / "topics_cache"
+        CACHE_FOR_TOPICS.mkdir(exist_ok=True)
+        PATH_FOR_CACHE = CACHE_FOR_TOPICS / f"topics_{self.num_topics}_{self.seed}.pkl"
+        if PATH_FOR_CACHE.exists():
+            print("Loading topics from cache")
+            with open(PATH_FOR_CACHE, "rb") as fp:
+                topics = pickle.load(fp)
         else:
-            self.topics = [self.create_topic(i)
-                           for i in range(self.num_topics)]
+            if num_workers > 1:
+                pool = multiprocessing.Pool(num_workers)
+                topics = pool.map(self.create_topic, range(self.num_topics))
+            else:
+                topics = [self.create_topic(i) for i in range(self.num_topics)]
+
+            # Saving cache
+            with open(PATH_FOR_CACHE, "wb") as fp:
+                print("Saving topics from cache")
+                pickle.dump(topics, fp)
+
+        self.topics = topics
 
         # Reads the results from the DTM binary.
         self.classify_documents()
@@ -178,8 +191,7 @@ class Model:
 
     def classify_documents(self) -> None:
         """Classifies documents into the topics in the model."""
-        gamma = np.loadtxt(self.path / "lda-seq" /
-                           "gam.dat").reshape(self.num_docs, -1)
+        gamma = np.loadtxt(self.path / "lda-seq" / "gam.dat").reshape(self.num_docs, -1)
         gamma = gamma / gamma.sum(axis=1, keepdims=True)
 
         normalized_gamma = gamma / gamma.sum(axis=0)
@@ -206,8 +218,7 @@ class Model:
         """Reads the json file with tags, and attaches them
         to the topics."""
         path_to_json_file = (
-            NOTEBOOKS_DIR / "results" /
-            f"topic_tags_{self.num_topics}_{self.seed}.json"
+            NOTEBOOKS_DIR / "results" / f"topic_tags_{self.num_topics}_{self.seed}.json"
         )
 
         if not path_to_json_file.exists():
@@ -248,8 +259,7 @@ class Model:
                 coherence="c_v",
             )
 
-            coherences_per_slice[time_slice] = coherence_model.get_coherence_per_topic(
-            )
+            coherences_per_slice[time_slice] = coherence_model.get_coherence_per_topic()
 
         return coherences_per_slice
 
@@ -354,11 +364,9 @@ Number of trash topics: {len(trash_topic_summaries)}
 
 
 if __name__ == "__main__":
-
     # N_TOPICS = 10
     # base_model = Model(Corpus(registry_path="../utils/article_registry.json"), N_TOPICS)
-    corpus = Corpus(registry_path=NOTEBOOKS_DIR /
-                    "utils" / "article_registry.json")
+    corpus = Corpus(registry_path=NOTEBOOKS_DIR / "utils" / "article_registry.json")
 
     n_topics = 90
     seed = 36775
@@ -366,5 +374,4 @@ if __name__ == "__main__":
     model = Model(corpus, n_topics, seed=seed)
     model.load_topics(num_workers=5)
 
-    model.summarize(NOTEBOOKS_DIR / "results_non_trash.md",
-                    omit_trash_topics=True)
+    model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)
