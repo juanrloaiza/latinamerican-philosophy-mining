@@ -71,7 +71,7 @@ class Visualizer:
 
     def plot_stream_graph(self, ax: plt.Axes = None):
         data = []
-        for topic in model.topics:
+        for topic in self.model.topics:
             for doc, _ in topic.docs:
                 if topic.tags:
                     data.append(
@@ -85,6 +85,27 @@ class Visualizer:
         df.groupby(["Date", "Main area"]).size().unstack().plot(
             kind="area", stacked=True, ax=ax
         )
+
+    def plot_word_evolution_by_topic_graph(self, topic_id: int, ax: plt.Axes = None):
+
+        if ax is None:
+            _, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
+
+        topic = self.model.topics[topic_id]
+
+        data = {}
+        for time_slice, order in topic.top_word_evolution_table().items():
+            for pos, word in order.items():
+                if word not in data:
+                    data[word] = {}
+                data[word][time_slice] = pos
+
+        word_pos_by_timeslice_df = pd.DataFrame.from_dict(
+            data, orient='index').T + 1
+
+        ax.invert_yaxis()
+        word_pos_by_timeslice_df.plot(ax=ax)
+        ax.legend(bbox_to_anchor=(1.40, 1.1))
 
 
 if __name__ == "__main__":
