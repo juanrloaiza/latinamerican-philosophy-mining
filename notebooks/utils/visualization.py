@@ -41,15 +41,6 @@ class Visualizer:
     def __init__(self, model: Model) -> None:
         self.model = model
 
-    def count_docs_per_area(self, main_area: str) -> Dict[str, int]:
-        counts_per_area = defaultdict(int)
-        for topic in filter(lambda t: not t.is_trash, self.model.topics):
-            if main_area.lower() == topic.main_area.lower():
-                for area in topic.areas:
-                    counts_per_area[area.capitalize()] += 1
-
-        return counts_per_area
-
     @staticmethod
     def plot_number_of_documents_per_year(
         topic: Topic, ax: plt.Axes = None
@@ -106,7 +97,6 @@ class Visualizer:
         )
 
     def plot_word_evolution_by_topic_graph(self, topic_id: int, ax: plt.Axes = None):
-
         topic = self.model.topics[topic_id]
         document_count_per_year = topic.count_documents_per_year()
 
@@ -149,6 +139,31 @@ class Visualizer:
             rotation_mode="anchor",
         )
 
+    def plot_streamgraph_main_and_subarea(self, main_area: str, ax: plt.Axes = None):
+        # Computing the main areas from the topics inside the model.
+        topics_in_main_area = self.model.get_main_areas()[main_area.capitalize()]
+        print(topics_in_main_area)
+
+        # Compute the total mass of the main area.
+        # mass = {year: count}
+        document_count_per_year = defaultdict(int)
+        for topic in topics_in_main_area:
+            docs = [d for d, _ in topic.docs]
+            for d in docs:
+                document_count_per_year[d.get_year()] += 1
+
+        x = list(document_count_per_year.keys())
+        y = list(document_count_per_year.values())
+
+        if ax is None:
+            _, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
+
+        ax.streamplot(x, y)
+
+        total_doc_count_in_main_area = self.model.count_docs_per_main_area(main_area)
+
+        # Get the one with the biggest mass.
+
 
 if __name__ == "__main__":
     from pathlib import Path
@@ -167,11 +182,12 @@ if __name__ == "__main__":
     model.load_topics(num_workers=10)
 
     viz = Visualizer(model)
+    viz.plot_streamgraph_main_and_subarea("Value theory")
     # _, (ax1) = plt.subplots(1, 1, figsize=(5, 5))
 
     # viz.plot_number_of_documents_per_year(model.topics[0], ax=ax1)
     # w1 = viz.plot_wordcloud_per_main_area("Value theory", ax=ax1)
-    viz.plot_word_evolution_by_topic_graph(11)
-    plt.savefig("example.jpg")
+    # viz.plot_word_evolution_by_topic_graph(11)
+    # plt.savefig("example.jpg")
     plt.show()
     # viz.plot_stream_graph(ax=ax3)

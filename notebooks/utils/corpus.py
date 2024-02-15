@@ -107,8 +107,7 @@ class Corpus:
         counts = []
         for _ in range(bins):
             count = sum(
-                [v for k, v in count_by_year.items() if current_year <=
-                 k < next_year]
+                [v for k, v in count_by_year.items() if current_year <= k < next_year]
             )
             counts.append(count)
 

@@ -1,3 +1,4 @@
+from typing import Dict, List
 import multiprocessing
 import time
 import subprocess
@@ -5,6 +6,7 @@ from pathlib import Path
 import platform
 import json
 import pickle
+from collections import defaultdict
 
 import numpy as np
 
@@ -188,6 +190,26 @@ class Model:
             model_path=self.path,
             time_slice_years=self.corpus.time_slice_years,
         )
+
+    def get_main_areas(self) -> Dict[str, List[Topic]]:
+        """Returns a dictionary with the main areas and the topics that belong to them."""
+        main_areas = defaultdict(list)
+        for topic in self.topics:
+            if topic.is_trash:
+                continue
+
+            main_areas[topic.main_area.capitalize()].append(topic)
+
+        return main_areas
+
+    def count_docs_per_main_area(self, main_area: str) -> Dict[str, int]:
+        counts_per_area = defaultdict(int)
+        for topic in filter(lambda t: not t.is_trash, self.model.topics):
+            if main_area.lower() == topic.main_area.lower():
+                for area in topic.areas:
+                    counts_per_area[area.capitalize()] += 1
+
+        return counts_per_area
 
     def classify_documents(self) -> None:
         """Classifies documents into the topics in the model."""
