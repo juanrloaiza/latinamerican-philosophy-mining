@@ -7,6 +7,7 @@ One example is Poincaré and poincarear.
 
 The full list is being maintained at ./wordlists/word_cleanup.json.
 """
+
 from typing import Dict
 from pathlib import Path
 import json

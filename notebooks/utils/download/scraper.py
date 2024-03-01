@@ -19,7 +19,10 @@ DEFAULT_HEADERS = {
 
 class Scraper:
     def __init__(
-        self, archive_url: str, registry: Registry, headers: dict = DEFAULT_HEADERS,
+        self,
+        archive_url: str,
+        registry: Registry,
+        headers: dict = DEFAULT_HEADERS,
     ):
 
         self.archive_urls = []

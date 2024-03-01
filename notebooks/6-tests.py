@@ -4,6 +4,7 @@ This scripts
 - verifies that the RNG seed indeed produces the same results.
 
 """
+
 from pathlib import Path
 
 from multiprocessing import Pool

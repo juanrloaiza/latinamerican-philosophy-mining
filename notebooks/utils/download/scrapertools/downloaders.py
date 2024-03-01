@@ -15,8 +15,8 @@ def soupify(url: str):
 
 def extract_metadata(soup: BeautifulSoup):
     """
-    Extracts metadata from a BeautifulSoup object. 
-    
+    Extracts metadata from a BeautifulSoup object.
+
     Returns a tuple of the article ID and its metadata.
     """
 
