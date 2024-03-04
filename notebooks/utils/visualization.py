@@ -70,16 +70,19 @@ class Visualizer:
     def __init__(self, model: Model) -> None:
         self.model = model
 
-    @staticmethod
-    def plot_number_of_documents_per_year(
-        topic: Topic, ax: plt.Axes = None
+    def plot_number_of_documents_per_year_in_topic(
+        self, topic_id: int, ax: plt.Axes = None
     ) -> plt.Axes:
-        """ """
+        """Plots the number of documents per year in a given topic."""
+
+        topic = self.model.topics[topic_id]
+
         if ax is None:
             _, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
 
         counts = topic.count_documents_per_year()
         ax.bar(counts.keys(), counts.values())
+        ax.set_xlim(1950, 2025)  # TODO: Should these values be hard coded?
 
     def plot_wordcloud_per_main_area(self, main_area: str, ax: plt.Axes = None) -> None:
         """Generates a word cloud given a main area string."""
@@ -106,9 +109,10 @@ class Visualizer:
 
         wordcloud = wc.WordCloud().generate_from_text(text)
 
+        ax.set_title(main_area)
         ax.imshow(wordcloud)
 
-    def plot_stream_graph(self, ax: plt.Axes = None):
+    def plot_stream_graph(self, ax: plt.Axes = None, normalized: bool = False):
         data = []
         for topic in self.model.topics:
             for doc, _ in topic.docs:
@@ -121,9 +125,13 @@ class Visualizer:
                     )
 
         df = pd.DataFrame(data, columns=["Main area", "Date"])
-        df.groupby(["Date", "Main area"]).size().unstack().plot(
-            kind="area", stacked=True, ax=ax
-        )
+        df = df.groupby(["Date", "Main area"]).size().unstack()
+
+        if normalized:
+            df = df.div(df.sum(axis=1), axis=0)
+            df.plot(kind="bar", stacked=True, ax=ax, width=0.9)
+        else:
+            df.plot(kind="area", stacked=True, ax=ax)
 
     def plot_word_evolution_by_topic_graph(self, topic_id: int, ax: plt.Axes = None):
         topic = self.model.topics[topic_id]
@@ -147,7 +155,6 @@ class Visualizer:
                 else:
                     data[word][time_slice] = np.NaN
 
-        print(data)
         word_pos_by_timeslice_df = pd.DataFrame.from_dict(data, orient="index").T + 1
 
         mpl.rcParams["axes.prop_cycle"] = mpl.cycler(color=COLORS_FOR_WORD_EVOLUTION)
@@ -195,7 +202,7 @@ class Visualizer:
             if topic.main_area.capitalize() != main_area.capitalize():
                 continue
 
-            if largest_subarea in topic.areas:
+            if largest_subarea in topic.areas:  # Check for capitalization!
                 topics_in_largest_subarea.add(topic)
 
         topics_in_largest_subarea = list(topics_in_largest_subarea)
@@ -223,7 +230,12 @@ class Visualizer:
         ax.set_title(main_area)
         ax.stackplot(x_main_area, y_main_area, baseline="sym", colors=["#aaa"])
         ax.stackplot(
-            x_subarea, y_subarea, baseline="sym", labels=[largest_subarea], alpha=0.5
+            x_subarea,
+            y_subarea,
+            baseline="sym",
+            labels=[largest_subarea],
+            alpha=0.5,
+            colors=["blue"],
         )
 
         ax.legend()
@@ -247,8 +259,9 @@ if __name__ == "__main__":
 
     viz = Visualizer(model)
 
-    main_area = list(model.get_main_areas().keys())[0]
-    viz.plot_streamgraph_main_and_subarea(main_area)
+    main_areas = list(model.get_main_areas().keys())
+
+    viz.plot_streamgraph_main_and_subarea("Philosophical traditions")
     # _, (ax1) = plt.subplots(1, 1, figsize=(5, 5))
 
     # viz.plot_number_of_documents_per_year(model.topics[0], ax=ax1)

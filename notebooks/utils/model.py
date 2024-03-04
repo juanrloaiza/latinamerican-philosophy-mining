@@ -258,6 +258,9 @@ class Model:
                 continue
 
             topic_id = int(topic_id)
+
+            # Normalize string capitalization before assignment
+            tags = [t.capitalize() for t in tags]
             self.topics[topic_id].tags = tags
             self.topics[topic_id].main_area = tags[0]
             self.topics[topic_id].areas = tags[1:]
