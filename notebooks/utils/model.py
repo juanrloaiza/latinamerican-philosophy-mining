@@ -9,12 +9,14 @@ import pickle
 from collections import defaultdict
 
 import numpy as np
+import pandas as pd
 
 from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 
 from utils.topic import Topic
 from utils.corpus import Corpus
+from utils.word_cleanup import clean_word
 
 
 models_path = Path(__file__).parent.parent.resolve() / "models"
@@ -201,6 +203,33 @@ class Model:
             main_areas[topic.main_area.capitalize()].append(topic)
 
         return main_areas
+
+    def compute_main_area_descriptor(self, main_area: str) -> pd.DataFrame:
+        """
+        This method computes a main area descriptor, a probability
+        vector over all the vocabularies for all the decades, which is
+        the result of averaging the word-topic distributions for all
+        the topics in the main area.
+        """
+        topics_in_main_area = self.get_main_areas()[main_area]
+        word_probability_matrices = [
+            topic.word_probabilities for topic in topics_in_main_area
+        ]
+
+        # This is of shape [num_topics_in_main_area, num_words, num_slices]
+        concatenated_wpm = np.concatenate(
+            [wpm.reshape(1, *wpm.shape) for wpm in word_probability_matrices], axis=0
+        )
+
+        vocabulary = [clean_word(self.id2word[idx]) for idx in range(len(self.id2word))]
+
+        descriptor = pd.DataFrame(
+            concatenated_wpm.mean(axis=0),
+            index=vocabulary,
+            columns=self.corpus.time_slice_years,
+        )
+
+        return descriptor
 
     def count_docs_per_main_area(self, main_area: str) -> Dict[str, int]:
         counts_per_area = defaultdict(int)
@@ -403,4 +432,8 @@ if __name__ == "__main__":
     model = Model(corpus, n_topics, seed=seed)
     model.load_topics(num_workers=5)
 
-    model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)
+    descriptor = model.compute_main_area_descriptor("Science, logic, and mathematics")
+
+    print(descriptor.mean(axis=1).sort_values(ascending=False).head(10))
+
+    # model.summarize(NOTEBOOKS_DIR / "results_non_trash.md", omit_trash_topics=True)

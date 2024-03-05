@@ -60,6 +60,7 @@ class Topic:
         target_idx = max(10, target_idx)
 
         topic_words = [clean_word(id2word[idx]) for idx in sorted_idxs[:target_idx]]
+        self.topic_words = topic_words
 
         self.word_table = pd.DataFrame(
             self.word_probabilities[sorted_idxs[:target_idx]],
