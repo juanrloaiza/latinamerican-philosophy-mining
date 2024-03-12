@@ -1,3 +1,21 @@
+"""Implements a table making class.
+
+TODO:
+- Describing the corpus
+    - Number of documents
+    - Number of words
+    - Number of unique words
+    - Number of corrected words
+    - Number of corrected words post-hoc
+    - Stopwords and protected words
+    - Percentage of corrected words post pdf processing.
+- Describing the topics
+    - Word evolution tables
+    - Main area, areas, and topics
+        - Main area descriptors
+        - Topic descriptors
+"""
+
 import pandas as pd
 
 from utils.model import Model

@@ -1,5 +1,9 @@
 """
 Implements the utilities around visualizing topics and models.
+
+TODO:
+- A sort of pie-chart for each main area detailing
+  the contribution of each area (proportion: n documents).
 """
 
 from typing import Dict, List, Tuple
