@@ -49,6 +49,7 @@ class Model:
         self.corpus = corpus
         self.num_docs = len(corpus)
         self.num_topics = num_topics
+        self.time_window = time_window
 
         # Get number of docs per time slice and total number of slices for a given time window.
         self.slices = corpus.get_time_slices(time_window)

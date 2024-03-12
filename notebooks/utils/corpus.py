@@ -1,3 +1,5 @@
+from typing import Dict
+
 from dataclasses import dataclass
 from pathlib import Path
 from utils.registry import Registry
@@ -87,7 +89,7 @@ class Corpus:
         """Represents the length of the corpus as the number of documents it has."""
         return len(self.documents)
 
-    def get_time_slices(self, time_window: int = 5):
+    def get_time_slices(self, time_window: int = 10):
         """
         Returns time slices for LDA Sequential model.
 
@@ -116,6 +118,20 @@ class Corpus:
             current_year, next_year = next_year, next_year + time_window
 
         return counts
+
+    def get_slices_and_counts(self, time_window: int = 10) -> Dict[tuple, int]:
+        """
+        Returns time slices for LDA Sequential model.
+
+        Time slices are a list of how many articles a given time window has. This is
+        a requirement of LDASeqModel.
+        """
+        counts = self.get_time_slices(time_window)
+
+        return {
+            time_slice: count
+            for time_slice, count in zip(self.time_slice_years, counts)
+        }
 
 
 if __name__ == "__main__":
