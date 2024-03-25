@@ -1,29 +1,54 @@
-"""Implements a table making class.
+"""Implements a table making class."""
 
-TODO:
-- Describing the corpus
-    - Number of documents
-    - Number of words
-    - Number of unique words
-    - Number of corrected words
-    - Number of corrected words post-hoc
-    - Stopwords and protected words
-    - Percentage of corrected words post pdf processing.
-- Describing the topics
-    - Word evolution tables
-    - Main area, areas, and topics
-        - Main area descriptors
-        - Topic descriptors
-"""
+from pathlib import Path
+import json
 
 import pandas as pd
 
 from utils.model import Model
 
+NOTEBOOKS_DIR = Path(__file__).parent.parent.resolve()
+
 
 class TableMaker:
     def __init__(self, model: Model) -> None:
         self.model = model
+
+    def compute_corpus_description_table(self) -> pd.DataFrame:
+        """
+        Computes a table with the description of the corpus.
+        """
+
+        # Computing the sum of all bags for words
+        bag_of_words_for_all_docs = []
+        for document in self.model.corpus.documents:
+            bag_of_words_for_all_docs += document.get_bow_list()
+
+        # Computing the unique words
+        unique_words = set(bag_of_words_for_all_docs)
+
+        # Loading up correction counts
+        with open(
+            NOTEBOOKS_DIR / "utils" / "dictionaries" / "correction_counts.json"
+        ) as f:
+            correction_counts = json.load(f)
+
+        with open(NOTEBOOKS_DIR / "wordlists" / "stopwords.txt") as f:
+            stopwords = f.read().splitlines()
+
+        with open(NOTEBOOKS_DIR / "wordlists" / "protectedWords.txt") as f:
+            protected_words = f.read().splitlines()
+
+        corpus_description = {
+            "Number of documents": len(self.model.corpus),
+            "Number of words": len(bag_of_words_for_all_docs),
+            "Number of unique words": len(unique_words),
+            "Number of corrected words": sum(correction_counts.values()),
+            "Number of Stopwords": len(stopwords),
+            "Protected words": len(protected_words),
+        }
+
+        return pd.DataFrame(corpus_description, index=["Count"]).T
 
     def compute_time_slices_table(self) -> pd.DataFrame:
         time_slices_and_counts = self.model.corpus.get_slices_and_counts(
@@ -98,6 +123,4 @@ if __name__ == "__main__":
         print(table)
         print("---\n")
 
-"""
-|             |          0 |\n|:------------|-----------:|\n| moral       | 0.0213524  |\n| principio   | 0.0193511  |\n| experiencia | 0.0160565  |\n| vida        | 0.0158126  |\n| hombre      | 0.0138879  |\n| libertad    | 0.01335    |\n| juicio      | 0.0128533  |\n| humano      | 0.010545   |\n| acción      | 0.0101365  |\n| razón       | 0.00907954 |
-"""
+    print(table_maker.compute_corpus_description_table())
