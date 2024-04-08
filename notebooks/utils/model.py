@@ -363,7 +363,13 @@ class Model:
         # Get how many articles it has in each topic for a mean and how many empty topics there are.
         arts_per_topic = [len(topic.docs) for topic in self.topics]
 
-        # TODO: Document criteria for empty topics
+        # We define an empty topic as one where the likelihoods
+        # are very homogenous, and almost 1/num_docs. We add an
+        # epsilon to account for the fact that the likelihoods
+        # won't ever be _exactly_ 1/num_docs.
+        # Visually speaking, this criteria is saying that the
+        # probability histogram of docs-in-topic is very flat,
+        # with all entries below 1/num_docs + epsilon.
         empty_topics = []
         epsilon = 0.05  # Arbitrary constant
         for topic in self.topics:
