@@ -241,22 +241,62 @@ class Model:
                     # We exclude special tags like #author or #historical
                     if "#" in area:
                         continue
-                    counts_per_area[area.capitalize()] += 1
+                    counts_per_area[area.capitalize()] += len(topic.docs)
 
         return counts_per_area
 
     def classify_documents(self) -> None:
-        """Classifies documents into the topics in the model."""
+        """Classifies documents into the topics in the model.
+
+        We first load gam.dat, which contains the topic mixtures for each document.
+        The topic mixtures are the probabilities that each topic is in each document.
+
+        gam.dat, by itself, is of shape (n_docs * n_topics, ), i.e., it's in a single
+        row. This is why we first reshape it to (n_docs, n_topics) and store it in
+        gamma. We do this with gamma.reshape(self.num_docs, -1) to check whether we obtain the correct shape
+        instead of forcing the matrix into the shape we want.
+
+        TODO: Check whether the shape is right after reshaping.
+
+        At this point, gamma is a matrix of shape (n_docs, n_topics) which, after
+        normalization (see Blei's repo dtm/sample.sh), contains the probabilities
+        of each topic per document, i.e., p(t|d).
+
+        However, we are interested in assigning documents to topics, so we want to
+        know the probability to see a document given a topic, i.e., p(d|t). To be
+        more precise, we want to know which documents are the most likely given a
+        topic, so we want to have info on the *proportion* of probabilities p(d|t).
+        We do this by assuming a uniform prior over documents and normalizing gamma
+        to obtain a value that is proportional to p(d|t).
+        """
+
+        # Load gam.dat and reshape to (n_docs, n_topics)
         gamma = np.loadtxt(self.path / "lda-seq" / "gam.dat").reshape(self.num_docs, -1)
+
+        # Normalize it to obtain values between 0 and 1, i.e., probabilities.
+        # See Blei's repo, dtm/sample.sh
         gamma = gamma / gamma.sum(axis=1, keepdims=True)
 
+        # We get a normalized matrix whose values are proportional to the
+        # probability that we see a document given a topic. This allows us
+        # to approximate which documents are most likely for each topic.
         normalized_gamma = gamma / gamma.sum(axis=0)
 
-        # Classify using likelihood sorting
+        # We classify documents into topics using this likelihood sorting.
+        # For each topic, we take half of its probability mass and pick
+        # the documents that have the highest proportion of that topic.
+        # Note: This allows that a document appears in two topics, because
+        # it so happens that documents may appear in the top 0.5 probability
+        # mass of two topics.
         for topic in self.topics:
             topic.docs = []
+
+            # We get the indices of the topics with the highest proportion of
+            # topic topic.topic_id.
             indices = gamma[:, topic.topic_id].argsort()[::-1]
 
+            # We go index by index adding documents to the topic until we have
+            # exhausted half the probability mass of the topic.
             checked_mass = 0
             for idx in indices:
                 doc_likelihood = normalized_gamma[idx, topic.topic_id]
