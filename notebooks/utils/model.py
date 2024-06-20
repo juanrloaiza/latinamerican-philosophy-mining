@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import Dict, List
 import multiprocessing
 import time
@@ -15,7 +17,7 @@ from gensim.models.coherencemodel import CoherenceModel
 from gensim import corpora
 
 from utils.topic import Topic
-from utils.corpus import Corpus
+from utils.corpus import Corpus, Article
 from utils.word_cleanup import clean_word
 
 
@@ -150,7 +152,12 @@ class Model:
         print("Model trained! Loading topics...")
         self.load_topics()
 
-    def load_topics(self, num_workers: int = 5) -> None:
+    def load_topics(
+        self,
+        num_workers: int = 5,
+        load_from_cache: bool = True,
+        save_cache: bool = True,
+    ) -> None:
         """Creates Topic objects for each topic in the model. This allows us to
         interface with the topics directly through methods defined in the Topic class.
         """
@@ -160,7 +167,7 @@ class Model:
         CACHE_FOR_TOPICS = NOTEBOOKS_DIR.parent.resolve() / "data" / "topics_cache"
         CACHE_FOR_TOPICS.mkdir(exist_ok=True)
         PATH_FOR_CACHE = CACHE_FOR_TOPICS / f"topics_{self.num_topics}_{self.seed}.pkl"
-        if PATH_FOR_CACHE.exists():
+        if load_from_cache and PATH_FOR_CACHE.exists():
             print("Loading topics from cache")
             with open(PATH_FOR_CACHE, "rb") as fp:
                 topics = pickle.load(fp)
@@ -172,9 +179,10 @@ class Model:
                 topics = [self.create_topic(i) for i in range(self.num_topics)]
 
             # Saving cache
-            with open(PATH_FOR_CACHE, "wb") as fp:
-                print("Saving topics from cache")
-                pickle.dump(topics, fp)
+            if save_cache:
+                with open(PATH_FOR_CACHE, "wb") as fp:
+                    print("Saving topics from cache")
+                    pickle.dump(topics, fp)
 
         self.topics = topics
 
@@ -250,11 +258,18 @@ class Model:
         gamma = np.loadtxt(self.path / "lda-seq" / "gam.dat").reshape(self.num_docs, -1)
         gamma = gamma / gamma.sum(axis=1, keepdims=True)
 
+        # n_docs x n_topics
         normalized_gamma = gamma / gamma.sum(axis=0)
+
+        # Normalized gamma tell us how much of each document is
+        # in a given topic.
 
         # Classify using likelihood sorting
         for topic in self.topics:
             topic.docs = []
+
+            # indices contains the indices of the documents that
+            # have the largest proportion of topic topic_id.
             indices = gamma[:, topic.topic_id].argsort()[::-1]
 
             checked_mass = 0
@@ -426,6 +441,20 @@ Number of trash topics: {len(trash_topic_summaries)}
                 fp.write(summary)
 
         return summary
+
+    def get_topic_distribution(self, article: Article) -> tuple[np.ndarray, np.ndarray]:
+        """Returns the topic distribution for a given article."""
+        gamma = np.loadtxt(self.path / "lda-seq" / "gam.dat").reshape(self.num_docs, -1)
+
+        # Normalize the gamma matrix
+        gamma = gamma / gamma.sum(axis=1, keepdims=True)
+
+        doc_idx = self.corpus.documents.index(article)
+        topic_distribution_for_doc = gamma[doc_idx]
+        sorted_indices = topic_distribution_for_doc.argsort()[::-1]
+
+        # Sorting by descending order
+        return sorted_indices, topic_distribution_for_doc[sorted_indices]
 
 
 if __name__ == "__main__":
