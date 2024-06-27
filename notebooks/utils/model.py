@@ -489,6 +489,12 @@ Number of trash topics: {len(trash_topic_summaries)}
         # Sorting by descending order
         return sorted_indices, topic_distribution_for_doc[sorted_indices]
 
+    def get_small_topic_description(self, topic_id: int) -> str:
+        """For a given topic ID, returns the concatenation of the relevant areas as a brief string."""
+        return " - ".join(
+            [area for area in self.topics[topic_id].areas if area[0] != "#"]
+        )
+
 
 if __name__ == "__main__":
     # N_TOPICS = 10

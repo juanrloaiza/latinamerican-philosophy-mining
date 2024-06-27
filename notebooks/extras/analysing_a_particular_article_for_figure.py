@@ -13,6 +13,34 @@ from notebooks.utils.model import Model
 from notebooks.utils.corpus import Corpus, Article
 
 
+def plot_topic_distribution_for_document(model, doc):
+    # This plots a barplot with the topics of the article
+    topic_idx, topic_probs = model.get_topic_distribution(doc)
+
+    # Let's filter the first n topics
+    n = 8
+    fig, ax = plt.subplots(1, 1)
+    sns.barplot(
+        x=[model.get_small_topic_description(topic_id) for topic_id in topic_idx[:n]],
+        y=topic_probs[:n],
+        ax=ax,
+    )
+
+    # Rotate the x labels
+    plt.xticks(rotation=45, ha="right", rotation_mode="anchor")
+    fig.tight_layout()
+    fig.savefig("topic_for_article.jpg", dpi=300, bbox_inches="tight")
+
+    plt.show()
+
+
+def plot_word_distribution_for_topic(model, topic_id):
+    topic = model.topics[topic_id]
+    print(topic.word_table)
+    print()
+    ...
+
+
 if __name__ == "__main__":
     # N_TOPICS = 10
     # base_model = Model(Corpus(registry_path="../utils/article_registry.json"), N_TOPICS)
@@ -30,13 +58,7 @@ if __name__ == "__main__":
     # Article: El lenguaje místico y la inefabilidad
     # Author: Carlos Barbosa Cepeda
     # Date: 2016/12/01
-    doc, _ = model.topics[11].docs[4]
+    doc, _ = model.topics[11].docs[1]
 
-    # This plots a barplot with the topics of the article
-    topic_idx, topic_probs = model.get_topic_distribution(doc)
-
-    # Let's filter the first 10 topics
-    _, ax = plt.subplots(1, 1)
-    sns.barplot(x=topic_idx[:15].astype(str), y=topic_probs[:15], ax=ax)
-
-    plt.show()
+    plot_topic_distribution_for_document(model, doc)
+    plot_word_distribution_for_topic(model, 11)
