@@ -5,6 +5,8 @@ from pathlib import Path
 from utils.registry import Registry
 from utils.filemanager import FileManager
 
+from datetime import datetime
+
 
 DATA_FOLDER = Path(__file__).parent.parent.parent.resolve() / "data"
 
@@ -29,6 +31,9 @@ class Article:
 
     def get_year(self) -> int:
         return int(self.date.split("/")[0])
+
+    def get_date(self) -> datetime:
+        return datetime.strptime(self.date, "%Y/%m/%d")
 
     def get_bag_of_words(self) -> str:
         return self.bag_of_words
@@ -139,5 +144,5 @@ if __name__ == "__main__":
 
     corpus = Corpus(registry_path="notebooks/utils/article_registry.json")
 
-    print("Testing time slices:")
-    corpus.get_time_slices(time_window=50)
+    corpus.load_documents_from_registry()
+    input()
