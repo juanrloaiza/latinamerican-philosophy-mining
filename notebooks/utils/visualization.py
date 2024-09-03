@@ -6,6 +6,8 @@ TODO:
   the contribution of each area (proportion: n documents).
 """
 
+from __future__ import annotations
+
 from typing import Dict, List, Tuple
 from collections import Counter
 import datetime as dt
@@ -13,6 +15,7 @@ from collections import defaultdict
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+import seaborn as sns
 import pandas as pd
 import wordcloud as wc
 import numpy as np
@@ -73,6 +76,24 @@ def count_docs_in_list_of_topics_per_year(topics: List[Topic]) -> List[Tuple[int
 class Visualizer:
     def __init__(self, model: Model) -> None:
         self.model = model
+
+    def plot_topic_distribution_for_document(
+        self, doc, max_topics: int = 8, ax: plt.Axes = None
+    ) -> list[int]:
+        # This plots a barplot with the topics of the article
+        topic_idx, topic_probs = self.model.get_topic_distribution(doc)
+
+        if ax is None:
+            fig, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
+
+        sns.barplot(
+            x=[
+                model.get_small_topic_description(topic_id)
+                for topic_id in topic_idx[:max_topics]
+            ],
+            y=topic_probs[:max_topics],
+            ax=ax,
+        )
 
     def plot_number_of_documents_per_year_in_topic(
         self, topic_id: int, ax: plt.Axes = None
@@ -139,7 +160,13 @@ class Visualizer:
 
         return df
 
-    def plot_word_evolution_by_topic_graph(self, topic_id: int, ax: plt.Axes = None):
+    def plot_word_evolution_by_topic_graph(
+        self,
+        topic_id: int,
+        ax: plt.Axes = None,
+        num_words_per_index: int = 10,
+        index_to_focus_on: tuple[int, int] | None = None,
+    ):
         topic = self.model.topics[topic_id]
         document_count_per_year = topic.count_documents_per_year()
 
@@ -152,7 +179,11 @@ class Visualizer:
                 [document_count_per_year[y] for y in range(initial_year, final_year)]
             )
 
-            for pos, word in order.items():
+            for i, (pos, word) in enumerate(order.items()):
+                # Filter by the number of words we want to consider.
+                if i >= num_words_per_index:
+                    break
+
                 if word not in data:
                     data[word] = {time_slice: np.NaN}
 
@@ -167,10 +198,33 @@ class Visualizer:
 
         if ax is None:
             _, ax = plt.subplots(1, 1, figsize=FIG_SIZE)
+
         ax.invert_yaxis()
 
         # TODO: add time slices as x axis.
-        word_pos_by_timeslice_df.plot(ax=ax, marker="o", linestyle="-", markersize=5)
+        if index_to_focus_on is None:
+            word_pos_by_timeslice_df.plot(
+                ax=ax, marker="o", linestyle="-", markersize=5
+            )
+        else:
+            # We split the word_pos df into three parts:
+            # 1. Before the index_to_focus_on
+            # 2. The index_to_focus_on
+            # 3. After the index_to_focus_on
+            before_focus = word_pos_by_timeslice_df.iloc[
+                :, : word_pos_by_timeslice_df.columns.get_loc(index_to_focus_on)
+            ]
+            focus = word_pos_by_timeslice_df.iloc[
+                :, word_pos_by_timeslice_df.columns.get_loc(index_to_focus_on)
+            ]
+            after_focus = word_pos_by_timeslice_df.iloc[
+                :, word_pos_by_timeslice_df.columns.get_loc(index_to_focus_on) :
+            ]
+
+            before_focus.plot(ax=ax, marker="o", linestyle="-", markersize=5, alpha=0.5)
+            focus.plot(ax=ax, marker="o", linestyle="-", markersize=5)
+            after_focus.plot(ax=ax, marker="o", linestyle="-", markersize=5, alpha=0.5)
+
         ax.legend(bbox_to_anchor=(1.1, 1.0))
         ax.set_xlim(-0.5, word_pos_by_timeslice_df.shape[0])
         ax.set_xticks(range(word_pos_by_timeslice_df.shape[0]))

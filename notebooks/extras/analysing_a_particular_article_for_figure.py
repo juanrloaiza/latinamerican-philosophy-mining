@@ -99,8 +99,12 @@ if __name__ == "__main__":
     doc, _ = model.topics[11].docs[1]
 
     topic_idxs = plot_topic_distribution_for_document(model, doc, max_topics=8)
-    _, axes = plt.subplots(3, 1, sharex=True)
-    for topic_idx, ax in zip(topic_idxs, axes):
-        viz.plot_word_evolution_by_topic_graph(topic_idx, ax=ax)
+    # _, axes = plt.subplots(3, 1, sharex=True)
+    topic_idxs, topic_probs = model.get_topic_distribution(doc)
+    axes = [None, None, None]
+    for topic_id, ax in zip(topic_idxs, axes):
+        viz.plot_word_evolution_by_topic_graph(
+            topic_id, ax=ax, num_words_per_index=5, index_to_focus_on=(2010, 2020)
+        )
     plot_word_tables_for_topics(model, topic_idxs)
     plt.show()
