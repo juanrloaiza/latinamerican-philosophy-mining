@@ -137,6 +137,8 @@ class Visualizer:
         else:
             df.plot(kind="area", stacked=True, ax=ax)
 
+        return df
+
     def plot_word_evolution_by_topic_graph(self, topic_id: int, ax: plt.Axes = None):
         topic = self.model.topics[topic_id]
         document_count_per_year = topic.count_documents_per_year()
@@ -264,6 +266,8 @@ if __name__ == "__main__":
     viz = Visualizer(model)
 
     main_areas = list(model.get_main_areas().keys())
+
+    viz.plot_stream_graph()
 
     viz.plot_streamgraph_main_and_subarea("Philosophical traditions")
     # _, (ax1) = plt.subplots(1, 1, figsize=(5, 5))

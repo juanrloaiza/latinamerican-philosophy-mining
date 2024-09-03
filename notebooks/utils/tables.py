@@ -19,13 +19,21 @@ class TableMaker:
         Computes a table with the description of the corpus.
         """
 
-        # Computing the sum of all bags for words
+        # Computing the sum of all bags for words and their lengths
         bag_of_words_for_all_docs = []
+        sum_bow_words_per_document = 0
         for document in self.model.corpus.documents:
-            bag_of_words_for_all_docs += document.get_bow_list()
+            doc_bag_of_words = document.get_bow_list()
+            bag_of_words_for_all_docs += doc_bag_of_words
+            sum_bow_words_per_document += len(doc_bag_of_words)
 
         # Computing the unique words
         unique_words = set(bag_of_words_for_all_docs)
+
+        # Computing mean words in bag of words per document
+        mean_words_per_document = sum_bow_words_per_document / len(
+            self.model.corpus.documents
+        )
 
         # Loading up correction counts
         with open(
@@ -44,6 +52,7 @@ class TableMaker:
             "Number of words": len(bag_of_words_for_all_docs),
             "Number of unique words": len(unique_words),
             "Number of corrected words": sum(correction_counts.values()),
+            "Average document length": mean_words_per_document,  # After preprocessing
             "Number of Stopwords": len(stopwords),
             "Protected words": len(protected_words),
         }
