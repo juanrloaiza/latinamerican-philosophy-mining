@@ -18,9 +18,15 @@ We started with [Ideas y Valores](https://revistas.unal.edu.co/index.php/idval/)
 
 ## Some figures and visualizations
 
+### Article distribution for each five-year period and number of words (without stopwords)
+
 ![](img/fig_numdocuments.png)
 
+### Main area distribution in the corpus
+
 ![Main area distribution in the corpus](img/fig_mainareas.png)
+
+### Most popular subareas within each main area
 
 ![](img/fig_subareas.png)
 
