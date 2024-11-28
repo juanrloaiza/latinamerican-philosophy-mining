@@ -1,3 +1,4 @@
+archive/*
 data/*
 *.pyc
 .ipynb_checkpoints/
@@ -10,9 +11,7 @@ notebooks/utils/dictionaries/experiment/
 .vscode
 utils/dtm*
 notebooks/dtm_files
-notebooks/results
 notebooks/utils/dtm-linux64
-notebooks/models/
 
 # TeX stuff
 *.synctex.gz

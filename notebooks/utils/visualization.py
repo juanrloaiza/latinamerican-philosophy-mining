@@ -140,14 +140,13 @@ class Visualizer:
     def plot_stream_graph(self, ax: plt.Axes = None, normalized: bool = False):
         data = []
         for topic in self.model.topics:
-            for doc, _ in topic.docs:
-                if topic.tags:
-                    data.append(
-                        (
-                            topic.tags[0].capitalize(),
-                            dt.datetime.strptime(doc.date, "%Y/%m/%d").year,
-                        )
+            for doc, _ in [t for t in topic.docs if topic.tags]:
+                data.append(
+                    (
+                        topic.tags[0].capitalize(),
+                        dt.datetime.strptime(doc.date, "%Y/%m/%d").year,
                     )
+                )
 
         df = pd.DataFrame(data, columns=["Main area", "Date"])
         df = df.groupby(["Date", "Main area"]).size().unstack()
@@ -294,8 +293,7 @@ class Visualizer:
             y_subarea,
             baseline="sym",
             labels=[largest_subarea],
-            alpha=0.5,
-            colors=["blue"],
+            colors=["#073b4c"],
         )
 
         ax.legend()

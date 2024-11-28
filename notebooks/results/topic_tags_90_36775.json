@@ -1,0 +1,395 @@
+{
+    "0": [
+        "Value Theory",
+        "Social and political philosophy"
+    ],
+    "1": [],
+    "2": [
+        "History of Western Philosophy",
+        "Hermeneutics",
+        "Gadamer",
+        "#author"
+    ],
+    "3": [
+        "Value Theory",
+        "Aesthetics",
+        "Philosophy of art"
+    ],
+    "4": [],
+    "5": [
+        "History of Western Philosophy",
+        "Modern philosophy",
+        "Kant",
+        "Political theory",
+        "#author"
+    ],
+    "6": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of science",
+        "Neokantianism"
+    ],
+    "7": [
+        "Philosophical traditions",
+        "Latin American Philosophy",
+        "Hermeneutics",
+        "Beuchot",
+        "#author"
+    ],
+    "8": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of psychiatry",
+        "Philosophy of mind"
+    ],
+    "9": [
+        "Value theory",
+        "Social and political philosophy",
+        "Political economics"
+    ],
+    "10": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of physical science"
+    ],
+    "11": [
+        "History of Western Philosophy",
+        "Analytic philosophy",
+        "Wittgenstein",
+        "#author"
+    ],
+    "12": [],
+    "13": [
+        "Value theory",
+        "Philosophical anthropology"
+    ],
+    "14": [],
+    "15": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of biology"
+    ],
+    "16": [
+        "Metaphysics and Epistemology",
+        "Skepticism",
+        "Montaigne",
+        "#author"
+    ],
+    "17": [],
+    "18": [
+        "History of Western Philosophy",
+        "Greek philosophy",
+        "Aristotle",
+        "#author"
+    ],
+    "19": [],
+    "20": [
+        "Value theory",
+        "Social and political philosophy",
+        "Marx",
+        "#author"
+    ],
+    "21": [],
+    "22": [
+        "Value theory",
+        "Political economics"
+    ],
+    "23": [
+        "History of Western Philosophy",
+        "German idealism",
+        "Hegel",
+        "#author"
+    ],
+    "24": [
+        "Metaphysics and Epistemology",
+        "Analytic philosophy",
+        "Quine",
+        "Davidson",
+        "#author"
+    ],
+    "25": [
+        "Value theory",
+        "Ethics",
+        "Emotions"
+    ],
+    "26": [],
+    "27": [
+        "Metaphysics and Epistemology",
+        "Philosophy of language",
+        "Pragmatics"
+    ],
+    "28": [],
+    "29": [],
+    "30": [],
+    "31": [
+        "Value theory",
+        "Philosophy of law",
+        "Kant",
+        "#author"
+    ],
+    "32": [
+        "Value theory",
+        "Political philosophy",
+        "Memory and forgiveness"
+    ],
+    "33": [],
+    "34": [
+        "Metaphysics and Epistemology",
+        "Epistemology"
+    ],
+    "35": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of logic"
+    ],
+    "36": [
+        "History of Western Philosophy",
+        "German idealism",
+        "Fichte",
+        "#author"
+    ],
+    "37": [
+        "Value theory",
+        "Political philosophy",
+        "Macintyre",
+        "#author"
+    ],
+    "38": [
+        "History of Western Philosophy",
+        "Phenomenology",
+        "Heidegger",
+        "#author"
+    ],
+    "39": [
+        "Value theory",
+        "Free will",
+        "Hume",
+        "Kant"
+    ],
+    "40": [
+        "Metaphysics and Epistemology",
+        "Realism"
+    ],
+    "41": [
+        "Philosophical traditions",
+        "Philosophy of language",
+        "Derrida",
+        "Ricoeur",
+        "#author"
+    ],
+    "42": [
+        "History of Western Philosophy",
+        "Modern philosophy",
+        "Descartes",
+        "#author"
+    ],
+    "43": [
+        "History of Western Philosophy",
+        "German idealism",
+        "Hegel",
+        "#author"
+    ],
+    "44": [
+        "Value theory",
+        "Ethics",
+        "Philosophy of action"
+    ],
+    "45": [
+        "Science, Logic, and Mathematics",
+        "Logic"
+    ],
+    "46": [
+        "Other",
+        "Literary pieces"
+    ],
+    "47": [
+        "History of Western Philosophy",
+        "Phenomenology",
+        "Husserl",
+        "#author"
+    ],
+    "48": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of biology"
+    ],
+    "49": [
+        "History of Western Philosophy",
+        "Pragmatism",
+        "Rorty",
+        "#author"
+    ],
+    "50": [
+        "Value theory",
+        "Social and political philosophy",
+        "Political theory"
+    ],
+    "51": [
+        "Value theory",
+        "Discursive ethics",
+        "Ethics"
+    ],
+    "52": [
+        "Metaphysics and Epistemology",
+        "Metaphysics",
+        "Ontology"
+    ],
+    "53": [
+        "History of Western Philosophy",
+        "Analytic philosophy",
+        "Relativism"
+    ],
+    "54": [
+        "Value theory",
+        "Ethics",
+        "Discursive ethics"
+    ],
+    "55": [
+        "Metaphysics and Epistemology",
+        "Ontology",
+        "Substance"
+    ],
+    "56": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of science"
+    ],
+    "57": [
+        "Value theory",
+        "Ethics",
+        "Discursive ethics"
+    ],
+    "58": [
+        "Value theory",
+        "Moral philosophy",
+        "Deontological moral theories"
+    ],
+    "59": [
+        "Value theory",
+        "Aesthetics",
+        "Kant",
+        "Modern philosophy",
+        "#author"
+    ],
+    "60": [
+        "Metaphysics and Epistemology",
+        "Phenomenology",
+        "Embodied cognition",
+        "Philosophy of mind"
+    ],
+    "61": [],
+    "62": [
+        "Value theory",
+        "Ethics",
+        "Existentialism"
+    ],
+    "63": [
+        "Science, Logic, and Mathematics",
+        "Philosophy of language",
+        "Analytic philosophy"
+    ],
+    "64": [
+        "History of Western philosophy",
+        "Nietzsche",
+        "#author"
+    ],
+    "65": [
+        "Value theory",
+        "Ethics",
+        "Political theory",
+        "Equality and capabilities"
+    ],
+    "66": [
+        "Value theory",
+        "Ethics",
+        "Political theory",
+        "Theories of justice"
+    ],
+    "67": [
+        "Metaphysics and Epistemology",
+        "Epistemology",
+        "Relativism"
+    ],
+    "68": [],
+    "69": [
+        "Metaphysics and Epistemology",
+        "Philosophy of religion"
+    ],
+    "70": [
+        "Value theory",
+        "Social and political theory",
+        "Biopolitics"
+    ],
+    "71": [
+        "Value theory",
+        "Phenomenology",
+        "Metaphor"
+    ],
+    "72": [],
+    "73": [
+        "Metaphysics and Epistemology",
+        "Theology",
+        "Philosophy of religion"
+    ],
+    "74": [
+        "Philosophical traditions",
+        "Colombian philosophy"
+    ],
+    "75": [
+        "History of Western Philosophy",
+        "Modern philosophy",
+        "Spinoza",
+        "Metaphysics",
+        "#author"
+    ],
+    "76": [
+        "Other",
+        "Metaphilosophy",
+        "Phenomenology"
+    ],
+    "77": [],
+    "78": [],
+    "79": [
+        "Value theory",
+        "Philosophy of action",
+        "Ethics"
+    ],
+    "80": [
+        "Value theory",
+        "Moral philosophy",
+        "Adam Smith",
+        "#author"
+    ],
+    "81": [
+        "Value theory",
+        "Free will",
+        "Moral reponsibility",
+        "Philosophy of action"
+    ],
+    "82": [
+        "History of Western Philosophy",
+        "Phenomenology",
+        "Husserl",
+        "#author"
+    ],
+    "83": [
+        "Science, Logic, and Mathematics",
+        "Logic",
+        "Philosophy of language",
+        "Truth"
+    ],
+    "84": [],
+    "85": [],
+    "86": [
+        "Metaphysics and Epistemology",
+        "Deleuze",
+        "#author"
+    ],
+    "87": [
+        "Other",
+        "English"
+    ],
+    "88": [
+        "History of Western Philosophy",
+        "Kant",
+        "Epistemology",
+        "#author"
+    ],
+    "89": [
+        "Value theory",
+        "Aethetics"
+    ]
+}
